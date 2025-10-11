@@ -7,7 +7,7 @@ The contributors are listed in CONTRIB.TXT.
 
 ### Introduction
 
-![test mainboard](Images/BB3plus test mainboard.jpg)
+![test mainboard](Images/BB3plus_test_mainboard.jpg)
 
 EEZ BB3+ was conceived as a successor to the BB3 project, which would bring a number of modifications and improvements. 
 The following modifications are planned:
