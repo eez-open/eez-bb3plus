@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "BB3+ test mainboard")
-		(date "2025-10-11")
+		(date "2025-10-12")
 		(rev "r1B1")
 		(company "Envox d.o.o.")
 		(comment 1 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)")
@@ -7265,7 +7265,7 @@
 		(uuid "dfeca503-01cd-4075-ad89-51c68b28f88b")
 	)
 	(junction
-		(at 198.12 96.52)
+		(at 193.04 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03ee4e8e-1348-4737-bb0f-e2a4ebcc6976")
@@ -7379,12 +7379,6 @@
 		(uuid "39e25b12-3661-4634-a0a2-a682d0b8a021")
 	)
 	(junction
-		(at 83.82 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d0697f4-0145-48a1-a053-2a20a3feb5d4")
-	)
-	(junction
 		(at 30.48 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7407,12 +7401,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4672db98-c79f-4fd3-96f2-54f0984a6431")
-	)
-	(junction
-		(at 83.82 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a90a4be-104a-45a1-81dd-429123473c31")
 	)
 	(junction
 		(at 101.6 38.1)
@@ -7463,7 +7451,7 @@
 		(uuid "5de18052-9fa0-4070-9b05-36f58420b0e5")
 	)
 	(junction
-		(at 175.26 101.6)
+		(at 170.18 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ea50ee3-098f-45f0-a926-67caf30992c0")
@@ -7499,7 +7487,7 @@
 		(uuid "63f8e83f-b525-4750-81b4-b718fe17c2bc")
 	)
 	(junction
-		(at 187.96 96.52)
+		(at 182.88 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "670b4ab2-bb55-4a54-b36c-5e35a1f3dd20")
@@ -7541,7 +7529,7 @@
 		(uuid "776579a4-5af7-4c5e-a354-22e0c78dfab6")
 	)
 	(junction
-		(at 187.96 93.98)
+		(at 182.88 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78c2f7ac-e8fe-47a2-b0e6-4eb9c57e5410")
@@ -7581,6 +7569,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "866d17a0-66d8-495b-b64b-60aeea78a396")
+	)
+	(junction
+		(at 198.12 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aeec5cf-b8e5-478d-854c-a9197191f0b6")
 	)
 	(junction
 		(at 256.54 86.36)
@@ -7631,7 +7625,7 @@
 		(uuid "c4786f5a-6206-43f2-9b8b-5175d855b689")
 	)
 	(junction
-		(at 187.96 106.68)
+		(at 182.88 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c784bdfc-210e-47c7-8f62-b0f85b290c1b")
@@ -7922,7 +7916,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 106.68) (xy 198.12 106.68)
+			(xy 182.88 106.68) (xy 193.04 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7973,6 +7967,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 96.52) (xy 193.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c49c82-9d8d-4fce-a1ce-fbe972d74170")
+	)
+	(wire
+		(pts
 			(xy 129.54 38.1) (xy 129.54 40.64)
 		)
 		(stroke
@@ -7983,7 +7987,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 175.26 101.6)
+			(xy 167.64 101.6) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8030,16 +8034,6 @@
 			(type default)
 		)
 		(uuid "33a7395c-ebba-4927-a672-286ba51a1e9e")
-	)
-	(wire
-		(pts
-			(xy 78.74 22.86) (xy 83.82 22.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "34740b13-2752-4176-b35f-2a40afc121df")
 	)
 	(wire
 		(pts
@@ -8293,23 +8287,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 106.68) (xy 187.96 104.14)
+			(xy 182.88 106.68) (xy 182.88 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57baeb4e-5df3-4095-90fa-6ce716f69d0e")
-	)
-	(wire
-		(pts
-			(xy 83.82 22.86) (xy 83.82 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582cabee-7bb8-4162-8bc8-a36fecd728cd")
 	)
 	(wire
 		(pts
@@ -8320,16 +8304,6 @@
 			(type default)
 		)
 		(uuid "5a68274b-70ba-4f60-a5a4-c8e386de6e10")
-	)
-	(wire
-		(pts
-			(xy 83.82 30.48) (xy 83.82 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b9b03fb-282e-40c7-b4d1-dd13bd8aec31")
 	)
 	(wire
 		(pts
@@ -8424,7 +8398,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 106.68) (xy 182.88 101.6)
+			(xy 177.8 106.68) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8444,7 +8418,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 106.68) (xy 182.88 106.68)
+			(xy 182.88 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8484,7 +8458,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 38.1) (xy 88.9 38.1)
+			(xy 76.2 38.1) (xy 88.9 38.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -8544,13 +8518,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 198.12 96.52)
+			(xy 182.88 96.52) (xy 193.04 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "78c65003-9437-4daa-b2bc-7b9ca58d415f")
+	)
+	(wire
+		(pts
+			(xy 198.12 114.3) (xy 198.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79de7f92-53b0-403e-bf3d-450ced82a1e0")
 	)
 	(wire
 		(pts
@@ -8744,7 +8728,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 175.26 96.52)
+			(xy 167.64 96.52) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8815,7 +8799,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 91.44) (xy 187.96 91.44)
+			(xy 180.34 91.44) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8855,7 +8839,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 99.06) (xy 175.26 101.6)
+			(xy 170.18 99.06) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8912,6 +8896,16 @@
 			(type default)
 		)
 		(uuid "9f9fbf05-3b0c-43c8-a85a-6f95a2da09c1")
+	)
+	(wire
+		(pts
+			(xy 200.66 96.52) (xy 198.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcac675-c606-4072-aade-02d26fe05986")
 	)
 	(wire
 		(pts
@@ -9085,7 +9079,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 93.98) (xy 187.96 93.98)
+			(xy 180.34 93.98) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9246,7 +9240,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 22.86) (xy 88.9 22.86)
+			(xy 78.74 22.86) (xy 88.9 22.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -9476,7 +9470,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 187.96 96.52)
+			(xy 180.34 96.52) (xy 182.88 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9696,7 +9690,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 96.52) (xy 198.12 99.06)
+			(xy 193.04 96.52) (xy 193.04 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9706,7 +9700,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 187.96 99.06)
+			(xy 182.88 96.52) (xy 182.88 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9716,7 +9710,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 187.96 93.98)
+			(xy 182.88 91.44) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9767,6 +9761,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 96.52) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f072adee-4e04-4b9b-9096-86b84fe211cd")
+	)
+	(wire
+		(pts
 			(xy 106.68 25.4) (xy 106.68 22.86)
 		)
 		(stroke
@@ -9777,17 +9781,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 83.82 38.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f1b2385c-7c76-4a19-af7d-9e5ad5a0a448")
-	)
-	(wire
-		(pts
-			(xy 187.96 93.98) (xy 187.96 96.52)
+			(xy 182.88 93.98) (xy 182.88 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9887,7 +9881,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 175.26 99.06)
+			(xy 167.64 99.06) (xy 170.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10101,7 +10095,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 198.12 104.14 0)
+		(at 193.04 104.14 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10110,7 +10104,7 @@
 		(dnp no)
 		(uuid "07854490-df9f-4e79-a92b-454d67fb0601")
 		(property "Reference" "C32"
-			(at 198.12 100.33 0)
+			(at 193.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,7 +10113,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 198.374 104.14 0)
+			(at 193.294 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,7 +10122,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 198.12 106.68 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10137,7 +10131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 106.68 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 104.14 0)
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +10149,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 198.12 104.14 0)
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +10158,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 198.12 104.14 0)
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10167,7 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 198.12 104.14 0)
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +10176,7 @@
 			)
 		)
 		(property "LCSC" "C1590"
-			(at 198.12 104.14 0)
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +10917,7 @@
 	(symbol
 		(lib_name "R-EU_3")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 187.96 111.76 0)
+		(at 182.88 111.76 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10931,8 +10925,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14212278-8bf3-48df-808e-1a5e2ca671e9")
-		(property "Reference" "R40"
-			(at 189.23 111.125 0)
+		(property "Reference" "R38"
+			(at 184.15 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +10935,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 189.23 113.03 0)
+			(at 184.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10950,7 +10944,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 187.96 111.76 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +10953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 111.76 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +10962,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 111.76 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +10971,7 @@
 			)
 		)
 		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
-			(at 187.96 111.76 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +10980,7 @@
 			)
 		)
 		(property "Mouser" "756-WCR0603-10KFI"
-			(at 187.96 111.76 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10995,7 +10989,7 @@
 			)
 		)
 		(property "TME" "SMD0603-10K-1%"
-			(at 187.96 111.76 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +10998,7 @@
 			)
 		)
 		(property "LCSC" "C98220"
-			(at 187.96 111.76 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11015,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "R40")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -11138,7 +11132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15cdfc9b-da27-406b-95f0-e9cc6c894487")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 185.42 59.69 90)
 			(effects
 				(font
@@ -11228,7 +11222,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -11243,7 +11237,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "20d25fff-f1a1-462e-a72f-4d59840de5d2")
-		(property "Reference" "JP12"
+		(property "Reference" "JP13"
 			(at 26.67 77.47 0)
 			(effects
 				(font
@@ -11342,7 +11336,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "JP12")
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -11456,7 +11450,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_discretes:DIODE_ZENER")
-		(at 187.96 101.6 90)
+		(at 182.88 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11464,7 +11458,7 @@
 		(dnp yes)
 		(uuid "28192739-4cf5-42d3-a5cf-6e382adfae63")
 		(property "Reference" "ZD2"
-			(at 189.992 101.6 90)
+			(at 184.912 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11473,7 +11467,7 @@
 			)
 		)
 		(property "Value" "MM3Z18VT1G"
-			(at 189.992 103.505 90)
+			(at 184.912 103.505 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -11482,7 +11476,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:SOD-323_1P8X1P35_ONS-M"
-			(at 191.135 102.235 0)
+			(at 186.055 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11491,7 +11485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11500,7 +11494,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +11503,7 @@
 			)
 		)
 		(property "DigiKey" "MM3Z18VT1GOSCT-ND"
-			(at 187.96 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11512,7 @@
 			)
 		)
 		(property "Mouser" "863-MM3Z18VT1G"
-			(at 187.96 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,7 +11521,7 @@
 			)
 		)
 		(property "TME" "MM3Z18VT1G"
-			(at 187.96 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11552,7 +11546,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_discretes:DIODE_ZENER")
-		(at 83.82 27.94 270)
+		(at 198.12 111.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11560,8 +11554,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b97a004-bfb3-4993-a3b7-d71ff8d38281")
-		(property "Reference" "D9"
-			(at 85.09 26.67 90)
+		(property "Reference" "D10"
+			(at 199.39 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +11564,7 @@
 			)
 		)
 		(property "Value" "PTVS22VP1UP.115"
-			(at 85.09 28.575 90)
+			(at 199.39 112.395 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -11579,7 +11573,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:SOD-123FL"
-			(at 80.645 28.575 0)
+			(at 194.945 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,7 +11582,7 @@
 			)
 		)
 		(property "Datasheet" "https://hr.mouser.com/datasheet/2/389/esda25p35_1u1m-1848969.pdf"
-			(at 83.82 27.94 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,7 +11591,7 @@
 			)
 		)
 		(property "Description" "TVS Diode, working voltage 22V, breakdown 23.3V, clamp 41V, 30kV, 0603"
-			(at 83.82 27.94 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +11600,7 @@
 			)
 		)
 		(property "DigiKey" "497-SM6F22AYCT-ND"
-			(at 83.82 27.94 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11615,7 +11609,7 @@
 			)
 		)
 		(property "Mouser" "771-PTVS22VP1UP115"
-			(at 83.82 27.94 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11624,7 +11618,7 @@
 			)
 		)
 		(property "TME" "PTVS22VP1UP.115"
-			(at 83.82 27.94 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11633,7 +11627,7 @@
 			)
 		)
 		(property "LCSC" "C461181"
-			(at 83.82 27.94 90)
+			(at 198.12 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,7 +11644,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -12102,7 +12096,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_discretes:PMOS_LFPAK")
-		(at 180.34 99.06 90)
+		(at 175.26 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12110,7 +12104,7 @@
 		(dnp no)
 		(uuid "3c4571a3-77f3-43e7-a6b9-33f00ec31fe2")
 		(property "Reference" "Q7"
-			(at 179.705 90.805 90)
+			(at 174.625 90.805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12112,7 @@
 			)
 		)
 		(property "Value" "DMP3013SFV-7"
-			(at 176.53 93.345 90)
+			(at 171.45 93.345 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12126,7 +12120,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:TRANS_FDMC8010"
-			(at 192.405 99.06 0)
+			(at 187.325 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,7 +12129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 99.06 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12144,7 +12138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 99.06 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +12147,7 @@
 			)
 		)
 		(property "DigiKey" "DMP3013SFV-7DICT-ND"
-			(at 180.34 99.06 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12162,7 +12156,7 @@
 			)
 		)
 		(property "Mouser" "621-DMP3013SFV-7"
-			(at 180.34 99.06 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +12165,7 @@
 			)
 		)
 		(property "TME" "DMP3013SFV-7"
-			(at 180.34 99.06 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,7 +12174,7 @@
 			)
 		)
 		(property "LCSC" "C264098"
-			(at 180.34 99.06 90)
+			(at 175.26 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f1e3437-f472-485a-8099-e37c10b0a9c7")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 185.42 31.75 90)
 			(effects
 				(font
@@ -12376,7 +12370,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -12392,7 +12386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "410fa042-ebd4-433d-afaf-abc873b1b10a")
-		(property "Reference" "#SUPPLY036"
+		(property "Reference" "#SUPPLY037"
 			(at 220.98 38.1 0)
 			(effects
 				(font
@@ -12443,7 +12437,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "#SUPPLY036")
+					(reference "#SUPPLY037")
 					(unit 1)
 				)
 			)
@@ -12459,7 +12453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "422fe743-2cf9-4fd8-a7d8-65edd41ce966")
-		(property "Reference" "#SUPPLY037"
+		(property "Reference" "#SUPPLY038"
 			(at 220.98 66.04 0)
 			(effects
 				(font
@@ -12510,7 +12504,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "#SUPPLY037")
+					(reference "#SUPPLY038")
 					(unit 1)
 				)
 			)
@@ -12695,7 +12689,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "SMD0603-3K3-1%"
+		(property "TME" "SMD0603-200K-1%"
 			(at 121.92 60.96 0)
 			(effects
 				(font
@@ -13624,7 +13618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54f23cfc-abfe-4822-9ed0-1ad91d3e372f")
-		(property "Reference" "#SUPPLY039"
+		(property "Reference" "#SUPPLY040"
 			(at 241.3 116.84 0)
 			(effects
 				(font
@@ -13675,7 +13669,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "#SUPPLY039")
+					(reference "#SUPPLY040")
 					(unit 1)
 				)
 			)
@@ -14355,7 +14349,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_connectors:Barrel_Jack_Switch_MountingPin")
-		(at 165.1 99.06 0)
+		(at 160.02 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14363,7 +14357,7 @@
 		(dnp no)
 		(uuid "5f670c0c-a79b-4c9a-a3ac-f79bb292b64f")
 		(property "Reference" "X5"
-			(at 165.1 93.98 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14371,7 +14365,7 @@
 			)
 		)
 		(property "Value" "PJ-002BH-SMT-TR"
-			(at 165.1 104.14 0)
+			(at 160.02 104.14 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -14379,7 +14373,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_connectors:CUI_PJ-002BH-SMT-TR"
-			(at 166.37 100.076 0)
+			(at 161.29 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14388,7 +14382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 100.076 0)
+			(at 161.29 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14397,7 +14391,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch and a mounting pin"
-			(at 165.1 106.68 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,7 +14400,7 @@
 			)
 		)
 		(property "DigiKey" "CP-002BHPJCT-ND"
-			(at 165.1 99.06 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14415,7 +14409,7 @@
 			)
 		)
 		(property "Mouser" "490-PJ-002BH-SMT-TR "
-			(at 165.1 99.06 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14424,7 +14418,7 @@
 			)
 		)
 		(property "TME" "-"
-			(at 165.1 99.06 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14433,7 +14427,7 @@
 			)
 		)
 		(property "LCSC" "C3094235"
-			(at 165.1 99.06 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15742,7 +15736,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 187.96 119.38 0)
+		(at 182.88 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15750,7 +15744,7 @@
 		(dnp no)
 		(uuid "741a95a1-f716-40a6-b142-5e3d047a9733")
 		(property "Reference" "#SUPPLY035"
-			(at 187.96 119.38 0)
+			(at 182.88 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15759,7 +15753,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.055 120.65 0)
+			(at 180.975 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15768,7 +15762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 119.38 0)
+			(at 182.88 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15777,7 +15771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 119.38 0)
+			(at 182.88 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15786,7 +15780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 119.38 0)
+			(at 182.88 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15874,6 +15868,72 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_symbols:GND")
+		(at 198.12 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77ad4c06-9226-46ec-a0ae-5e14c1692782")
+		(property "Reference" "#SUPPLY036"
+			(at 198.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.215 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b688d451-263d-4860-91fe-50ee4085b164")
+		)
+		(instances
+			(project "BB3plus test mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
+					(reference "#SUPPLY036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 40.64 0)
 		(unit 1)
@@ -15882,7 +15942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "824227d7-949b-4f02-a3fa-9a4edb7f491d")
-		(property "Reference" "#SUPPLY041"
+		(property "Reference" "#SUPPLY042"
 			(at 261.62 40.64 0)
 			(effects
 				(font
@@ -15933,7 +15993,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "#SUPPLY041")
+					(reference "#SUPPLY042")
 					(unit 1)
 				)
 			)
@@ -15948,7 +16008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8582471e-42ea-43fd-be44-908be107a03d")
-		(property "Reference" "#SUPPLY040"
+		(property "Reference" "#SUPPLY041"
 			(at 254 116.84 0)
 			(effects
 				(font
@@ -15999,7 +16059,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "#SUPPLY040")
+					(reference "#SUPPLY041")
 					(unit 1)
 				)
 			)
@@ -16390,7 +16450,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 175.26 104.14 0)
+		(at 170.18 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16399,7 +16459,7 @@
 		(dnp no)
 		(uuid "951ebae3-192a-4dae-a40e-9e69c20ef210")
 		(property "Reference" "#SUPPLY034"
-			(at 175.26 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16408,7 +16468,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.165 104.775 0)
+			(at 172.085 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16417,7 +16477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16426,7 +16486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16435,7 +16495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17552,7 +17612,7 @@
 	)
 	(symbol
 		(lib_id "power:+12P")
-		(at 198.12 96.52 270)
+		(at 200.66 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17560,7 +17620,7 @@
 		(dnp no)
 		(uuid "ac0de7de-b7e3-4159-a78e-026b5191d8f8")
 		(property "Reference" "#PWR017"
-			(at 194.31 96.52 0)
+			(at 196.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17569,7 +17629,7 @@
 			)
 		)
 		(property "Value" "+12P"
-			(at 201.93 96.52 90)
+			(at 204.47 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17578,7 +17638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 96.52 0)
+			(at 200.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17587,7 +17647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 96.52 0)
+			(at 200.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17596,7 +17656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12P\""
-			(at 198.12 96.52 0)
+			(at 200.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17689,7 +17749,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "R46KI310000M1M"
+		(property "TME" "MKPX2-100NR15"
 			(at 35.56 109.22 0)
 			(effects
 				(font
@@ -17838,7 +17898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baa42ade-f921-42c3-9991-6b89ee70c3c5")
-		(property "Reference" "#SUPPLY042"
+		(property "Reference" "#SUPPLY043"
 			(at 261.62 68.58 0)
 			(effects
 				(font
@@ -17889,7 +17949,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "#SUPPLY042")
+					(reference "#SUPPLY043")
 					(unit 1)
 				)
 			)
@@ -18469,7 +18529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d31c4a9c-9478-4966-b317-3807f0852941")
-		(property "Reference" "#SUPPLY043"
+		(property "Reference" "#SUPPLY044"
 			(at 269.24 106.68 0)
 			(effects
 				(font
@@ -18520,7 +18580,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "#SUPPLY043")
+					(reference "#SUPPLY044")
 					(unit 1)
 				)
 			)
@@ -18759,7 +18819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6b8bc15-a634-4662-884a-f168756b1f12")
-		(property "Reference" "#SUPPLY044"
+		(property "Reference" "#SUPPLY045"
 			(at 269.24 119.38 0)
 			(effects
 				(font
@@ -18810,7 +18870,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "#SUPPLY044")
+					(reference "#SUPPLY045")
 					(unit 1)
 				)
 			)
@@ -19417,7 +19477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e54d3259-f6ed-4464-9bac-63ad1c8471dd")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 111.76 56.515 0)
 			(effects
 				(font
@@ -19511,7 +19571,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "D10")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -19787,7 +19847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb579179-62bf-4937-bf99-76100fed9404")
-		(property "Reference" "#SUPPLY038"
+		(property "Reference" "#SUPPLY039"
 			(at 226.06 116.84 0)
 			(effects
 				(font
@@ -19838,7 +19898,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "#SUPPLY038")
+					(reference "#SUPPLY039")
 					(unit 1)
 				)
 			)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "BB3+ test mainboard")
-		(date "2025-10-11")
+		(date "2025-10-12")
 		(rev "r1B1")
 		(company "Envox d.o.o.")
 		(comment 1 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)")
@@ -7017,10 +7017,10 @@
 		)
 		(uuid "0dd32c67-dc44-4edb-a083-4bd0107f197e")
 	)
-	(text_box "Disable I2C pull-ups\nwhen active"
+	(text_box "I2C_PU_BIAS disable I2C\npull-ups when active"
 		(exclude_from_sim no)
-		(at 13.335 130.81 0)
-		(size 16.51 6.35)
+		(at 13.97 115.57 0)
+		(size 19.05 4.445)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7035,7 +7035,7 @@
 				(size 0.889 0.889)
 				(color 132 0 132 1)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "4dc9b6d3-92d5-40b8-ab2d-a440e961a33c")
 	)
@@ -7344,6 +7344,12 @@
 		(uuid "c4720c80-6f3d-48c5-8dad-ee6ea1d35a34")
 	)
 	(junction
+		(at 25.4 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c57ac16b-3dff-4294-8517-e385750a9018")
+	)
+	(junction
 		(at 40.64 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7450,6 +7456,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5cb1e57-ab10-441b-b89a-6735e93e987c")
+	)
+	(junction
+		(at 25.4 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8197858-668e-4e46-a35f-8c8aa9be5643")
 	)
 	(junction
 		(at 99.06 134.62)
@@ -8275,6 +8287,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 129.54) (xy 25.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afe179a-c461-4736-884a-2d0338785563")
+	)
+	(wire
+		(pts
 			(xy 266.7 86.36) (xy 276.86 86.36)
 		)
 		(stroke
@@ -8895,6 +8917,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 124.46) (xy 25.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6751d844-ce0b-4a2d-9833-eaee9f8c258a")
+	)
+	(wire
+		(pts
 			(xy 25.4 139.7) (xy 27.94 139.7)
 		)
 		(stroke
@@ -8915,7 +8947,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 124.46) (xy 43.18 124.46)
+			(xy 22.86 124.46) (xy 25.4 124.46)
 		)
 		(stroke
 			(width 0)
@@ -9825,6 +9857,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 124.46) (xy 43.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5f9160-1d16-422c-988e-6d593b59e63d")
+	)
+	(wire
+		(pts
 			(xy 35.56 93.98) (xy 43.18 93.98)
 		)
 		(stroke
@@ -10325,6 +10367,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 132.08) (xy 38.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e682208a-f221-4071-8939-5fc8e313b9f5")
+	)
+	(wire
+		(pts
 			(xy 40.64 66.04) (xy 43.18 66.04)
 		)
 		(stroke
@@ -10405,7 +10457,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 132.08) (xy 38.1 132.08)
+			(xy 22.86 132.08) (xy 25.4 132.08)
 		)
 		(stroke
 			(width 0)
@@ -13098,7 +13150,7 @@
 	)
 	(global_label "I2C_PU_BIAS"
 		(shape output)
-		(at 27.94 132.08 180)
+		(at 22.86 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13108,7 +13160,7 @@
 		)
 		(uuid "d93ccc1d-a6db-4aff-8f67-ca5c5680b51b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.0535 132.08 0)
+			(at 12.9735 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16013,7 +16065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5026e31e-6cfb-4af1-b28e-7b1560129ea1")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 26.035 145.415 90)
 			(effects
 				(font
@@ -16115,7 +16167,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -16902,6 +16954,120 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:JP2 open")
+		(at 25.4 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "69df9708-c2bb-4725-ae62-8c937c0e22b4")
+		(property "Reference" "JP1"
+			(at 21.59 127.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_connectors:M22-2010246"
+			(at 27.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "LEGACY 3V3"
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f218df4-eb4f-49e4-bff1-dc55ffbcaa75")
+		)
+		(pin "2"
+			(uuid "2088dc47-442a-47c4-b22f-aba8d0b50f9b")
+		)
+		(instances
+			(project "BB3plus test mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_connectors:Bus_M.2_Socket (with holes) 80 mm")
 		(at 256.54 111.76 0)
 		(unit 4)
@@ -17305,7 +17471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "782ae329-a511-44f2-b8d1-98c0a57be9a0")
-		(property "Reference" "JP3"
+		(property "Reference" "JP4"
 			(at 38.1 50.165 0)
 			(effects
 				(font
@@ -17404,7 +17570,7 @@
 		(instances
 			(project ""
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP3")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -17419,7 +17585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7862ff63-1249-41b2-8ed1-b64334cf7b61")
-		(property "Reference" "JP5"
+		(property "Reference" "JP6"
 			(at 100.33 151.13 0)
 			(effects
 				(font
@@ -17518,7 +17684,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP5")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -17734,7 +17900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86c4005f-bc8f-458e-a416-cc7e28e934bf")
-		(property "Reference" "JP2"
+		(property "Reference" "JP3"
 			(at 31.115 157.48 90)
 			(effects
 				(font
@@ -17827,7 +17993,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP2")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -17908,7 +18074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88d4a541-b99e-47a4-b000-0a0b3ff2ef96")
-		(property "Reference" "JP6"
+		(property "Reference" "JP7"
 			(at 109.855 152.4 90)
 			(effects
 				(font
@@ -18001,7 +18167,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP6")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -18450,7 +18616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab8710ad-31de-4028-af92-122bedee0cae")
-		(property "Reference" "JP4"
+		(property "Reference" "JP5"
 			(at 100.33 143.51 0)
 			(effects
 				(font
@@ -18549,7 +18715,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP4")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -18957,7 +19123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b41c35fa-7416-4066-b536-33f044118c18")
-		(property "Reference" "JP7"
+		(property "Reference" "JP8"
 			(at 230.505 26.67 0)
 			(effects
 				(font
@@ -19011,7 +19177,7 @@
 		(instances
 			(project ""
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP7")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -19027,7 +19193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baca88d1-21c4-4854-a7ed-d9b34c92fb94")
-		(property "Reference" "JP10"
+		(property "Reference" "JP11"
 			(at 277.495 85.09 90)
 			(effects
 				(font
@@ -19084,7 +19250,7 @@
 		(instances
 			(project ""
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP10")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -19382,7 +19548,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+3V3")
-		(at 35.56 124.46 90)
+		(at 20.32 124.46 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19391,7 +19557,7 @@
 		(dnp no)
 		(uuid "cdc54d0c-f8d2-4cfb-8647-a1a84e0a6440")
 		(property "Reference" "#+3V01"
-			(at 35.56 124.46 0)
+			(at 20.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19400,7 +19566,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 34.925 124.46 90)
+			(at 19.685 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19409,7 +19575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 124.46 0)
+			(at 20.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19418,7 +19584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 124.46 0)
+			(at 20.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19427,7 +19593,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 124.46 0)
+			(at 20.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19588,7 +19754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7703a79-6d33-422f-a466-37197def9c17")
-		(property "Reference" "JP8"
+		(property "Reference" "JP9"
 			(at 230.505 29.21 0)
 			(effects
 				(font
@@ -19642,7 +19808,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP8")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -19657,7 +19823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0a699f7-b310-4d1c-a484-98255f750692")
-		(property "Reference" "JP9"
+		(property "Reference" "JP10"
 			(at 230.505 31.75 0)
 			(effects
 				(font
@@ -19711,7 +19877,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b"
-					(reference "JP9")
+					(reference "JP10")
 					(unit 1)
 				)
 			)

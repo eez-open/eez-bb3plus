@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "BB3+ test mainboard")
-		(date "2025-10-11")
+		(date "2025-10-12")
 		(rev "r1B1")
 		(company "Envox d.o.o.")
 		(comment 1 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)")

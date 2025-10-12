@@ -152,6 +152,10 @@
           ""
         ],
         [
+          "silk_overlap|0|0|1dcd9725-6899-4394-bf0e-cfb6f218d688|b49df977-e741-4279-a99b-a15fafb02ef4",
+          ""
+        ],
+        [
           "silk_overlap|0|0|94c50ace-1a1e-413f-8fe9-0ad2c3941868|eedd1e92-71b0-46ac-9408-bb7a547e5972",
           ""
         ],
@@ -169,10 +173,6 @@
         ],
         [
           "silk_overlap|311000000|166300000|967cbc42-2767-4776-8732-d296da16ca55|a8fe5b64-5d37-4e6d-8d84-5127ed3f599d",
-          ""
-        ],
-        [
-          "silk_overlap|361110000|152428257|1dcd9725-6899-4394-bf0e-cfb6f218d688|b49df977-e741-4279-a99b-a15fafb02ef4",
           ""
         ],
         [
@@ -1379,7 +1379,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${ITEM_NUMBER}"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
