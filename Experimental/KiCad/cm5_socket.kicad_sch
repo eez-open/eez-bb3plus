@@ -16963,12 +16963,12 @@
 		(dnp no)
 		(uuid "69df9708-c2bb-4725-ae62-8c937c0e22b4")
 		(property "Reference" "JP1"
-			(at 21.59 127.635 90)
+			(at 24.765 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "~"

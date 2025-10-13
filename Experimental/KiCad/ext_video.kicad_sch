@@ -10674,6 +10674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "Ext DVID"
+			(at 116.84 154.94 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "0f77a9ee-0057-44a0-bd69-c0955e4dec0d")
 		)

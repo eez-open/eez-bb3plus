@@ -64,10 +64,6 @@
           ""
         ],
         [
-          "courtyards_overlap|376005000|22645761|1ca221fa-4349-4a28-8d84-7d956f686656|5fb9a936-2b2e-426d-b146-e06be1fc1f1a",
-          ""
-        ],
-        [
           "silk_edge_clearance|300750000|178500000|9038b3f9-0d23-4679-9aa2-d3573ba6254a|967cbc42-2767-4776-8732-d296da16ca55",
           ""
         ],
@@ -80,7 +76,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|322380000|39930000|fcf6e6a2-47d2-4879-92ba-993daf4c23fa|999706b0-2b60-4e25-9b55-69279f0d391f",
+          "silk_edge_clearance|322400000|23500000|fcf6e6a2-47d2-4879-92ba-993daf4c23fa|999706b0-2b60-4e25-9b55-69279f0d391f",
           ""
         ],
         [
@@ -96,7 +92,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|398644889|18999998|67f0a085-5128-4496-9a2b-fb23edb9c0da|51ba9330-a7b2-434e-b578-d9a46cbbc2d4",
+          "silk_edge_clearance|398650000|2500000|67f0a085-5128-4496-9a2b-fb23edb9c0da|51ba9330-a7b2-434e-b578-d9a46cbbc2d4",
           ""
         ],
         [
@@ -104,7 +100,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|413944889|18999998|67f0a085-5128-4496-9a2b-fb23edb9c0da|44b269db-1500-4d97-b58e-e7d61cd3e80e",
+          "silk_edge_clearance|413950000|2500000|67f0a085-5128-4496-9a2b-fb23edb9c0da|44b269db-1500-4d97-b58e-e7d61cd3e80e",
           ""
         ],
         [
@@ -112,15 +108,15 @@
           ""
         ],
         [
-          "silk_edge_clearance|427150000|19000000|67f0a085-5128-4496-9a2b-fb23edb9c0da|d0210cd7-f593-4aa9-b4b1-a34821749d8b",
+          "silk_edge_clearance|427150000|2500000|67f0a085-5128-4496-9a2b-fb23edb9c0da|d0210cd7-f593-4aa9-b4b1-a34821749d8b",
           ""
         ],
         [
-          "silk_edge_clearance|463350000|19000000|67f0a085-5128-4496-9a2b-fb23edb9c0da|5bbfde05-b6b0-4098-b5de-c0ed15d37582",
+          "silk_edge_clearance|463350000|2500000|67f0a085-5128-4496-9a2b-fb23edb9c0da|5bbfde05-b6b0-4098-b5de-c0ed15d37582",
           ""
         ],
         [
-          "silk_edge_clearance|463350000|19000000|67f0a085-5128-4496-9a2b-fb23edb9c0da|6da8fa4f-e78a-4086-bf99-78dc27bf13ae",
+          "silk_edge_clearance|463350000|2500000|67f0a085-5128-4496-9a2b-fb23edb9c0da|6da8fa4f-e78a-4086-bf99-78dc27bf13ae",
           ""
         ],
         [
@@ -173,14 +169,6 @@
         ],
         [
           "silk_overlap|311000000|166300000|967cbc42-2767-4776-8732-d296da16ca55|a8fe5b64-5d37-4e6d-8d84-5127ed3f599d",
-          ""
-        ],
-        [
-          "silk_overlap|361483918|19633774|62d4d971-3577-4b04-bc58-f9b1c13657a1|e08b92f4-1ce2-4517-bd04-ad810c67798c",
-          ""
-        ],
-        [
-          "silk_overlap|364554703|19290761|1b6ecad7-2e8f-4362-b773-8d665a6b32dc|e08b92f4-1ce2-4517-bd04-ad810c67798c",
           ""
         ],
         [
@@ -1333,6 +1321,12 @@
         },
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "DigiKey",
           "name": "DigiKey",
           "show": true
@@ -1359,12 +1353,6 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
           "show": true
         },
         {

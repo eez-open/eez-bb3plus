@@ -14435,6 +14435,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "12Vdc"
+			(at 160.02 99.06 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4682309c-67bb-4b27-92a1-2ee98cf70b87")
 		)
@@ -14753,7 +14762,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "IRM-30-12"
+		(property "Value" "IRM-45-12"
 			(at 53.34 47.625 0)
 			(effects
 				(font
@@ -14762,7 +14771,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_THT:IRM-30"
+		(property "Footprint" "PCM_EEZ_THT:IRM-45"
 			(at 63.5 35.56 0)
 			(effects
 				(font
@@ -14789,7 +14798,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1866-3043-ND"
+		(property "DigiKey" "1866-3053-ND"
 			(at 63.5 35.56 0)
 			(effects
 				(font
@@ -14798,7 +14807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "709-IRM30-12"
+		(property "Mouser" "709-IRM45-12"
 			(at 63.5 35.56 0)
 			(effects
 				(font
@@ -14807,7 +14816,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "IRM-30-12"
+		(property "TME" "IRM-45-12"
 			(at 63.5 35.56 0)
 			(effects
 				(font
@@ -14816,7 +14825,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C193294"
+		(property "LCSC" "C5772350"
 			(at 63.5 35.56 0)
 			(effects
 				(font
