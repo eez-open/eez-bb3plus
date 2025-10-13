@@ -1465,5 +1465,12 @@
       "DIB 2.0, TFT DSI"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "project_creator": "Envox d.o.o.",
+    "project_info": "More info at http://www.envox.eu/",
+    "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
+    "project_name": "BB3+ test mainboard",
+    "project_url": "https://github.com/eez-open/eez-bb3plus",
+    "project_version": "r1B1"
+  }
 }

@@ -5,13 +5,13 @@
 	(uuid "1df84e4f-233a-4f72-9418-c0020706bb76")
 	(paper "A4")
 	(title_block
-		(title "BB3+ test mainboard")
-		(date "2025-10-12")
-		(rev "r1B1")
-		(company "Envox d.o.o.")
-		(comment 1 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)")
-		(comment 2 "More info at http://www.envox.eu/")
-		(comment 3 "https://github.com/eez-open/eez-bb5-mcu-module")
+		(title "${project_name}")
+		(date "2025-10-13")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
+		(comment 2 "${project_info}")
+		(comment 3 "${project_url}")
 	)
 	(lib_symbols
 		(symbol "PCM_EEZ_symbols:EEZ logo"

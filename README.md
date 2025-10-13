@@ -16,7 +16,7 @@ The following modifications are planned:
 * [x] Enlarge TFT touchscreen from 4.3" (480x272) resistive to 5" (800x480) capacitive
 * [ ] Increase fan size from Ø80 to 92 mm
 * [ ] Replace existing micro SD card with chip version (NAND Flash)
-* [ ] Single main power rail +12V (30 W + AUX connector for up to 150 W of additional power)
+* [ ] Single main power rail +12V (45/60 W + AUX connector for up to 150 W of additional power)
 * [ ] Introducing half width modules and increasing the total number of modules from 3 full-width to 5 half-width (or two 1½-width)
 * [x] TFT Display PCB with up to 4 user switch/hot keys
 

@@ -5,12 +5,12 @@
 	(uuid "4a192e8a-3fd3-4695-b18b-4a1626b36b50")
 	(paper "A4")
 	(title_block
-		(title "BB3+ test mainboard")
-		(date "2025-10-12")
-		(rev "r1B1")
-		(company "Envox d.o.o.")
-		(comment 1 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)")
-		(comment 2 "More info at http://www.envox.eu/")
+		(title "${project_name}")
+		(date "2025-10-13")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
+		(comment 2 "${project_info}")
 	)
 	(lib_symbols
 		(symbol "PCM_EEZ_ICs:RT9742SNGV"
