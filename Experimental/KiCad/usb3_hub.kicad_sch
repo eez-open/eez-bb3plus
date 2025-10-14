@@ -6382,6 +6382,28 @@
 		)
 		(uuid "361aa90b-06b8-4733-94a1-8aba1888c967")
 	)
+	(text "DIB #3"
+		(exclude_from_sim no)
+		(at 116.84 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "5020eb3c-b108-460b-b05a-729343450299")
+	)
+	(text "DIB #5"
+		(exclude_from_sim no)
+		(at 116.84 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "565d49a2-8703-43ea-b735-b3a659a64288")
+	)
 	(text "+1.2V"
 		(exclude_from_sim no)
 		(at 123.19 179.705 0)
@@ -6446,6 +6468,17 @@
 			(justify left)
 		)
 		(uuid "bb777ab2-867c-4969-baec-06a2d3255c84")
+	)
+	(text "DIB #4"
+		(exclude_from_sim no)
+		(at 116.84 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "e1119d10-c5a3-45bb-9572-0e4a296048dc")
 	)
 	(text_box "It will be connected in the final release"
 		(exclude_from_sim no)
@@ -11867,7 +11900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0039a596-c349-4b4e-b050-ae95be74f054")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 33.655 63.5 90)
 			(effects
 				(font
@@ -11956,7 +11989,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -12079,7 +12112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07865eae-6184-4fc5-ba7a-bb5d6a0cd31b")
-		(property "Reference" "R51"
+		(property "Reference" "R52"
 			(at 40.64 83.82 90)
 			(effects
 				(font
@@ -12169,7 +12202,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R51")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -12685,7 +12718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12236c07-17aa-4ef0-8d00-8edb763ec6c3")
-		(property "Reference" "R63"
+		(property "Reference" "R64"
 			(at 119.38 189.23 90)
 			(effects
 				(font
@@ -12775,7 +12808,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R63")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -13715,7 +13748,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "2e96e33a-f5d3-484d-84ea-d1d0e7709278")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 31.115 76.2 90)
 			(effects
 				(font
@@ -13805,7 +13838,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -13926,7 +13959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36bdf20e-fde1-4ed1-911c-7864a25897e6")
-		(property "Reference" "#SUPPLY056"
+		(property "Reference" "#SUPPLY057"
 			(at 241.3 60.96 0)
 			(effects
 				(font
@@ -13977,7 +14010,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY056")
+					(reference "#SUPPLY057")
 					(unit 1)
 				)
 			)
@@ -14379,7 +14412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48db7b0c-1bb2-4fe6-a314-fc3eb2a2fd61")
-		(property "Reference" "R57"
+		(property "Reference" "R58"
 			(at 50.165 66.04 90)
 			(effects
 				(font
@@ -14468,7 +14501,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R57")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -14483,7 +14516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a7162f5-d067-49b1-8209-f09fa871a405")
-		(property "Reference" "#SUPPLY055"
+		(property "Reference" "#SUPPLY056"
 			(at 241.3 38.1 0)
 			(effects
 				(font
@@ -14534,7 +14567,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY055")
+					(reference "#SUPPLY056")
 					(unit 1)
 				)
 			)
@@ -14550,7 +14583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c814677-b1ed-4593-a367-c69d1c5e1e19")
-		(property "Reference" "#SUPPLY054"
+		(property "Reference" "#SUPPLY055"
 			(at 220.98 81.28 0)
 			(effects
 				(font
@@ -14601,7 +14634,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY054")
+					(reference "#SUPPLY055")
 					(unit 1)
 				)
 			)
@@ -14721,7 +14754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5841211d-4c20-4a34-84a4-ea15e970d7fc")
-		(property "Reference" "R53"
+		(property "Reference" "R54"
 			(at 41.91 189.23 90)
 			(effects
 				(font
@@ -14811,7 +14844,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R53")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -14960,7 +14993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b1c083c-e5b1-491b-8166-733b628dd401")
-		(property "Reference" "R58"
+		(property "Reference" "R59"
 			(at 50.165 73.66 90)
 			(effects
 				(font
@@ -15050,7 +15083,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R58")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -15646,7 +15679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67b8b017-10fb-42b7-94a6-0d59482cfeb0")
-		(property "Reference" "#SUPPLY052"
+		(property "Reference" "#SUPPLY053"
 			(at 127 193.04 0)
 			(effects
 				(font
@@ -15697,7 +15730,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY052")
+					(reference "#SUPPLY053")
 					(unit 1)
 				)
 			)
@@ -15714,7 +15747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68671eca-cea0-4a2c-9533-b5611672b250")
-		(property "Reference" "R55"
+		(property "Reference" "R56"
 			(at 45.72 31.75 90)
 			(effects
 				(font
@@ -15803,7 +15836,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R55")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -15819,7 +15852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b12a016-83c2-435c-8bc2-225e91c8d04c")
-		(property "Reference" "R62"
+		(property "Reference" "R63"
 			(at 113.03 184.785 0)
 			(effects
 				(font
@@ -15909,7 +15942,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R62")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -16032,7 +16065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74f6246d-e8d4-46b0-8e89-d51ba18a9f4a")
-		(property "Reference" "R54"
+		(property "Reference" "R55"
 			(at 45.72 24.13 90)
 			(effects
 				(font
@@ -16121,7 +16154,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R54")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -16138,7 +16171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "795b2b4c-3d73-45c7-b6d7-10db700f99bb")
-		(property "Reference" "R59"
+		(property "Reference" "R60"
 			(at 45.72 95.25 90)
 			(effects
 				(font
@@ -16228,7 +16261,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R59")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -16483,7 +16516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ab81f1a-34a6-473e-9ab5-a254ab26c2c6")
-		(property "Reference" "R50"
+		(property "Reference" "R51"
 			(at 33.655 71.12 90)
 			(effects
 				(font
@@ -16573,7 +16606,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R50")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -18084,7 +18117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "946a2db7-48ef-4efc-87f0-b464e7571612")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 35.56 97.79 90)
 			(effects
 				(font
@@ -18174,7 +18207,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -19234,7 +19267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "addfba73-b5c1-4f42-a76d-ffe8338180f9")
-		(property "Reference" "#SUPPLY053"
+		(property "Reference" "#SUPPLY054"
 			(at 152.4 190.5 0)
 			(effects
 				(font
@@ -19285,7 +19318,7 @@
 		(instances
 			(project "BB3plus test mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY053")
+					(reference "#SUPPLY054")
 					(unit 1)
 				)
 			)
@@ -19684,7 +19717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf7d840e-f6a2-4f06-82a3-7a541f2d4d8e")
-		(property "Reference" "R67"
+		(property "Reference" "R68"
 			(at 254 156.21 90)
 			(effects
 				(font
@@ -19765,7 +19798,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R67")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -19848,7 +19881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1000f77-9d5e-48a7-9c23-2f2bbd2b340a")
-		(property "Reference" "R64"
+		(property "Reference" "R65"
 			(at 172.72 125.73 90)
 			(effects
 				(font
@@ -19938,7 +19971,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R64")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -20091,7 +20124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4c3ff4f-d34f-4fd0-8bf8-c8deda120e4b")
-		(property "Reference" "R60"
+		(property "Reference" "R61"
 			(at 46.355 128.27 90)
 			(effects
 				(font
@@ -20181,7 +20214,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R60")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -20197,7 +20230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5258d12-ad56-40eb-8225-e260f2b161cf")
-		(property "Reference" "R65"
+		(property "Reference" "R66"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -20287,7 +20320,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R65")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -20515,7 +20548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdf19113-b3f9-43c2-8729-d1389b6edabb")
-		(property "Reference" "R56"
+		(property "Reference" "R57"
 			(at 50.165 60.96 90)
 			(effects
 				(font
@@ -20605,7 +20638,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R56")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -20792,7 +20825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3e247aa-3bfa-47c1-b128-2b17579d23e6")
-		(property "Reference" "#SUPPLY051"
+		(property "Reference" "#SUPPLY052"
 			(at 86.36 190.5 0)
 			(effects
 				(font
@@ -20843,7 +20876,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY051")
+					(reference "#SUPPLY052")
 					(unit 1)
 				)
 			)
@@ -21754,7 +21787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9216f84-bb1f-4dbb-b565-bf26b8e0395a")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 33.655 58.42 90)
 			(effects
 				(font
@@ -21844,7 +21877,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -21859,7 +21892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1be9553-0f83-4bdf-8213-6197742949ce")
-		(property "Reference" "R66"
+		(property "Reference" "R67"
 			(at 243.84 156.21 90)
 			(effects
 				(font
@@ -21940,7 +21973,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R66")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -22167,7 +22200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5321545-3e17-43a0-8f61-5ad1cd61fb64")
-		(property "Reference" "#SUPPLY050"
+		(property "Reference" "#SUPPLY051"
 			(at 27.94 193.04 0)
 			(effects
 				(font
@@ -22218,7 +22251,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY050")
+					(reference "#SUPPLY051")
 					(unit 1)
 				)
 			)
@@ -22233,7 +22266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f608a8c6-f6a2-4e1c-b435-49aa30c99aed")
-		(property "Reference" "R61"
+		(property "Reference" "R62"
 			(at 50.8 184.15 90)
 			(effects
 				(font
@@ -22323,7 +22356,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R61")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -22552,7 +22585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6de7bd5-0b85-4d52-a774-7612cbad7c4e")
-		(property "Reference" "R52"
+		(property "Reference" "R53"
 			(at 43.18 133.35 90)
 			(effects
 				(font
@@ -22641,7 +22674,7 @@
 		(instances
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R52")
+					(reference "R53")
 					(unit 1)
 				)
 			)

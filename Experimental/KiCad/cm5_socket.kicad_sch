@@ -1480,7 +1480,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_connectors:Raspberry Pi CM5"
+		(symbol "PCM_EEZ_connectors:Raspberry Pi CM5 (MB)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1500,7 +1500,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_EEZ_connectors:Raspberry-Pi-CM5-hiprofile"
+			(property "Footprint" "PCM_EEZ_connectors:Raspberry-Pi-CM5 (MB)"
 				(at 19.812 -131.318 0)
 				(effects
 					(font
@@ -1527,7 +1527,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Raspberry Pi CM5_1_1"
+			(symbol "Raspberry Pi CM5 (MB)_1_1"
 				(rectangle
 					(start 0 0)
 					(end 45.72 -129.54)
@@ -3340,7 +3340,7 @@
 					)
 				)
 			)
-			(symbol "Raspberry Pi CM5_2_1"
+			(symbol "Raspberry Pi CM5 (MB)_2_1"
 				(rectangle
 					(start 0 0)
 					(end 45.72 -129.54)
@@ -13897,7 +13897,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_connectors:Raspberry Pi CM5")
+		(lib_id "PCM_EEZ_connectors:Raspberry Pi CM5 (MB)")
 		(at 45.72 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14603,7 +14603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_connectors:Raspberry Pi CM5")
+		(lib_id "PCM_EEZ_connectors:Raspberry Pi CM5 (MB)")
 		(at 147.32 25.4 0)
 		(unit 2)
 		(exclude_from_sim no)

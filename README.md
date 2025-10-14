@@ -42,7 +42,7 @@ Planned new features of BB3+:
 
 ### Experimental designs
 
-During development, several prototypes will be used for features planned for BB3+. Information about them can be found in the [Experimental](https://github.com/eez-open/eez-bb3plus/Experimental)  subfolder.
+During development, several prototypes will be used for features planned for BB3+. Information about them can be found in the [Experimental](https://github.com/eez-open/eez-bb3plus/tree/main/Experimental)  subfolder.
 
 ### Related topics and links
 
