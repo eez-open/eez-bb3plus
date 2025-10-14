@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.5-9.0.5~ubuntu24.04.1*%
-%TF.CreationDate,2025-10-13T19:02:51+02:00*%
+%TF.CreationDate,2025-10-14T09:58:55+02:00*%
 %TF.ProjectId,BB3plus test mainboard,42423370-6c75-4732-9074-657374206d61,r1B1*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.5-9.0.5~ubuntu24.04.1) date 2025-10-13 19:02:51*
+G04 Created by KiCad (PCBNEW 9.0.5-9.0.5~ubuntu24.04.1) date 2025-10-14 09:58:55*
 %MOMM*%
 %LPD*%
 G01*
@@ -622,7 +622,7 @@ X313620000Y-135710000D03*
 D14*
 X311620000Y-135710000D03*
 D19*
-X359890000Y-160343614D03*
+X360371459Y-158652180D03*
 D26*
 X297000000Y-174500000D03*
 X297000000Y-6500000D03*
