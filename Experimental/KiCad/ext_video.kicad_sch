@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-16")
+		(date "2025-10-19")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -3109,7 +3109,7 @@
 				(pin output line
 					(at 20.32 -7.62 180)
 					(length 2.54)
-					(name "~{FLAGA}"
+					(name "~{FLGA}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3127,7 +3127,7 @@
 				(pin output line
 					(at 20.32 -10.16 180)
 					(length 2.54)
-					(name "~{FLAGB}"
+					(name "~{FLGB}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5544,17 +5544,6 @@
 			(justify left bottom)
 		)
 		(uuid "9f596479-858e-4e72-9df7-5c5d49f57767")
-	)
-	(text "Replace with ARJM11B1-502-AB-EW2?"
-		(exclude_from_sim no)
-		(at 107.95 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "d05359f4-c7a0-4c35-a8bf-506bff4a9c64")
 	)
 	(text "USB2.0 Type-A (Rear panel)"
 		(exclude_from_sim no)
