@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-19")
+		(date "2025-10-21")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5035,21 +5035,21 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_unsorted:JP3 shorted with 0R (2-3)"
+		(symbol "PCM_EEZ_unsorted:JP3 2mm THT (2-3)"
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at -3.81 3.175 0)
+				(at 2.54 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
 				)
 			)
 			(property "Value" ""
-				(at 0 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5057,8 +5057,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "PCM_EEZ_SMD:JP3 shorted with 0R (0603) 2-3"
-				(at 0 -3.81 0)
+			(property "Footprint" "PCM_EEZ_connectors:M22-2010346"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5067,7 +5067,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5084,131 +5084,50 @@
 					(hide yes)
 				)
 			)
-			(symbol "JP3 shorted with 0R (2-3)_0_1"
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0.635 0)
+			(property "DigiKey" "M22-2010346-ND"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.6489 1.5193)
-					(end 1.9189 0.7573)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "JP3 shorted with 0R (2-3)_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.778 0)
+			(property "Mouser" "855-M22-2010346"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(arc
-					(start -2.032 0)
-					(mid -1.8832 0.3592)
-					(end -1.524 0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
+			)
+			(property "TME" "-"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type outline)
-					)
+					(hide yes)
 				)
-				(arc
-					(start -1.524 -0.508)
-					(mid -1.8832 -0.3592)
-					(end -2.032 0)
-					(stroke
-						(width 0.0001)
-						(type solid)
+			)
+			(property "LCSC" "C6658749"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type outline)
-					)
+					(hide yes)
 				)
-				(arc
-					(start -1.016 0.508)
-					(mid -0.5102 0)
-					(end -1.016 -0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.508 0)
-					(mid 0.6568 0.3592)
-					(end 1.016 0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.016 -0.508)
-					(mid 0.6568 -0.3592)
-					(end 0.508 0)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.524 0.508)
-					(mid 2.03 0)
-					(end 1.524 -0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.667 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "JP3 2mm THT (2-3)_1_0"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
+					(at 0 0 0)
+					(length 0.889)
 					(name "1"
 						(effects
 							(font
@@ -5225,8 +5144,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
+					(at 2.54 -2.54 90)
+					(length 2.159)
 					(name "2"
 						(effects
 							(font
@@ -5244,7 +5163,7 @@
 				)
 				(pin passive line
 					(at 5.08 0 180)
-					(length 2.54)
+					(length 0.889)
 					(name "3"
 						(effects
 							(font
@@ -5261,27 +5180,50 @@
 					)
 				)
 			)
-			(symbol "JP3 shorted with 0R (2-3)_1_1"
-				(rectangle
-					(start 0.6489 1.5193)
-					(end 0.9029 0.7573)
+			(symbol "JP3 2mm THT (2-3)_1_1"
+				(circle
+					(center 1.2706 -0.0045)
+					(radius 0.334)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.1524)
+						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 1.9189 1.5193)
-					(end 1.6649 0.7573)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 3.81 0.635)
+					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.4064)
+						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.334)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 0.334)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -6698,6 +6640,12 @@
 		(uuid "34946b91-360c-42c6-8250-cc4b98999656")
 	)
 	(junction
+		(at 154.94 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "349ffabc-4c45-4690-9429-6d0a0ff39bbc")
+	)
+	(junction
 		(at 35.56 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6950,6 +6898,12 @@
 		(uuid "9bc64faf-d6dd-44f2-838e-49f756bed165")
 	)
 	(junction
+		(at 25.4 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9de6d5f8-14d6-438b-aa7a-32cc9ce5d33e")
+	)
+	(junction
 		(at 236.22 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7118,7 +7072,7 @@
 		(uuid "e9fa44bc-82f9-4813-afa4-c8de3b29a2d4")
 	)
 	(junction
-		(at 152.4 180.34)
+		(at 149.86 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eef99666-f7de-4c04-a7ab-05733d8225d6")
@@ -7158,12 +7112,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f911a70b-bfa2-442b-88f7-398cc5ae8e35")
-	)
-	(junction
-		(at 25.4 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe94e683-bbc2-4312-a7db-a7caca83a802")
 	)
 	(no_connect
 		(at 53.34 116.84)
@@ -7375,6 +7323,16 @@
 			(type default)
 		)
 		(uuid "06cb52d6-347a-4ef0-b59c-cd78e049780d")
+	)
+	(wire
+		(pts
+			(xy 154.94 180.34) (xy 157.48 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092e6c7b-14ba-4a95-bd43-4bf739389112")
 	)
 	(wire
 		(pts
@@ -7968,7 +7926,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 180.34) (xy 142.24 180.34)
+			(xy 134.62 180.34) (xy 139.7 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8038,23 +7996,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 180.34) (xy 157.48 180.34)
+			(xy 149.86 180.34) (xy 154.94 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "38b4204d-5feb-4809-af28-b2dd8b50a2a7")
-	)
-	(wire
-		(pts
-			(xy 25.4 93.98) (xy 38.1 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3948bf5e-406b-4002-8cc2-a2418278c687")
 	)
 	(wire
 		(pts
@@ -8158,7 +8106,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 180.34) (xy 152.4 182.88)
+			(xy 149.86 180.34) (xy 149.86 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8993,7 +8941,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 180.34) (xy 152.4 180.34)
+			(xy 144.78 180.34) (xy 149.86 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9343,6 +9291,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 93.98) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99593484-3397-49f9-8380-4042da90ef56")
+	)
+	(wire
+		(pts
 			(xy 182.88 109.22) (xy 182.88 111.76)
 		)
 		(stroke
@@ -9453,6 +9411,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 101.6) (xy 25.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35bd713-142b-4c26-ae6d-0b49b09df983")
+	)
+	(wire
+		(pts
 			(xy 218.44 30.48) (xy 220.98 30.48)
 		)
 		(stroke
@@ -9540,6 +9508,16 @@
 			(type default)
 		)
 		(uuid "a904026e-c3e5-4a3f-a100-29874c7b982c")
+	)
+	(wire
+		(pts
+			(xy 25.4 93.98) (xy 25.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95beb0f-cb6b-42ea-8c3a-d70d34ed0955")
 	)
 	(wire
 		(pts
@@ -12428,7 +12406,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 152.4 187.96 180)
+		(at 149.86 187.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12436,7 +12414,7 @@
 		(dnp no)
 		(uuid "1087510b-8aa0-40ff-b42b-650af4bdc459")
 		(property "Reference" "C67"
-			(at 152.908 185.5724 0)
+			(at 150.368 185.5724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,7 +12423,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 152.908 189.3824 0)
+			(at 150.368 189.3824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12454,7 +12432,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0805_2012Metric"
-			(at 152.4 190.5 0)
+			(at 149.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12463,7 +12441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 190.5 0)
+			(at 149.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,7 +12450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 187.96 0)
+			(at 149.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12481,7 +12459,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1100-1-ND"
-			(at 152.4 187.96 0)
+			(at 149.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12490,7 +12468,7 @@
 			)
 		)
 		(property "Mouser" "187-CL21A226MQQNNNE"
-			(at 152.4 187.96 0)
+			(at 149.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,7 +12477,7 @@
 			)
 		)
 		(property "TME" "CL21A226MQQNNNE"
-			(at 152.4 187.96 0)
+			(at 149.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,7 +12486,7 @@
 			)
 		)
 		(property "LCSC" "C5674"
-			(at 152.4 187.96 0)
+			(at 149.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15019,8 +14997,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_unsorted:JP3 shorted with 0R (2-3)")
-		(at 25.4 99.06 90)
+		(lib_id "PCM_EEZ_unsorted:JP3 2mm THT (2-3)")
+		(at 25.4 96.52 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15029,7 +15007,7 @@
 		(dnp no)
 		(uuid "5b9f9b10-1a2a-46f8-988b-a2b63d80f2a4")
 		(property "Reference" "JP13"
-			(at 23.495 98.425 90)
+			(at 23.495 95.885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15038,7 +15016,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 25.4 99.06 0)
+			(at 25.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,7 +15025,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_connectors:M22-2010346"
-			(at 29.21 99.06 0)
+			(at 27.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15056,7 +15034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 99.06 90)
+			(at 25.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15065,7 +15043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 99.06 0)
+			(at 25.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15074,7 +15052,8 @@
 			)
 		)
 		(property "DigiKey" "M22-2010346-ND"
-			(at 25.4 99.06 0)
+			(at 30.48 96.52 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15083,7 +15062,8 @@
 			)
 		)
 		(property "Mouser" "855-M22-2010346"
-			(at 25.4 99.06 0)
+			(at 33.02 96.52 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15092,7 +15072,8 @@
 			)
 		)
 		(property "TME" "-"
-			(at 25.4 99.06 0)
+			(at 35.56 96.52 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15101,7 +15082,8 @@
 			)
 		)
 		(property "LCSC" "C6658749"
-			(at 25.4 99.06 0)
+			(at 38.1 96.52 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15110,7 +15092,7 @@
 			)
 		)
 		(property "Label" "PWR_BTN"
-			(at 25.4 99.06 90)
+			(at 25.4 96.52 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -17548,7 +17530,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:L_Ferrite Bead")
-		(at 144.78 180.34 90)
+		(at 142.24 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17556,7 +17538,7 @@
 		(dnp no)
 		(uuid "8a4b05a7-ff10-49b0-b3c8-2267963adb11")
 		(property "Reference" "FB4"
-			(at 144.78 178.435 90)
+			(at 142.24 178.435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17565,7 +17547,7 @@
 			)
 		)
 		(property "Value" "BLE18PS080SN1D"
-			(at 144.78 182.88 90)
+			(at 142.24 182.88 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -17574,7 +17556,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:BEAD0603"
-			(at 144.78 182.118 90)
+			(at 142.24 182.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17583,7 +17565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 180.34 0)
+			(at 142.24 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17592,7 +17574,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 144.78 180.34 0)
+			(at 142.24 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17601,7 +17583,7 @@
 			)
 		)
 		(property "DigiKey" "490-BLE18PS080SN1DCT-ND"
-			(at 144.78 180.34 0)
+			(at 142.24 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17610,7 +17592,7 @@
 			)
 		)
 		(property "Mouser" "81-BLE18PS080SN1D"
-			(at 144.78 180.34 0)
+			(at 142.24 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17619,7 +17601,7 @@
 			)
 		)
 		(property "TME" "BLE18PS080SN1D"
-			(at 144.78 180.34 0)
+			(at 142.24 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17628,7 +17610,7 @@
 			)
 		)
 		(property "LCSC" "C3764407"
-			(at 144.78 180.34 90)
+			(at 142.24 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18316,7 +18298,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:PCB test point")
-		(at 152.4 177.8 90)
+		(at 149.86 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -18324,16 +18306,16 @@
 		(dnp no)
 		(uuid "9966e21d-084f-47eb-9600-bc11110da944")
 		(property "Reference" "TP6"
-			(at 154.94 174.625 90)
+			(at 149.86 175.895 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Value" "PCB_TEST_TABSHIELD"
-			(at 154.94 177.8 0)
+			(at 152.4 177.8 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18343,7 +18325,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:Testhole 24_50mils"
-			(at 154.94 177.8 0)
+			(at 152.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18352,7 +18334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 177.8 0)
+			(at 149.86 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18361,7 +18343,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 177.8 0)
+			(at 149.86 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19256,7 +19238,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 190.5 0)
+		(at 149.86 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19264,7 +19246,7 @@
 		(dnp no)
 		(uuid "addfba73-b5c1-4f42-a76d-ffe8338180f9")
 		(property "Reference" "#SUPPLY055"
-			(at 152.4 190.5 0)
+			(at 149.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19273,7 +19255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.305 193.04 0)
+			(at 151.765 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19282,7 +19264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 190.5 0)
+			(at 149.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19291,7 +19273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 190.5 0)
+			(at 149.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19300,7 +19282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 190.5 0)
+			(at 149.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20743,7 +20725,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 127 180.34 0)
+		(at 154.94 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20751,7 +20733,7 @@
 		(dnp no)
 		(uuid "d36aaac9-6b87-4a00-b7f3-a8d8a028f5dc")
 		(property "Reference" "#FLG011"
-			(at 127 178.435 0)
+			(at 154.94 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20760,7 +20742,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 127 176.53 0)
+			(at 154.94 176.53 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -20768,7 +20750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 180.34 0)
+			(at 154.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20777,7 +20759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 180.34 0)
+			(at 154.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20786,7 +20768,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 127 180.34 0)
+			(at 154.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20798,7 +20780,7 @@
 			(uuid "5ef836c8-cd3c-499a-b65e-ce9d2d2859b9")
 		)
 		(instances
-			(project "BB3plus MCU test board"
+			(project "BB3plus test mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
 					(reference "#FLG011")
 					(unit 1)

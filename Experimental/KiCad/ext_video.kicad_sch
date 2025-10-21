@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-19")
+		(date "2025-10-21")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -4178,12 +4178,12 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at -3.81 3.175 0)
+				(at 0 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
 				)
 			)
 			(property "Value" ""
@@ -4225,7 +4225,7 @@
 			(symbol "JP3 shorted with 0R (2-3)_0_1"
 				(polyline
 					(pts
-						(xy -0.635 0) (xy 0.635 0)
+						(xy 0.635 0) (xy -0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -4236,8 +4236,8 @@
 					)
 				)
 				(rectangle
-					(start 0.6489 1.5193)
-					(end 1.9189 0.7573)
+					(start 1.5982 1.7277)
+					(end 0.3282 0.9657)
 					(stroke
 						(width 0)
 						(type default)
@@ -4258,78 +4258,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -2.032 0)
-					(mid -1.8832 0.3592)
-					(end -1.524 0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.524 -0.508)
-					(mid -1.8832 -0.3592)
-					(end -2.032 0)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 0.508)
-					(mid -0.5102 0)
-					(end -1.016 -0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.508 0)
-					(mid 0.6568 0.3592)
-					(end 1.016 0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.016 -0.508)
-					(mid 0.6568 -0.3592)
-					(end 0.508 0)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.524 0.508)
-					(mid 2.03 0)
-					(end 1.524 -0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -4401,8 +4329,19 @@
 			)
 			(symbol "JP3 shorted with 0R (2-3)_1_1"
 				(rectangle
-					(start 0.6489 1.5193)
-					(end 0.9029 0.7573)
+					(start -1.27 0.635)
+					(end -1.905 -0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.3282 1.7277)
+					(end 0.5822 0.9657)
 					(stroke
 						(width 0)
 						(type default)
@@ -4412,11 +4351,33 @@
 					)
 				)
 				(rectangle
-					(start 1.9189 1.5193)
-					(end 1.6649 0.7573)
+					(start 0.635 0.635)
+					(end -0.635 -0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.3442 1.7277)
+					(end 1.5982 0.9657)
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 0.635)
+					(end 1.27 -0.635)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type outline)
@@ -5880,16 +5841,8 @@
 		(uuid "39d00ed0-e3a8-46ff-abef-af52154c635e")
 	)
 	(no_connect
-		(at 200.66 137.16)
-		(uuid "3d3c978d-02f1-4c78-a262-353384dbcd1b")
-	)
-	(no_connect
 		(at 93.98 81.28)
 		(uuid "d9cefa0e-4a01-4c2b-9514-6acdbcc67de9")
-	)
-	(no_connect
-		(at 200.66 134.62)
-		(uuid "e9a2d744-23a3-462b-bad6-1d1088472dd9")
 	)
 	(no_connect
 		(at 111.76 165.1)
@@ -6077,6 +6030,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 147.32) (xy 162.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d3c310-fbc6-415a-be5d-c40088b53814")
+	)
+	(wire
+		(pts
 			(xy 170.18 33.02) (xy 170.18 35.56)
 		)
 		(stroke
@@ -6147,6 +6110,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 137.16) (xy 200.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce8fe03-6f53-4ae2-a067-148ce0d56f52")
+	)
+	(wire
+		(pts
 			(xy 251.46 48.26) (xy 254 48.26)
 		)
 		(stroke
@@ -6174,6 +6147,16 @@
 			(type default)
 		)
 		(uuid "1e5cd04b-3da4-4af3-b020-72a800e50d12")
+	)
+	(wire
+		(pts
+			(xy 172.72 149.86) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efc1a87-006e-48f9-b89c-71f446f3a837")
 	)
 	(wire
 		(pts
@@ -6317,6 +6300,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 160.02) (xy 162.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad62fa9-51d6-46f4-8fb2-26750d414480")
+	)
+	(wire
+		(pts
 			(xy 248.92 71.12) (xy 254 71.12)
 		)
 		(stroke
@@ -6324,6 +6317,16 @@
 			(type default)
 		)
 		(uuid "2b5da104-261e-42c4-b632-1b103d2b00c6")
+	)
+	(wire
+		(pts
+			(xy 165.1 154.94) (xy 172.72 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0a1f7a-96ee-4b04-947e-f24b5b93e53b")
 	)
 	(wire
 		(pts
@@ -6707,6 +6710,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 152.4) (xy 172.72 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562bf265-6e72-41cb-98c6-05e320b69e6f")
+	)
+	(wire
+		(pts
 			(xy 66.04 35.56) (xy 66.04 66.04)
 		)
 		(stroke
@@ -6804,6 +6817,16 @@
 			(type default)
 		)
 		(uuid "5e2ea436-7561-47a5-aed2-7f97da528e4c")
+	)
+	(wire
+		(pts
+			(xy 160.02 149.86) (xy 162.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0665bc-2791-4ca9-a468-0b883c68ed08")
 	)
 	(wire
 		(pts
@@ -7014,6 +7037,16 @@
 			(type default)
 		)
 		(uuid "7807ec60-26b2-4b55-8b81-b03652c7ccdc")
+	)
+	(wire
+		(pts
+			(xy 172.72 142.24) (xy 172.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7912baca-e692-4b7d-819a-0eb709a4acae")
 	)
 	(wire
 		(pts
@@ -7668,16 +7701,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 152.4) (xy 200.66 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b23268fc-f0ac-43d9-8453-013ac19d5ea4")
-	)
-	(wire
-		(pts
 			(xy 40.64 53.34) (xy 48.26 53.34)
 		)
 		(stroke
@@ -7888,6 +7911,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 152.4) (xy 200.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d3b36b-2d9a-400a-8e94-ee68d84cf526")
+	)
+	(wire
+		(pts
+			(xy 193.04 134.62) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32bc749-8a10-4297-924b-616a04e9ef3a")
+	)
+	(wire
+		(pts
 			(xy 91.44 60.96) (xy 91.44 63.5)
 		)
 		(stroke
@@ -8029,16 +8072,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 149.86) (xy 200.66 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c94c25-fc5c-4d6e-a373-890cc62457cf")
-	)
-	(wire
-		(pts
 			(xy 198.12 48.26) (xy 215.9 48.26)
 		)
 		(stroke
@@ -8109,6 +8142,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 137.16) (xy 162.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab59f5a-241c-4cc6-b709-b7a1c555a063")
+	)
+	(wire
+		(pts
 			(xy 76.2 63.5) (xy 81.28 63.5)
 		)
 		(stroke
@@ -8126,6 +8169,16 @@
 			(type default)
 		)
 		(uuid "eb5402e5-e4b0-4197-a0dd-81855aa8ed46")
+	)
+	(wire
+		(pts
+			(xy 165.1 142.24) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7a0af4-2d31-4bdb-89fe-40a1cb95d05c")
 	)
 	(wire
 		(pts
@@ -8328,19 +8381,20 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 193.04 152.4 180)
+	(global_label "TFT_DVID_HPA"
+		(shape output)
+		(at 193.04 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 255 153 0 1)
 			)
 			(justify right)
 		)
-		(uuid "26338ed3-ab92-46cc-a005-2607a2d791a9")
+		(uuid "1974a387-2056-469a-be61-221964a7350a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2439 152.4 0)
+			(at 182.3916 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8442,6 +8496,29 @@
 			)
 		)
 	)
+	(global_label "TFT_DVID_SDA"
+		(shape bidirectional)
+		(at 160.02 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 153 0 1)
+			)
+			(justify right)
+		)
+		(uuid "3982b1ab-698b-4e9d-8f2a-b095d05b5c74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.7894 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_P"
 		(shape bidirectional)
 		(at 236.22 27.94 180)
@@ -8502,6 +8579,29 @@
 		(uuid "4d685897-223f-4254-a135-764df663eba9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.9617 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TFT_DVID_SCL"
+		(shape bidirectional)
+		(at 160.02 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 153 0 1)
+			)
+			(justify right)
+		)
+		(uuid "5848766b-792d-4796-886a-6e9522b2069d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.8317 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,6 +8816,29 @@
 			)
 		)
 	)
+	(global_label "TFT_DVID_CEC"
+		(shape input)
+		(at 193.04 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 153 0 1)
+			)
+			(justify right)
+		)
+		(uuid "73fd66c6-5390-4380-b182-ec10d975aa27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.3916 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "REAR_DVID_TX0_P"
 		(shape input)
 		(at 83.82 106.68 180)
@@ -8845,6 +8968,28 @@
 		(uuid "9ef52130-3310-4f05-abc1-02bae2b1c612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 181.0369 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 160.02 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "a35553b0-ae19-42b8-a098-7a4ee9da655f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.2239 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,6 +9137,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 160.02 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "c69033a8-98e4-40f1-9356-0a50c04fd43e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.2662 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GBE_TXRX_A+"
 		(shape bidirectional)
 		(at 40.64 38.1 180)
@@ -9029,28 +9196,6 @@
 		(uuid "d2059600-b4d8-4c35-94ec-0c53a5e9fa83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.646 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape bidirectional)
-		(at 193.04 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "d8479fc5-58c6-4820-bafb-a9e5bf8dfdea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2862 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13513,7 +13658,7 @@
 		(at 58.42 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8ac9f02e-8f46-43c7-b2ed-b6042e55be97")
@@ -13526,7 +13671,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "0R"
 			(at 58.42 144.78 0)
 			(effects
 				(font
@@ -14964,6 +15109,114 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:JP3 shorted with 0R (2-3)")
+		(at 162.56 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7d68f53-5d07-4839-bf51-a021a863f798")
+		(property "Reference" "JP16"
+			(at 160.655 155.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "~"
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted with 0R (0603) 2-3"
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d16dac2-ee52-43b4-a5c9-e206bcd09b1b")
+		)
+		(pin "2"
+			(uuid "bc2e1399-2185-437d-9cd0-2a6e2ba02b7e")
+		)
+		(pin "3"
+			(uuid "eef97865-6057-4fcf-8365-277a83dd867f")
+		)
+		(instances
+			(project "BB3plus test mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
+					(reference "JP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
 		(at 127 185.42 270)
 		(mirror x)
@@ -15369,6 +15622,114 @@
 			(project "BB3plus MCU test board"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
 					(reference "#PE05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:JP3 shorted with 0R (2-3)")
+		(at 162.56 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc52fb72-3b83-4590-b0b9-36b3479fc003")
+		(property "Reference" "JP15"
+			(at 160.655 142.875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "~"
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted with 0R (0603) 2-3"
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba74dc49-baa3-4775-ba91-5ffa855be231")
+		)
+		(pin "2"
+			(uuid "dfff58a5-0274-4a1b-8fcf-96196479cade")
+		)
+		(pin "3"
+			(uuid "99bb0f09-dcf5-4406-bb49-9f49394bf239")
+		)
+		(instances
+			(project "BB3plus test mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
+					(reference "JP15")
 					(unit 1)
 				)
 			)

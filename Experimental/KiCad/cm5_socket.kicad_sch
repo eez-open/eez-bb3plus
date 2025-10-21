@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-19")
+		(date "2025-10-21")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -2224,7 +2224,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -2.54 -99.06 0)
 					(length 2.54)
 					(name "GPIO_VREF(1.8v/3.3v_Input)"
@@ -6890,17 +6890,378 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_EEZ_unsorted:JP2 open 2mm THT"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 2.54 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_connectors:M22-2010246"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "M22-2010346-ND"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "855-M22-2010246"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TME" "-"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5790018"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JP2 open 2mm THT_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 4.445 0.635) (xy 4.445 -0.635) (xy 0.635 -0.635) (xy 0.635 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JP2 open 2mm THT_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.889)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.889)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "JP2 open 2mm THT_1_1"
+				(circle
+					(center 1.2706 -0.0045)
+					(radius 0.334)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 0.334)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_EEZ_unsorted:JP3 2mm THT (2-3)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_connectors:M22-2010346"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "M22-2010346-ND"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "855-M22-2010346"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TME" "-"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C6658749"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JP3 2mm THT (2-3)_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.889)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 2.159)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.889)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(symbol "JP3 2mm THT (2-3)_1_1"
+				(circle
+					(center 1.2706 -0.0045)
+					(radius 0.334)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 3.81 0.635)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.334)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 0.334)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_EEZ_unsorted:JP3 shorted with 0R (2-3)"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at -3.81 3.175 0)
+				(at 0 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
 				)
 			)
 			(property "Value" ""
@@ -6942,7 +7303,7 @@
 			(symbol "JP3 shorted with 0R (2-3)_0_1"
 				(polyline
 					(pts
-						(xy -0.635 0) (xy 0.635 0)
+						(xy 0.635 0) (xy -0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -6953,8 +7314,8 @@
 					)
 				)
 				(rectangle
-					(start 0.6489 1.5193)
-					(end 1.9189 0.7573)
+					(start 1.5982 1.7277)
+					(end 0.3282 0.9657)
 					(stroke
 						(width 0)
 						(type default)
@@ -6975,78 +7336,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -2.032 0)
-					(mid -1.8832 0.3592)
-					(end -1.524 0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.524 -0.508)
-					(mid -1.8832 -0.3592)
-					(end -2.032 0)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 0.508)
-					(mid -0.5102 0)
-					(end -1.016 -0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.508 0)
-					(mid 0.6568 0.3592)
-					(end 1.016 0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.016 -0.508)
-					(mid 0.6568 -0.3592)
-					(end 0.508 0)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.524 0.508)
-					(mid 2.03 0)
-					(end 1.524 -0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -7118,8 +7407,19 @@
 			)
 			(symbol "JP3 shorted with 0R (2-3)_1_1"
 				(rectangle
-					(start 0.6489 1.5193)
-					(end 0.9029 0.7573)
+					(start -1.27 0.635)
+					(end -1.905 -0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.3282 1.7277)
+					(end 0.5822 0.9657)
 					(stroke
 						(width 0)
 						(type default)
@@ -7129,11 +7429,33 @@
 					)
 				)
 				(rectangle
-					(start 1.9189 1.5193)
-					(end 1.6649 0.7573)
+					(start 0.635 0.635)
+					(end -0.635 -0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.3442 1.7277)
+					(end 1.5982 0.9657)
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 0.635)
+					(end 1.27 -0.635)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type outline)
@@ -7630,10 +7952,10 @@
 		)
 		(uuid "bffff0ed-783a-4f24-97ef-7315adfc90d7")
 	)
-	(text_box "I2C_PU_BIAS disable I2C\npull-ups when active"
+	(text_box "CM5_3V3 disable I2C\npull-ups when active"
 		(exclude_from_sim no)
 		(at 13.97 115.57 0)
-		(size 19.05 4.445)
+		(size 17.145 4.445)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8105,10 +8427,6 @@
 		(uuid "03586179-291a-44da-bd1a-f9d9e14098dc")
 	)
 	(no_connect
-		(at 198.12 86.36)
-		(uuid "0bf5f2fd-819f-4ecc-ae61-5e15bd087432")
-	)
-	(no_connect
 		(at 43.18 45.72)
 		(uuid "12424086-dff0-490b-81a6-26f231f80a39")
 	)
@@ -8131,10 +8449,6 @@
 	(no_connect
 		(at 236.22 81.28)
 		(uuid "1c288090-70ca-4e75-8710-97bb55a4703b")
-	)
-	(no_connect
-		(at 198.12 83.82)
-		(uuid "211063a8-0649-46db-819a-774a1c9613e0")
 	)
 	(no_connect
 		(at 236.22 63.5)
@@ -8185,10 +8499,6 @@
 		(uuid "8591e0f9-9e21-4976-87e3-2683fcee8872")
 	)
 	(no_connect
-		(at 198.12 81.28)
-		(uuid "8c0ebe9c-a57a-4c1d-b8fd-3bdeb0a91153")
-	)
-	(no_connect
 		(at 236.22 78.74)
 		(uuid "95c1ffee-e57e-4f13-862e-39a0ce45ce1a")
 	)
@@ -8203,10 +8513,6 @@
 	(no_connect
 		(at 43.18 144.78)
 		(uuid "b2836770-d12b-4dce-b84d-123aaf262e5e")
-	)
-	(no_connect
-		(at 198.12 88.9)
-		(uuid "b429ece9-78e6-45d1-a817-9d490ba547fd")
 	)
 	(no_connect
 		(at 43.18 114.3)
@@ -8626,7 +8932,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 50.8) (xy 33.02 53.34)
+			(xy 30.48 50.8) (xy 30.48 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8676,7 +8982,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 162.56) (xy 119.38 162.56)
+			(xy 111.76 162.56) (xy 121.92 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8706,7 +9012,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 149.86) (xy 109.22 149.86)
+			(xy 93.98 149.86) (xy 111.76 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8797,7 +9103,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 147.32) (xy 106.68 147.32)
+			(xy 93.98 147.32) (xy 109.22 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8848,7 +9154,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 187.96) (xy 121.92 187.96)
+			(xy 109.22 187.96) (xy 121.92 187.96)
 		)
 		(stroke
 			(width 0)
@@ -9078,6 +9384,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 137.16) (xy 25.4 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460ca476-ffba-4fae-a5bf-33e04677b3a5")
+	)
+	(wire
+		(pts
 			(xy 271.78 91.44) (xy 279.4 91.44)
 		)
 		(stroke
@@ -9175,16 +9491,6 @@
 			(type default)
 		)
 		(uuid "48b8d5fc-c551-44a0-ae3c-379f2f49fc62")
-	)
-	(wire
-		(pts
-			(xy 101.6 152.4) (xy 104.14 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4906a7c8-a51a-4450-b6f0-acc7d39dbb06")
 	)
 	(wire
 		(pts
@@ -9338,13 +9644,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 142.24) (xy 104.14 142.24)
+			(xy 96.52 142.24) (xy 106.68 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5881b744-943a-4fd6-85a3-2c0c064abd5c")
+	)
+	(wire
+		(pts
+			(xy 198.12 83.82) (xy 203.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588fc3d7-6330-4460-840a-823386dc37d9")
 	)
 	(wire
 		(pts
@@ -9478,6 +9794,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 88.9) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607f19a5-8bf7-4fa8-9865-8fede8ac024f")
+	)
+	(wire
+		(pts
 			(xy 137.16 139.7) (xy 142.24 139.7)
 		)
 		(stroke
@@ -9485,6 +9811,16 @@
 			(type default)
 		)
 		(uuid "611bc0a9-66e4-4b1d-a59b-c3dbe7e79918")
+	)
+	(wire
+		(pts
+			(xy 198.12 86.36) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a151ef-65ee-450a-9f77-6f06b6d85cda")
 	)
 	(wire
 		(pts
@@ -9538,6 +9874,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 144.78) (xy 106.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d07bf9-dbc4-44a8-9559-8ed178bbc88a")
+	)
+	(wire
+		(pts
 			(xy 139.7 96.52) (xy 142.24 96.52)
 		)
 		(stroke
@@ -9545,16 +9891,6 @@
 			(type default)
 		)
 		(uuid "65d6f631-c9b5-4dec-967c-f963524b904c")
-	)
-	(wire
-		(pts
-			(xy 25.4 137.16) (xy 27.94 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b1976ff-c148-4bd3-9e4b-f692c5ca7767")
 	)
 	(wire
 		(pts
@@ -9718,7 +10054,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 154.94) (xy 104.14 154.94)
+			(xy 96.52 154.94) (xy 106.68 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9858,7 +10194,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 142.24) (xy 104.14 144.78)
+			(xy 106.68 142.24) (xy 106.68 144.78)
 		)
 		(stroke
 			(width 0)
@@ -9895,6 +10231,16 @@
 			(type default)
 		)
 		(uuid "857a80c6-9bf1-4b5e-b1f5-313dbe87af4a")
+	)
+	(wire
+		(pts
+			(xy 106.68 152.4) (xy 104.14 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fe887d-9183-42c2-aac7-8200332b67dc")
 	)
 	(wire
 		(pts
@@ -10108,6 +10454,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 81.28) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4d0cf9-f93e-4c65-9060-739291380fc5")
+	)
+	(wire
+		(pts
 			(xy 231.14 27.94) (xy 236.22 27.94)
 		)
 		(stroke
@@ -10195,6 +10551,16 @@
 			(type default)
 		)
 		(uuid "9ef45127-6edd-498f-aac2-f35b87a55906")
+	)
+	(wire
+		(pts
+			(xy 33.02 50.8) (xy 30.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04950c8-e937-4e71-ad53-a87955dde8e7")
 	)
 	(wire
 		(pts
@@ -10598,6 +10964,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 144.78) (xy 27.94 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c4dc8c-21b6-401f-90fd-8492bac3f5eb")
+	)
+	(wire
+		(pts
 			(xy 198.12 73.66) (xy 200.66 73.66)
 		)
 		(stroke
@@ -10748,7 +11124,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 152.4) (xy 104.14 154.94)
+			(xy 106.68 152.4) (xy 106.68 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10888,7 +11264,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 154.94) (xy 111.76 154.94)
+			(xy 116.84 154.94) (xy 114.3 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10938,6 +11314,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 139.7) (xy 27.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debb5b03-6ae3-4452-9c18-f54ca202dfa4")
+	)
+	(wire
+		(pts
 			(xy 198.12 129.54) (xy 203.2 129.54)
 		)
 		(stroke
@@ -10948,7 +11334,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 160.02) (xy 109.22 162.56)
+			(xy 111.76 160.02) (xy 111.76 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11078,23 +11464,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 53.34) (xy 40.64 53.34)
+			(xy 30.48 53.34) (xy 40.64 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea8f0680-dfd6-49aa-8355-48dba4e81981")
-	)
-	(wire
-		(pts
-			(xy 35.56 50.8) (xy 33.02 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb628046-8e51-4548-9431-ab11eb2f0cf5")
 	)
 	(wire
 		(pts
@@ -11235,16 +11611,6 @@
 			(type default)
 		)
 		(uuid "f2d15707-c864-46c7-bbbc-55a3b3ee19d3")
-	)
-	(wire
-		(pts
-			(xy 101.6 144.78) (xy 104.14 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3610493-1279-47ff-9e98-7aac96dcc7a2")
 	)
 	(wire
 		(pts
@@ -11408,7 +11774,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 147.32) (xy 106.68 187.96)
+			(xy 109.22 147.32) (xy 109.22 187.96)
 		)
 		(stroke
 			(width 0)
@@ -11477,7 +11843,7 @@
 		(uuid "62df5925-2918-4bfb-8b5e-629cd1435597")
 	)
 	(label "ID_SC"
-		(at 119.38 162.56 180)
+		(at 121.92 162.56 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -12378,7 +12744,7 @@
 	)
 	(global_label "UART1_TX{slash}DOUT1"
 		(shape output)
-		(at 114.3 154.94 0)
+		(at 116.84 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12388,7 +12754,7 @@
 		)
 		(uuid "4e57999a-7302-42e8-a68d-7b78fef07f3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.4461 154.94 0)
+			(at 129.9861 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13050,6 +13416,29 @@
 			)
 		)
 	)
+	(global_label "TFT_DVID_HPA"
+		(shape input)
+		(at 203.2 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 153 0 1)
+			)
+			(justify left)
+		)
+		(uuid "92b8efcb-4bb5-4bf7-8703-3906737f7f2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.8484 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+VAUX"
 		(shape input)
 		(at 33.02 121.92 180)
@@ -13155,6 +13544,29 @@
 		(uuid "a2db6ce4-70e1-40f2-9ec7-b327d0fc590b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.6537 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TFT_DVID_SCL"
+		(shape bidirectional)
+		(at 203.2 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 153 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a2e1f0af-e143-47b9-84ff-118f5ce1ceb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.3883 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13752,7 +14164,7 @@
 			)
 		)
 	)
-	(global_label "I2C_PU_BIAS"
+	(global_label "CM5_3V3"
 		(shape output)
 		(at 81.28 172.72 0)
 		(fields_autoplaced yes)
@@ -13764,7 +14176,7 @@
 		)
 		(uuid "d49bdf5c-1a9a-41a5-956f-a9c62de8e12f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.1665 172.72 0)
+			(at 88.796 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13841,8 +14253,8 @@
 			)
 		)
 	)
-	(global_label "I2C_PU_BIAS"
-		(shape output)
+	(global_label "CM5_3V3"
+		(shape passive)
 		(at 25.4 132.08 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13853,7 +14265,7 @@
 		)
 		(uuid "d93ccc1d-a6db-4aff-8f67-ca5c5680b51b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.5135 132.08 0)
+			(at 18.5508 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13992,6 +14404,29 @@
 		(uuid "ebd52b93-8294-4700-9662-30d6a566b68e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 211.351 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TFT_DVID_CEC"
+		(shape output)
+		(at 203.2 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 153 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ee2353cd-4bcd-4b81-868b-72f00545614b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.8484 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14148,6 +14583,29 @@
 		(uuid "ff19f64a-cd7e-4769-965b-840b03b64703")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 211.351 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TFT_DVID_SDA"
+		(shape bidirectional)
+		(at 203.2 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 153 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ff7941fb-41dd-4d76-9ed7-e104c17e7c00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.4306 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16697,19 +17155,21 @@
 		(dnp no)
 		(uuid "462be9b1-0e06-4cea-9146-a6751a01a508")
 		(property "Reference" "R3"
-			(at 130.175 167.005 0)
+			(at 128.27 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "330R"
-			(at 130.175 168.91 0)
+			(at 128.27 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
@@ -16856,8 +17316,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_unsorted:JP3 shorted with 0R (2-3)")
-		(at 27.94 142.24 90)
+		(lib_id "PCM_EEZ_unsorted:JP3 2mm THT (2-3)")
+		(at 27.94 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16865,7 +17325,7 @@
 		(dnp no)
 		(uuid "5026e31e-6cfb-4af1-b28e-7b1560129ea1")
 		(property "Reference" "JP1"
-			(at 26.035 142.875 90)
+			(at 26.67 142.875 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16874,7 +17334,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 27.94 142.24 0)
+			(at 27.94 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,7 +17343,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_connectors:M22-2010346"
-			(at 31.75 142.24 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16892,7 +17352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 142.24 90)
+			(at 27.94 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16901,7 +17361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 142.24 0)
+			(at 27.94 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16910,7 +17370,8 @@
 			)
 		)
 		(property "DigiKey" "M22-2010346-ND"
-			(at 27.94 142.24 0)
+			(at 33.02 144.78 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16919,7 +17380,8 @@
 			)
 		)
 		(property "Mouser" "855-M22-2010346"
-			(at 27.94 142.24 0)
+			(at 35.56 144.78 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16928,7 +17390,8 @@
 			)
 		)
 		(property "TME" "-"
-			(at 27.94 142.24 0)
+			(at 38.1 144.78 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16937,7 +17400,8 @@
 			)
 		)
 		(property "LCSC" "C6658749"
-			(at 27.94 142.24 0)
+			(at 40.64 144.78 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16946,7 +17410,7 @@
 			)
 		)
 		(property "Label" "PWR_BTN"
-			(at 27.94 142.24 90)
+			(at 27.94 144.78 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -16991,7 +17455,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 37.465 136.525 90)
+			(at 35.56 134.62 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -18147,12 +18611,12 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_unsorted:JP2 open")
+		(lib_id "PCM_EEZ_unsorted:JP2 open 2mm THT")
 		(at 38.1 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "782ae329-a511-44f2-b8d1-98c0a57be9a0")
@@ -18201,8 +18665,9 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
-			(at 38.1 50.8 0)
+		(property "DigiKey" "M22-2010346-ND"
+			(at 38.1 55.88 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18210,8 +18675,9 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 38.1 50.8 0)
+		(property "Mouser" "855-M22-2010246"
+			(at 38.1 58.42 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18219,8 +18685,9 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
-			(at 38.1 50.8 0)
+		(property "TME" "-"
+			(at 38.1 60.96 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18228,8 +18695,9 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 38.1 50.8 0)
+		(property "LCSC" "C5790018"
+			(at 38.1 63.5 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18262,16 +18730,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_unsorted:JP2 open")
+		(lib_id "PCM_EEZ_unsorted:JP2 open 2mm THT")
 		(at 99.06 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7862ff63-1249-41b2-8ed1-b64334cf7b61")
 		(property "Reference" "JP5"
-			(at 100.33 151.13 0)
+			(at 101.6 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18315,8 +18783,9 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
-			(at 99.06 152.4 0)
+		(property "DigiKey" "M22-2010346-ND"
+			(at 99.06 157.48 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18324,8 +18793,9 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 99.06 152.4 0)
+		(property "Mouser" "855-M22-2010246"
+			(at 99.06 160.02 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18333,8 +18803,9 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
-			(at 99.06 152.4 0)
+		(property "TME" "-"
+			(at 99.06 162.56 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18342,8 +18813,9 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 99.06 152.4 0)
+		(property "LCSC" "C5790018"
+			(at 99.06 165.1 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18461,7 +18933,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 37.465 141.605 90)
+			(at 35.56 139.7 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -18581,7 +19053,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "86c4005f-bc8f-458e-a416-cc7e28e934bf")
@@ -18594,7 +19066,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "0R"
 			(at 30.48 154.94 0)
 			(effects
 				(font
@@ -18752,15 +19224,15 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:JP3 shorted with 0R (2-3)")
-		(at 109.22 154.94 90)
+		(at 111.76 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "88d4a541-b99e-47a4-b000-0a0b3ff2ef96")
 		(property "Reference" "JP6"
-			(at 109.855 152.4 90)
+			(at 112.395 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18768,8 +19240,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "~"
-			(at 109.22 154.94 0)
+		(property "Value" "0R"
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18778,7 +19250,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted with 0R (0603) 2-3"
-			(at 113.03 154.94 0)
+			(at 115.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18787,7 +19259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 154.94 90)
+			(at 111.76 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18796,7 +19268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 154.94 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18805,7 +19277,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 109.22 154.94 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18814,7 +19286,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 109.22 154.94 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18823,7 +19295,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 109.22 154.94 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18832,7 +19304,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 109.22 154.94 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19293,16 +19765,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_unsorted:JP2 open")
+		(lib_id "PCM_EEZ_unsorted:JP2 open 2mm THT")
 		(at 99.06 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ab8710ad-31de-4028-af92-122bedee0cae")
 		(property "Reference" "JP4"
-			(at 100.33 143.51 0)
+			(at 101.6 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19346,8 +19818,9 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
-			(at 99.06 144.78 0)
+		(property "DigiKey" "M22-2010346-ND"
+			(at 99.06 149.86 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19355,8 +19828,9 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 99.06 144.78 0)
+		(property "Mouser" "855-M22-2010246"
+			(at 99.06 152.4 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19364,8 +19838,9 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
-			(at 99.06 144.78 0)
+		(property "TME" "-"
+			(at 99.06 154.94 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19373,8 +19848,9 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 99.06 144.78 0)
+		(property "LCSC" "C5790018"
+			(at 99.06 157.48 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
