@@ -666,7 +666,7 @@
       "plot": "../../fabrication/gerbers/TFT module/",
       "pos_files": "../../fabrication/pos/TFT module/",
       "specctra_dsn": "",
-      "step": "fabrication/step/BB3plus DVID TFT display.step",
+      "step": "../../fabrication/step/BB3plus DVID TFT display.step",
       "svg": "",
       "vrml": ""
     },
