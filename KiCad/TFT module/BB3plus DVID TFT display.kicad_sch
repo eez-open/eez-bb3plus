@@ -8027,12 +8027,12 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at -3.81 3.175 0)
+				(at 0 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
 				)
 			)
 			(property "Value" ""
@@ -8074,7 +8074,7 @@
 			(symbol "JP3 shorted with 0R (2-3)_0_1"
 				(polyline
 					(pts
-						(xy -0.635 0) (xy 0.635 0)
+						(xy 0.635 0) (xy -0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -8085,8 +8085,8 @@
 					)
 				)
 				(rectangle
-					(start 0.6489 1.5193)
-					(end 1.9189 0.7573)
+					(start 1.5982 1.7277)
+					(end 0.3282 0.9657)
 					(stroke
 						(width 0)
 						(type default)
@@ -8107,78 +8107,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -2.032 0)
-					(mid -1.8832 0.3592)
-					(end -1.524 0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.524 -0.508)
-					(mid -1.8832 -0.3592)
-					(end -2.032 0)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 0.508)
-					(mid -0.5102 0)
-					(end -1.016 -0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.508 0)
-					(mid 0.6568 0.3592)
-					(end 1.016 0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.016 -0.508)
-					(mid 0.6568 -0.3592)
-					(end 0.508 0)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 1.524 0.508)
-					(mid 2.03 0)
-					(end 1.524 -0.508)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -8250,8 +8178,19 @@
 			)
 			(symbol "JP3 shorted with 0R (2-3)_1_1"
 				(rectangle
-					(start 0.6489 1.5193)
-					(end 0.9029 0.7573)
+					(start -1.27 0.635)
+					(end -1.905 -0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.3282 1.7277)
+					(end 0.5822 0.9657)
 					(stroke
 						(width 0)
 						(type default)
@@ -8261,11 +8200,33 @@
 					)
 				)
 				(rectangle
-					(start 1.9189 1.5193)
-					(end 1.6649 0.7573)
+					(start 0.635 0.635)
+					(end -0.635 -0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.3442 1.7277)
+					(end 1.5982 0.9657)
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 0.635)
+					(end 1.27 -0.635)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type outline)

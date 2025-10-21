@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.5-9.0.5~ubuntu24.04.1"
     },
-    "CreationDate": "2025-10-12T14:56:27+02:00"
+    "CreationDate": "2025-10-21T15:04:51+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -44,18 +44,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BB3plus DVID TFT display-F_Paste.gtp",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "BB3plus DVID TFT display-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "BB3plus DVID TFT display-F_Silkscreen.gto",
-      "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
@@ -64,19 +54,9 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BB3plus DVID TFT display-F_Mask.gts",
-      "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
       "Path": "BB3plus DVID TFT display-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
-    },
-    {
-      "Path": "BB3plus DVID TFT display-User_Comments.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
     },
     {
       "Path": "BB3plus DVID TFT display-Edge_Cuts.gm1",

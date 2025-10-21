@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-10-11T09:36:19+0200 ###
+### Footprint positions - created on 2025-10-21T14:53:41+0200 ###
 ### Printed by KiCad version 9.0.5-9.0.5~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -39,7 +39,7 @@ IC1       TFP401APZP      QFP50P1600X1600X120-101N          86.2600    36.6000  
 IC2       TCA9554APWR     PW(R-PDSO-G16)                    34.3000    63.8000  -90.0000  bottom
 IC3       TSC2007IPWR     PW(R-PDSO-G16)                    44.3400    63.8000  -90.0000  bottom
 IC4       TPS61169DCKR    DCK5                              70.5750    62.4850    0.0000  bottom
-JP4       ~               JP3_shorted_with_0R_(0603)_2-3    31.0000    68.6000    0.0000  bottom
+JP4       ~               JP3_shorted_with_0R_(0603)_2-3    31.7800    68.6000   -0.0000  bottom
 L1        DLG-0403-4R7    DE0403                            67.6400    58.4700  180.0000  bottom
 R1        10K             R_0603_1608Metric                 75.0600    29.4400   90.0000  bottom
 R2        10K             R_0603_1608Metric                 76.4400    26.4300  -90.0000  bottom
