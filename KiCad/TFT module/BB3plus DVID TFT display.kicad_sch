@@ -19009,7 +19009,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_connectors:5051104091"
+		(property "Footprint" "PCM_EEZ_connectors:5051104091_MIRROR"
 			(at 153.67 128.27 0)
 			(effects
 				(font
@@ -21218,7 +21218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_connectors:5051100692"
+		(property "Footprint" "PCM_EEZ_connectors:5051100692_MIRROR"
 			(at 149.606 54.102 0)
 			(effects
 				(font
