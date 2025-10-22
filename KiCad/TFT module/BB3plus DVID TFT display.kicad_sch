@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-11")
+		(date "2025-10-22")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_url}")
@@ -4777,6 +4777,24 @@
 						(type none)
 					)
 				)
+				(pin passive line
+					(at 10.16 -63.5 90)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -9071,7 +9089,7 @@
 	)
 	(text_box "LCD display: ER-TFT050-3-3056 or ER-TFT050-6-3056 (IPS version)\n5\", 800x480, capacitive touch screen\nConsumption: +3.3 V, max. 220 mA; +18 V, max. 60 mA"
 		(exclude_from_sim no)
-		(at 149.86 154.94 0)
+		(at 147.32 157.48 0)
 		(size 28.575 10.16)
 		(margins 0.6667 0.6667 0.6667 0.6667)
 		(stroke
@@ -9763,6 +9781,10 @@
 	(no_connect
 		(at 35.56 66.04)
 		(uuid "95af6192-69c6-4480-8e63-4422c7acebc5")
+	)
+	(no_connect
+		(at 162.56 154.94)
+		(uuid "963562d3-6f7f-4722-b3c3-9c5caa7c68cc")
 	)
 	(no_connect
 		(at 109.22 193.04)
@@ -14975,16 +14997,6 @@
 		)
 		(uuid "85df1b1c-c60e-4584-9b81-88bb25cea150")
 	)
-	(label "~{IRQ}"
-		(at 259.08 157.48 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d8695b4-d334-43fc-bf4b-fb519492dc45")
-	)
 	(label "QE0"
 		(at 147.32 132.08 0)
 		(effects
@@ -15134,6 +15146,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9702455-3ca0-44d7-b3d3-b3c7fdb60825")
+	)
+	(label "~{TOUCH_IRQ}"
+		(at 259.08 157.48 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba1a0f1c-bcd4-46e0-8148-5a9eec9b0799")
 	)
 	(label "QE4"
 		(at 127 101.6 0)
@@ -19000,16 +19022,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "505110-4091"
+		(property "Value" "F32D-1A7Y1-21040"
 			(at 154.94 88.265 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_connectors:5051104091_MIRROR"
+		(property "Footprint" "PCM_EEZ_connectors:F32D-1A7Y1-21040_MIRROR"
 			(at 153.67 128.27 0)
 			(effects
 				(font
@@ -19027,7 +19049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40-pin Easy-On FFC/FPC Connector 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height, 40 Circuits"
+		(property "Description" ""
 			(at 152.4 91.44 0)
 			(effects
 				(font
@@ -19036,7 +19058,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "WM11292CT-ND"
+		(property "DigiKey" "609-F32D-1A7Y1-21040CT-ND"
 			(at 152.4 130.81 0)
 			(effects
 				(font
@@ -19045,7 +19067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "538-505110-4091"
+		(property "Mouser" "649-F32D-1A7Y1-21040"
 			(at 152.4 133.35 0)
 			(effects
 				(font
@@ -19054,7 +19076,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "MX-505110-4091"
+		(property "TME" "-"
 			(at 152.4 135.89 0)
 			(effects
 				(font
@@ -19063,7 +19085,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C588009"
+		(property "LCSC" "C3168737"
 			(at 152.4 91.44 0)
 			(effects
 				(font
@@ -19191,6 +19213,9 @@
 		)
 		(pin "9"
 			(uuid "f37f9c2d-9200-4be6-b089-bd1b54255590")
+		)
+		(pin "SH"
+			(uuid "53cd1053-6e91-42e2-98ce-6481c061575b")
 		)
 		(instances
 			(project "BB3plus DVID TFT display"
@@ -21200,25 +21225,27 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aeb32e23-e760-458b-972b-6bc74dd1818c")
 		(property "Reference" "X3"
-			(at 154.94 27.94 0)
+			(at 149.86 30.48 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "505110-0692"
-			(at 154.94 30.48 0)
+		(property "Value" "F3311A7H121006E200"
+			(at 149.86 32.385 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_connectors:5051100692_MIRROR"
+		(property "Footprint" "PCM_EEZ_connectors:F3311A7H121006E200_MIRROR"
 			(at 149.606 54.102 0)
 			(effects
 				(font
@@ -21236,7 +21263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6-pin Easy-On FFC/FPC Connector 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height, 6 Circuits"
+		(property "Description" ""
 			(at 154.178 66.548 0)
 			(effects
 				(font
@@ -21245,7 +21272,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "WM12362CT-ND"
+		(property "DigiKey" "609-F3311A7H121006E200CT-ND"
 			(at 152.4 59.182 0)
 			(show_name yes)
 			(effects
@@ -21255,7 +21282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "538-505110-0692"
+		(property "Mouser" " 649-311A7H121006E200"
 			(at 152.4 61.722 0)
 			(show_name yes)
 			(effects
@@ -21265,7 +21292,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "MX-505110-0692"
+		(property "TME" "-"
 			(at 161.036 64.008 0)
 			(show_name yes)
 			(effects
@@ -21275,16 +21302,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 162.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C779386"
+		(property "LCSC" "C3169743"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -23596,7 +23614,7 @@
 		(at 236.22 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e6274d8f-3762-412f-88be-77498e9eb2aa")
