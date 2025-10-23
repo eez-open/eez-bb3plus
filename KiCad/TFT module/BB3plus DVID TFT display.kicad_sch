@@ -15471,7 +15471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "652-SDR0403-4R7ML"
+		(property "Mouser" "815-ASPI-4030S-4R7MT"
 			(at 238.76 27.94 0)
 			(effects
 				(font
@@ -22839,7 +22839,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RB751V40T1G"
+		(property "Value" "RB751V40,115"
 			(at 254 26.035 0)
 			(effects
 				(font
@@ -22875,7 +22875,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "RB751V40T1GOSCT-ND "
+		(property "DigiKey" "1727-6301-1-ND"
 			(at 259.08 27.94 0)
 			(effects
 				(font
@@ -22884,7 +22884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "863-RB751V40T1G"
+		(property "Mouser" "771-RB751V40,115"
 			(at 259.08 27.94 0)
 			(effects
 				(font
@@ -22893,7 +22893,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "RB751V40T1G"
+		(property "TME" "RB751V40.115"
 			(at 259.08 27.94 0)
 			(effects
 				(font
@@ -22902,16 +22902,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 259.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C154819"
+		(property "LCSC" "C553814"
 			(at 259.08 27.94 0)
 			(effects
 				(font

@@ -3106,7 +3106,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RB751V40T1G"
+		(property "Value" "RB751V40,115"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3145,7 +3145,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DigiKey" "RB751V40T1GOSCT-ND "
+		(property "DigiKey" "1727-6301-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3159,7 +3159,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "863-RB751V40T1G"
+		(property "Mouser" "771-RB751V40,115"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3173,7 +3173,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TME" "RB751V40T1G"
+		(property "TME" "RB751V40.115"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3201,7 +3201,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C154819"
+		(property "LCSC" "C553814"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4012,7 +4012,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "652-SDR0403-4R7ML"
+		(property "Mouser" "815-ASPI-4030S-4R7MT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16310,7 +16310,7 @@
 			(at -2.25 -0.78 180)
 			(size 0.4 0.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 42 "unconnected-(X3-PadSH)")
+			(net 43 "unconnected-(X3-PadSH)_1")
 			(pinfunction "SH")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0)
@@ -16320,7 +16320,7 @@
 			(at 2.25 -0.78 180)
 			(size 0.4 0.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 43 "unconnected-(X3-PadSH)_1")
+			(net 42 "unconnected-(X3-PadSH)")
 			(pinfunction "SH")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0)
