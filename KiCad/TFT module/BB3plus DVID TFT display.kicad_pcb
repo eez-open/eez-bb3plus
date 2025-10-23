@@ -16324,7 +16324,7 @@
 			(pinfunction "SH")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0)
-			(uuid "5f1b1ed8-c756-472c-b74b-135dc76ec3e5")
+			(uuid "3c39e229-aad1-4973-9b82-4eaee346fb7b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/F3311A7H121006E200.step"
@@ -24465,6 +24465,43 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.1")
+		(uuid "1698f19c-d404-49fa-b3c0-692e5d77df5c")
+		(pts
+			(xy 93.25 60) (xy 93.25 72.6)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "12,6 mm"
+			(at 92.1 66.3 90)
+			(layer "User.1")
+			(uuid "1698f19c-d404-49fa-b3c0-692e5d77df5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
 		(uuid "1f96e1c3-706c-4a9c-b55a-c807366aeca4")
 		(pts
 			(xy 211 144.3) (xy 95 144.3)
@@ -24565,6 +24602,43 @@
 			(at 208.55 138.05 0)
 			(layer "User.1")
 			(uuid "2dfd0a5d-2c59-4450-a316-32c42f3d9189")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "31e2aed6-503c-4d6e-b2bc-b333cb7af634")
+		(pts
+			(xy 87 84.3) (xy 99.5 84.3)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "12,5 mm"
+			(at 93.25 83.15 0)
+			(layer "User.1")
+			(uuid "31e2aed6-503c-4d6e-b2bc-b333cb7af634")
 			(effects
 				(font
 					(size 1 1)
