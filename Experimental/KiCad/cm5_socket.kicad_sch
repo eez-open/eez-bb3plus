@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-23")
+		(date "2025-10-25")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -15170,7 +15170,7 @@
 				)
 			)
 		)
-		(property "Value" "2x DF40HC(3.0)-100DS-0.4V(51"
+		(property "Value" "2x 10164227-1004A1RLF"
 			(at 61.595 156.845 0)
 			(effects
 				(font
@@ -15205,7 +15205,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
+		(property "DigiKey" "609-10164227-1004A1RLFCT-ND"
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -15214,7 +15214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "798-DF40HC30100DS451 "
+		(property "Mouser" "649-101642271004RLF"
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -15232,7 +15232,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C424649"
+		(property "LCSC" "C7435219"
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -15876,7 +15876,7 @@
 				)
 			)
 		)
-		(property "Value" "2x DF40HC(3.0)-100DS-0.4V(51"
+		(property "Value" "2x 10164227-1004A1RLF"
 			(at 170.18 22.86 0)
 			(effects
 				(font
@@ -15912,7 +15912,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
+		(property "DigiKey" "609-10164227-1004A1RLFCT-ND"
 			(at 147.32 25.4 0)
 			(effects
 				(font
@@ -15921,7 +15921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "798-DF40HC30100DS451 "
+		(property "Mouser" "649-101642271004RLF"
 			(at 147.32 25.4 0)
 			(effects
 				(font
@@ -15939,7 +15939,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C424649"
+		(property "LCSC" "C7435219"
 			(at 147.32 25.4 0)
 			(effects
 				(font

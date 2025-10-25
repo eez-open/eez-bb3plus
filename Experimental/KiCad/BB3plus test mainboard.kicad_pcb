@@ -24949,7 +24949,7 @@
 			)
 		)
 		(property ki_fp_filters "*M*2*M*")
-		(path "/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b/6379c140-1952-4244-9984-bdd37fa84d19")
+		(path "/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b/6a25dcd9-fcd7-41b6-a6a4-e8685fa6911a")
 		(sheetname "/CM5 socket/")
 		(sheetfile "cm5_socket.kicad_sch")
 		(attr smd)
@@ -66307,7 +66307,7 @@
 				)
 			)
 		)
-		(property "Value" "2x DF40HC(3.0)-100DS-0.4V(51"
+		(property "Value" "2x 10164227-1004A1RLF"
 			(at 16.52 0.19 0)
 			(layer "F.Fab")
 			(uuid "b2ce054c-8db5-439f-bb57-bfc59de5e001")
@@ -66342,7 +66342,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
+		(property "DigiKey" "609-10164227-1004A1RLFCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66355,7 +66355,7 @@
 				)
 			)
 		)
-		(property "Mouser" "798-DF40HC30100DS451 "
+		(property "Mouser" "649-101642271004RLF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66381,7 +66381,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C424649"
+		(property "LCSC" "C7435219"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
