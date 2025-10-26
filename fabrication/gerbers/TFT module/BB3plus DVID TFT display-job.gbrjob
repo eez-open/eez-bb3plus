@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.5-9.0.5~ubuntu24.04.1"
     },
-    "CreationDate": "2025-10-22T15:11:25+02:00"
+    "CreationDate": "2025-10-26T09:57:33+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -46,6 +46,11 @@
     {
       "Path": "BB3plus DVID TFT display-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "BB3plus DVID TFT display-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {

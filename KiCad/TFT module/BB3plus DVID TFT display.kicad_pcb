@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-03")
+		(date "2025-10-26")
 		(rev "${project_version}")
 		(company "${project_creator}")
 	)
@@ -91,7 +91,7 @@
 		(aux_axis_origin 85 141.5)
 		(grid_origin 85 141.5)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755d5dd)
+			(layerselection 0x00000000_00000000_55555555_5755d5fd)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -25900,6 +25900,14 @@
 		(uuid "e9215a63-44e7-4042-9bd7-2c68fa4075dc")
 	)
 	(segment
+		(start 198.24 124.25)
+		(end 198.24 124.95)
+		(width 0.8128)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "ee3c215e-9914-459a-bfa9-867da56ed9de")
+	)
+	(segment
 		(start 163.14 116.43)
 		(end 161.59 117.98)
 		(width 0.8128)
@@ -26034,14 +26042,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "0fbb2f0d-4815-4b9d-a686-d7bb05ab774e")
-	)
-	(segment
-		(start 198.24 124.95)
-		(end 198.24 124.25)
-		(width 0.8128)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "13749e1a-8aeb-4eab-91b6-6a563862f36d")
 	)
 	(segment
 		(start 117 80.5)
