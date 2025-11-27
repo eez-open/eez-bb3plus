@@ -15847,7 +15847,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P"
+		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P (cut out)"
 			(at 269.24 86.36 0)
 			(effects
 				(font
@@ -18125,7 +18125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P"
+		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P (cut out)"
 			(at 269.24 116.84 0)
 			(effects
 				(font
@@ -20475,7 +20475,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P"
+		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P (cut out)"
 			(at 269.24 106.68 0)
 			(effects
 				(font
@@ -21995,7 +21995,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P"
+		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P (cut out)"
 			(at 269.24 96.52 0)
 			(effects
 				(font

@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.5-9.0.5~ubuntu24.04.1"
+      "Version": "9.0.6-9.0.6~ubuntu24.04.1"
     },
-    "CreationDate": "2025-10-26T09:57:33+01:00"
+    "CreationDate": "2025-11-27T18:37:56+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "BB3plus DVID TFT display",
       "GUID": "42423370-6c75-4732-9044-564944205446",
-      "Revision": "r1B1"
+      "Revision": "r1B2"
     },
     "Size": {
       "X": 136.1,

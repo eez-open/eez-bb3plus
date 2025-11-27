@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-25")
+		(date "2025-11-27")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -6526,6 +6526,28 @@
 			(justify left top)
 		)
 		(uuid "86e0272b-92a9-48bf-bd82-84f23224d71d")
+	)
+	(text_box "Change to pullup for I2C\nprogramming purposes?"
+		(exclude_from_sim no)
+		(at 19.05 132.08 0)
+		(size 29.21 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b91d7381-8f7a-49a0-b7bf-e8a81ca1b4bb")
 	)
 	(text_box "ID output (open drain):\nLOW = attached as a Source\nHIGH−Z = attached as a Sink"
 		(exclude_from_sim no)
