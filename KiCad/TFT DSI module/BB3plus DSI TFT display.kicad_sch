@@ -12298,7 +12298,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "YAG5344CT-ND"
+		(property "DigiKey" "13-RT0805FRE075R1LCT-ND"
 			(at 261.62 50.8 0)
 			(effects
 				(font
@@ -12307,7 +12307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-AC0603FR-075R1L"
+		(property "Mouser" "603-RT0805FRE075R1L"
 			(at 261.62 50.8 0)
 			(effects
 				(font
@@ -12316,7 +12316,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "AC0603FR-075R1L"
+		(property "TME" "CRCW08055R10FKTABC"
 			(at 261.62 50.8 0)
 			(effects
 				(font
@@ -12334,7 +12334,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C227988"
+		(property "LCSC" "C364355"
 			(at 261.62 50.8 0)
 			(effects
 				(font
@@ -15779,7 +15779,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "YAG5344CT-ND"
+		(property "DigiKey" "13-RT0805FRE075R1LCT-ND"
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -15788,7 +15788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-AC0603FR-075R1L"
+		(property "Mouser" "603-RT0805FRE075R1L"
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -15797,7 +15797,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "AC0603FR-075R1L"
+		(property "TME" "CRCW08055R10FKTABC"
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -15806,16 +15806,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 254 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C227988"
+		(property "LCSC" "C364355"
 			(at 254 50.8 0)
 			(effects
 				(font
