@@ -301,8 +301,8 @@
 		(uuid "f96c9a8f-2bd2-4231-a5ca-4bcaa1d17f70")
 	)
 	(gr_circle
-		(center 529 129.5)
-		(end 529 125.5)
+		(center 529 130)
+		(end 533 130)
 		(stroke
 			(width 0.1)
 			(type dash)
@@ -1386,8 +1386,8 @@
 		(uuid "146485fc-9a52-45e0-9dca-5d4ea093098e")
 	)
 	(gr_circle
-		(center 313.5 129.5)
-		(end 315.4 129.5)
+		(center 313.5 130)
+		(end 315.4 130)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -2628,8 +2628,8 @@
 		(uuid "a71cac19-1339-4ada-a728-1cae3067ed5f")
 	)
 	(gr_circle
-		(center 529 -22.5)
-		(end 530.9 -22.5)
+		(center 529 -23)
+		(end 530.9 -23)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -2730,8 +2730,8 @@
 		(uuid "b1331d60-0af6-4a50-a9b1-46ca9847cd13")
 	)
 	(gr_circle
-		(center 313.5 -22.5)
-		(end 315.4 -22.5)
+		(center 313.5 -23)
+		(end 315.4 -23)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3018,8 +3018,8 @@
 		(uuid "ceea8014-abcb-4ca0-82a6-84ec9df71931")
 	)
 	(gr_circle
-		(center 529 129.5)
-		(end 530.9 129.5)
+		(center 529 130)
+		(end 530.9 130)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -3678,7 +3678,7 @@
 		(layer "User.3")
 		(uuid "396e628b-fd00-4b8d-a18f-a5344c55c79e")
 		(pts
-			(xy 313.5 129.5) (xy 314.75 128)
+			(xy 313.5 130) (xy 314.75 128.5)
 		)
 		(leader_length 3.81)
 		(format
@@ -3698,7 +3698,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "Ø3,8"
-			(at 322.5 125.073077 0)
+			(at 322.5 125.573077 0)
 			(layer "User.3")
 			(uuid "396e628b-fd00-4b8d-a18f-a5344c55c79e")
 			(effects
@@ -4049,6 +4049,44 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.3")
+		(uuid "2ad14bb4-0049-4a25-91e7-3b514bbb53c2")
+		(pts
+			(xy 529 -23) (xy 313.5 -23)
+		)
+		(height 5.25)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 2)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "215,5"
+			(at 421.25 -18.9 0)
+			(layer "User.3")
+			(uuid "2ad14bb4-0049-4a25-91e7-3b514bbb53c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.3")
 		(uuid "2cb341e6-a405-48f2-9879-43097b71c47a")
 		(pts
 			(xy 293.6 -152.511814) (xy 293.842001 -132.5)
@@ -4279,7 +4317,7 @@
 		(layer "User.3")
 		(uuid "4fd209d5-ba0e-43c8-926c-08482aca4772")
 		(pts
-			(xy 529 129.5) (xy 526.9 148.5)
+			(xy 529.05 130) (xy 529.05 148.5)
 		)
 		(height -6.25)
 		(orientation 1)
@@ -4300,8 +4338,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "19"
-			(at 521.6 139 90)
+		(gr_text "18,5"
+			(at 521.65 139.25 90)
 			(layer "User.3")
 			(uuid "4fd209d5-ba0e-43c8-926c-08482aca4772")
 			(effects
@@ -4508,7 +4546,7 @@
 		(layer "User.3")
 		(uuid "85684eaf-ec96-4f97-b929-cd497eaaf1cd")
 		(pts
-			(xy 313.5 148.5) (xy 313.5 129.5)
+			(xy 313.5 148.5) (xy 313.5 130)
 		)
 		(height 7)
 		(orientation 1)
@@ -4529,8 +4567,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "19"
-			(at 319.35 139 90)
+		(gr_text "18,5"
+			(at 319.35 139.25 90)
 			(layer "User.3")
 			(uuid "85684eaf-ec96-4f97-b929-cd497eaaf1cd")
 			(effects
@@ -4888,7 +4926,7 @@
 		(layer "User.3")
 		(uuid "9d851b18-360b-4219-a15f-10f1064d284a")
 		(pts
-			(xy 529 -41.5) (xy 529 -22.5)
+			(xy 529 -41.5) (xy 529 -23)
 		)
 		(height -3.25)
 		(orientation 1)
@@ -4909,8 +4947,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "19"
-			(at 524.6 -32 90)
+		(gr_text "18,5"
+			(at 524.6 -32.25 90)
 			(layer "User.3")
 			(uuid "9d851b18-360b-4219-a15f-10f1064d284a")
 			(effects
@@ -5002,7 +5040,7 @@
 		(layer "User.3")
 		(uuid "aed97372-126b-4859-9719-d8b3bca35ec6")
 		(pts
-			(xy 313.5 -22.5) (xy 313.5 -41.5)
+			(xy 313.5 -23) (xy 313.5 -41.5)
 		)
 		(height 6.5)
 		(orientation 1)
@@ -5023,8 +5061,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "19"
-			(at 318.85 -32 90)
+		(gr_text "18,5"
+			(at 318.85 -32.25 90)
 			(layer "User.3")
 			(uuid "aed97372-126b-4859-9719-d8b3bca35ec6")
 			(effects
