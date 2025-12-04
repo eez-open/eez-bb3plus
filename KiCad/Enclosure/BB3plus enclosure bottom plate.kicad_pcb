@@ -112,7 +112,7 @@
 		(grid_origin 293.5 178.5)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55557555_55555500)
-			(plot_on_all_layers_selection 0x00000000_00000000_00002000_00000000)
+			(plot_on_all_layers_selection 0x00000000_00000000_0000aa80_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
 			(usegerberattributes yes)
@@ -4317,7 +4317,7 @@
 		(layer "User.3")
 		(uuid "4fd209d5-ba0e-43c8-926c-08482aca4772")
 		(pts
-			(xy 529.05 130) (xy 529.05 148.5)
+			(xy 528.75 130) (xy 528.75 148.5)
 		)
 		(height -6.25)
 		(orientation 1)
@@ -4339,7 +4339,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "18,5"
-			(at 521.65 139.25 90)
+			(at 521.35 139.25 90)
 			(layer "User.3")
 			(uuid "4fd209d5-ba0e-43c8-926c-08482aca4772")
 			(effects
