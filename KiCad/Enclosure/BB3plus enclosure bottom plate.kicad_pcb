@@ -15,8 +15,6 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(4 "In1.Cu" power)
-		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -59,30 +57,8 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
-				(type "prepreg")
-				(thickness 0.21)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.015)
-			)
-			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.065)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.015)
-			)
-			(layer "dielectric 3"
-				(type "prepreg")
-				(thickness 0.21)
+				(thickness 1.515)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -1223,6 +1199,17 @@
 		(layer "User.4")
 		(uuid "04d057ab-4479-4b79-ab5f-0e73d9eb2a9c")
 	)
+	(gr_circle
+		(center 305.75 58.25)
+		(end 307.25 58.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "04f53ebb-f181-4761-83d2-07a1efa9a716")
+	)
 	(gr_line
 		(start 547.810251 -131.960264)
 		(end 547.810251 -130.81727)
@@ -1242,6 +1229,17 @@
 		)
 		(layer "User.4")
 		(uuid "08641c4a-bc89-4f0c-965b-58b6cff93e5a")
+	)
+	(gr_circle
+		(center 438.75 161.95)
+		(end 440.25 161.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "093b91d7-6bd7-4c6f-9573-6e8ab5291012")
 	)
 	(gr_line
 		(start 302.55 -43.102479)
@@ -1693,7 +1691,7 @@
 		(end 424.2 -52.5)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type dash)
 		)
 		(fill no)
 		(layer "User.4")
@@ -1862,6 +1860,28 @@
 		)
 		(layer "User.4")
 		(uuid "4f598859-aa66-49b7-8d84-dbc246079171")
+	)
+	(gr_circle
+		(center 531.75 58.25)
+		(end 533.25 58.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "52ac04da-ee0e-451b-90db-245b967845ca")
+	)
+	(gr_circle
+		(center 519.75 -42.75)
+		(end 521.25 -42.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "5389bbc4-200f-4ca5-aa11-78f545d6fb71")
 	)
 	(gr_line
 		(start 293.6 -152.5)
@@ -2056,6 +2076,17 @@
 		(layer "User.4")
 		(uuid "6db7d5b1-68ed-446f-a805-218322646d98")
 	)
+	(gr_circle
+		(center 429.75 -44.95)
+		(end 431.25 -44.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "716add77-8df0-4a1a-af93-5bd132444351")
+	)
 	(gr_line
 		(start 642.999423 -49.845715)
 		(end 643.062923 -49.845715)
@@ -2185,7 +2216,7 @@
 		(end 295 -61.5)
 		(stroke
 			(width 0.1)
-			(type dash)
+			(type solid)
 		)
 		(layer "User.4")
 		(uuid "7f19e1ca-5a29-47b0-ac41-23e89c53965a")
@@ -2378,7 +2409,7 @@
 		(end 424.2 169.5)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type dash)
 		)
 		(fill no)
 		(layer "User.4")
@@ -2617,6 +2648,17 @@
 		(layer "User.4")
 		(uuid "a6ed24bc-7dcd-42e4-83df-deabda4abbe5")
 	)
+	(gr_circle
+		(center 305.75 161.95)
+		(end 307.25 161.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "a7195707-1fa0-4674-9a28-2260f3e3ad51")
+	)
 	(gr_line
 		(start 547.746751 -134.119255)
 		(end 547.810251 -134.119255)
@@ -2739,6 +2781,17 @@
 		(fill no)
 		(layer "User.4")
 		(uuid "b237b0af-f056-441d-9c0a-8ca159591e91")
+	)
+	(gr_circle
+		(center 531.75 161.95)
+		(end 533.25 161.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "b610ec5b-dc0e-47c9-8618-2299cb8e9a41")
 	)
 	(gr_line
 		(start 643.12646 171.134009)
@@ -3075,7 +3128,7 @@
 		(end 547.5 -61.5)
 		(stroke
 			(width 0.1)
-			(type dash)
+			(type solid)
 		)
 		(layer "User.4")
 		(uuid "d74183b9-b42c-40e9-979a-8e36b1bde5b0")
@@ -3344,6 +3397,17 @@
 		(layer "User.4")
 		(uuid "f6b57b61-aefc-4610-8e7f-c5b5c9e32430")
 	)
+	(gr_circle
+		(center 305.75 -44.95)
+		(end 307.25 -44.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "f90cc086-31ff-442d-8e66-fcb6ab3cdd1d")
+	)
 	(gr_line
 		(start 643.189923 167.832013)
 		(end 643.570922 167.387514)
@@ -3470,7 +3534,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Bottom panel, top view"
+	(gr_text "Bottom panel, top (inside) view"
 		(at 293.5 -67.25 0)
 		(layer "User.4")
 		(uuid "cb8a8d28-adfa-4ad1-a884-6d1eacb95fdb")
@@ -5169,14 +5233,14 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "1,5"
-			(at 294.25 174.16 0)
+			(at 292.04 175.27 0)
 			(layer "User.3")
 			(uuid "b1513624-3c6d-4108-822e-68be30f65fe1")
 			(effects

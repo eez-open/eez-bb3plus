@@ -699,7 +699,7 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/ER-TFT050-6.STEP"
+		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/ER-TFT050-6 (simplified).step"
 			(offset
 				(xyz 65.2 42 1)
 			)
@@ -5972,7 +5972,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5051102091"
+		(property "Value" "5051102291"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
