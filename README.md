@@ -7,18 +7,18 @@ The contributors are listed in CONTRIB.TXT.
 
 ### Introduction
 
-![test mainboard](Images/BB3plus_test_mainboard.jpg)
+![3D preview](Images/BB3plus_3D_preview.jpg)
 
 EEZ BB3+ was conceived as a successor to the BB3 project, which would bring a number of modifications and improvements. 
 The following modifications are planned:
 
-* [ ] Combining 3 existing core modules ([power supply](https://github.com/eez-open/modular-psu/tree/master/aux-ps), [MCU](https://github.com/eez-open/modular-psu/tree/master/mcu) and [backplane](https://github.com/eez-open/modular-psu/tree/master/bp3c)) into a single one
+* [ ] Combining 3 existing core modules ([power supply](https://github.com/eez-open/modular-psu/tree/master/aux-ps), [MCU](https://github.com/eez-open/modular-psu/tree/master/mcu) and [backplane](https://github.com/eez-open/modular-psu/tree/master/bp3c)) into a single mainboard
 * [x] Enlarge TFT touchscreen from 4.3" (480x272) resistive to 5" (800x480) capacitive
 * [ ] Increase fan size from Ø80 to 92 mm
-* [ ] Replace existing micro SD card with chip version (NAND Flash)
-* [ ] Single main power rail +12V (45/60 W + AUX connector for up to 150 W of additional power)
+* [ ] Replace existing micro SD card with eMMC
+* [x] Single main power rail +12V (45/60 W)
 * [ ] Introducing half width modules and increasing the total number of modules from 3 full-width to 5 half-width (or two 1½-width)
-* [x] TFT Display PCB with up to 4 user switch/hot keys
+* [x] TFT Display PCB with 4 user switch/hot keys
 
 Planned new features of BB3+:
 
@@ -30,7 +30,7 @@ Planned new features of BB3+:
 * [ ]  M.2 slot, Key M (for NVMe SSD)
 * [ ]  External display output (e.g. HDMI® or DisplayPort™ compatible): GUI and data could be displayed simultaneously on TFT and external display
 * [ ]  2.0/3.0 USB Hub
-* [ ]  10/100/1000 Mbit Ethernet port
+* [ ]  10/100/1000 Mbps Ethernet port
 * [ ]  New DIB specification for peripheral modules communication introducing QSPI, USB 2.0/3.0 and PCIe
 * **CE certified design**
 
