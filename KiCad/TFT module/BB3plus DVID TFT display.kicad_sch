@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-12-12")
+		(date "2026-01-10")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_url}")
@@ -17543,7 +17543,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
 			(at 223.52 35.56 0)
 			(effects
 				(font
@@ -17725,7 +17725,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P"
+		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P (cut out)"
 			(at 269.24 83.82 0)
 			(effects
 				(font
@@ -20451,7 +20451,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P"
+		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P (cut out)"
 			(at 269.24 124.46 0)
 			(effects
 				(font
@@ -21233,7 +21233,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
 			(at 261.62 50.8 0)
 			(effects
 				(font
@@ -24067,7 +24067,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P"
+		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P (cut out)"
 			(at 269.24 114.3 0)
 			(effects
 				(font
@@ -25835,7 +25835,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P"
+		(property "Footprint" "PCM_EEZ_unsorted:B3FS-4052P (cut out)"
 			(at 269.24 99.06 0)
 			(effects
 				(font
@@ -27151,7 +27151,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
 			(at 254 50.8 0)
 			(effects
 				(font

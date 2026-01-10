@@ -1,5 +1,5 @@
-### Footprint positions - created on 2025-12-12T10:11:55+0100 ###
-### Printed by KiCad version 9.0.6-9.0.6~ubuntu24.04.1
+### Footprint positions - created on 2026-01-10T09:30:32+0100 ###
+### Printed by KiCad version 9.0.7-9.0.7~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                 Package                              PosX       PosY       Rot  Side
@@ -30,8 +30,8 @@ C24       10n                 C_0603_1608Metric                 13.4500    47.45
 C25       10n                 C_0603_1608Metric                 13.4500    83.4450   90.0000  bottom
 C26       10n                 C_0603_1608Metric                 13.4500    65.9150   90.0000  bottom
 C27       1u                  C_0603_1608Metric                 64.3150    62.5950    0.0000  bottom
-C28       1u                  C_0603_1608Metric                 43.5619    61.3119    0.0000  bottom
-D1        RB751V40,115        SOD-323_1P8X1P35_ONS-M            41.2919    63.5219   90.0000  bottom
+C28       1u                  C_0603_1608Metric                 43.6000    61.3119    0.0000  bottom
+D1        RB751V40,115        SOD-323_1P8X1P35_ONS-M            41.3300    63.5219   90.0000  bottom
 FB1       60R@100MHz          BEAD0603                          74.7500    32.5300   90.0000  bottom
 FB2       60R@100MHz          BEAD0603                          96.3000    41.1000  180.0000  bottom
 FB3       60R@100MHz          BEAD0603                          95.1550    27.8800  180.0000  bottom
@@ -50,21 +50,21 @@ IC5       TSC2007IPWR         PW(R-PDSO-G16)                    60.0500    63.97
 IC6       TPS61169DCKR        DCK5                              40.7750    67.5050   90.0000  bottom
 JP4       0R                  JP3_shorted_with_0R_(0603)_2-3    31.7800    68.6000    0.0000  bottom
 JP5       0R                  JP3_shorted_with_0R_(0603)        40.8900    73.6700    0.0000  bottom
-L1        DLG-0403-4R7        DE0403                            45.0027    64.5784  -90.0000  bottom
+L1        DLG-0403-4R7        DE0403                            45.0407    64.5784  -90.0000  bottom
 R1        10K                 R_0603_1608Metric                 76.0000    29.3300   90.0000  bottom
 R2        10K                 R_0603_1608Metric                 76.0000    26.3650  -90.0000  bottom
 R3        10K                 R_0603_1608Metric                 25.8100    46.6400    0.0000  bottom
 R4        10K                 R_0603_1608Metric                 25.8050    45.1800    0.0000  bottom
 R5        10K                 R_0603_1608Metric                 56.0200    58.8050   90.0000  bottom
-R6        10R                 R_0805_2012Metric                 42.8400    70.3600    0.0000  bottom
-R7        10R                 R_0805_2012Metric                 38.7919    64.3019    0.0000  bottom
-R8        9R1                 R_0805_2012Metric                 38.7919    62.8319    0.0000  bottom
-SW1       B3FS-4052P          B3FS-4052P                         8.2500    75.2000  -90.0000  bottom
-SW2       B3FS-4052P          B3FS-4052P                         8.2500    57.2000  -90.0000  bottom
-SW3       B3FS-4052P          B3FS-4052P                         8.2500    39.2000  -90.0000  bottom
-SW4       B3FS-4052P          B3FS-4052P                         8.2500    21.2000  -90.0000  bottom
+R6        10R                 R_0805_2012Metric                 42.8400    70.3600   -0.0000  bottom
+R7        10R                 R_0805_2012Metric                 38.6100    64.3019   -0.0000  bottom
+R8        9R1                 R_0805_2012Metric                 38.6100    62.3700   -0.0000  bottom
+SW1       B3FS-4052P          B3FS-4052P_(cut_out)               8.2500    75.2000  -90.0000  bottom
+SW2       B3FS-4052P          B3FS-4052P_(cut_out)               8.2500    57.2000  -90.0000  bottom
+SW3       B3FS-4052P          B3FS-4052P_(cut_out)               8.2500    39.2000  -90.0000  bottom
+SW4       B3FS-4052P          B3FS-4052P_(cut_out)               8.2500    21.2000  -90.0000  bottom
 X1        5051102091          5051102291                       107.6000    14.4600  180.0000  bottom
 X3        F32D-1A7Y1-21040    F32D-1A7Y1-21040_MIRROR           50.6000    51.5000  180.0000  bottom
 X4        F3311A7H121006E200  F3311A7H121006E200_MIRROR         32.0000    50.0000  180.0000  bottom
-ZD1       BZX384-B24,115      SOD-323_1P8X1P35_ONS-M            39.9500    59.5100  180.0000  bottom
+ZD1       BZX384-B24,115      SOD-323_1P8X1P35_ONS-M            41.0700    59.5100  180.0000  bottom
 ## End
