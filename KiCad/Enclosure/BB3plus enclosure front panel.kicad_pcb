@@ -3564,7 +3564,8 @@
 			(suffix "")
 			(units 3)
 			(units_format 0)
-			(precision 1)
+			(precision 3)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -3575,7 +3576,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "17,8"
+		(gr_text "17,75"
 			(at 382.75 168.9 0)
 			(layer "User.3")
 			(uuid "195b2824-1474-476c-97f4-b2738430bbd2")
@@ -3601,7 +3602,8 @@
 			(suffix "")
 			(units 3)
 			(units_format 0)
-			(precision 1)
+			(precision 3)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -3612,7 +3614,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "26,6"
+		(gr_text "26,625"
 			(at 342.8125 169 0)
 			(layer "User.3")
 			(uuid "1c868fbd-4d4a-4610-a688-301b09d2865b")
@@ -3638,7 +3640,8 @@
 			(suffix "")
 			(units 3)
 			(units_format 0)
-			(precision 1)
+			(precision 3)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -3649,7 +3652,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8,9"
+		(gr_text "8,875"
 			(at 369.4375 168.9 0)
 			(layer "User.3")
 			(uuid "1ca1d195-cd01-4d1e-991f-5a58771cfc25")
@@ -3713,7 +3716,8 @@
 			(suffix "")
 			(units 3)
 			(units_format 0)
-			(precision 1)
+			(precision 3)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -3724,7 +3728,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8,9"
+		(gr_text "8,875"
 			(at 404.9375 168.9 0)
 			(layer "User.3")
 			(uuid "1f848e99-c220-44b6-8834-b239984d44de")
@@ -4768,7 +4772,8 @@
 			(suffix "")
 			(units 3)
 			(units_format 0)
-			(precision 1)
+			(precision 3)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -4779,7 +4784,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8,9"
+		(gr_text "8,875"
 			(at 360.5625 168.95 0)
 			(layer "User.3")
 			(uuid "7d7557cc-b507-4661-a61d-671e620b14ec")
@@ -5373,7 +5378,8 @@
 			(suffix "")
 			(units 3)
 			(units_format 0)
-			(precision 1)
+			(precision 3)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -5384,7 +5390,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "13,9"
+		(gr_text "13,925"
 			(at 416.3375 168.85 0)
 			(layer "User.3")
 			(uuid "b6908fdb-66f9-40d7-9ac7-1af3b71c4e09")
@@ -5485,7 +5491,8 @@
 			(suffix "")
 			(units 3)
 			(units_format 0)
-			(precision 1)
+			(precision 3)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -5496,7 +5503,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "16,9"
+		(gr_text "16,95"
 			(at 321.025 169.05 0)
 			(layer "User.3")
 			(uuid "bfff9f55-c8b7-4383-bab8-a8631d4b876a")
@@ -6085,7 +6092,8 @@
 			(suffix "")
 			(units 3)
 			(units_format 0)
-			(precision 1)
+			(precision 3)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -6096,7 +6104,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8,9"
+		(gr_text "8,875"
 			(at 396.0625 168.85 0)
 			(layer "User.3")
 			(uuid "f0a4daa5-fc7f-488d-b977-c050fdbefddc")
