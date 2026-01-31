@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.7-9.0.7~ubuntu24.04.1"
     },
-    "CreationDate": "2026-01-10T09:40:53+01:00"
+    "CreationDate": "2026-01-31T18:13:09+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "BB3plus DVID TFT display",
       "GUID": "42423370-6c75-4732-9044-564944205446",
-      "Revision": "r1B2"
+      "Revision": "r1B3"
     },
     "Size": {
       "X": 136.1,

@@ -64,11 +64,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|203190000|122740000|dbcb332e-1527-4783-b0d5-bedc21bd5697|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|174220000|108711802|dbcb332e-1527-4783-b0d5-bedc21bd5697|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|203270000|125760000|cda5a1b3-e907-48ca-b6b3-1b80686a0c7b|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|180770869|108711802|cda5a1b3-e907-48ca-b6b3-1b80686a0c7b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -232,7 +232,7 @@
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 0.508,
+          "max_amplitude": 0.381,
           "min_amplitude": 0.127,
           "single_sided": false,
           "spacing": 0.635
@@ -551,8 +551,8 @@
         "name": "Diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.127,
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
@@ -603,6 +603,38 @@
       {
         "netclass": "Diff",
         "pattern": "/DSI-to-RGB conversion/DSI_D3_N"
+      },
+      {
+        "netclass": "Diff",
+        "pattern": "/DSI_CLK_P"
+      },
+      {
+        "netclass": "Diff",
+        "pattern": "/DSI_CLK_N"
+      },
+      {
+        "netclass": "Diff",
+        "pattern": "/DSI_D0_P"
+      },
+      {
+        "netclass": "Diff",
+        "pattern": "/DSI_D0_N"
+      },
+      {
+        "netclass": "Diff",
+        "pattern": "/DSI_D1_P"
+      },
+      {
+        "netclass": "Diff",
+        "pattern": "/DSI_D1_N"
+      },
+      {
+        "netclass": "Diff",
+        "pattern": "/DSI_D2_P"
+      },
+      {
+        "netclass": "Diff",
+        "pattern": "/DSI_D2_N"
       }
     ]
   },
@@ -799,6 +831,6 @@
     "project_info": "DVID TFT display for EEZ BB3+",
     "project_name": "EEZ DVID TFT display",
     "project_url": "https://www.envox.eu",
-    "project_version": "r1B2"
+    "project_version": "r1B3"
   }
 }
