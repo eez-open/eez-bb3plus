@@ -490,7 +490,7 @@
       "plot": "../../fabrication/gerbers/Bare front mask (full width)/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../fabrication/step/EEZ DIB DCP405plus front mask.step",
+      "step": "../../fabrication/step/Bare front mask full width.step",
       "svg": "",
       "vrml": ""
     },
