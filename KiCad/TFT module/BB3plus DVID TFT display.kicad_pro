@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -60,15 +62,19 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|131310000|81940000|b36f2b82-b186-43e2-8d51-98230b0b03ae|00000000-0000-0000-0000-000000000000",
+          "shorting_items|114934800|72650000|a66d83de-a32d-4cd9-9bbb-16e48497cc31|e208700a-982b-4031-89d0-dbcfcf4e9916",
           ""
         ],
         [
-          "lib_footprint_mismatch|174220000|108711802|dbcb332e-1527-4783-b0d5-bedc21bd5697|00000000-0000-0000-0000-000000000000",
+          "shorting_items|115595200|72650000|65354368-053f-4bb5-bb6a-7761736201a7|a66d83de-a32d-4cd9-9bbb-16e48497cc31",
           ""
         ],
         [
-          "lib_footprint_mismatch|180770869|108711802|cda5a1b3-e907-48ca-b6b3-1b80686a0c7b|00000000-0000-0000-0000-000000000000",
+          "shorting_items|116453800|71365000|967b49bb-3415-410d-86f2-cd813e1ddd79|ed39cc5b-f2ea-4feb-aeaf-030c279a567a",
+          ""
+        ],
+        [
+          "shorting_items|117114200|71365000|4b11fa31-58b3-4682-bae4-35007c9af677|967b49bb-3415-410d-86f2-cd813e1ddd79",
           ""
         ],
         [
@@ -80,7 +86,47 @@
           ""
         ],
         [
+          "solder_mask_bridge|114934800|72650000|52dcdbef-4dde-45e9-aba7-34309a02557b|65354368-053f-4bb5-bb6a-7761736201a7",
+          ""
+        ],
+        [
+          "solder_mask_bridge|114934800|72650000|52dcdbef-4dde-45e9-aba7-34309a02557b|a66d83de-a32d-4cd9-9bbb-16e48497cc31",
+          ""
+        ],
+        [
+          "solder_mask_bridge|114934800|72650000|a66d83de-a32d-4cd9-9bbb-16e48497cc31|e208700a-982b-4031-89d0-dbcfcf4e9916",
+          ""
+        ],
+        [
+          "solder_mask_bridge|115595200|72650000|a66d83de-a32d-4cd9-9bbb-16e48497cc31|65354368-053f-4bb5-bb6a-7761736201a7",
+          ""
+        ],
+        [
+          "solder_mask_bridge|116453800|71365000|967b49bb-3415-410d-86f2-cd813e1ddd79|ed39cc5b-f2ea-4feb-aeaf-030c279a567a",
+          ""
+        ],
+        [
+          "solder_mask_bridge|117114200|71365000|4c5c9d23-dd42-467f-8b81-aafcb753dc1f|967b49bb-3415-410d-86f2-cd813e1ddd79",
+          ""
+        ],
+        [
+          "solder_mask_bridge|117114200|71365000|4c5c9d23-dd42-467f-8b81-aafcb753dc1f|ed39cc5b-f2ea-4feb-aeaf-030c279a567a",
+          ""
+        ],
+        [
+          "solder_mask_bridge|117114200|71365000|967b49bb-3415-410d-86f2-cd813e1ddd79|4b11fa31-58b3-4682-bae4-35007c9af677",
+          ""
+        ],
+        [
           "solder_mask_bridge|142630000|82414600|67410132-46cc-4bec-807b-99d074f42edc|c7b35616-ce46-4afa-8dd5-4ac0be12443a",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142630000|82414600|79a19f18-1e1b-4a31-a1e6-45a11cfd9425|67410132-46cc-4bec-807b-99d074f42edc",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142630000|82414600|79a19f18-1e1b-4a31-a1e6-45a11cfd9425|9eb4504e-b9ad-41c8-9777-f9a3405f046e",
           ""
         ],
         [
@@ -107,6 +153,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -125,6 +172,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -144,9 +192,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -271,17 +322,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "${project_version}"
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -472,11 +534,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -499,6 +564,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -536,6 +602,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
+        "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -553,13 +620,14 @@
         "priority": 0,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.127,
+        "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -654,7 +722,11 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "../../fabrication/bom/TFT module/BB3plus DVID TFT display.csv",
+    "annotation": {
+      "method": 0,
+      "sort_order": 1
+    },
+    "bom_export_filename": "../../fabrication/bom/USB test/USB test.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -779,6 +851,7 @@
       "sort_asc": true,
       "sort_field": "${ITEM_NUMBER}"
     },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -786,6 +859,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 35.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -809,6 +883,7 @@
     "net_format_name": "Pcbnew",
     "page_layout_descr_file": "",
     "plot_directory": "../../schematic-diagram/",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -818,12 +893,21 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "BB3plus DVID TFT display.kicad_sch",
+        "name": "BB3plus DVID TFT display",
+        "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
+      }
+    ],
+    "used_designators": "ZD1,X1-4,TP1-3,SW1-4,R1-8,LOGO1-5,JP1-7,#PWR1-10,L1,FB1-6,#+3V1-2,#FLG1-7,#+5V1-5,CAP1-4,C1-28,#SUPPLY1-26,D1,FM1-4,H1-4,IC1-7",
+    "variants": []
   },
   "sheets": [
     [
       "1df84e4f-233a-4f72-9418-c0020706bb76",
-      "Root"
+      "BB3plus DVID TFT display"
     ]
   ],
   "text_variables": {
@@ -832,5 +916,11 @@
     "project_name": "EEZ DVID TFT display",
     "project_url": "https://www.envox.eu",
     "project_version": "r1B3"
+  },
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
   }
 }
