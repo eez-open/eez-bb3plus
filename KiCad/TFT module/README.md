@@ -14,9 +14,9 @@
 
 ### Resources
 
-* [PDF Schematics](../../schematic-diagram/BB3plus DVID TFT display.pdf)
-* [BOM](../../fabrication/bom/TFT module/BB3plus DVID TFT display.pdf)
-* [Interactive BOM](../../fabrication/bom/TFT module/ibom.html)
+* [PDF Schematics](../../schematic-diagram/BB3plus%20DVID%20TFT%20display.pdf)
+* [BOM](../../fabrication/bom/TFT%20module/BB3plus%20DVID%20TFT%20display.pdf)
+* [Interactive BOM](../../fabrication/bom/TFT%20module/ibom.html)
 
 ---
 
