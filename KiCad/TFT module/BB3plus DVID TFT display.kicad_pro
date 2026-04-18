@@ -726,7 +726,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "../../fabrication/bom/USB test/USB test.csv",
+    "bom_export_filename": "../../fabrication/bom/TFT module/BB3plus DVID TFT display.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -901,7 +901,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "ZD1,X1-4,TP1-3,SW1-4,R1-8,LOGO1-5,JP1-7,#PWR1-10,L1,FB1-6,#+3V1-2,#FLG1-7,#+5V1-5,CAP1-4,C1-28,#SUPPLY1-26,D1,FM1-4,H1-4,IC1-7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

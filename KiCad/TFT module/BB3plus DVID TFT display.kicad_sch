@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-04-13")
+		(date "2026-04-18")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_url}")
@@ -3364,6 +3364,17 @@
 					)
 				)
 			)
+			(property "LCSC" "C19272843"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "TPS2069EDBVR_1_0"
 				(pin power_out line
 					(at 12.7 2.54 180)
@@ -3556,6 +3567,17 @@
 			)
 			(property "TME" "TPS61169DCKR"
 				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C71045"
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -19225,10 +19247,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "110ed1b5-72c2-4373-b35f-374d084a3773")
 		(property "Reference" "C28"
 			(at 170.18 180.34 0)
@@ -20718,10 +20740,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "28458208-be98-479f-8062-799fdeea5854")
 		(property "Reference" "R7"
 			(at 124.46 181.61 90)
@@ -24015,7 +24037,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -24108,10 +24130,10 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 259.08 139.7 0)
+		(property "LCSC" "C19272843"
+			(at 259.08 160.02 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -24855,10 +24877,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "71762717-0db3-44c7-9d30-07b743f07d35")
 		(property "Reference" "R8"
 			(at 127 186.69 90)
@@ -26543,17 +26565,6 @@
 			)
 		)
 		(property "DigiKey" "296-40821-2-ND"
-			(at 238.76 53.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "595-TPS61169DCKR"
 			(at 238.76 55.88 0)
 			(hide yes)
 			(show_name yes)
@@ -26564,8 +26575,19 @@
 				)
 			)
 		)
-		(property "TME" "TPS61169DCKR"
+		(property "Mouser" "595-TPS61169DCKR"
 			(at 238.76 58.42 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "TPS61169DCKR"
+			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26587,9 +26609,9 @@
 			)
 		)
 		(property "LCSC" "C71045"
-			(at 238.76 43.18 0)
+			(at 238.76 63.5 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -31477,10 +31499,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eb4a0e84-1fc6-497c-835a-a555a65bf083")
 		(property "Reference" "IC7"
 			(at 143.51 171.45 0)

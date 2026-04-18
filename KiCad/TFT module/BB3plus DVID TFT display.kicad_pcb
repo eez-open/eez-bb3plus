@@ -176,7 +176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -264,6 +264,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e412499-83cc-4206-938a-135a080a0a63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/67c54622-edfb-4cd0-a11f-2c277316deb8")
 		(sheetname "/")
@@ -320,7 +333,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -408,6 +421,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d1042ec-94eb-4d77-a0d1-be0c02679708")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0fe5b2b5-394b-4bcb-a441-04ffbed594c3")
 		(sheetname "/")
@@ -464,7 +490,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -552,6 +578,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef2df035-682d-4019-aafe-5c750fa70198")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/ef02b28d-ca69-4497-88a4-7920a5b7d583")
 		(sheetname "/")
@@ -576,6 +615,17 @@
 			(uuid "95ac9983-3392-4693-ab50-a4d8faf4bc95")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/ER-TFT050-6 (simplified).step"
+			(offset
+				(xyz 65.3 42 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "PCM_EEZ_THT:Mounting_hole 3.2_5.5mm"
 		(locked yes)
@@ -608,7 +658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -696,6 +746,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b32a1df9-d193-42d6-99f6-f1ff1c780545")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/16725879-1fc7-474e-b082-b3920248ccde")
 		(sheetname "/")
@@ -750,7 +813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7761,7 +7824,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -9677,7 +9740,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.14058 0.51)
@@ -10491,7 +10554,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19272843"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10514,7 +10577,7 @@
 				(pins "5" "4" "3" "1" "2")
 			)
 		)
-		(attr smd exclude_from_bom dnp)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.8636 -0.3302)
@@ -13879,7 +13942,7 @@
 				(pins "6" "5" "7" "4" "8" "1" "2" "3")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.3749 -1.6764)
@@ -16235,7 +16298,7 @@
 				(pins "2" "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -23581,7 +23644,7 @@
 				(pins "2" "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -31908,7 +31971,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1041,3 mils"
+		(gr_text "26,4 mm"
 			(at 113.125 82.39 0)
 			(layer "User.1")
 			(uuid "03e40a5f-dec7-407d-b49c-4853485bdb84")
@@ -31945,7 +32008,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1653,5433 mils"
+		(gr_text "42,0000 mm"
 			(at 122.35 112.4 90)
 			(layer "User.1")
 			(uuid "046d4ee4-292d-4bfb-95b8-c5e1918a58e8")
@@ -31982,7 +32045,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "496,1 mils"
+		(gr_text "12,6 mm"
 			(at 92.1 66.3 90)
 			(layer "User.1")
 			(uuid "1698f19c-d404-49fa-b3c0-692e5d77df5c")
@@ -32019,7 +32082,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4566,9 mils"
+		(gr_text "116,0 mm"
 			(at 153 143.15 0)
 			(layer "User.1")
 			(uuid "1f96e1c3-706c-4a9c-b55a-c807366aeca4")
@@ -32056,7 +32119,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3307,1 mils"
+		(gr_text "84,0 mm"
 			(at 223.95 95.5 90)
 			(layer "User.1")
 			(uuid "2d49e88e-e30a-4844-aa62-bd0647807f2f")
@@ -32093,7 +32156,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "192,9 mils"
+		(gr_text "4,9 mm"
 			(at 208.55 138.05 0)
 			(layer "User.1")
 			(uuid "2dfd0a5d-2c59-4450-a316-32c42f3d9189")
@@ -32130,7 +32193,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "492,1 mils"
+		(gr_text "12,5 mm"
 			(at 93.25 83.15 0)
 			(layer "User.1")
 			(uuid "31e2aed6-503c-4d6e-b2bc-b333cb7af634")
@@ -32167,7 +32230,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "157,5 mils"
+		(gr_text "4,0 mm"
 			(at 223.95 139.5 90)
 			(layer "User.1")
 			(uuid "38e34a05-fbcf-4a05-904c-856cee4c2059")
@@ -32204,7 +32267,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "157,5 mils"
+		(gr_text "4,0 mm"
 			(at 223.95 51.500002 90)
 			(layer "User.1")
 			(uuid "42743d96-53eb-41a8-a98e-a381f29bd0e2")
@@ -32241,7 +32304,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3622,0 mils"
+		(gr_text "92,0 mm"
 			(at 226.760496 95.5 90)
 			(layer "User.1")
 			(uuid "512e5872-eaf0-486d-9d12-4d5852da10fc")
@@ -32278,7 +32341,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "393,7 mils"
+		(gr_text "10,0 mm"
 			(at 90.000001 143.15 0)
 			(layer "User.1")
 			(uuid "63661e44-5aaa-4c72-a976-da6071242151")
@@ -32315,7 +32378,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2653,5 mils"
+		(gr_text "67,4 mm"
 			(at 102.55 93.3 90)
 			(layer "User.1")
 			(uuid "897b076f-1bff-499c-93fb-c7a31bca6d4d")
@@ -32352,7 +32415,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "622,0472 mils"
+		(gr_text "15,8000 mm"
 			(at 107.8 93.65 0)
 			(layer "User.1")
 			(uuid "bbbf2847-34c7-494c-a085-10c02a84cda3")
@@ -32389,7 +32452,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2983,9 mils"
+		(gr_text "75,8 mm"
 			(at 96.12 95.495 90)
 			(layer "User.1")
 			(uuid "dd8d968a-e2ce-4412-9546-48e894849d2c")
@@ -32426,7 +32489,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "393,7 mils"
+		(gr_text "10,0 mm"
 			(at 216 143.15 0)
 			(layer "User.1")
 			(uuid "f899fea7-29fe-4e37-8393-95801713b051")
@@ -32463,7 +32526,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5354,3 mils"
+		(gr_text "136,0 mm"
 			(at 153 145.25 0)
 			(layer "User.1")
 			(uuid "f9f70ae4-24df-4cb9-ae02-f3377deb5d72")
