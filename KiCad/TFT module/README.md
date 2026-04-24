@@ -1,3 +1,7 @@
+Licenses | OSHWA UID
+--|--
+![osl](../../Images/osl.png) | [![OSHW-HR000122](../../Images/OSHW_UID_HR122.svg)](https://certification.oshwa.org/hr000122.html)
+
 ### BB3+ 5" DVID TFT Touchscreeen display (800 x 480) 
 
 * 4 user programmable keys
