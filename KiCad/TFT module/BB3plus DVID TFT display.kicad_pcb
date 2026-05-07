@@ -200,18 +200,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6cd2e602-3e65-4cff-8662-0425e4f8ce0f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "DigiKey" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -357,18 +345,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d12b91d5-9731-49e4-98ea-f73c8f264f81")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "DigiKey" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -507,18 +483,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5c42357-8513-48df-bce3-4686a305e29c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cba59321-4d71-44ca-bcde-aaf419cc4f8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,18 +639,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a92b91f5-9888-48f6-8377-805e31372fac")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72ec1b6f-9c21-496a-a18d-89a0240e30eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,19 +3193,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1b6c9b42-ef1b-4593-a3ed-7394760fd3f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at -0.77 0 180)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c88029bb-0a22-46be-adc1-4a843b0e785d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,20 +5921,6 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "07111305-d03c-46fb-830d-fe8c7394a70e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "LCSC" "C553814"
 			(at 0 0 90)
 			(unlocked yes)
@@ -8422,20 +8347,6 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7b74819f-9cf6-476f-a9d1-224dca277bd4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(path "/cb070aae-9494-438f-80bb-4a389e9c8042")
 		(sheetname "/")
 		(sheetfile "BB3plus DVID TFT display.kicad_sch")
@@ -9445,19 +9356,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3dd6310f-61e6-47e7-a7a9-fcbd52b4a420")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0.781 -0.005 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8ad7fc72-21ce-4cdc-8e03-38a1b677c28b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,19 +11411,6 @@
 				(justify mirror)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 0.781 -0.005 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1f400486-8a3e-403d-bef6-68b5b9fb0b42")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DigiKey" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -12827,19 +12712,6 @@
 				(justify mirror)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 0.781 -0.005 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "881407a9-bc65-43a7-bc4f-0be0c83e461e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DigiKey" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -13628,19 +13500,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bd7f6091-4e48-45f4-8f1d-4946e3de3537")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at -0.77 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7b3010db-b708-41d4-913b-d31a4977b1f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15127,19 +14986,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "89e4d746-9ac7-45bb-8f51-b01e5f7a0035")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at -0.77 0 180)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "baddc944-1e1c-4bb0-935e-46e9609dfa75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17278,7 +17124,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "40-pin Easy-On FFC/FPC Connector 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height, 40 Circuits"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -17291,7 +17137,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DigiKey" "WM11292CT-ND"
+		(property "DigiKey" "609-F32D-1A7Y1-21040CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17305,7 +17151,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "538-505110-4091"
+		(property "Mouser" "649-F32D-1A7Y1-21040"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17319,7 +17165,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TME" "MX-505110-4091"
+		(property "TME" "-"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22461,32 +22307,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Uvitron" "-"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "480c57c5-d7c3-4936-a977-23de556f91ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3d55e7c3-d905-4319-9ecc-1685da4623a8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MF" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -23662,7 +23482,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DigiKey" "WM12362CT-ND"
+		(property "DigiKey" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23676,7 +23496,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "538-505110-0692"
+		(property "Mouser" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23696,20 +23516,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bf8e29a6-64e9-468d-8139-be84d6f236e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MF" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "282a116a-1e02-4dcf-a803-2ae644b7c109")
 			(effects
 				(font
 					(size 1 1)
@@ -29938,32 +29744,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Uvitron" "-"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d4a0fb1f-812b-4d91-a0a2-e940304331a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "33b7c4e0-e2b1-4098-a6b4-f8d189ca3d6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MF" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -30845,32 +30625,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b8ba8b8c-83e4-468d-b41a-a8f2d0323ae4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Uvitron" "-"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4066305b-8489-4bf0-a694-aec29e537e21")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7388f9bf-d432-4b63-8c67-782d4d71fb9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51986,10 +51740,6 @@
 			"6d74875c-af4e-4926-b91f-b13689599d64" "a9b26dac-eeb5-4c91-9e8a-a3cd28894c12"
 			"fbace9bd-9530-4dd6-a156-ea4c1d7210c6"
 		)
-	)
-	(group ""
-		(uuid "cdc54e18-452e-4908-b33b-1b2f10529ff8")
-		(members "09ac570f-00eb-4919-9c07-17c12c3bf8f4" "727a13ea-170c-40eb-b4fe-0f4de5b36d7b")
 	)
 	(generated
 		(uuid "0229d305-8b0a-49e8-9ab2-1de7a230a864")

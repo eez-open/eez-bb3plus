@@ -23879,7 +23879,7 @@
 				)
 			)
 		)
-		(property "Description" "40-pin Easy-On FFC/FPC Connector 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height, 40 Circuits"
+		(property "Description" ""
 			(at 152.4 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -23890,7 +23890,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "WM11292CT-ND"
+		(property "DigiKey" "609-F32D-1A7Y1-21040CT-ND"
 			(at 152.4 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -23901,7 +23901,7 @@
 				)
 			)
 		)
-		(property "Mouser" "538-505110-4091"
+		(property "Mouser" "649-F32D-1A7Y1-21040"
 			(at 152.4 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -23912,7 +23912,7 @@
 				)
 			)
 		)
-		(property "TME" "MX-505110-4091"
+		(property "TME" "-"
 			(at 152.4 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -24367,7 +24367,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -27713,7 +27713,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "WM12362CT-ND"
+		(property "DigiKey" ""
 			(at 152.4 71.882 0)
 			(hide yes)
 			(show_name yes)
@@ -27724,7 +27724,7 @@
 				)
 			)
 		)
-		(property "Mouser" "538-505110-0692"
+		(property "Mouser" ""
 			(at 152.4 74.422 0)
 			(hide yes)
 			(show_name yes)
