@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.7-9.0.7~ubuntu24.04.1"
+      "Version": "10.0.3-10.0.3~ubuntu24.04.1"
     },
-    "CreationDate": "2026-03-03T17:56:53+01:00"
+    "CreationDate": "2026-05-25T14:32:57+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "DIB2 USB adapter",
       "GUID": "44494232-2055-4534-9220-616461707465",
-      "Revision": "r1B1"
+      "Revision": "r1B2"
     },
     "Size": {
       "X": 91.45,

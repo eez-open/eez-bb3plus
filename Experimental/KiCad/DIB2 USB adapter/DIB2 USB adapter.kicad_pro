@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2032
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.381,
+          "corner_smoothing": 2,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2032,
+          "min_island_area": 9.99999999996,
+          "min_thickness": 0.2032,
+          "pad_connection": 3,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.2032,
+          "thermal_relief_spoke_width": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -233,10 +249,10 @@
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 0.254,
+          "min_amplitude": 0.0,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.381
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
@@ -795,7 +811,7 @@
     "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
     "project_name": "EEZ DIB2 adapter",
     "project_url": "https://www.envox.eu",
-    "project_version": "r1B1"
+    "project_version": "r1B2"
   },
   "tuning_profiles": {
     "meta": {
