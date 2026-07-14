@@ -14,24 +14,23 @@ The following modifications are planned:
 
 * [ ] Combining 3 existing core modules ([power supply](https://github.com/eez-open/modular-psu/tree/master/aux-ps), [MCU](https://github.com/eez-open/modular-psu/tree/master/mcu) and [backplane](https://github.com/eez-open/modular-psu/tree/master/bp3c)) into a single mainboard
 * [x] Enlarge TFT touchscreen from 4.3" (480x272) resistive to 5" (800x480) capacitive
-* [ ] Increase fan size from Ø80 to 92 mm
-* [ ] Replace existing micro SD card with eMMC
+* [x] Increase fan size from Ø80 to 92 mm
 * [x] Single main power rail +12V (45/60 W)
-* [ ] Introducing half width modules and increasing the total number of modules from 3 full-width to 5 half-width (or two 1½-width)
+* [x] Introducing half width modules and increasing the total number of modules from 3 full-width to 5 half-width (or two 1½-width)
 * [x] TFT Display PCB with 4 user switch/hot keys
 
 Planned new features of BB3+:
 
-* [ ]  Max. 5 peripheral modules
-* [ ]  Soft-power switch with standby indication
-* [ ]  RS485 port (with Modbus support)
-* [ ]  Power/Sense terminals for the first two modules on the rear panel
-* [ ]  MCU/CPU module slot [Raspberry Pi CM5](https://www.raspberrypi.com/products/compute-module-5/) compatible
-* [ ]  M.2 slot, Key M (for NVMe SSD)
-* [ ]  External display output (e.g. HDMI® or DisplayPort™ compatible): GUI and data could be displayed simultaneously on TFT and external display
-* [ ]  2.0/3.0 USB Hub
-* [ ]  10/100/1000 Mbps Ethernet port
-* [ ]  New DIB specification for peripheral modules communication introducing QSPI, USB 2.0/3.0 and PCIe
+* [x]  Max. 5 peripheral modules
+* [x]  Soft-power switch with standby indication
+* [x]  RS485 port (with Modbus support)
+* [x]  Power/Sense terminals for the first two modules on the rear panel
+* [x]  MCU/CPU module slot [Raspberry Pi CM5](https://www.raspberrypi.com/products/compute-module-5/) compatible
+* [x]  M.2 slot, Key M (for NVMe SSD)
+* [x]  External display output (e.g. HDMI® or DisplayPort™ compatible): GUI and data could be displayed simultaneously on TFT and external display
+* [x]  2.0/3.0 USB Hub
+* [x]  10/100/1000 Mbps Ethernet port
+* [x]  New DIB specification for peripheral modules communication introducing QSPI, USB 2.0/3.0 and PCIe
 * **CE certified design**
 
 ### Modules
