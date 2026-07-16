@@ -90,11 +90,7 @@
           ""
         ],
         [
-          "clearance|381335200|140246700|011553a9-84b1-4e90-af6f-c4c387db1d5b|42e6be7d-7a1a-423b-b10b-62c09f5b1f4a",
-          ""
-        ],
-        [
-          "clearance|381335200|140246700|42e6be7d-7a1a-423b-b10b-62c09f5b1f4a|639bd876-496d-42b3-bc49-83cbf87852fd",
+          "clearance|381335200|140246700|42e6be7d-7a1a-423b-b10b-62c09f5b1f4a|86103499-52dd-4fff-a8a0-4bcac6aef51d",
           ""
         ],
         [
@@ -238,7 +234,7 @@
           ""
         ],
         [
-          "silk_overlap|314496172|117956546|2d6297d5-1c6b-413c-9fd1-48560284453c|48e61d2e-742a-4153-89cc-a6932b83bdf4",
+          "silk_overlap|313118122|113097128|2d6297d5-1c6b-413c-9fd1-48560284453c|48e61d2e-742a-4153-89cc-a6932b83bdf4",
           ""
         ],
         [
@@ -246,7 +242,7 @@
           ""
         ],
         [
-          "silk_overlap|381425000|97673000|12c6ddcf-eb43-49a4-a5a7-f34c7d062a99|155cce96-ae18-4c9a-804d-4e0f0f7e29df",
+          "silk_overlap|380155000|97673000|12c6ddcf-eb43-49a4-a5a7-f34c7d062a99|155cce96-ae18-4c9a-804d-4e0f0f7e29df",
           ""
         ],
         [
@@ -2161,7 +2157,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "BB3plus MCU test board.net",
-      "plot": "../fabrication/gerbers/",
+      "plot": "../../fabrication/gerbers/Mainboard/",
       "pos_files": "../fabrication/pos/",
       "specctra_dsn": "",
       "step": "",
