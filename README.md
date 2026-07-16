@@ -7,12 +7,14 @@ The contributors are listed in CONTRIB.TXT.
 
 ### Introduction
 
-![3D preview](Images/BB3plus_3D_preview.jpg)
+![3D enclosure preview](Images/BB3plus_3D_preview.jpg)
+
+![3D mainboard preview](Images/BB3plus_mainboard.jpg)
 
 EEZ BB3+ was conceived as a successor to the BB3 project, which would bring a number of modifications and improvements. 
 The following modifications are planned:
 
-* [ ] Combining 3 existing core modules ([power supply](https://github.com/eez-open/modular-psu/tree/master/aux-ps), [MCU](https://github.com/eez-open/modular-psu/tree/master/mcu) and [backplane](https://github.com/eez-open/modular-psu/tree/master/bp3c)) into a single mainboard
+* [x] Combining 3 existing core modules ([power supply](https://github.com/eez-open/modular-psu/tree/master/aux-ps), [MCU](https://github.com/eez-open/modular-psu/tree/master/mcu) and [backplane](https://github.com/eez-open/modular-psu/tree/master/bp3c)) into a single mainboard
 * [x] Enlarge TFT touchscreen from 4.3" (480x272) resistive to 5" (800x480) capacitive
 * [x] Increase fan size from Ø80 to 92 mm
 * [x] Single main power rail +12V (45/60 W)
