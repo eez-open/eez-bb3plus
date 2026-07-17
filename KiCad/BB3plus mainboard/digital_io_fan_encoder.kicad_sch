@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-14")
+		(date "2026-07-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -12345,7 +12345,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "RC0603FR-073K3P"
 			(at 106.68 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12356,7 +12356,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-073K3P"
 			(at 106.68 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12367,7 +12367,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-3K3-1%"
 			(at 106.68 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12378,8 +12378,9 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22978"
 			(at 106.68 160.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12583,7 +12584,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "311-18.0KHRCT-ND"
 			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12594,7 +12595,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0718KL"
 			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12605,7 +12606,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-18K-1%"
 			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12616,7 +12617,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C114610"
 			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12976,7 +12977,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1052-6-ND"
+		(property "DigiKey" "490-5523-1-ND"
 			(at 86.36 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12987,7 +12988,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL21A106KPFNNNE"
+		(property "Mouser" "81-GRM21BR61E106KA3L"
 			(at 86.36 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12998,7 +12999,7 @@
 				)
 			)
 		)
-		(property "TME" "CL21A106KPFNNNE"
+		(property "TME" "GRM21BR61E106KA73L"
 			(at 86.36 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13006,6 +13007,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 86.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -13200,6 +13212,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 88.9 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -13444,7 +13467,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15849"
 			(at 68.58 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13663,7 +13686,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-1339KLCT-ND"
 			(at 106.68 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13674,7 +13697,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-1339KL"
 			(at 106.68 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13685,7 +13708,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-39K-1%"
 			(at 106.68 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13696,8 +13719,9 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23153"
 			(at 106.68 147.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14332,7 +14356,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 215.9 127 0)
 			(hide yes)
 			(show_name no)
@@ -14370,7 +14394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45246c1e-f20d-4274-94b0-e5d7c0cd30be")
-		(property "Reference" "X10"
+		(property "Reference" "X12"
 			(at 167.64 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14458,7 +14482,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C471416"
 			(at 165.1 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14495,7 +14519,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "X10")
+					(reference "X12")
 					(unit 1)
 				)
 			)
@@ -15263,6 +15287,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 93.98 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f674df2-0c90-4735-9ce4-475e273c885d")
 		)
@@ -15345,7 +15380,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F100RTR-ND"
+		(property "DigiKey" "13-RC0603FR-10100RLCT-ND"
 			(at 172.72 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15356,7 +15391,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-100RFI"
+		(property "Mouser" "603-RC0603FR-10100RL"
 			(at 172.72 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15367,7 +15402,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-100R-1%"
+		(property "TME" "RC0603FR-10100RL"
 			(at 172.72 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15375,6 +15410,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 172.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -15492,7 +15538,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15849"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15744,6 +15790,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C323858"
+			(at 137.16 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "c283ff0b-356c-4fcb-8e4a-f246c4b26a5d")
 		)
@@ -15858,7 +15915,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 259.08 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -15983,6 +16040,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C178565"
+			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "+"
 			(uuid "9b086356-4b5e-4533-8f0a-a4eebcb71454")
 		)
@@ -16020,7 +16088,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "1u/35V"
+		(property "Value" "1u"
 			(at 172.339 103.251 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16031,7 +16099,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:C_0805_2012Metric"
+		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
 			(at 170.18 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -16064,7 +16132,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-10494-2-ND"
+		(property "DigiKey" "1276-1860-1-ND "
 			(at 170.18 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16075,7 +16143,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM219R7YA105KA2J"
+		(property "Mouser" "187-CL10A105KB8NNNC "
 			(at 170.18 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16086,7 +16154,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM219R7YA105KA12D"
+		(property "TME" "CL10A105KB8NNNC "
 			(at 170.18 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16094,6 +16162,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 170.18 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -16420,7 +16499,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-131KLCT-ND"
 			(at 114.3 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16431,7 +16510,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-131KL"
 			(at 114.3 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16453,7 +16532,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 114.3 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16979,7 +17058,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3235555"
+		(property "LCSC" "C3235215"
 			(at 114.808 72.39 0)
 			(hide yes)
 			(show_name yes)
@@ -17144,6 +17223,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C74518"
+			(at 66.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "964659ba-9c6e-4f30-80e4-6ebcb0fd7efc")
 		)
@@ -17194,7 +17284,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "N.C."
 			(at 142.875 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17267,6 +17357,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 139.7 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -17508,6 +17609,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -17782,7 +17894,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "TPD4E001DRLR"
 			(at 210.82 38.1 0)
 			(hide yes)
 			(show_name yes)
@@ -17790,6 +17902,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C527516"
+			(at 210.82 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -17897,7 +18020,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "-"
 			(at 27.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17908,7 +18031,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "-"
 			(at 27.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17930,7 +18053,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "-"
 			(at 27.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18378,6 +18501,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2864504"
+			(at 152.4 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aedb00a2-6fc3-4cd9-b255-65edb2df3168")
 		)
@@ -18579,7 +18713,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C15849"
 			(at 137.16 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -18672,7 +18806,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "311-18.0KHRCT-ND"
 			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18683,7 +18817,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0718KL"
 			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18694,7 +18828,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-18K-1%"
 			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18705,7 +18839,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C114610"
 			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18988,6 +19122,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C236079"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "92f28f97-746a-4c19-8f82-b6144427106c")
 		)
@@ -19216,7 +19361,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "TPD4E001DRLR"
 			(at 210.82 83.82 0)
 			(hide yes)
 			(show_name yes)
@@ -19224,6 +19369,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C527516"
+			(at 210.82 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -19350,6 +19506,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6131655"
+			(at 83.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -19740,6 +19907,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5216410"
+			(at 45.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -20305,7 +20483,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1052-6-ND"
+		(property "DigiKey" "490-5523-1-ND"
 			(at 124.46 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -20316,7 +20494,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL21A106KPFNNNE"
+		(property "Mouser" "81-GRM21BR61E106KA3L"
 			(at 124.46 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -20327,7 +20505,7 @@
 				)
 			)
 		)
-		(property "TME" "CL21A106KPFNNNE"
+		(property "TME" "GRM21BR61E106KA73L"
 			(at 124.46 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -20335,6 +20513,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -21015,7 +21204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddc1f594-b4eb-49d9-aca3-c6aaedd18a52")
-		(property "Reference" "X11"
+		(property "Reference" "X13"
 			(at 237.49 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21147,7 +21336,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "X11")
+					(reference "X13")
 					(unit 1)
 				)
 			)
@@ -21409,6 +21598,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C236079"
+			(at 109.22 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "967ba2ab-133e-413c-a9c8-b4a4b1e54600")
 		)
@@ -21634,7 +21834,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 259.08 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -21757,6 +21957,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C97856"
+			(at 149.86 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -21961,7 +22172,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "RC0603FR-073K3P"
 			(at 114.3 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -21972,7 +22183,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-073K3P"
 			(at 114.3 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -21983,7 +22194,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-3K3-1%"
 			(at 114.3 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -21994,8 +22205,9 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22978"
 			(at 114.3 154.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

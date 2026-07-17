@@ -122,6 +122,14 @@
           ""
         ],
         [
+          "shorting_items|311164800|91400000|1c2827ad-c225-455d-ab15-b29480e8ad57|942aeac5-376b-4429-a718-b3d4205d8a8f",
+          ""
+        ],
+        [
+          "shorting_items|311825200|91400000|1c2827ad-c225-455d-ab15-b29480e8ad57|734bcc78-e68c-4f02-8881-5bdf7969d693",
+          ""
+        ],
+        [
           "shorting_items|380540000|96611668|2af31d86-1d7b-45a3-bab0-6c66a3747652|8a1b5841-ab03-4625-81a4-01d0a2f80ca0",
           ""
         ],
@@ -242,7 +250,7 @@
           ""
         ],
         [
-          "silk_overlap|380155000|97673000|12c6ddcf-eb43-49a4-a5a7-f34c7d062a99|155cce96-ae18-4c9a-804d-4e0f0f7e29df",
+          "silk_overlap|381425000|97673000|12c6ddcf-eb43-49a4-a5a7-f34c7d062a99|155cce96-ae18-4c9a-804d-4e0f0f7e29df",
           ""
         ],
         [
@@ -255,6 +263,18 @@
         ],
         [
           "silk_overlap|507570517|-6651080|2b62bb41-3eb4-420c-9e7c-923b5acd7f73|6bf22a23-9678-4dcb-bc25-971236610195",
+          ""
+        ],
+        [
+          "solder_mask_bridge|311164800|91400000|1c2827ad-c225-455d-ab15-b29480e8ad57|942aeac5-376b-4429-a718-b3d4205d8a8f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|311164800|91400000|b71317a0-14f9-4b5b-8d55-5a9a3cf1971f|734bcc78-e68c-4f02-8881-5bdf7969d693",
+          ""
+        ],
+        [
+          "solder_mask_bridge|311825200|91400000|1c2827ad-c225-455d-ab15-b29480e8ad57|734bcc78-e68c-4f02-8881-5bdf7969d693",
           ""
         ],
         [
@@ -2172,7 +2192,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "bom/LED PortaRay MCU board.csv",
+    "bom_export_filename": "bom/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -2185,7 +2205,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -2298,7 +2318,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -2353,7 +2373,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "#+5V_ISO1-7,#+3V1-56,#+3V63,SW1-2,#SUPPLY1-115,VAR1-3,FB1-7,TP1-17,SAR1,#FLG1-14,#FLG17-18,LOGO1-6,F1-2,X1-28,H1-8,#PWR1-33,FM1-4,CF1-2,TR1-2,JP1-17,Y1-3,Q1-8,SP1,ZD1,K1-12,OK1,IC1-26,#P+1-8,#GND1-43,LED1-8,Module1,#+5V1-11,R1-96,R104,L1-13,C1-134,C138-139,#PE1-14,D1-16,D18-20,NTC1",
+    "used_designators": "ZD1,K1-12,SP1,Q1-8,JP1-17,Y1-3,F1-2,LOGO1-6,X1-28,H1-8,#+5V_ISO1-7,SAR1,#FLG1-14,#FLG17-18,OK1,IC1-26,#P+1-8,R1-96,R104,L1-13,#GND1-43,D1-16,D18-20,NTC1,#PWR1-33,FB1-7,TP1-17,#SUPPLY1-115,VAR1-3,C1-134,C138-139,#PE1-14,#+3V1-56,#+3V63,SW1-2,CF1-2,TR1-2,FM1-4,#+5V1-11,LED1-8,Module1-2",
     "variants": []
   },
   "sheets": [

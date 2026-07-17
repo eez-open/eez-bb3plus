@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-14")
+		(date "2026-07-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8044,7 +8044,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name yes)
@@ -8055,7 +8055,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name yes)
@@ -8077,7 +8077,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 160.02 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8198,7 +8198,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name yes)
@@ -8209,7 +8209,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 177.8 83.82 0)
 			(hide yes)
 			(show_name yes)
@@ -8231,7 +8231,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 177.8 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8351,7 +8351,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 104.14 127 0)
 			(hide yes)
 			(show_name yes)
@@ -8362,7 +8362,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 104.14 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -8384,7 +8384,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 104.14 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +8505,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 91.44 127 0)
 			(hide yes)
 			(show_name yes)
@@ -8516,7 +8516,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 91.44 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -8538,7 +8538,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 91.44 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8661,7 +8661,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 248.92 86.36 0)
 			(hide yes)
 			(show_name yes)
@@ -8672,7 +8672,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 251.46 86.36 0)
 			(hide yes)
 			(show_name yes)
@@ -8694,7 +8694,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 238.76 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8759,7 +8759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44d42c92-18b3-4bfd-87de-2145d944c77c")
-		(property "Reference" "X23"
+		(property "Reference" "X25"
 			(at 195.58 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8921,7 +8921,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "X23")
+					(reference "X25")
 					(unit 1)
 				)
 			)
@@ -9277,7 +9277,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 259.08 48.26 0)
 			(hide yes)
 			(show_name yes)
@@ -9288,7 +9288,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name yes)
@@ -9310,7 +9310,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 269.24 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9432,7 +9432,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 182.88 48.26 0)
 			(hide yes)
 			(show_name yes)
@@ -9443,7 +9443,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 185.42 48.26 0)
 			(hide yes)
 			(show_name yes)
@@ -9465,7 +9465,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9585,7 +9585,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 129.54 127 0)
 			(hide yes)
 			(show_name yes)
@@ -9596,7 +9596,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 129.54 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -9618,7 +9618,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 129.54 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9762,7 +9762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d031cf5-6b3c-4208-86d5-047a2f4ac8cc")
-		(property "Reference" "X24"
+		(property "Reference" "X26"
 			(at 224.79 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9894,7 +9894,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "X24")
+					(reference "X26")
 					(unit 1)
 				)
 			)
@@ -9968,7 +9968,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 248.92 66.04 0)
 			(hide yes)
 			(show_name yes)
@@ -9979,7 +9979,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name yes)
@@ -10001,7 +10001,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 238.76 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10121,7 +10121,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 78.74 127 0)
 			(hide yes)
 			(show_name yes)
@@ -10132,7 +10132,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 78.74 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -10154,7 +10154,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 78.74 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10354,7 +10354,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 170.18 81.28 0)
 			(hide yes)
 			(show_name yes)
@@ -10365,7 +10365,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 170.18 83.82 0)
 			(hide yes)
 			(show_name yes)
@@ -10387,7 +10387,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 170.18 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10507,7 +10507,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-131K8LCT-ND"
 			(at 71.12 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10518,7 +10518,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-131K8L"
 			(at 71.12 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10529,7 +10529,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-1K8-1%"
 			(at 71.12 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10540,7 +10540,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4177"
 			(at 71.12 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10789,7 +10789,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 116.84 127 0)
 			(hide yes)
 			(show_name yes)
@@ -10800,7 +10800,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -10822,7 +10822,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 116.84 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10888,7 +10888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5460338-82cb-4a64-888a-32b8fbfa19bd")
-		(property "Reference" "X25"
+		(property "Reference" "X27"
 			(at 251.46 61.595 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11050,7 +11050,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "X25")
+					(reference "X27")
 					(unit 1)
 				)
 			)
@@ -11260,7 +11260,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name yes)
@@ -11271,7 +11271,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 167.64 99.06 0)
 			(hide yes)
 			(show_name yes)
@@ -11293,7 +11293,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11494,7 +11494,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 182.88 40.64 0)
 			(hide yes)
 			(show_name yes)
@@ -11505,7 +11505,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 185.42 40.64 0)
 			(hide yes)
 			(show_name yes)
@@ -11527,7 +11527,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11649,7 +11649,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1111-RT424012-ND"
 			(at 182.88 30.48 0)
 			(hide yes)
 			(show_name yes)
@@ -11660,7 +11660,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-RT424005 "
+		(property "Mouser" "655-RT424012"
 			(at 185.42 30.48 0)
 			(hide yes)
 			(show_name yes)
@@ -11682,7 +11682,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1524591"
 			(at 172.72 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11833,6 +11833,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49652935"
+			(at 200.66 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -12030,7 +12041,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2150432"
 			(at 38.1 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -12225,7 +12236,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 66.04 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -12262,7 +12273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa4ffada-3213-4562-998e-bf9383d477ee")
-		(property "Reference" "X22"
+		(property "Reference" "X24"
 			(at 114.3 61.595 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -12424,7 +12435,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "X22")
+					(reference "X24")
 					(unit 1)
 				)
 			)

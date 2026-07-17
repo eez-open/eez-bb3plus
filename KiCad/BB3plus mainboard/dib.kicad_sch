@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-14")
+		(date "2026-07-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -9751,7 +9751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17383ed7-fed9-46d4-9b24-dfd29ea210f4")
-		(property "Reference" "X17"
+		(property "Reference" "X19"
 			(at 34.925 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10054,7 +10054,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "X17")
+					(reference "X19")
 					(unit 1)
 				)
 			)
@@ -10149,7 +10149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1eac3503-0223-40f3-a1ab-acf2d1c1ed9f")
-		(property "Reference" "X21"
+		(property "Reference" "X23"
 			(at 245.745 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10452,7 +10452,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "X21")
+					(reference "X23")
 					(unit 1)
 				)
 			)
@@ -12584,7 +12584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c92788d8-acc3-4f2c-9785-78456dbbdff8")
-		(property "Reference" "X19"
+		(property "Reference" "X21"
 			(at 133.985 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12887,7 +12887,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "X19")
+					(reference "X21")
 					(unit 1)
 				)
 			)
@@ -13138,7 +13138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3729c87-8e0d-43f4-ad04-15f3b92c183b")
-		(property "Reference" "X20"
+		(property "Reference" "X22"
 			(at 187.325 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13441,7 +13441,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "X20")
+					(reference "X22")
 					(unit 1)
 				)
 			)
@@ -13771,7 +13771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f437470f-284a-4bc9-bb7e-d44d02b5be97")
-		(property "Reference" "X18"
+		(property "Reference" "X20"
 			(at 83.185 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14074,7 +14074,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "X18")
+					(reference "X20")
 					(unit 1)
 				)
 			)

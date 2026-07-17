@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-14")
+		(date "2026-07-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -14771,7 +14771,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C318677"
+		(property "LCSC" "C1634"
 			(at 45.72 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14896,7 +14896,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5674"
+		(property "LCSC" "C45783"
 			(at 271.78 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -15148,7 +15148,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C105575"
+		(property "LCSC" "C4184"
 			(at 246.38 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -17084,7 +17084,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C318677"
+		(property "LCSC" "C1634"
 			(at 45.72 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18980,7 +18980,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "311-100KHRCT-ND"
 			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -18991,7 +18991,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-07100KL"
 			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -19002,7 +19002,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-100K-1%"
 			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -19013,7 +19013,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 50.8 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19621,7 +19621,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-13200KLCT-ND"
 			(at 50.8 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -19632,7 +19632,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-13200KL "
 			(at 50.8 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -19643,7 +19643,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-200K-1%"
 			(at 50.8 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -19654,7 +19654,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25811"
 			(at 50.8 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20713,7 +20713,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5674"
+		(property "LCSC" "C45783"
 			(at 254 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -22102,7 +22102,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5674"
+		(property "LCSC" "C45783"
 			(at 259.08 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -24316,7 +24316,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "311-12.0KHRCT-ND"
 			(at 50.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -24327,7 +24327,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0712KL"
 			(at 50.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -25497,7 +25497,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 157.48 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -26089,7 +26089,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14675"
+		(property "LCSC" "C25803"
 			(at 177.8 152.4 0)
 			(hide yes)
 			(show_name no)

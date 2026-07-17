@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-14")
+		(date "2026-07-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -14498,7 +14498,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 198.12 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14921,7 +14921,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C318677"
+		(property "LCSC" "C1634"
 			(at 119.38 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16576,7 +16576,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1512171"
+		(property "LCSC" "C22775"
 			(at 208.28 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -18541,7 +18541,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C105579"
+		(property "LCSC" "C25819"
 			(at 195.58 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -18904,7 +18904,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16338"
+		(property "LCSC" "C8545"
 			(at 86.36 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19032,7 +19032,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14675"
+		(property "LCSC" "C25803"
 			(at 91.44 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -19286,7 +19286,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "311-1445-1-ND"
+		(property "DigiKey" "1276-1860-1-ND "
 			(at 137.16 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19297,7 +19297,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B105KB8NQNC"
+		(property "Mouser" "187-CL10A105KB8NNNC "
 			(at 137.16 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19308,7 +19308,7 @@
 				)
 			)
 		)
-		(property "TME" "CL10B105KB8NQNC"
+		(property "TME" "CL10A105KB8NNNC "
 			(at 137.16 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19319,7 +19319,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5199872"
+		(property "LCSC" "C15849"
 			(at 137.16 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19412,7 +19412,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "RC0603FR-07750RL"
 			(at 129.54 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19423,7 +19423,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-07750RL"
 			(at 129.54 121.92 0)
 			(hide yes)
 			(show_name yes)
@@ -19434,7 +19434,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-750R-1%"
 			(at 129.54 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19445,7 +19445,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23241"
 			(at 129.54 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19649,7 +19649,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C109218"
+		(property "LCSC" "C2128"
 			(at 220.98 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -19774,7 +19774,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C109218"
+		(property "LCSC" "C2128"
 			(at 124.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19868,7 +19868,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "311-18.0KHRCT-ND"
 			(at 231.14 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -19879,7 +19879,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0718KL"
 			(at 231.14 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -20231,7 +20231,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C318677"
+		(property "LCSC" "C1634"
 			(at 119.38 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -21318,7 +21318,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1512171"
+		(property "LCSC" "C22775"
 			(at 256.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -21444,7 +21444,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 88.9 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -22267,7 +22267,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-131K8LCT-ND"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22278,7 +22278,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-131K8L"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22289,7 +22289,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-1K8-1%"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22300,7 +22300,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4177"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22662,7 +22662,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1705"
+		(property "LCSC" "C19666"
 			(at 129.54 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -22856,7 +22856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a79491cf-9b26-473d-acdc-2cee3bd13427")
-		(property "Reference" "X2"
+		(property "Reference" "X4"
 			(at 220.98 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22932,7 +22932,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
-					(reference "X2")
+					(reference "X4")
 					(unit 1)
 				)
 			)
@@ -23244,7 +23244,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 129.54 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -24228,7 +24228,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1512171"
+		(property "LCSC" "C22775"
 			(at 99.06 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -24622,7 +24622,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C109218"
+		(property "LCSC" "C2128"
 			(at 251.46 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -24852,7 +24852,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "311-12.0KHRCT-ND"
 			(at 231.14 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -24863,7 +24863,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0712KL"
 			(at 231.14 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -25168,7 +25168,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98221"
 			(at 116.84 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -26657,7 +26657,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-131K8LCT-ND"
 			(at 205.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -26668,7 +26668,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-131K8L"
 			(at 205.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -26679,7 +26679,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-1K8-1%"
 			(at 205.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -26690,7 +26690,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4177"
 			(at 205.74 91.44 0)
 			(hide yes)
 			(show_name no)
