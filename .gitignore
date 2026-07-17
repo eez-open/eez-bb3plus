@@ -39,3 +39,5 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 .history
+KiCad/BB3plus mainboard/fabrication-toolkit-options.json
+KiCad/BB3plus mainboard/production/
