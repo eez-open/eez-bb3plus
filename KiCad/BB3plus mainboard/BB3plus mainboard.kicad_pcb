@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "BB3+ MCU test board")
-		(date "2026-07-14")
+		(date "2026-07-24")
 		(rev "r1B1")
 		(company "Envox d.o.o.")
 	)
@@ -7082,7 +7082,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20768,7 +20768,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41029,7 +41029,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46296,7 +46296,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66404,7 +66404,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66666,7 +66666,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -76415,7 +76415,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -82348,7 +82348,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C192909"
+		(property "LCSC" "C21189"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -92317,8 +92317,7 @@
 			(uuid "95ac9983-3392-4693-ab50-a4d8faf4bc95")
 		)
 		(embedded_fonts no)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/BB3plus DVID TFT display.step"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/BB3plus DVID TFT display.step"
 			(offset
 				(xyz -6.5 -6.5 16.4)
 			)
@@ -92329,8 +92328,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/Bottom plate.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/Bottom plate.stp"
 			(offset
 				(xyz -3.5 -11.75 -1.6)
 			)
@@ -92341,8 +92339,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/Front panel.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/Front panel.stp"
 			(offset
 				(xyz -3.5 -11.75 -1.6)
 			)
@@ -92353,8 +92350,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/Rear panel.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/Rear panel.stp"
 			(offset
 				(xyz -3.5 -46.75 -1.6)
 			)
@@ -92365,8 +92361,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/Top plate.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/Top plate.stp"
 			(opacity 0.7400)
 			(offset
 				(xyz -3.5 -11.75 -1.6)
@@ -92378,8 +92373,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/A-951.STEP"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/A-951.STEP"
 			(offset
 				(xyz 7.75 22.75 -9.1)
 			)
@@ -92390,8 +92384,7 @@
 				(xyz -90 0 -90)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/A-951.STEP"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/A-951.STEP"
 			(offset
 				(xyz 223.25 22.75 -9.1)
 			)
@@ -92402,8 +92395,7 @@
 				(xyz -90 0 -90)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/fan_pf92251v1-1000u-a99.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/fan_pf92251v1-1000u-a99.stp"
 			(offset
 				(xyz 182.75 193.5 60.15)
 			)
@@ -92414,8 +92406,7 @@
 				(xyz -90 0 -180)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/EEZ DIB DCP405plus (simple).step"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/EEZ DIB DCP405plus (simple).step"
 			(offset
 				(xyz 133.75 -68 155)
 			)
@@ -92426,8 +92417,7 @@
 				(xyz -90 0 -90)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/EPP-150.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/EPP-150.stp"
 			(offset
 				(xyz -41.68 17.65 103.5)
 			)
@@ -92438,8 +92428,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/EPP-150.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/EPP-150.stp"
 			(offset
 				(xyz -41.68 70.65 103.5)
 			)
@@ -92450,8 +92439,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/EPP-150.stp"
-			(hide yes)
+		(model "${KIPRJMOD}/../../fabrication/step/EPP-150.stp"
 			(offset
 				(xyz -41.68 123.65 103.5)
 			)
@@ -92460,90 +92448,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "/home/denis/BACKUP/EEZ/PCB/KiCad/eez-bb3plus (backup)/Experimental/KiCad/BB3plus enclosure front panel.step"
-			(hide yes)
-			(offset
-				(xyz 111.7 -11.9935 -19.3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "/home/denis/BACKUP/EEZ/PCB/KiCad/eez-bb3plus (backup)/Experimental/KiCad/BB3plus enclosure rear panel.step"
-			(hide yes)
-			(offset
-				(xyz 119.25 218.5 -19.3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 -180)
-			)
-		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/A-951-2.step"
-			(hide yes)
-			(offset
-				(xyz 7.75 194.25 -9.1)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
-		(model "/home/denis/git-public/eez-bb3plus/fabrication/step/A-951-2.step"
-			(hide yes)
-			(offset
-				(xyz 223.25 194.25 -9.1)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
-		(model "/home/denis/BACKUP/EEZ/PCB/KiCad/eez-bb3plus (backup)/fabrication/step/Mainboard.step"
-			(hide yes)
-			(offset
-				(xyz -3.5 -11.9 -1.4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/denis/BACKUP/EEZ/PCB/KiCad/EEZ DIB DCM224plus/fabrication/step/EEZ DIB DCM224plus front mask.step"
-			(hide yes)
-			(offset
-				(xyz 219 -10.5 -3.75)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "/home/denis/BACKUP/EEZ/PCB/KiCad/EEZ DIB DCM224plus/fabrication/step/EEZ DIB DCM224plus front mask.step"
-			(hide yes)
-			(offset
-				(xyz 201.25 -10.5 -3.75)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
 			)
 		)
 	)
@@ -98419,7 +98323,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -103900,7 +103804,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -105056,7 +104960,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -106050,7 +105954,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -125304,7 +125208,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -134927,6 +134831,36 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "6bf22a23-9678-4dcb-bc25-971236610195")
+	)
+	(gr_line
+		(start 297.1 170.8)
+		(end 296.8 172)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3460343b-fff7-424d-83e4-05345311a6ad")
+	)
+	(gr_line
+		(start 297.1 170.8)
+		(end 297.1 183.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "12210a1c-0417-4607-a66d-1a42e188937f")
+	)
+	(gr_line
+		(start 297.1 170.8)
+		(end 297.4 172)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "171e6d12-82bc-4672-8c93-ca0afc2bc925")
 	)
 	(gr_arc
 		(start 293.499999 -50.499999)
@@ -211395,6 +211329,26 @@
 			(justify bottom)
 		)
 	)
+	(gr_text_box "Edit this hole to show/hide enclosure 3D models "
+		(start 285.3875 182.975)
+		(end 308.8125 188.286444)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Dwgs.User")
+		(uuid "233dbe79-79e9-4472-9d8b-c7e3932d87c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(knockout no)
+	)
 	(dimension
 		(type radial)
 		(layer "User.3")
@@ -211417,7 +211371,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "R 157,5"
+		(gr_text "R 4,0"
 			(at 280.4 308.422504 0)
 			(layer "User.3")
 			(uuid "3c7886c0-0a92-45fa-b658-bbc01dba3fe0")
@@ -211451,7 +211405,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "R 47,2"
+		(gr_text "R 1,2"
 			(at 352.5 293.357395 0)
 			(layer "User.3")
 			(uuid "3d88da05-d35c-4bd5-a8ff-eefa918658ad")
@@ -211594,7 +211548,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "9074,8"
+		(gr_text "230,5"
 			(at 288.45 63.25 90)
 			(layer "Dwgs.User")
 			(uuid "575e3d94-185d-40ac-8faa-9bf851085b53")
@@ -211632,7 +211586,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "9173,23"
+		(gr_text "233"
 			(at 410 -56.75 0)
 			(layer "Dwgs.User")
 			(uuid "f247d9ef-6806-4462-8beb-ca3280212e8d")
@@ -211669,7 +211623,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "127,95"
+		(gr_text "3,25"
 			(at 527.65 302.025 90)
 			(layer "User.2")
 			(uuid "0a776cef-0e51-4fe1-a551-df56fda7da79")
@@ -211706,7 +211660,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4175,20"
+		(gr_text "106,05"
 			(at 480.225 315.4 0)
 			(layer "User.2")
 			(uuid "1845cd2b-0bba-44c3-a256-dcd2d9d4c5fb")
@@ -211743,7 +211697,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "349,409"
+		(gr_text "8,875"
 			(at 475.7625 201.7 0)
 			(layer "User.2")
 			(uuid "23937fec-4df1-4270-b41a-d08170c42f41")
@@ -211780,7 +211734,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4389,76"
+		(gr_text "111,50"
 			(at 534.44 247.9 90)
 			(layer "User.2")
 			(uuid "31a366f6-9896-4be6-9369-dd3c64ad0250")
@@ -211817,7 +211771,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "349,409"
+		(gr_text "8,875"
 			(at 484.6375 201.7 0)
 			(layer "User.2")
 			(uuid "34677fbf-0af7-47d0-b892-438fcacd487c")
@@ -211854,7 +211808,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1397,64"
+		(gr_text "35,50"
 			(at 462.45 189.45 0)
 			(layer "User.2")
 			(uuid "6e649705-f78e-43b0-af57-d3b5c161a61e")
@@ -211891,7 +211845,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1377,95"
+		(gr_text "35,00"
 			(at 480.2 220.2 0)
 			(layer "User.2")
 			(uuid "7aa1f9b1-e10b-4456-b319-c9ccda0ee046")
@@ -211928,7 +211882,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1048,228"
+		(gr_text "26,625"
 			(at 458.0125 201.7 0)
 			(layer "User.2")
 			(uuid "92e8997a-44db-4d98-a089-e14a4c5c95fe")
@@ -211965,7 +211919,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "127,95"
+		(gr_text "3,25"
 			(at 529.18 193.775 90)
 			(layer "User.2")
 			(uuid "a10326db-a7a8-4676-ae2a-9849996acc23")
@@ -212002,7 +211956,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1377,95"
+		(gr_text "35,00"
 			(at 515.7 220.2 0)
 			(layer "User.2")
 			(uuid "c9bbbfde-098d-4f35-a852-78ccb182aaee")
@@ -212039,7 +211993,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "339,567"
+		(gr_text "8,625"
 			(at 493.3875 193.35 0)
 			(layer "User.2")
 			(uuid "cebf8e53-4152-42c4-8487-263e567bc870")
@@ -212076,7 +212030,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1397,64"
+		(gr_text "35,50"
 			(at 497.95 189.45 0)
 			(layer "User.2")
 			(uuid "d9211467-c02f-42ad-9a69-36b1662745ef")
@@ -212113,7 +212067,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1377,95"
+		(gr_text "35,00"
 			(at 444.7 220.2 0)
 			(layer "User.2")
 			(uuid "ddc15b8b-5ce5-4ab1-afed-5d1b834fc102")
@@ -212150,7 +212104,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "255,9"
+		(gr_text "6,5"
 			(at 447.15 303.65 90)
 			(layer "User.3")
 			(uuid "08e0bde6-7cae-4070-b20c-10d466e4871b")
@@ -212187,7 +212141,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "523,6"
+		(gr_text "13,3"
 			(at 312.25 300.25 90)
 			(layer "User.3")
 			(uuid "0ae1045e-d588-4d24-acbf-238fab9307d5")
@@ -212224,7 +212178,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2864,2"
+		(gr_text "72,8"
 			(at 322.875 310.85 0)
 			(layer "User.3")
 			(uuid "0bf0fd68-b2ca-4d20-94c5-ef7c4f2a55d2")
@@ -212261,7 +212215,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "548,2"
+		(gr_text "13,9"
 			(at 531.5375 309.45 0)
 			(layer "User.3")
 			(uuid "1a2131f4-e60b-4b0a-8c55-062031f9cf13")
@@ -212298,7 +212252,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "295,3"
+		(gr_text "7,5"
 			(at 361.9 303.15 90)
 			(layer "User.3")
 			(uuid "1a76a566-7be0-4db8-9e4f-cda7b1475012")
@@ -212335,7 +212289,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "9694,9"
+		(gr_text "246,2"
 			(at 409.625 325.05 0)
 			(layer "User.3")
 			(uuid "2c97dfad-967a-430f-b2ec-c8bbab74263f")
@@ -212372,7 +212326,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4315,0"
+		(gr_text "109,6"
 			(at 365.8 212 0)
 			(layer "User.3")
 			(uuid "301acd18-14a0-42c2-87e3-9ea57886ebd6")
@@ -212409,7 +212363,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "349,4"
+		(gr_text "8,9"
 			(at 511.2625 309.45 0)
 			(layer "User.3")
 			(uuid "30c09144-5b16-45d5-907d-fefcad883c8e")
@@ -212446,7 +212400,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1048,2"
+		(gr_text "26,6"
 			(at 458.0125 309.6 0)
 			(layer "User.3")
 			(uuid "31295be2-d7a1-4eef-af77-73168e03d9cf")
@@ -212483,7 +212437,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "767,7"
+		(gr_text "19,5"
 			(at 296.25 308.45 0)
 			(layer "User.3")
 			(uuid "31c53f03-463c-4443-a643-6ac6be2bf835")
@@ -212520,7 +212474,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "236,22"
+		(gr_text "6,00"
 			(at 289.5 202.35 0)
 			(layer "User.3")
 			(uuid "3daa4592-ec87-4487-9c5f-14b3a3104abf")
@@ -212557,7 +212511,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "145,7"
+		(gr_text "3,7"
 			(at 371 297.55 90)
 			(layer "User.3")
 			(uuid "3fe20905-278c-4fac-951c-1c1426981be5")
@@ -212594,7 +212548,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "255,91"
+		(gr_text "6,50"
 			(at 518.85 303.65 90)
 			(layer "User.3")
 			(uuid "4037146b-173d-4f8b-bf88-ad926d851610")
@@ -212631,7 +212585,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5561,0"
+		(gr_text "141,2"
 			(at 357.125 322.2 0)
 			(layer "User.3")
 			(uuid "49ac66b1-ebfc-4a1f-b9e7-d7d3ad09c2ad")
@@ -212668,7 +212622,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5157,5"
+		(gr_text "131,0"
 			(at 352 319.1 0)
 			(layer "User.3")
 			(uuid "51f24752-2b82-4f37-9877-184b32025429")
@@ -212705,7 +212659,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "349,4"
+		(gr_text "8,9"
 			(at 475.7625 309.55 0)
 			(layer "User.3")
 			(uuid "52e9d504-c46f-40f4-b399-5b0092cedefe")
@@ -212742,7 +212696,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "393,70"
+		(gr_text "10,00"
 			(at 530 301.9 90)
 			(layer "User.3")
 			(uuid "53fc2ee2-2079-4290-8fdc-1870b6d42a17")
@@ -212779,7 +212733,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "492,1"
+		(gr_text "12,5"
 			(at 298.75 211.55 0)
 			(layer "User.3")
 			(uuid "5b03927b-a95d-405f-b5be-ea18a2b6e838")
@@ -212816,7 +212770,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "374,0"
+		(gr_text "9,5"
 			(at 364 297.05 0)
 			(layer "User.3")
 			(uuid "609edcf2-c0d3-4f58-b933-8db04d0a5b93")
@@ -212853,7 +212807,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2653,5"
+		(gr_text "67,4"
 			(at 414.85 235.2 90)
 			(layer "User.3")
 			(uuid "630df2c3-3878-47fa-8186-48b3756aab58")
@@ -212890,7 +212844,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4153,5"
+		(gr_text "105,5"
 			(at 339.25 316.35 0)
 			(layer "User.3")
 			(uuid "6d22a541-f14e-4135-9249-3c3b0c7cabf7")
@@ -212927,7 +212881,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "551,2"
+		(gr_text "14,0"
 			(at 293.5 275.3 0)
 			(layer "User.3")
 			(uuid "6ff11516-1ea2-4b80-87b7-7028546713db")
@@ -212964,7 +212918,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "511,8"
+		(gr_text "13,0"
 			(at 305.35 195.4 90)
 			(layer "User.3")
 			(uuid "7a447c8c-f9a6-429b-b9a0-0d1373848121")
@@ -213001,7 +212955,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1082,7"
+		(gr_text "27,5"
 			(at 302.3 293.15 90)
 			(layer "User.3")
 			(uuid "7a69e91a-5437-4d2c-b457-3916ce06e101")
@@ -213038,7 +212992,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "349,4"
+		(gr_text "8,9"
 			(at 520.1375 309.5 0)
 			(layer "User.3")
 			(uuid "7aae88ef-7305-49fe-a9ae-39bb02bf6f66")
@@ -213075,7 +213029,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1511,8"
+		(gr_text "38,4"
 			(at 293.25 287.7 90)
 			(layer "User.3")
 			(uuid "86d2ac05-c4f3-4b18-9506-68e6ca80825c")
@@ -213112,7 +213066,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3858,3"
+		(gr_text "98,0"
 			(at 431.95 247.9 90)
 			(layer "User.3")
 			(uuid "9570c2b8-4c92-4456-a03d-ddbb247f1d39")
@@ -213149,7 +213103,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "496,1"
+		(gr_text "12,6"
 			(at 294.75 208.2 90)
 			(layer "User.3")
 			(uuid "9d9efa05-17fb-4209-b899-0d2f90c802de")
@@ -213186,7 +213140,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "791,3"
+		(gr_text "20,1"
 			(at 399.85 296.85 90)
 			(layer "User.3")
 			(uuid "9e8c6529-6135-4d72-84dc-06df88bd3b16")
@@ -213223,7 +213177,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3238,2"
+		(gr_text "82,2"
 			(at 327.625 313.6 0)
 			(layer "User.3")
 			(uuid "a96d9469-db64-49bb-8c73-fdaaee2e9ed1")
@@ -213260,7 +213214,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4133,9"
+		(gr_text "105,0"
 			(at 480.25 290 0)
 			(layer "User.3")
 			(uuid "af0dc1d9-5abc-4175-bbcc-9002c1fba908")
@@ -213297,7 +213251,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "9921,3"
+		(gr_text "252,0"
 			(at 412.5 327.9 0)
 			(layer "User.3")
 			(uuid "b302a63d-0c6d-421b-bbdf-7b2698fd6715")
@@ -213334,7 +213288,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "255,9"
+		(gr_text "6,5"
 			(at 296.7 192.15 90)
 			(layer "User.3")
 			(uuid "b45b4f01-efbc-455e-84b7-645a6c916be2")
@@ -213371,7 +213325,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "594,5"
+		(gr_text "15,1"
 			(at 419.05 299.35 90)
 			(layer "User.3")
 			(uuid "b4f78419-2eaa-4ebe-8062-225900ffc723")
@@ -213408,7 +213362,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "667,3"
+		(gr_text "16,9"
 			(at 436.225 309.65 0)
 			(layer "User.3")
 			(uuid "cc6f9352-ba3e-45dd-9f34-8e1904735a27")
@@ -213445,7 +213399,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "349,4"
+		(gr_text "8,9"
 			(at 484.6375 309.5 0)
 			(layer "User.3")
 			(uuid "df454a16-38c7-4834-8bda-a827137abc4f")
@@ -213482,7 +213436,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "698,8"
+		(gr_text "17,8"
 			(at 497.95 309.5 0)
 			(layer "User.3")
 			(uuid "f971a62b-8d28-4ef0-b462-13c0b18b3c1a")
@@ -213519,7 +213473,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "59,1"
+		(gr_text "1,5"
 			(at 537.75 -42.65 0)
 			(layer "User.4")
 			(uuid "1f1bfb7f-78bf-4747-bcd1-e2cd0fc4d141")
@@ -213557,7 +213511,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4153,54"
+		(gr_text "105,5"
 			(at 339.25 193.28 0)
 			(layer "User.5")
 			(uuid "05d47a1b-ca96-4410-b9f0-b45184d92772")
@@ -213595,7 +213549,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3051,18"
+		(gr_text "77,5"
 			(at 325.25 185.39 0)
 			(layer "User.5")
 			(uuid "e07a3458-400f-4a79-b0cc-0f7afd7c5ab5")
@@ -213633,7 +213587,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "393,7"
+		(gr_text "10"
 			(at 277.3 178.25 90)
 			(layer "User.5")
 			(uuid "e210e7dd-9812-495d-90cc-7078b6e23eca")
@@ -213671,7 +213625,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "118,11"
+		(gr_text "3"
 			(at 277.3 171.75 90)
 			(layer "User.5")
 			(uuid "e21a4789-9d7b-45ff-8d8d-be8fb2e62d45")

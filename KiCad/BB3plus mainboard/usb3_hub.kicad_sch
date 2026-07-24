@@ -14863,7 +14863,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 271.78 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -20680,7 +20680,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 254 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -22069,7 +22069,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1100-1-ND"
+		(property "DigiKey" "1276-6501-1-ND"
 			(at 259.08 154.94 0)
 			(hide yes)
 			(show_name no)
