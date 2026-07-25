@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-17")
+		(date "2026-07-25")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -22139,7 +22139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9966e21d-084f-47eb-9600-bc11110da944")
-		(property "Reference" "TP10"
+		(property "Reference" "TP13"
 			(at 269.24 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22201,7 +22201,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "TP10")
+					(reference "TP13")
 					(unit 1)
 				)
 			)

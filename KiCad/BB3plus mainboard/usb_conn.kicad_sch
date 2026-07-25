@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-17")
+		(date "2026-07-25")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -10290,7 +10290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f5a50c2-9242-4557-b74a-8ee87af6a642")
-		(property "Reference" "TP11"
+		(property "Reference" "TP14"
 			(at 48.26 56.515 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10363,7 +10363,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "TP11")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -13583,7 +13583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b338a56-d651-476d-bf59-b18970bdddc9")
-		(property "Reference" "TP12"
+		(property "Reference" "TP15"
 			(at 231.14 71.755 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13656,7 +13656,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "TP12")
+					(reference "TP15")
 					(unit 1)
 				)
 			)

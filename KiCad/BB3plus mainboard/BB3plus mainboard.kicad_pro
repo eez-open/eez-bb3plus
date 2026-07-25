@@ -242,7 +242,7 @@
           ""
         ],
         [
-          "silk_overlap|313118122|113097128|2d6297d5-1c6b-413c-9fd1-48560284453c|48e61d2e-742a-4153-89cc-a6932b83bdf4",
+          "silk_overlap|314496172|117956546|2d6297d5-1c6b-413c-9fd1-48560284453c|48e61d2e-742a-4153-89cc-a6932b83bdf4",
           ""
         ],
         [
@@ -2373,7 +2373,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "Module1-2,LED1-8,#+5V1-11,SW1-2,#+3V1-56,#+3V63,#+5V_ISO1-7,SAR1,#FLG1-14,#FLG17-18,H1-8,X1-28,LOGO1-6,F1-2,FM1-4,SP1,TR1-2,CF1-2,JP1-17,Q1-8,Y1-3,#PWR1-33,ZD1,K1-12,OK1,IC1-26,#P+1-8,R1-96,R104,L1-13,#GND1-43,#PE1-14,C1-134,C138-139,FB1-7,TP1-17,VAR1-3,#SUPPLY1-115,D1-16,D18-20,NTC1",
+    "used_designators": "FM1-4,#PE1-14,C1-134,C138-139,TP1-17,FB1-7,VAR1-3,#SUPPLY1-115,#FLG1-14,#FLG17-18,SAR1,X1-28,H1-8,LOGO1-6,F1-2,D1-16,D18-20,NTC1,#+3V1-56,#+3V63,SW1-2,#+5V_ISO1-7,CF1-2,TR1-2,LED1-8,Module1-2,#+5V1-11,SP1,JP1-17,Q1-8,Y1-3,#PWR1-33,OK1,IC1-26,ZD1,K1-12,#P+1-8,R1-96,R104,L1-13,#GND1-43",
     "variants": []
   },
   "sheets": [
