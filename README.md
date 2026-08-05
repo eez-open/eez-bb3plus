@@ -5,6 +5,10 @@
 ### Ownership and License
 The contributors are listed in CONTRIB.TXT. 
 
+Licenses | OSHWA UID
+--|--
+![osl](Images/osl.png) | [![OSHW-HR000123](Images/OSHW_UID_HR123.svg)](https://certification.oshwa.org/hr000123.html)
+
 ### Introduction
 
 ![3D enclosure preview](Images/BB3plus_3D_preview.jpg)
