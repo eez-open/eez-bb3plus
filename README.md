@@ -41,7 +41,7 @@ Planned new features of BB3+:
 
 ### Modules
 
-* 5" TFT module (HDMI® compatible input, capacitive or optional resistive touchscreen)
+* [5" DVID TFT display](https://github.com/eez-open/eez-bb3plus/tree/main/KiCad/TFT%20module) module (HDMI® compatible input, capacitive or optional resistive touchscreen)
 
 
 

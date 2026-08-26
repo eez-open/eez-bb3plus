@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.254,
+          "corner_radius": 0.381,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1524,
-          "min_island_area": 9.99999999996,
+          "min_clearance": 0.2032,
+          "min_island_area": 10.0,
           "min_thickness": 0.2032,
           "pad_connection": 3,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.1524,
-          "thermal_relief_spoke_width": 0.381
+          "thermal_relief_gap": 0.2032,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -106,6 +106,14 @@
           ""
         ],
         [
+          "clearance|411734800|107940000|3965e800-ee76-4781-a34c-e5fd689b5ebe|4355ce8c-da1b-4ad1-a20f-bd1b44e02cac",
+          ""
+        ],
+        [
+          "clearance|412395200|107940000|28adc861-7956-4fd5-a4a0-4758f0b03c10|4355ce8c-da1b-4ad1-a20f-bd1b44e02cac",
+          ""
+        ],
+        [
           "clearance|416861974|108387158|01430551-a0b2-4515-9022-535af94e1dcb|b871f6bc-47e5-4c77-b9bd-1b12cddf4c3e",
           ""
         ],
@@ -119,6 +127,10 @@
         ],
         [
           "courtyards_overlap|311995000|151060800|004a20f0-a10a-4674-9ada-b4af18bc89f4|fb3f1507-b6c7-425b-8cf2-7cbfcb9690fb",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|297000000|166700000|b2955eb4-9abe-424b-8912-f590e0389fef|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -250,6 +262,14 @@
           ""
         ],
         [
+          "silk_overlap|374285000|171147000|a495d156-ceb4-436f-83a5-1dde1882fb95|f37c9be2-6c5a-4986-941f-fb39e62e8632",
+          ""
+        ],
+        [
+          "silk_overlap|377815000|161706000|895a703e-89b9-4348-b031-c2c3b3b633b2|90c981a5-3b59-4278-a0ed-01c7d242e562",
+          ""
+        ],
+        [
           "silk_overlap|381425000|97673000|12c6ddcf-eb43-49a4-a5a7-f34c7d062a99|155cce96-ae18-4c9a-804d-4e0f0f7e29df",
           ""
         ],
@@ -338,7 +358,19 @@
           ""
         ],
         [
+          "solder_mask_bridge|411734800|107940000|4355ce8c-da1b-4ad1-a20f-bd1b44e02cac|3965e800-ee76-4781-a34c-e5fd689b5ebe",
+          ""
+        ],
+        [
           "solder_mask_bridge|412294800|75343143|49be017b-1924-464b-9eca-3e40471a73ae|82d9a8a7-578b-40ab-8297-dea2a11ea269",
+          ""
+        ],
+        [
+          "solder_mask_bridge|412395200|107940000|0e57d96a-042e-449f-bb00-de867767d418|3965e800-ee76-4781-a34c-e5fd689b5ebe",
+          ""
+        ],
+        [
+          "solder_mask_bridge|412395200|107940000|4355ce8c-da1b-4ad1-a20f-bd1b44e02cac|28adc861-7956-4fd5-a4a0-4758f0b03c10",
           ""
         ],
         [
@@ -1424,11 +1456,11 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/CM5 socket/DIB1_TX-"
+        "pattern": "/CM5 socket, M.2 connector/DIB1_TX-"
       },
       {
         "netclass": "USB",
-        "pattern": "/CM5 socket/DIB1_TX+"
+        "pattern": "/CM5 socket, M.2 connector/DIB1_TX+"
       },
       {
         "netclass": "USB",
@@ -2144,31 +2176,31 @@
       },
       {
         "netclass": "PCIe",
-        "pattern": "/CM5 socket/<NO NET>"
+        "pattern": "/CM5 socket, M.2 connector/<NO NET>"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/CM5 socket/PCIe_CLK_N"
+        "pattern": "/CM5 socket, M.2 connector/PCIe_CLK_N"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/CM5 socket/PCIe_RX_P"
+        "pattern": "/CM5 socket, M.2 connector/PCIe_RX_P"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/CM5 socket/PCIe_RX_N"
+        "pattern": "/CM5 socket, M.2 connector/PCIe_RX_N"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/CM5 socket/PCIe_TX_P"
+        "pattern": "/CM5 socket, M.2 connector/PCIe_TX_P"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/CM5 socket/PCIe_TX_N"
+        "pattern": "/CM5 socket, M.2 connector/PCIe_TX_N"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/CM5 socket/PCIe_CLK_P"
+        "pattern": "/CM5 socket, M.2 connector/PCIe_CLK_P"
       }
     ]
   },
@@ -2314,6 +2346,30 @@
           "label": "Uvitron",
           "name": "Uvitron",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Name",
+          "name": "Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -2373,8 +2429,12 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "FM1-4,#PE1-14,C1-134,C138-139,TP1-17,FB1-7,VAR1-3,#SUPPLY1-115,#FLG1-14,#FLG17-18,SAR1,X1-28,H1-8,LOGO1-6,F1-2,D1-16,D18-20,NTC1,#+3V1-56,#+3V63,SW1-2,#+5V_ISO1-7,CF1-2,TR1-2,LED1-8,Module1-2,#+5V1-11,SP1,JP1-17,Q1-8,Y1-3,#PWR1-33,OK1,IC1-26,ZD1,K1-12,#P+1-8,R1-96,R104,L1-13,#GND1-43",
-    "variants": []
+    "used_designators": "F1-2,SW1-2,#+3V1-58,#+3V63,#PE1-14,C1-136,C138-139,SAR1,#FLG1-18,#P+1-8,NTC1,D1-20,LOGO1-7,H1-8,#+3V3_ISO1-2,LED1-8,#+5V1-11,Module1-2,SP1,#PWR1-33,JP1-21,Y1-3,Q1-8,U8,X1-28,ZD1,K1-12,OK1,IC1-27,#+5V_ISO1-8,FM1-4,CF1-2,TR1-2,#GND1-45,#SUPPLY1-115,TP1-18,VAR1-3,FB1-7,R1-98,R104,L1-13",
+    "variants": [
+      {
+        "name": "Ethernet PHY no xtal"
+      }
+    ]
   },
   "sheets": [
     [
@@ -2383,7 +2443,7 @@
     ],
     [
       "d74ad35b-5ae5-4e4c-8cd2-c11fba35596b",
-      "CM5 socket"
+      "CM5 socket, M.2 connector"
     ],
     [
       "fecdace5-b1da-40fa-9e4e-3a9b862ce872",
@@ -2424,7 +2484,7 @@
     "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
     "project_name": "BB3+ mainboard",
     "project_url": "https://github.com/eez-open/eez-bb3plus",
-    "project_version": "r1B1"
+    "project_version": "r1B2"
   },
   "tuning_profiles": {
     "meta": {

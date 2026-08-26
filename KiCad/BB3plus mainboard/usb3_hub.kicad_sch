@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-25")
+		(date "2026-08-26")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -14683,7 +14683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "015db47c-9cb4-40f5-8ac2-3147012dbd76")
-		(property "Reference" "C72"
+		(property "Reference" "C74"
 			(at 45.72 140.335 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14791,7 +14791,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C72")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -14808,7 +14808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1087510b-8aa0-40ff-b42b-650af4bdc459")
-		(property "Reference" "C109"
+		(property "Reference" "C111"
 			(at 272.288 152.5524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14916,7 +14916,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C109")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -14934,7 +14934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11e36e5b-f481-4627-a604-0fffa8f099ce")
-		(property "Reference" "C89"
+		(property "Reference" "C91"
 			(at 231.14 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15042,7 +15042,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C89")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -15265,7 +15265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "133105ca-f2d5-4413-85f9-8dd18e64d59e")
-		(property "Reference" "C80"
+		(property "Reference" "C82"
 			(at 124.46 141.605 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15373,7 +15373,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C80")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -15390,7 +15390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1593c307-f2b2-434b-a502-8c8f8980f35a")
-		(property "Reference" "IC19"
+		(property "Reference" "IC20"
 			(at 187.96 144.145 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15516,7 +15516,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "IC19")
+					(reference "IC20")
 					(unit 1)
 				)
 			)
@@ -15534,7 +15534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17e3993f-5e32-4cc4-a997-67b11307fe1c")
-		(property "Reference" "C101"
+		(property "Reference" "C103"
 			(at 251.46 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15642,7 +15642,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C101")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -15875,7 +15875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "281d775b-b950-4d04-aa0c-a7b3de1aa998")
-		(property "Reference" "C107"
+		(property "Reference" "C109"
 			(at 261.62 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15983,7 +15983,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C107")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -16001,7 +16001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2914e5a0-2ff5-495a-be56-7dbdc50dcb6b")
-		(property "Reference" "C108"
+		(property "Reference" "C110"
 			(at 266.7 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16109,7 +16109,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C108")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -16422,7 +16422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30007176-e562-4d41-ac30-4d2cffa16d37")
-		(property "Reference" "IC18"
+		(property "Reference" "IC19"
 			(at 182.88 24.765 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16841,7 +16841,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "IC18")
+					(reference "IC19")
 					(unit 2)
 				)
 			)
@@ -16996,7 +16996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3454bb83-ecd6-422e-83d4-ddfd8c81a7ab")
-		(property "Reference" "C73"
+		(property "Reference" "C75"
 			(at 45.72 150.495 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17104,7 +17104,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C73")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -17199,7 +17199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b5c2af3-6db2-464a-85b1-cde63551421f")
-		(property "Reference" "JP9"
+		(property "Reference" "JP11"
 			(at 22.86 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17332,7 +17332,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "JP9")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -17428,7 +17428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40f9169f-872e-4a51-9dc9-d5696359b7e4")
-		(property "Reference" "C81"
+		(property "Reference" "C83"
 			(at 124.46 144.145 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17536,7 +17536,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C81")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -17691,7 +17691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "478cf711-3f15-4136-868b-9c0612369672")
-		(property "Reference" "C90"
+		(property "Reference" "C92"
 			(at 233.426 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17799,7 +17799,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C90")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -17817,7 +17817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "479bcccf-6286-4b99-ad24-e4e18eaac83f")
-		(property "Reference" "C97"
+		(property "Reference" "C99"
 			(at 246.38 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17925,7 +17925,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C97")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -18100,7 +18100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53379df6-6cd7-45d4-9033-43912aa8770d")
-		(property "Reference" "C83"
+		(property "Reference" "C85"
 			(at 124.46 172.085 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18208,7 +18208,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C83")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -18595,7 +18595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6061968e-717a-43f9-a8de-08f26f006b73")
-		(property "Reference" "C77"
+		(property "Reference" "C79"
 			(at 124.46 103.505 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18703,7 +18703,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C77")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -18720,7 +18720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "632f285f-bd87-439d-ae8a-2654288841c8")
-		(property "Reference" "C85"
+		(property "Reference" "C87"
 			(at 162.814 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18828,7 +18828,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C85")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -19176,7 +19176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ba595bd-e903-4ff1-81d3-6d52059d9fb4")
-		(property "Reference" "C76"
+		(property "Reference" "C78"
 			(at 124.46 100.965 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19284,7 +19284,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C76")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -19302,7 +19302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ffbe3de-2a93-4a51-9d63-9f67168288bf")
-		(property "Reference" "C105"
+		(property "Reference" "C107"
 			(at 256.54 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19410,7 +19410,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C105")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -19691,7 +19691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b4d5a12-cf0c-40fb-92cb-f87c7d72abda")
-		(property "Reference" "C100"
+		(property "Reference" "C102"
 			(at 251.46 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19799,7 +19799,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C100")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -19953,7 +19953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c112aeb-2479-4861-a87b-7b27c96bfbde")
-		(property "Reference" "JP11"
+		(property "Reference" "JP13"
 			(at 40.64 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20082,7 +20082,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "JP11")
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -20100,7 +20100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d734553-5400-48f8-9d40-88330dd02401")
-		(property "Reference" "C79"
+		(property "Reference" "C81"
 			(at 124.46 123.825 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20208,7 +20208,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C79")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -20226,7 +20226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7df2630c-d970-4d56-941b-0ee9ede49ef0")
-		(property "Reference" "C99"
+		(property "Reference" "C101"
 			(at 246.38 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20334,7 +20334,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C99")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -20352,7 +20352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f8535eb-df3b-4f76-8831-d75478272507")
-		(property "Reference" "C68"
+		(property "Reference" "C70"
 			(at 43.18 42.545 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20471,7 +20471,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C68")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -20489,7 +20489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "804e93fd-572f-413a-9a0c-92354c5a88c3")
-		(property "Reference" "C70"
+		(property "Reference" "C72"
 			(at 43.18 47.625 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20608,7 +20608,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C70")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -20625,7 +20625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "840c4b32-d238-42ee-82a2-27fc7092093a")
-		(property "Reference" "C103"
+		(property "Reference" "C105"
 			(at 254.508 152.5524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20733,7 +20733,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C103")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -20829,7 +20829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89415adf-799e-4fd7-9388-2e73ea135968")
-		(property "Reference" "C82"
+		(property "Reference" "C84"
 			(at 124.46 169.545 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20937,7 +20937,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C82")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -21296,7 +21296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b766536-7300-4346-ad21-95d87d3d5ed8")
-		(property "Reference" "C92"
+		(property "Reference" "C94"
 			(at 236.22 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21404,7 +21404,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C92")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -21422,7 +21422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c842fc3-5587-42bf-b6d9-1dcd4ce50b0f")
-		(property "Reference" "C93"
+		(property "Reference" "C95"
 			(at 236.22 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21530,7 +21530,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C93")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -21548,7 +21548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f25ed7a-ab6e-4576-a5de-5baa4cb67315")
-		(property "Reference" "C78"
+		(property "Reference" "C80"
 			(at 124.46 121.285 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21656,7 +21656,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C78")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -21674,7 +21674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9297e89f-ae32-40ae-80a5-6fec11e7828d")
-		(property "Reference" "C86"
+		(property "Reference" "C88"
 			(at 216.281 146.939 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21782,7 +21782,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C86")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -22014,7 +22014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97bb9311-9fc6-48ad-aa7d-aabd0e6614ec")
-		(property "Reference" "C106"
+		(property "Reference" "C108"
 			(at 259.588 152.5524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22122,7 +22122,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C106")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -22139,7 +22139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9966e21d-084f-47eb-9600-bc11110da944")
-		(property "Reference" "TP13"
+		(property "Reference" "TP14"
 			(at 269.24 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22201,7 +22201,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "TP13")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -22376,7 +22376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ca8885d-fd00-421e-ac08-985fbceab196")
-		(property "Reference" "C95"
+		(property "Reference" "C97"
 			(at 241.3 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22484,7 +22484,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C95")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -22721,7 +22721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0cb3bcc-5f5a-46e6-bfb1-0394e6d8d1df")
-		(property "Reference" "IC18"
+		(property "Reference" "IC19"
 			(at 63.5 24.765 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -23139,7 +23139,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "IC18")
+					(reference "IC19")
 					(unit 1)
 				)
 			)
@@ -23157,7 +23157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b40755ab-89ee-4dff-9661-7b1aef84792e")
-		(property "Reference" "C69"
+		(property "Reference" "C71"
 			(at 43.18 45.085 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23276,7 +23276,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C69")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -23805,7 +23805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc20756b-d050-4e21-b62e-43cdfa96b5d1")
-		(property "Reference" "C88"
+		(property "Reference" "C90"
 			(at 231.14 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23913,7 +23913,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C88")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -23931,7 +23931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc8220fb-b5ec-459f-95b0-47cfaf8b5f94")
-		(property "Reference" "C91"
+		(property "Reference" "C93"
 			(at 236.22 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24039,7 +24039,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C91")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -24136,7 +24136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c35d053c-7ce2-49fa-8a0a-1ee2bbe041f5")
-		(property "Reference" "C75"
+		(property "Reference" "C77"
 			(at 124.46 83.185 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24244,7 +24244,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C75")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -24591,7 +24591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbcce438-77c5-4b62-a21d-c12a0bd59e4d")
-		(property "Reference" "C74"
+		(property "Reference" "C76"
 			(at 124.46 80.645 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24699,7 +24699,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C74")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -24872,7 +24872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d33f220f-e658-4273-8570-fe23e5d73b45")
-		(property "Reference" "C96"
+		(property "Reference" "C98"
 			(at 241.3 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24980,7 +24980,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C96")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -24997,7 +24997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d36aaac9-6b87-4a00-b7f3-a8d8a028f5dc")
-		(property "Reference" "#FLG012"
+		(property "Reference" "#FLG014"
 			(at 274.32 145.415 0)
 			(hide yes)
 			(show_name no)
@@ -25057,7 +25057,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#FLG012")
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
@@ -25273,7 +25273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7e1930e-219d-4c10-af0b-6a16b90b6446")
-		(property "Reference" "C71"
+		(property "Reference" "C73"
 			(at 43.18 50.165 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25392,7 +25392,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C71")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -25409,7 +25409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db649548-a703-49c0-a3fb-8a71361c75f4")
-		(property "Reference" "C84"
+		(property "Reference" "C86"
 			(at 157.48 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25517,7 +25517,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C84")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -25535,7 +25535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbd38b38-4ea7-44e9-8f80-f41391958ecc")
-		(property "Reference" "C102"
+		(property "Reference" "C104"
 			(at 251.46 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25643,7 +25643,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C102")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -25798,7 +25798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1ec4280-7804-47b6-bb46-03a18f371d9f")
-		(property "Reference" "C98"
+		(property "Reference" "C100"
 			(at 246.38 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25906,7 +25906,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C98")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -26127,7 +26127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f64dce07-8b00-44f7-8a4a-84af04389082")
-		(property "Reference" "C87"
+		(property "Reference" "C89"
 			(at 231.14 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26235,7 +26235,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C87")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -26253,7 +26253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6b24fe8-b5e1-4014-978b-fea5e683290b")
-		(property "Reference" "C94"
+		(property "Reference" "C96"
 			(at 241.3 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26361,7 +26361,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C94")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -26378,7 +26378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f98e2344-bd3f-4a7a-be3f-00e3a2c4e09e")
-		(property "Reference" "JP12"
+		(property "Reference" "JP14"
 			(at 173.99 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26497,7 +26497,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "JP12")
+					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -26514,7 +26514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa9ae10c-2e75-47c0-bbb9-be8d2d0018c4")
-		(property "Reference" "JP10"
+		(property "Reference" "JP12"
 			(at 40.64 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26642,7 +26642,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "JP10")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -26660,7 +26660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc658345-11f4-4a57-a5f6-68244cc486f7")
-		(property "Reference" "C104"
+		(property "Reference" "C106"
 			(at 256.54 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26768,7 +26768,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "C104")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -26785,7 +26785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd538687-d847-493f-9ca5-c24691b2d9c7")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG013"
 			(at 231.14 28.575 0)
 			(hide yes)
 			(show_name no)
@@ -26845,7 +26845,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#FLG011")
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)

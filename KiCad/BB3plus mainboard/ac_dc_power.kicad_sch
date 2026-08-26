@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-25")
+		(date "2026-08-26")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -3966,18 +3966,18 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -10.16 5.08 0)
+			(property "Value" "???"
+				(at 2.54 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
@@ -4009,16 +4009,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16114,7 +16104,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "20d25fff-f1a1-462e-a72f-4d59840de5d2")
-		(property "Reference" "JP8"
+		(property "Reference" "JP9"
 			(at 92.71 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16232,7 +16222,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "JP8")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -18635,15 +18625,15 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "B57236S0200M"
-			(at 176.53 45.72 90)
+		(property "Value" "B57236S0200M000"
+			(at 184.15 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify right top)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:NTC_11.5X6_RM5"
@@ -18679,7 +18669,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "495-3047-ND "
+		(property "DigiKey" "495-3047-ND"
 			(at 184.15 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18690,7 +18680,7 @@
 				)
 			)
 		)
-		(property "Mouser" "871-B57236S200M"
+		(property "Mouser" "871-B57236S0200M000"
 			(at 184.15 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18701,7 +18691,7 @@
 				)
 			)
 		)
-		(property "TME" "B57236S0200"
+		(property "TME" "B57236S0200M"
 			(at 184.15 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22968,7 +22958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94718b79-5258-45b5-ace0-10b583ede4a7")
-		(property "Reference" "TP3"
+		(property "Reference" "TP4"
 			(at 78.105 89.535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23085,7 +23075,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -24487,7 +24477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7c0f1fe-d3dd-4c5e-a0e4-100d4f3582cb")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 91.44 73.025 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24549,7 +24539,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -26075,7 +26065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4558f4b-0c40-45e6-a017-a8513bad9376")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 78.105 92.075 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26192,7 +26182,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -26502,7 +26492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca6ce5b0-6373-4f84-b477-e8465bc1de72")
-		(property "Reference" "TP7"
+		(property "Reference" "TP8"
 			(at 133.985 174.625 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26564,7 +26554,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "TP7")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -26581,7 +26571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d059711f-c2eb-4246-b835-c49f8ab2b0ce")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 261.62 90.805 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26643,7 +26633,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "TP8")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -29051,7 +29041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6b8ad92-d9f2-4284-9133-96582c971233")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 269.24 141.605 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29124,7 +29114,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -29432,7 +29422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "febfb7d0-6102-47d9-83ad-68cb77943d30")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 78.105 94.615 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29549,7 +29539,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "TP5")
+					(reference "TP6")
 					(unit 1)
 				)
 			)

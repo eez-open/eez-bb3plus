@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.5-10.0.5~ubuntu24.04.1"
     },
-    "CreationDate": "2026-07-25T12:39:17+02:00"
+    "CreationDate": "2026-08-26T14:30:26+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "BB3plus mainboard",
       "GUID": "42423370-6c75-4732-906d-61696e626f61",
-      "Revision": "r1B1"
+      "Revision": "r1B2"
     },
     "Size": {
       "X": 233.1,

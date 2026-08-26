@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-25")
+		(date "2026-08-26")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7926,7 +7926,7 @@
 		)
 		(uuid "e1cf3780-38e0-4c49-928a-f959415b57f0")
 	)
-	(text_box "Requirements:\n\nTo flash the firmware, the MCU must enter bootloader mode. For this, it is necessary to activate the BOOT0 input (active high) and then reset it. Since the MCU has the power input under control, before entering the bootloader mode it is necessary to ensure that there is no power interruption, so the SOFT_PWR output will need to remain active. It is also necessary to disable CM5 from going to sleep/reset, so ~{PWR_BTN} will have to remain high.\n\nSequence for programming the SYSMCU:\n\n- CM5 sends SYSMCU command to shut down all modules.\n- Disable the watchdog by setting WDG_SET to LOW.\n- UART_TX/DOUT1 is set to LOW.\n- DIB_OE_SYNC is set to LOW.\n- ~{DIB1_CSA} is set to LOW and ~{SYSMCU_CS} is set to LOW. This will enable the D flip-flop.\n- CM5 generates short positive pulse on DIB_OE_SYNC. This will latch SOFT_PWR (active high) to ensure power delivery without interruption and set BOOT0 (active high) and also shutdown all DIB peripheral modules via ~{DIB_SHUTDOWN}.\n- UART_TX/DOUT1 is set HIGH which will reset the SYSMCU via ~{WDG_MR} and put it into bootloader mode as BOOT0 is now active.\n- The firmware programming procedure starts.\n- When programming is complete, display a message on the screen that the device will be powered down. Set ~{DIB1_CSA} to HIGH and ~{SYSMCU_CS} to HIGH. This will turn off the power. \n\nNote: During programming of SYSMCU, it is necessary to ensure that CM5 is not reset or powered down. For this purpose, a 1G57 is used configured as a 2-Input NAND gate with inverted B input so that the signals ~{RPI_PWR_ON} and ~{RESET_OUT} have no effect on the ~{PWR_BTN} input of CM5 as long as the flip-flop is latched.\n"
+	(text_box "Requirements:\n\nTo flash the firmware, the MCU must enter bootloader mode. For this, it is necessary to activate the BOOT0 input (active high) and then reset it. Since the MCU has the power input under control, before entering the bootloader mode it is necessary to ensure that there is no power interruption, so the SOFT_PWR output will need to remain active. It is also necessary to disable CM5 from going to sleep/reset, so ~{PWR_BTN} will have to remain high.\n\nSequence for programming the SYSMCU:\n\n- CM5 sends SYSMCU command to shut down all modules.\n- Set CM5_CTRL to HIGH (SPI Relay driver OUT7 to HIGH) to disable reset/shutdown of the CM5 module while the firmware is flashing.\n- Disable the watchdog by setting WDG_SET to LOW.\n- UART_TX/DOUT1 is set to LOW.\n- DIB_OE_SYNC is set to LOW.\n- ~{DIB1_CSA} is set to LOW and ~{SYSMCU_CS} is set to LOW. This will enable the D flip-flop.\n- CM5 generates short positive pulse on DIB_OE_SYNC. This will latch SOFT_PWR (active high) to ensure power delivery without interruption and set BOOT0 (active high) and also shutdown all DIB peripheral modules via ~{DIB_SHUTDOWN}.\n- UART_TX/DOUT1 is set HIGH which will reset the SYSMCU via ~{WDG_MR} and put it into bootloader mode as BOOT0 is now active.\n- The firmware programming procedure starts.\n- When programming is complete, display a message on the screen that the device will be powered down. Set ~{DIB1_CSA} to HIGH and ~{SYSMCU_CS} to HIGH. This will turn off the power. \n\nNote: During programming of SYSMCU, it is necessary to ensure that CM5 is not reset or powered down. For this purpose, a 1G57 is used configured as a 2-Input NAND gate with inverted B input so that the signals ~{RPI_PWR_ON} and ~{RESET_OUT} have no effect on the ~{PWR_BTN} input of CM5 as long as CM5_CTRL is set HIGH."
 		(exclude_from_sim no)
 		(at 17.78 81.28 0)
 		(size 83.82 43.7324)
@@ -7952,12 +7952,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0390a4ed-593d-4625-a7d7-e83a78ad0599")
-	)
-	(junction
-		(at 76.2 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "047f70e3-2f4d-42f1-a043-722776cc40a1")
 	)
 	(junction
 		(at 111.76 190.5)
@@ -8002,6 +7996,12 @@
 		(uuid "24983fa9-f8e3-44cf-a616-ad0d34b24b3c")
 	)
 	(junction
+		(at 71.12 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2626bcb9-630b-4ed3-8676-15c450fca7db")
+	)
+	(junction
 		(at 134.62 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8018,6 +8018,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e7b598e-bf6f-45dc-b2d8-da815757a064")
+	)
+	(junction
+		(at 68.58 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "464d5e24-d75d-4898-a2a0-bc95e8fc1e0e")
 	)
 	(junction
 		(at 198.12 45.72)
@@ -8086,12 +8092,6 @@
 		(uuid "7d951c57-5630-46e9-9a6e-8ea8153bfa22")
 	)
 	(junction
-		(at 68.58 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81994651-3427-4e27-9b36-e86ae7fa07c9")
-	)
-	(junction
 		(at 203.2 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8138,6 +8138,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2dccaec-ff21-4666-93b3-3cde4c4b90f4")
+	)
+	(junction
+		(at 213.36 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ecb18e-1d32-4b6b-b191-44f53ad43136")
 	)
 	(junction
 		(at 233.68 149.86)
@@ -8346,6 +8352,16 @@
 			(type default)
 		)
 		(uuid "02690f66-a2c7-4a9d-b36f-04b4e13a8ee4")
+	)
+	(wire
+		(pts
+			(xy 71.12 154.94) (xy 73.66 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02db0438-0c62-485c-af40-fe2e76a323f3")
 	)
 	(wire
 		(pts
@@ -8580,7 +8596,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 147.32) (xy 238.76 147.32)
+			(xy 208.28 147.32) (xy 213.36 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8698,6 +8714,16 @@
 		)
 		(uuid "16c115e1-886e-406e-98b2-8c5bfeee0f53")
 	)
+	(wire
+		(pts
+			(xy 213.36 147.32) (xy 238.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f0ed3e-c3d0-4b6f-b160-d6fceea2d11b")
+	)
 	(polyline
 		(pts
 			(xy 485.14 66.04) (xy 485.14 91.44)
@@ -8778,6 +8804,16 @@
 			(type default)
 		)
 		(uuid "1e96dd0e-aca0-4101-8375-fe716d1e0ff0")
+	)
+	(wire
+		(pts
+			(xy 71.12 149.86) (xy 124.46 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef482d7-0616-45c9-a8e2-d13e9b7c1e9d")
 	)
 	(wire
 		(pts
@@ -8960,16 +8996,6 @@
 			(type default)
 		)
 		(uuid "346c0366-9166-46b9-b77d-e711706395ef")
-	)
-	(wire
-		(pts
-			(xy 76.2 149.86) (xy 124.46 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34ed946e-4a55-4d07-9065-999919dd2099")
 	)
 	(wire
 		(pts
@@ -9295,6 +9321,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 154.94) (xy 78.74 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5699ad13-cbfe-42ce-ad4f-a5990a70bf7c")
+	)
+	(wire
+		(pts
 			(xy 40.64 160.02) (xy 43.18 160.02)
 		)
 		(stroke
@@ -9466,17 +9502,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 157.48) (xy 68.58 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "634c099e-e171-4c8f-b63a-e914541b5cd3")
-	)
-	(wire
-		(pts
-			(xy 50.8 177.8) (xy 58.42 177.8)
+			(xy 53.34 177.8) (xy 58.42 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9847,6 +9873,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 149.86) (xy 71.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8977a4cf-5984-4514-b719-082ae4deb6f5")
+	)
+	(wire
+		(pts
 			(xy 165.1 165.1) (xy 162.56 165.1)
 		)
 		(stroke
@@ -9884,6 +9920,16 @@
 			(type default)
 		)
 		(uuid "8c1cedeb-94f3-40e1-870d-cbe7f5106ebb")
+	)
+	(wire
+		(pts
+			(xy 76.2 157.48) (xy 76.2 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3cb624-87fa-4902-9e2b-fb72d39e70c8")
 	)
 	(wire
 		(pts
@@ -10068,7 +10114,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 154.94) (xy 25.4 154.94)
+			(xy 22.86 157.48) (xy 25.4 157.48)
 		)
 		(stroke
 			(width 0)
@@ -10499,16 +10545,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 154.94) (xy 25.4 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9291e48-e029-4cd9-b4b2-55180a21d3f4")
-	)
-	(wire
-		(pts
 			(xy 144.78 162.56) (xy 124.46 162.56)
 		)
 		(stroke
@@ -10651,7 +10687,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 149.86) (xy 76.2 149.86)
+			(xy 66.04 149.86) (xy 71.12 149.86)
 		)
 		(stroke
 			(width 0)
@@ -10813,6 +10849,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 137.16) (xy 35.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea25fa85-aab4-4901-9b9b-49244b6c1e11")
+	)
+	(wire
+		(pts
 			(xy 45.72 149.86) (xy 43.18 149.86)
 		)
 		(stroke
@@ -10880,16 +10926,6 @@
 			(type default)
 		)
 		(uuid "ef524ae9-14b2-4ac6-84e3-40ce86eeca87")
-	)
-	(wire
-		(pts
-			(xy 76.2 149.86) (xy 76.2 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb7e9ad-d7ed-4139-ae85-0be249117d77")
 	)
 	(wire
 		(pts
@@ -11073,7 +11109,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 147.32) (xy 45.72 147.32)
+			(xy 25.4 137.16) (xy 35.56 137.16)
 		)
 		(stroke
 			(width 0)
@@ -11101,8 +11137,18 @@
 		)
 		(uuid "ff4a16db-1af6-4323-8522-889ba0ec81c0")
 	)
+	(wire
+		(pts
+			(xy 35.56 147.32) (xy 45.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff67effa-0bea-446a-ab62-75c1766b1f69")
+	)
 	(image
-		(at 59.055 189.23)
+		(at 48.895 189.23)
 		(uuid "231c4628-af5a-4bbd-a182-63d384ae345d")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAWYAAACwCAIAAACzVFPHAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nO3dezyU2f8A8I+ZcVduTWlz3W42KiGXKKkt5FrbRZEoq6jQVW1Jou1+Ydtqt9JFN91ESqXFLkIo"
@@ -12300,14 +12346,14 @@
 				(color 132 0 132 1)
 			)
 		)
-		(column_widths 10.16 2.54 10.795)
+		(column_widths 10.795 7.62 10.795)
 		(row_heights 2.54 1.905 1.905 1.905 1.905)
 		(uuid "c5d64bb4-f706-46b9-bb86-5bc4f99195d7")
 		(cells
 			(table_cell "~{RPI_PWR_ON}"
 				(exclude_from_sim no)
-				(at 75.565 180.34 0)
-				(size 10.16 2.54)
+				(at 68.58 180.34 0)
+				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12321,10 +12367,10 @@
 				)
 				(uuid "8ba713e4-2651-487f-983f-0425da951384")
 			)
-			(table_cell "~{Q}"
+			(table_cell "CM5_CTRL"
 				(exclude_from_sim no)
-				(at 85.725 180.34 0)
-				(size 2.54 2.54)
+				(at 79.375 180.34 0)
+				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12340,7 +12386,7 @@
 			)
 			(table_cell "~{CM5_PWR_BTN}"
 				(exclude_from_sim no)
-				(at 88.265 180.34 0)
+				(at 86.995 180.34 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -12357,8 +12403,8 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 75.565 182.88 0)
-				(size 10.16 1.905)
+				(at 68.58 182.88 0)
+				(size 10.795 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12374,8 +12420,8 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 85.725 182.88 0)
-				(size 2.54 1.905)
+				(at 79.375 182.88 0)
+				(size 7.62 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12391,7 +12437,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 88.265 182.88 0)
+				(at 86.995 182.88 0)
 				(size 10.795 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -12408,8 +12454,8 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 75.565 184.785 0)
-				(size 10.16 1.905)
+				(at 68.58 184.785 0)
+				(size 10.795 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12425,8 +12471,8 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 85.725 184.785 0)
-				(size 2.54 1.905)
+				(at 79.375 184.785 0)
+				(size 7.62 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12442,7 +12488,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 88.265 184.785 0)
+				(at 86.995 184.785 0)
 				(size 10.795 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -12459,8 +12505,8 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 75.565 186.69 0)
-				(size 10.16 1.905)
+				(at 68.58 186.69 0)
+				(size 10.795 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12476,8 +12522,8 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 85.725 186.69 0)
-				(size 2.54 1.905)
+				(at 79.375 186.69 0)
+				(size 7.62 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12493,7 +12539,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 88.265 186.69 0)
+				(at 86.995 186.69 0)
 				(size 10.795 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -12510,8 +12556,8 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 75.565 188.595 0)
-				(size 10.16 1.905)
+				(at 68.58 188.595 0)
+				(size 10.795 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12527,8 +12573,8 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 85.725 188.595 0)
-				(size 2.54 1.905)
+				(at 79.375 188.595 0)
+				(size 7.62 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12544,7 +12590,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 88.265 188.595 0)
+				(at 86.995 188.595 0)
 				(size 10.795 1.905)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -12972,7 +13018,7 @@
 	)
 	(global_label "~{RESET_OUT}"
 		(shape input)
-		(at 50.8 177.8 180)
+		(at 53.34 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12982,7 +13028,7 @@
 		)
 		(uuid "239f50fb-7bc6-4df5-9501-307463774c5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.9296 177.8 0)
+			(at 44.4696 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13789,6 +13835,30 @@
 			)
 		)
 	)
+	(global_label "CM5_CTRL"
+		(shape input)
+		(at 81.28 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "b23aec0f-9264-4060-b88f-5434d1e3bf16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.5156 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "~{FAN_FAULT}"
 		(shape input)
 		(at 180.34 43.18 0)
@@ -14010,7 +14080,7 @@
 	)
 	(global_label "~{DIB1_CSA}"
 		(shape input)
-		(at 22.86 154.94 180)
+		(at 22.86 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14020,7 +14090,7 @@
 		)
 		(uuid "d0eaca76-fffd-4842-8045-efb4a8aca561")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.0054 154.94 0)
+			(at 15.0054 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14106,7 +14176,7 @@
 	)
 	(global_label "DIB_OE_SYNC"
 		(shape input)
-		(at 25.4 147.32 180)
+		(at 25.4 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14116,7 +14186,7 @@
 		)
 		(uuid "e20daa4b-bbf4-4535-b8f4-15fc8c4e2e83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.0479 147.32 0)
+			(at 15.0479 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16604,6 +16674,135 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:JP3 shorted")
+		(at 76.2 154.94 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c890bb1-50ca-4a4f-9680-329e30035004")
+		(property "Reference" "JP7"
+			(at 73.66 153.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 76.2 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted (0603)"
+			(at 81.28 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 76.2 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 76.2 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 76.2 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "NC"
+			(uuid "816cb82e-277a-4444-aca9-82fa32bd66d7")
+		)
+		(pin "NO"
+			(uuid "cdcfaa12-0c39-4b88-8974-3786f287f967")
+		)
+		(pin "COM"
+			(uuid "9c92d43d-d89b-4792-bc75-49db70a2c8b4")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:JP3 shorted")
 		(at 132.08 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -16613,7 +16812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e149366-6e81-4523-9593-904e6d137cd4")
-		(property "Reference" "JP7"
+		(property "Reference" "JP8"
 			(at 133.35 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16724,7 +16923,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
-					(reference "JP7")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -18290,10 +18489,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4eadf8a6-db58-41db-a895-6cd4921d4f54")
 		(property "Reference" "IC1"
-			(at 32.0038 151.13 0)
+			(at 30.48 153.035 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18303,7 +18501,7 @@
 			)
 		)
 		(property "Value" "SN74HCS02PWR"
-			(at 32.0038 153.67 0)
+			(at 33.655 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18657,7 +18855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "585f0276-4039-4857-9581-d34d3f655b68")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 253.365 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18719,7 +18917,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -21150,7 +21348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75bf3b50-0fb8-4451-8a10-d1a91ac4653b")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 264.16 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21173,7 +21371,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_THT:Testhole 24_50mils"
+		(property "Footprint" "PCM_EEZ_THT:Testhole 12_25mils"
 			(at 266.7 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21206,13 +21404,57 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "980d586e-a25a-49db-a1a3-44b8ca2bb189")
 		)
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -22485,7 +22727,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+3V3")
-		(at 68.58 154.94 0)
+		(at 68.58 157.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22496,7 +22738,7 @@
 		(dnp no)
 		(uuid "97af7f6f-404d-48ce-9ca7-86797665cca8")
 		(property "Reference" "#+3V012"
-			(at 68.58 154.94 0)
+			(at 68.58 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22507,7 +22749,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 70.485 154.305 0)
+			(at 70.485 156.845 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22518,7 +22760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 154.94 0)
+			(at 68.58 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22529,7 +22771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 154.94 0)
+			(at 68.58 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22540,7 +22782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 154.94 0)
+			(at 68.58 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23265,6 +23507,129 @@
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB test point")
+		(at 213.36 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b41153cb-90ac-4390-a423-83eef2bd0b70")
+		(property "Reference" "TP1"
+			(at 213.36 142.875 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "PCB_TEST_TABSHIELD"
+			(at 215.9 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_THT:Testhole 12_25mils"
+			(at 215.9 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04c32c40-9a1c-4e02-b9a5-2f226cf9cf55")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
+					(reference "TP1")
 					(unit 1)
 				)
 			)

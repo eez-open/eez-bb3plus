@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-25")
+		(date "2026-08-26")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -1704,36 +1704,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_discretes:DIODE_LED"
+		(symbol "PCM_EEZ_discretes:DIODE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 1.905 0.635 0)
+				(at 2.54 0.4826 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 5.715 -2.032 90)
+			(property "Value" "???"
+				(at 2.54 -2.3114 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "PCM_EEZ_SMD:LED_LTST-C170KGKT_LTO-L"
-				(at 0.635 -3.81 0)
+			(property "Footprint" ""
+				(at 0 -3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1765,79 +1765,10 @@
 					)
 				)
 			)
-			(property "DigiKey" "160-1414-2-ND"
-				(at 0 -7.62 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "859-LTST-C170KGKT"
-				(at 0 -10.16 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TME" "LTST-C170KGKT"
-				(at 0 -12.7 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DIODE_LED_1_0"
+			(symbol "DIODE_1_0"
 				(polyline
 					(pts
-						(xy -2.032 1.778) (xy -3.429 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -3.302 -0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1849,7 +1780,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0 0)
+						(xy 1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1860,7 +1791,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at -2.54 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -1878,7 +1809,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
+					(at 2.54 0 180)
 					(length 2.54)
 					(name "C"
 						(effects
@@ -1896,34 +1827,10 @@
 					)
 				)
 			)
-			(symbol "DIODE_LED_1_1"
+			(symbol "DIODE_1_1"
 				(polyline
 					(pts
-						(xy -3.429 0.381) (xy -3.048 1.27) (xy -2.54 0.762) (xy -3.429 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 -0.762) (xy -2.921 0.127) (xy -2.413 -0.381) (xy -3.302 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54) (xy 0 0) (xy -1.27 2.54)
+						(xy 1.27 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -3829,6 +3736,18 @@
 		)
 		(uuid "9b62b588-668e-41bb-9093-1a098b7d8b7c")
 	)
+	(text "Max. SPI clock frequency: 5 MHz"
+		(exclude_from_sim no)
+		(at 35.56 127 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e7ef684-746d-464f-82eb-a5146da83787")
+	)
 	(text "PWR+ IN 1"
 		(exclude_from_sim no)
 		(at 119.38 27.94 0)
@@ -4122,13 +4041,13 @@
 		(uuid "4476c367-cb65-4d31-9c36-dce4c90c66de")
 	)
 	(junction
-		(at 129.54 144.78)
+		(at 132.08 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4816b8e5-d469-4669-8416-73427bfc9256")
 	)
 	(junction
-		(at 104.14 144.78)
+		(at 106.68 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c56a9f8-a21a-46f8-8936-5a6bd3063245")
@@ -4212,7 +4131,7 @@
 		(uuid "7930fe87-2faa-4f91-84fd-940766104101")
 	)
 	(junction
-		(at 91.44 144.78)
+		(at 93.98 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b48e5a1-ac60-498e-be18-e04b9860d111")
@@ -4260,6 +4179,12 @@
 		(uuid "9223f69d-28fb-4fff-af05-49fe3ad6b8b2")
 	)
 	(junction
+		(at 76.2 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "940d80aa-39ab-4b5c-950c-af8cdeadf94f")
+	)
+	(junction
 		(at 109.22 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4282,6 +4207,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8356a8e-0764-4dfa-a725-0b82cd821c0b")
+	)
+	(junction
+		(at 35.56 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a88d82c1-6649-415c-a170-d868019bae24")
 	)
 	(junction
 		(at 137.16 60.96)
@@ -4326,12 +4257,6 @@
 		(uuid "bb75d08b-a1ca-469e-9dc5-84863ce61f8c")
 	)
 	(junction
-		(at 78.74 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c238d06d-d9ab-4e2b-bc4f-39a4316146bd")
-	)
-	(junction
 		(at 246.38 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4362,7 +4287,7 @@
 		(uuid "d11069bc-094b-4369-8e4f-342514b2e1b1")
 	)
 	(junction
-		(at 116.84 144.78)
+		(at 119.38 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5fcf7d4-d25b-4260-bbf1-8d41619be4e5")
@@ -4493,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 93.98 129.54)
+			(xy 96.52 99.06) (xy 96.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4613,6 +4538,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 104.14) (xy 91.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dcaf1a9-0d18-4dcf-91b4-006000b1c460")
+	)
+	(wire
+		(pts
 			(xy 35.56 83.82) (xy 38.1 83.82)
 		)
 		(stroke
@@ -4703,7 +4638,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 144.78) (xy 132.08 144.78)
+			(xy 132.08 144.78) (xy 134.62 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4713,7 +4648,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 142.24) (xy 116.84 144.78)
+			(xy 119.38 142.24) (xy 119.38 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4730,16 +4665,6 @@
 			(type default)
 		)
 		(uuid "17bd5dfd-77ce-467c-b7cf-b9ca052eaa12")
-	)
-	(wire
-		(pts
-			(xy 71.12 129.54) (xy 71.12 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19fd5086-7927-4acf-9ba1-3a4d79c1b078")
 	)
 	(wire
 		(pts
@@ -5013,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 119.38) (xy 116.84 119.38)
+			(xy 99.06 121.92) (xy 119.38 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +4968,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 142.24) (xy 78.74 144.78)
+			(xy 63.5 119.38) (xy 63.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38af79c3-484b-48ed-bbf7-c20ed24ca74a")
+	)
+	(wire
+		(pts
+			(xy 81.28 142.24) (xy 81.28 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5063,7 +4998,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 129.54) (xy 104.14 129.54)
+			(xy 96.52 124.46) (xy 106.68 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +5038,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 104.14) (xy 78.74 104.14)
+			(xy 35.56 99.06) (xy 38.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c19ca57-b3c7-40bb-a410-aefca1561e50")
+	)
+	(wire
+		(pts
+			(xy 58.42 104.14) (xy 91.44 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5223,7 +5168,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 101.6) (xy 91.44 132.08)
+			(xy 93.98 101.6) (xy 93.98 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5273,16 +5218,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 104.14) (xy 78.74 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eef20a2-a8b1-4ddc-86d3-61715e16a33d")
-	)
-	(wire
-		(pts
 			(xy 172.72 48.26) (xy 175.26 48.26)
 		)
 		(stroke
@@ -5293,7 +5228,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 93.98 99.06)
+			(xy 58.42 99.06) (xy 96.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5313,7 +5248,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 144.78) (xy 129.54 144.78)
+			(xy 119.38 144.78) (xy 132.08 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5403,7 +5338,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 142.24) (xy 91.44 144.78)
+			(xy 93.98 142.24) (xy 93.98 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5443,7 +5378,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 96.52 91.44)
+			(xy 58.42 91.44) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5553,7 +5488,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 116.84) (xy 129.54 116.84)
+			(xy 101.6 119.38) (xy 132.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5603,16 +5538,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 99.06) (xy 38.1 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a4b7616-fd07-4b27-b2d7-ea1ba272192e")
-	)
-	(wire
-		(pts
 			(xy 175.26 48.26) (xy 175.26 55.88)
 		)
 		(stroke
@@ -5623,7 +5548,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 144.78) (xy 104.14 144.78)
+			(xy 93.98 144.78) (xy 106.68 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5650,6 +5575,16 @@
 			(type default)
 		)
 		(uuid "6df9e8af-94c0-4c57-98ef-6d1e02a7d4f0")
+	)
+	(wire
+		(pts
+			(xy 35.56 83.82) (xy 35.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea3128d-e5fb-4510-b5fc-1a4e36580d04")
 	)
 	(wire
 		(pts
@@ -5723,7 +5658,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 142.24) (xy 104.14 144.78)
+			(xy 106.68 142.24) (xy 106.68 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5833,7 +5768,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 116.84) (xy 129.54 132.08)
+			(xy 76.2 119.38) (xy 78.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d924409-0e76-4af6-89c5-5950c64a6efd")
+	)
+	(wire
+		(pts
+			(xy 132.08 119.38) (xy 132.08 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6063,7 +6008,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 91.44) (xy 96.52 119.38)
+			(xy 99.06 91.44) (xy 99.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6110,6 +6055,16 @@
 			(type default)
 		)
 		(uuid "94e29f69-c10d-410e-bd28-249fccb1e8dd")
+	)
+	(wire
+		(pts
+			(xy 63.5 106.68) (xy 58.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a2b53c-cfb4-4763-a8b5-4ec3f5feccb4")
 	)
 	(wire
 		(pts
@@ -6223,7 +6178,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 142.24) (xy 129.54 144.78)
+			(xy 132.08 142.24) (xy 132.08 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6263,7 +6218,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 119.38) (xy 116.84 132.08)
+			(xy 119.38 121.92) (xy 119.38 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6280,16 +6235,6 @@
 			(type default)
 		)
 		(uuid "a13230a1-f797-4d4d-a11d-a4148a37487b")
-	)
-	(wire
-		(pts
-			(xy 71.12 116.84) (xy 71.12 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a137c40a-b692-4bcf-9523-835c3e86bd8c")
 	)
 	(wire
 		(pts
@@ -6313,7 +6258,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 101.6) (xy 91.44 101.6)
+			(xy 58.42 101.6) (xy 93.98 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6333,6 +6278,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 124.46) (xy 91.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a415c2cb-6b06-4e47-8791-dc9e6a1867a4")
+	)
+	(wire
+		(pts
 			(xy 137.16 81.28) (xy 137.16 83.82)
 		)
 		(stroke
@@ -6343,7 +6298,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 144.78) (xy 91.44 144.78)
+			(xy 81.28 144.78) (xy 93.98 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6573,13 +6528,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 144.78) (xy 116.84 144.78)
+			(xy 106.68 144.78) (xy 119.38 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2537e1d-ede9-47ec-b3a8-fa93342df0bb")
+	)
+	(wire
+		(pts
+			(xy 81.28 124.46) (xy 81.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b400f3c6-d3b0-40e5-9ad2-93b37d0eec10")
 	)
 	(wire
 		(pts
@@ -6693,6 +6658,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 119.38) (xy 76.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1707de4-00fa-4385-81e0-5d43f6b1fbf4")
+	)
+	(wire
+		(pts
 			(xy 246.38 63.5) (xy 246.38 58.42)
 		)
 		(stroke
@@ -6754,7 +6729,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 106.68) (xy 71.12 106.68)
+			(xy 63.5 119.38) (xy 66.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6912,16 +6887,6 @@
 			(type default)
 		)
 		(uuid "d557dacd-9a75-4ed2-b586-730247e9aa65")
-	)
-	(wire
-		(pts
-			(xy 71.12 144.78) (xy 78.74 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f72b76-1b5d-415d-8a2a-937ed6c9d74d")
 	)
 	(wire
 		(pts
@@ -7085,7 +7050,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 101.6 116.84)
+			(xy 101.6 88.9) (xy 101.6 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7232,16 +7197,6 @@
 			(type solid)
 		)
 		(uuid "ed5f1f27-be3a-4a77-bb07-073d67bafa65")
-	)
-	(wire
-		(pts
-			(xy 71.12 139.7) (xy 71.12 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed848a2c-58f7-4bb6-be72-5ad2ff073373")
 	)
 	(wire
 		(pts
@@ -7415,7 +7370,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 129.54) (xy 104.14 132.08)
+			(xy 106.68 124.46) (xy 106.68 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7707,19 +7662,19 @@
 			)
 		)
 	)
-	(global_label "~{RESET_OUT}"
-		(shape input)
-		(at 30.48 99.06 180)
+	(global_label "CM5_CTRL"
+		(shape output)
+		(at 78.74 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "45fe307f-e914-4616-89e6-2df01d5087bf")
+		(uuid "45fba085-bf6d-4906-b939-a4b640a69f78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.6096 99.06 0)
+			(at 86.9756 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7727,7 +7682,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -7863,7 +7818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0adcd800-8f68-4102-a79d-173222a767ff")
-		(property "Reference" "C131"
+		(property "Reference" "C133"
 			(at 30.48 78.105 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7971,7 +7926,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "C131")
+					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -8132,6 +8087,85 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_symbols:+3V3")
+		(at 76.2 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31d52d58-e3cf-44dd-a233-5c48647695f6")
+		(property "Reference" "#+3V056"
+			(at 76.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 76.2 106.045 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18ffb989-9cdd-43e4-afc4-8e1979f16ce5")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
+					(reference "#+3V056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_unsorted:Relay RT4240xx")
 		(at 177.8 71.12 0)
 		(unit 3)
@@ -8287,7 +8321,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:Relay RT4240xx")
-		(at 104.14 137.16 180)
+		(at 106.68 137.16 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8297,7 +8331,7 @@
 		(dnp no)
 		(uuid "38f1049a-504d-425e-bfc0-c1a4669c3dc9")
 		(property "Reference" "K5"
-			(at 107.95 133.35 0)
+			(at 110.49 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8308,7 +8342,7 @@
 			)
 		)
 		(property "Value" "RT424012"
-			(at 104.775 139.7 0)
+			(at 107.315 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8319,7 +8353,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:RT424005"
-			(at 104.14 129.54 0)
+			(at 106.68 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8330,7 +8364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 137.16 0)
+			(at 106.68 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8341,7 +8375,7 @@
 			)
 		)
 		(property "Description" "Power PCB Relay RT2"
-			(at 104.14 137.16 0)
+			(at 106.68 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8352,7 +8386,7 @@
 			)
 		)
 		(property "DigiKey" "1111-RT424012-ND"
-			(at 104.14 127 0)
+			(at 106.68 127 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8363,7 +8397,7 @@
 			)
 		)
 		(property "Mouser" "655-RT424012"
-			(at 104.14 124.46 0)
+			(at 106.68 124.46 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8374,7 +8408,7 @@
 			)
 		)
 		(property "TME" "RT424012"
-			(at 104.14 121.92 0)
+			(at 106.68 121.92 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8385,7 +8419,7 @@
 			)
 		)
 		(property "LCSC" "C1524591"
-			(at 104.14 137.16 0)
+			(at 106.68 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8396,7 +8430,7 @@
 			)
 		)
 		(property "Label" "SER"
-			(at 104.775 141.605 0)
+			(at 107.315 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8441,7 +8475,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:Relay RT4240xx")
-		(at 91.44 137.16 180)
+		(at 93.98 137.16 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8451,7 +8485,7 @@
 		(dnp no)
 		(uuid "3e856241-6af5-4aa7-ab06-04db801466dc")
 		(property "Reference" "K4"
-			(at 95.25 133.35 0)
+			(at 97.79 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8462,7 +8496,7 @@
 			)
 		)
 		(property "Value" "RT424012"
-			(at 92.075 139.7 0)
+			(at 94.615 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8473,7 +8507,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:RT424005"
-			(at 91.44 129.54 0)
+			(at 93.98 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8484,7 +8518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 137.16 0)
+			(at 93.98 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8495,7 +8529,7 @@
 			)
 		)
 		(property "Description" "Power PCB Relay RT2"
-			(at 91.44 137.16 0)
+			(at 93.98 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,7 +8540,7 @@
 			)
 		)
 		(property "DigiKey" "1111-RT424012-ND"
-			(at 91.44 127 0)
+			(at 93.98 127 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8517,7 +8551,7 @@
 			)
 		)
 		(property "Mouser" "655-RT424012"
-			(at 91.44 124.46 0)
+			(at 93.98 124.46 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8528,7 +8562,7 @@
 			)
 		)
 		(property "TME" "RT424012"
-			(at 91.44 121.92 0)
+			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8539,7 +8573,7 @@
 			)
 		)
 		(property "LCSC" "C1524591"
-			(at 91.44 137.16 0)
+			(at 93.98 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8550,7 +8584,7 @@
 			)
 		)
 		(property "Label" "PAR"
-			(at 92.075 141.605 0)
+			(at 94.615 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9017,7 +9051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fb85cd9-a834-4422-9b91-f05d9635e3ca")
-		(property "Reference" "C134"
+		(property "Reference" "C136"
 			(at 200.025 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9125,7 +9159,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "C134")
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -9521,7 +9555,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:Relay RT4240xx")
-		(at 129.54 137.16 180)
+		(at 132.08 137.16 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9531,7 +9565,7 @@
 		(dnp no)
 		(uuid "5730a317-2ed4-4c92-89af-88a7cc64c959")
 		(property "Reference" "K7"
-			(at 133.35 133.35 0)
+			(at 135.89 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9542,7 +9576,7 @@
 			)
 		)
 		(property "Value" "RT424012"
-			(at 130.175 139.7 0)
+			(at 132.715 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9553,7 +9587,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:RT424005"
-			(at 129.54 129.54 0)
+			(at 132.08 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9564,7 +9598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 137.16 0)
+			(at 132.08 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9575,7 +9609,7 @@
 			)
 		)
 		(property "Description" "Power PCB Relay RT2"
-			(at 129.54 137.16 0)
+			(at 132.08 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9586,7 +9620,7 @@
 			)
 		)
 		(property "DigiKey" "1111-RT424012-ND"
-			(at 129.54 127 0)
+			(at 132.08 127 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9597,7 +9631,7 @@
 			)
 		)
 		(property "Mouser" "655-RT424012"
-			(at 129.54 124.46 0)
+			(at 132.08 124.46 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9608,7 +9642,7 @@
 			)
 		)
 		(property "TME" "RT424012"
-			(at 129.54 121.92 0)
+			(at 132.08 121.92 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -9619,7 +9653,7 @@
 			)
 		)
 		(property "LCSC" "C1524591"
-			(at 129.54 137.16 0)
+			(at 132.08 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9630,7 +9664,7 @@
 			)
 		)
 		(property "Label" "SRA"
-			(at 130.175 141.605 0)
+			(at 132.715 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10057,7 +10091,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:Relay RT4240xx")
-		(at 78.74 137.16 180)
+		(at 81.28 137.16 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10067,7 +10101,7 @@
 		(dnp no)
 		(uuid "901bf36b-a490-4ce4-8261-07319c033d08")
 		(property "Reference" "K3"
-			(at 78.74 133.35 0)
+			(at 81.28 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10078,7 +10112,7 @@
 			)
 		)
 		(property "Value" "RT424012"
-			(at 79.375 139.7 0)
+			(at 81.915 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10089,7 +10123,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:RT424005"
-			(at 78.74 129.54 0)
+			(at 81.28 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10100,7 +10134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 137.16 0)
+			(at 81.28 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10111,7 +10145,7 @@
 			)
 		)
 		(property "Description" "Power PCB Relay RT2"
-			(at 78.74 137.16 0)
+			(at 81.28 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10122,7 +10156,7 @@
 			)
 		)
 		(property "DigiKey" "1111-RT424012-ND"
-			(at 78.74 127 0)
+			(at 81.28 127 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10133,7 +10167,7 @@
 			)
 		)
 		(property "Mouser" "655-RT424012"
-			(at 78.74 124.46 0)
+			(at 81.28 124.46 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10144,7 +10178,7 @@
 			)
 		)
 		(property "TME" "RT424012"
-			(at 78.74 121.92 0)
+			(at 81.28 121.92 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10155,7 +10189,7 @@
 			)
 		)
 		(property "LCSC" "C1524591"
-			(at 78.74 137.16 0)
+			(at 81.28 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10166,7 +10200,7 @@
 			)
 		)
 		(property "Label" "PAR3"
-			(at 79.375 141.605 0)
+			(at 81.915 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10211,7 +10245,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+12V")
-		(at 134.62 144.78 270)
+		(at 137.16 144.78 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10221,7 +10255,7 @@
 		(dnp no)
 		(uuid "98b75190-41bd-479d-b847-79778ab5ed69")
 		(property "Reference" "#SUPPLY0109"
-			(at 134.62 144.78 0)
+			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10232,7 +10266,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 134.62 144.78 90)
+			(at 137.16 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10243,7 +10277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 144.78 0)
+			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,7 +10288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 144.78 0)
+			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10265,7 +10299,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 144.78 0)
+			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10442,131 +10476,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 71.12 134.62 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "a67b653f-e288-4a18-89eb-e36ee602a620")
-		(property "Reference" "R96"
-			(at 69.85 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1K8"
-			(at 69.85 135.255 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 71.12 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "13-RC0603FR-131K8LCT-ND"
-			(at 71.12 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "603-RC0603FR-131K8L"
-			(at 71.12 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" "SMD0603-1K8-1%"
-			(at 71.12 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C4177"
-			(at 71.12 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b9ae22d-c581-40dd-bf45-349b1a697e69")
-		)
-		(pin "2"
-			(uuid "7efaa8ee-5a2b-4f24-9c8d-56d50aa01717")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "R96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_EEZ_symbols:+12V")
 		(at 60.96 73.66 0)
 		(unit 1)
@@ -10725,7 +10634,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:Relay RT4240xx")
-		(at 116.84 137.16 180)
+		(at 119.38 137.16 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10735,7 +10644,7 @@
 		(dnp no)
 		(uuid "ab09d37b-8e3c-4ecf-848c-c7001eec0ba3")
 		(property "Reference" "K6"
-			(at 120.65 133.35 0)
+			(at 123.19 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10746,7 +10655,7 @@
 			)
 		)
 		(property "Value" "RT424012"
-			(at 117.475 139.7 0)
+			(at 120.015 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10757,7 +10666,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:RT424005"
-			(at 116.84 129.54 0)
+			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10768,7 +10677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 137.16 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10779,7 +10688,7 @@
 			)
 		)
 		(property "Description" "Power PCB Relay RT2"
-			(at 116.84 137.16 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10790,7 +10699,7 @@
 			)
 		)
 		(property "DigiKey" "1111-RT424012-ND"
-			(at 116.84 127 0)
+			(at 119.38 127 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10801,7 +10710,7 @@
 			)
 		)
 		(property "Mouser" "655-RT424012"
-			(at 116.84 124.46 0)
+			(at 119.38 124.46 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10812,7 +10721,7 @@
 			)
 		)
 		(property "TME" "RT424012"
-			(at 116.84 121.92 0)
+			(at 119.38 121.92 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10823,7 +10732,7 @@
 			)
 		)
 		(property "LCSC" "C1524591"
-			(at 116.84 137.16 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10834,7 +10743,7 @@
 			)
 		)
 		(property "Label" "CGND"
-			(at 117.475 141.605 0)
+			(at 120.015 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11051,143 +10960,6 @@
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
 					(reference "X27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_EEZ_discretes:DIODE_LED")
-		(at 71.12 119.38 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "de477d1e-dd6d-4b05-a259-5d96da8054fe")
-		(property "Reference" "LED8"
-			(at 70.485 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "LTST-C170KGKT"
-			(at 71.12 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_SMD:LED_LTST-C170KGKT_LTO-L"
-			(at 71.755 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "160-1414-2-ND"
-			(at 71.12 111.76 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "859-LTST-C170KGKT"
-			(at 71.12 109.22 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" "LTST-C170KGKT"
-			(at 71.12 106.68 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C98221"
-			(at 71.12 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Label" "Debug"
-			(at 71.12 123.825 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "A"
-			(uuid "ef4ecac3-8dfc-4ea8-822e-ae7b98096fb1")
-		)
-		(pin "C"
-			(uuid "79859d8c-e996-463c-9d34-7b9336ed5d00")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -11748,7 +11520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e82a9c26-20a4-45f9-8a6a-d851229f0d0f")
-		(property "Reference" "C133"
+		(property "Reference" "C135"
 			(at 200.025 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11856,7 +11628,143 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "C133")
+					(reference "C135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_passives:R-EU")
+		(at 76.2 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0babc43-f080-4d14-8328-206fe815f22a")
+		(property "Reference" "R96"
+			(at 71.12 113.665 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10K"
+			(at 71.12 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "756-WCR0603-10KFI"
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "SMD0603-10K-1%"
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
+			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78741db7-8b15-4003-9b1c-02a12e6ceed5")
+		)
+		(pin "2"
+			(uuid "814fceca-1165-42de-b0f6-adf78d02b129")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -11953,7 +11861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5822833-4fd6-4c94-8ec6-23c67f26e699")
-		(property "Reference" "IC26"
+		(property "Reference" "IC27"
 			(at 40.64 80.645 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -12130,7 +12038,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "IC26")
+					(reference "IC27")
 					(unit 1)
 				)
 			)
@@ -12148,7 +12056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f81ad3a6-1644-478b-9ea4-dac78f70d2ee")
-		(property "Reference" "C132"
+		(property "Reference" "C134"
 			(at 66.04 78.105 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12256,7 +12164,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "C132")
+					(reference "C134")
 					(unit 1)
 				)
 			)
@@ -12436,6 +12344,142 @@
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
 					(reference "X24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_discretes:DIODE")
+		(at 68.58 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc71995a-ccac-43dc-8ae1-de2ad41149a4")
+		(property "Reference" "D16"
+			(at 68.58 117.475 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BAS316"
+			(at 68.58 121.285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:SOD-323_1P8X1P35_ONS-M"
+			(at 68.58 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "1727-7370-1-ND"
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "771-BAS316-T/R"
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "BAS316,115"
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "16f9101c-0924-4be7-a4b2-e0fab7f9aac2")
+		)
+		(pin "C"
+			(uuid "f833beca-1375-40af-8895-fda190095175")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
+					(reference "D16")
 					(unit 1)
 				)
 			)
