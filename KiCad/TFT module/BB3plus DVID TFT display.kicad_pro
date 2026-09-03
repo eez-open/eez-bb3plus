@@ -78,11 +78,19 @@
       ],
       "drc_exclusions": [
         [
-          "shorting_items|114934800|72650000|a66d83de-a32d-4cd9-9bbb-16e48497cc31|e208700a-982b-4031-89d0-dbcfcf4e9916",
+          "clearance|115595200|72650000|65354368-053f-4bb5-bb6a-7761736201a7|a66d83de-a32d-4cd9-9bbb-16e48497cc31",
           ""
         ],
         [
-          "shorting_items|115595200|72650000|65354368-053f-4bb5-bb6a-7761736201a7|a66d83de-a32d-4cd9-9bbb-16e48497cc31",
+          "clearance|117114200|71365000|4b11fa31-58b3-4682-bae4-35007c9af677|967b49bb-3415-410d-86f2-cd813e1ddd79",
+          ""
+        ],
+        [
+          "clearance|126225200|68080000|b1a25a63-7766-4d7f-83ba-7c58330cdbed|b5cd7ccc-9318-4004-a72c-3e90df9c594f",
+          ""
+        ],
+        [
+          "shorting_items|114934800|72650000|a66d83de-a32d-4cd9-9bbb-16e48497cc31|e208700a-982b-4031-89d0-dbcfcf4e9916",
           ""
         ],
         [
@@ -90,7 +98,7 @@
           ""
         ],
         [
-          "shorting_items|117114200|71365000|4b11fa31-58b3-4682-bae4-35007c9af677|967b49bb-3415-410d-86f2-cd813e1ddd79",
+          "shorting_items|125564800|68080000|b5cd7ccc-9318-4004-a72c-3e90df9c594f|dd5c6c0d-4bb9-4fb2-8736-5505dc5cecff",
           ""
         ],
         [
@@ -106,10 +114,6 @@
           ""
         ],
         [
-          "solder_mask_bridge|114934800|72650000|52dcdbef-4dde-45e9-aba7-34309a02557b|a66d83de-a32d-4cd9-9bbb-16e48497cc31",
-          ""
-        ],
-        [
           "solder_mask_bridge|114934800|72650000|a66d83de-a32d-4cd9-9bbb-16e48497cc31|e208700a-982b-4031-89d0-dbcfcf4e9916",
           ""
         ],
@@ -122,10 +126,6 @@
           ""
         ],
         [
-          "solder_mask_bridge|117114200|71365000|4c5c9d23-dd42-467f-8b81-aafcb753dc1f|967b49bb-3415-410d-86f2-cd813e1ddd79",
-          ""
-        ],
-        [
           "solder_mask_bridge|117114200|71365000|4c5c9d23-dd42-467f-8b81-aafcb753dc1f|ed39cc5b-f2ea-4feb-aeaf-030c279a567a",
           ""
         ],
@@ -134,11 +134,19 @@
           ""
         ],
         [
-          "solder_mask_bridge|142630000|82414600|67410132-46cc-4bec-807b-99d074f42edc|c7b35616-ce46-4afa-8dd5-4ac0be12443a",
+          "solder_mask_bridge|125564800|68080000|b5cd7ccc-9318-4004-a72c-3e90df9c594f|dd5c6c0d-4bb9-4fb2-8736-5505dc5cecff",
           ""
         ],
         [
-          "solder_mask_bridge|142630000|82414600|79a19f18-1e1b-4a31-a1e6-45a11cfd9425|67410132-46cc-4bec-807b-99d074f42edc",
+          "solder_mask_bridge|126225200|68080000|1b6100a7-88df-4ec3-8c50-300366b58f3c|dd5c6c0d-4bb9-4fb2-8736-5505dc5cecff",
+          ""
+        ],
+        [
+          "solder_mask_bridge|126225200|68080000|b5cd7ccc-9318-4004-a72c-3e90df9c594f|b1a25a63-7766-4d7f-83ba-7c58330cdbed",
+          ""
+        ],
+        [
+          "solder_mask_bridge|142630000|82414600|67410132-46cc-4bec-807b-99d074f42edc|c7b35616-ce46-4afa-8dd5-4ac0be12443a",
           ""
         ],
         [
@@ -147,6 +155,10 @@
         ],
         [
           "solder_mask_bridge|142630000|83075000|67410132-46cc-4bec-807b-99d074f42edc|9eb4504e-b9ad-41c8-9777-f9a3405f046e",
+          ""
+        ],
+        [
+          "text_thickness|176067991|56806597|727a13ea-170c-40eb-b4fe-0f4de5b36d7b|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],

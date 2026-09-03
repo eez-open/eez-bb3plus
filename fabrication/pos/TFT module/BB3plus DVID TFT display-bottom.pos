@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-04-18T09:18:58 ###
-### Printed by KiCad version 10.0.1-10.0.1~ubuntu24.04.1
+### Footprint positions - created on 2026-09-03T16:30:46 ###
+### Printed by KiCad version 10.0.6-10.0.6~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                 Package                         PosX       PosY       Rot  Side
@@ -11,7 +11,7 @@ C5        4u7                 C_0603_1608Metric            31.9800    54.1350   
 C6        10n                 C_0603_1608Metric            13.4500    83.4450   90.0000  bottom
 C7        10n                 C_0603_1608Metric            13.4500    65.9150   90.0000  bottom
 C8        4u7                 C_0603_1608Metric            43.9000    56.5100    0.0000  bottom
-C9        100n                C_0603_1608Metric            30.0300    60.9700  180.0000  bottom
+C9        100n                C_0603_1608Metric            29.8000    60.9400  180.0000  bottom
 C10       10n                 C_0603_1608Metric            13.4500    47.4500   90.0000  bottom
 C11       10u                 C_0805_2012Metric            63.3100    32.5300  -90.0000  bottom
 C12       100n                C_0603_1608Metric            73.1800    46.7200   90.0000  bottom
@@ -38,7 +38,7 @@ FB6       60R@100MHz          BEAD0603                     64.2100    26.4700   
 IC1       TFP401APZP          QFP50P1600X1600X120-101N     72.9200    36.6000    0.0000  bottom
 IC2       AZ1117CH2-3.3TRG1   SOT223                       96.4230    37.1100    0.0000  bottom
 IC3       TPS61169DCKR        DCK5                         40.7750    67.5050   90.0000  bottom
-IC4       TCA9554APWR         PW(R-PDSO-G16)               34.3000    63.8000  -90.0000  bottom
+IC4       TCA9554APWR         PW(R-PDSO-G16)               34.0700    63.7700  -90.0000  bottom
 L1        DLG-0403-4R7        DE0403                       45.0407    64.5784  -90.0000  bottom
 R1        10R                 R_0805_2012Metric            42.8400    70.3600    0.0000  bottom
 R2        10R                 R_0805_2012Metric            38.6100    64.3019    0.0000  bottom
@@ -48,7 +48,7 @@ SW1       B3FS-4052P          B3FS-4052P_(cut_out)          8.2500    75.2000  -
 SW2       B3FS-4052P          B3FS-4052P_(cut_out)          8.2500    57.2000  -90.0000  bottom
 SW3       B3FS-4052P          B3FS-4052P_(cut_out)          8.2500    39.2000  -90.0000  bottom
 SW4       B3FS-4052P          B3FS-4052P_(cut_out)          8.2500    21.2000  -90.0000  bottom
-X1        5051102091          5051102291                   93.6165    23.1900  -90.0000  bottom
+X1        505110-2291         5051102291                   93.6165    23.1900  -90.0000  bottom
 X2        F3311A7H121006E200  F3311A7H121006E200_MIRROR    32.0000    50.0000  180.0000  bottom
 X3        F32D-1A7Y1-21040    F32D-1A7Y1-21040_MIRROR      50.6000    51.5000  180.0000  bottom
 ZD1       BZX384-B24,115      SOD-323_1P8X1P35_ONS-M       41.0700    59.5100  180.0000  bottom

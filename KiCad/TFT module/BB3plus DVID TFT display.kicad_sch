@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-23")
+		(date "2026-09-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_url}")
@@ -223,6 +223,233 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JP3 shorted_1"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_SMD:JP3 shorted"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JP3 shorted_1_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 1.524)
+					(mid 0 2.0298)
+					(end 0.508 1.524)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.3592 0.6568)
+					(end -0.508 1.016)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.508 1.016)
+					(mid 0.3592 0.6568)
+					(end 0 0.508)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.508 -1.016)
+					(mid 0 -0.5102)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.3592 -1.8832)
+					(end -0.508 -1.524)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.508 -1.524)
+					(mid 0.3592 -1.8832)
+					(end 0 -2.032)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "COM"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 180)
+					(length 0)
+					(name "NC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 180)
+					(length 0)
+					(name "NO"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NO"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -10083,231 +10310,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_unsorted:JP3 shorted with 0R"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_EEZ_SMD:JP3 shorted with 0R (0603)"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JP3 shorted with 0R_0_1"
-				(rectangle
-					(start -1.5982 1.7277)
-					(end -0.3282 0.9657)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "JP3 shorted with 0R_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.778 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.667 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(symbol "JP3 shorted with 0R_1_1"
-				(rectangle
-					(start -1.905 0.635)
-					(end -1.27 -0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.3442 1.7277)
-					(end -1.5982 0.9657)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.635 0.635)
-					(end 0.635 -0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.3282 1.7277)
-					(end -0.5822 0.9657)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.27 0.635)
-					(end 1.905 -0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_EEZ_unsorted:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -12798,7 +12800,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 50.8) (xy 218.44 48.26)
+			(xy 218.44 48.26) (xy 218.44 45.72)
 		)
 		(stroke
 			(width 0)
@@ -15482,7 +15484,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 50.8) (xy 218.44 50.8)
+			(xy 210.82 48.26) (xy 218.44 48.26)
 		)
 		(stroke
 			(width 0)
@@ -16548,6 +16550,16 @@
 			(color 0 0 194 1)
 		)
 		(uuid "be579ef4-02a3-49ad-a936-225e550d9f76")
+	)
+	(wire
+		(pts
+			(xy 218.44 38.1) (xy 218.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7339d8-c230-4eab-8aa2-dc9c3f358963")
 	)
 	(wire
 		(pts
@@ -18706,7 +18718,7 @@
 		(uuid "8247ca00-f3b1-46f6-b85e-760295f75b2f")
 	)
 	(label "BL_PWM"
-		(at 210.82 50.8 0)
+		(at 210.82 48.26 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -20383,7 +20395,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "110ed1b5-72c2-4373-b35f-374d084a3773")
 		(property "Reference" "C28"
@@ -21876,7 +21888,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "28458208-be98-479f-8062-799fdeea5854")
 		(property "Reference" "R7"
@@ -22986,30 +22998,30 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_unsorted:JP3 shorted with 0R")
-		(at 218.44 43.18 90)
+		(lib_name "JP3 shorted_1")
+		(lib_id "PCM_EEZ_unsorted:JP3 shorted")
+		(at 218.44 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "346e250d-7dd3-49cc-91d3-bd544b6379c7")
 		(property "Reference" "JP1"
-			(at 215.9 43.1164 90)
+			(at 217.805 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0R"
-			(at 218.44 43.18 90)
+			(at 218.44 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23019,8 +23031,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted with 0R (0603)"
-			(at 223.52 43.18 0)
+		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted (0603)"
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23031,7 +23043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 43.18 90)
+			(at 218.44 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23096,13 +23108,13 @@
 				)
 			)
 		)
-		(pin "2"
+		(pin "NC"
 			(uuid "69580d98-aacd-4179-8d70-f910d059a86b")
 		)
-		(pin "1"
+		(pin "COM"
 			(uuid "e9686e02-05d9-4fb8-98f6-80c10d7fb3c2")
 		)
-		(pin "3"
+		(pin "NO"
 			(uuid "225b9957-3d57-4033-942a-cbdc7e75f74a")
 		)
 		(instances
@@ -23122,7 +23134,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "360ce217-798c-4b92-9ab3-cfcd18d1df4d")
 		(property "Reference" "X4"
@@ -23852,7 +23864,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "49514e87-27ae-4a8c-ab4d-2dec7716a8d9")
 		(property "Reference" "R3"
@@ -24955,7 +24967,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "5ef4741b-cad2-47c6-83a8-f27332bc3dcc")
 		(property "Reference" "C25"
@@ -25249,7 +25261,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "6150d594-2c45-4f28-a293-2fa2e4ca9a95")
 		(property "Reference" "IC5"
@@ -26089,7 +26101,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "71762717-0db3-44c7-9d30-07b743f07d35")
 		(property "Reference" "R8"
@@ -28833,7 +28845,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "ba43ab32-cf28-4721-8da8-d68e6fde4b37")
 		(property "Reference" "R6"
@@ -32034,7 +32046,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "e6274d8f-3762-412f-88be-77498e9eb2aa")
 		(property "Reference" "IC6"
@@ -32711,7 +32723,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "eb4a0e84-1fc6-497c-835a-a555a65bf083")
 		(property "Reference" "IC7"
@@ -33436,7 +33448,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "f5b71449-fa04-4768-a6cc-da055cda7bf7")
 		(property "Reference" "C24"
