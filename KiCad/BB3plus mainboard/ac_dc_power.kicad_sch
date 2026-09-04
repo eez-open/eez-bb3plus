@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-26")
+		(date "2026-09-04")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -9724,6 +9724,28 @@
 			(justify left top)
 		)
 		(uuid "be90dca5-50f4-4e89-a67f-547dcfbc8ff0")
+	)
+	(text_box "Mating part: VHR-3N\nCrimp terminal: SVH-41T-P1.1"
+		(exclude_from_sim no)
+		(at 215.265 27.305 0)
+		(size 60.325 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1cfd63d-102d-4d71-bcb4-e8683b4d19d8")
 	)
 	(junction
 		(at 134.62 182.88)
