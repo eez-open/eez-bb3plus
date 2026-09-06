@@ -609,7 +609,7 @@
 			)
 		)
 		(property "Value" "PCB_TEST_TABSHIELD"
-			(at 0 1 -90)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4178a8a0-b5cd-4f7b-9b30-9ea0dd490853")
@@ -669,7 +669,7 @@
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 -90)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c433a6b4-fe55-487d-a179-c835162ebd41")
@@ -3790,7 +3790,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0805FR-079R1LCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3804,7 +3804,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" " 603-RC0805FR-079R1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3818,7 +3818,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3846,7 +3846,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C483254"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3869,7 +3869,7 @@
 				(pins "2" "1")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -19473,7 +19473,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "9R1"
 			(at 0 -0.375 180)
 			(layer "B.Fab")
 			(uuid "62cc51e9-5ceb-4caf-a4f1-974575ef28af")
@@ -19513,7 +19513,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DigiKey" "311-10.0CRCT-ND "
+		(property "DigiKey" "13-RC0805FR-079R1LCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19527,7 +19527,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "71-CRCW080510R0FKEAC"
+		(property "Mouser" " 603-RC0805FR-079R1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19541,7 +19541,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TME" "0805S8F100JT5E"
+		(property "TME" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19569,7 +19569,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C17415"
+		(property "LCSC" "C483254"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32391,7 +32391,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "26,4 mm"
+		(gr_text "1041,3 mils"
 			(at 113.125 82.39 0)
 			(layer "User.1")
 			(uuid "03e40a5f-dec7-407d-b49c-4853485bdb84")
@@ -32428,7 +32428,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "42,0000 mm"
+		(gr_text "1653,5433 mils"
 			(at 122.35 112.4 90)
 			(layer "User.1")
 			(uuid "046d4ee4-292d-4bfb-95b8-c5e1918a58e8")
@@ -32465,7 +32465,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "12,6 mm"
+		(gr_text "496,1 mils"
 			(at 92.1 66.3 90)
 			(layer "User.1")
 			(uuid "1698f19c-d404-49fa-b3c0-692e5d77df5c")
@@ -32502,7 +32502,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "116,0 mm"
+		(gr_text "4566,9 mils"
 			(at 153 143.15 0)
 			(layer "User.1")
 			(uuid "1f96e1c3-706c-4a9c-b55a-c807366aeca4")
@@ -32539,7 +32539,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "84,0 mm"
+		(gr_text "3307,1 mils"
 			(at 223.95 95.5 90)
 			(layer "User.1")
 			(uuid "2d49e88e-e30a-4844-aa62-bd0647807f2f")
@@ -32576,7 +32576,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4,9 mm"
+		(gr_text "192,9 mils"
 			(at 208.55 138.05 0)
 			(layer "User.1")
 			(uuid "2dfd0a5d-2c59-4450-a316-32c42f3d9189")
@@ -32613,7 +32613,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "12,5 mm"
+		(gr_text "492,1 mils"
 			(at 93.25 83.15 0)
 			(layer "User.1")
 			(uuid "31e2aed6-503c-4d6e-b2bc-b333cb7af634")
@@ -32650,7 +32650,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4,0 mm"
+		(gr_text "157,5 mils"
 			(at 223.95 139.5 90)
 			(layer "User.1")
 			(uuid "38e34a05-fbcf-4a05-904c-856cee4c2059")
@@ -32687,7 +32687,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4,0 mm"
+		(gr_text "157,5 mils"
 			(at 223.95 51.500002 90)
 			(layer "User.1")
 			(uuid "42743d96-53eb-41a8-a98e-a381f29bd0e2")
@@ -32724,7 +32724,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "92,0 mm"
+		(gr_text "3622,0 mils"
 			(at 226.760496 95.5 90)
 			(layer "User.1")
 			(uuid "512e5872-eaf0-486d-9d12-4d5852da10fc")
@@ -32761,7 +32761,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "10,0 mm"
+		(gr_text "393,7 mils"
 			(at 90.000001 143.15 0)
 			(layer "User.1")
 			(uuid "63661e44-5aaa-4c72-a976-da6071242151")
@@ -32798,7 +32798,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "67,4 mm"
+		(gr_text "2653,5 mils"
 			(at 102.55 93.3 90)
 			(layer "User.1")
 			(uuid "897b076f-1bff-499c-93fb-c7a31bca6d4d")
@@ -32835,7 +32835,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "15,8000 mm"
+		(gr_text "622,0472 mils"
 			(at 107.8 93.65 0)
 			(layer "User.1")
 			(uuid "bbbf2847-34c7-494c-a085-10c02a84cda3")
@@ -32872,7 +32872,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "75,8 mm"
+		(gr_text "2983,9 mils"
 			(at 96.12 95.495 90)
 			(layer "User.1")
 			(uuid "dd8d968a-e2ce-4412-9546-48e894849d2c")
@@ -32909,7 +32909,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "10,0 mm"
+		(gr_text "393,7 mils"
 			(at 216 143.15 0)
 			(layer "User.1")
 			(uuid "f899fea7-29fe-4e37-8393-95801713b051")
@@ -32946,7 +32946,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "136,0 mm"
+		(gr_text "5354,3 mils"
 			(at 153 145.25 0)
 			(layer "User.1")
 			(uuid "f9f70ae4-24df-4cb9-ae02-f3377deb5d72")
@@ -32957,6 +32957,182 @@
 				)
 			)
 		)
+	)
+	(segment
+		(start 133.22 69.84)
+		(end 133.22 81.43)
+		(width 0.127)
+		(layer "F.Cu")
+		(net "/VLED+")
+		(uuid "4932484b-7abc-4521-b612-f5e078ce36b9")
+	)
+	(segment
+		(start 132.14875 67.10875)
+		(end 133.21 68.17)
+		(width 0.127)
+		(layer "F.Cu")
+		(net "/VLED+")
+		(uuid "4a7922c9-59f9-4483-9b9f-105168584e4b")
+	)
+	(segment
+		(start 133.22 81.43)
+		(end 132.64 82.01)
+		(width 0.127)
+		(layer "F.Cu")
+		(net "/VLED+")
+		(uuid "786c3402-09a3-4836-8eed-a792c3518f32")
+	)
+	(segment
+		(start 132.64 82.01)
+		(end 128.22 82.01)
+		(width 0.127)
+		(layer "F.Cu")
+		(net "/VLED+")
+		(uuid "c2e65018-d927-47f2-8fbe-5a8c73da1bea")
+	)
+	(segment
+		(start 132.14875 55.06)
+		(end 132.14875 67.10875)
+		(width 0.127)
+		(layer "F.Cu")
+		(net "/VLED+")
+		(uuid "ef297a1d-c4f1-4226-803e-8e6cbdca57d6")
+	)
+	(via
+		(at 133.21 68.17)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/VLED+")
+		(uuid "05dbe18e-e026-474e-9b18-57dafc6bcce4")
+	)
+	(via
+		(at 128.22 82.01)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/VLED+")
+		(uuid "5796b60b-8231-4383-a9a1-d97974cef780")
+	)
+	(via
+		(at 133.22 69.84)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/VLED+")
+		(uuid "9dc770ed-551e-45de-9af9-70ccd7d8735d")
+	)
+	(segment
+		(start 127.47 82.0311)
+		(end 127.4289 81.99)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "0b03c22d-ef3f-4484-b50b-793e5d45a9a9")
+	)
+	(segment
+		(start 127.4489 82.01)
+		(end 127.4289 81.99)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "1e35d782-f932-4aec-b9ff-79678440b76a")
+	)
+	(segment
+		(start 133.21 68.17)
+		(end 133.21 69.83)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "1ee7ab3f-2848-4a72-af7e-398def1f2d5d")
+	)
+	(segment
+		(start 127.4789 81.94)
+		(end 127.4289 81.99)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "314078b2-d46c-4674-91a1-39acc0e755ad")
+	)
+	(segment
+		(start 127.78695 80.18805)
+		(end 127.14305 80.18805)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "44b6f113-4dfe-403e-a941-dfb39a94cda1")
+	)
+	(segment
+		(start 128.22 82.01)
+		(end 127.4489 82.01)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "4786b56c-69b7-45d0-93d0-5f2e2d7489c0")
+	)
+	(segment
+		(start 126.35 82.6)
+		(end 126.96 81.99)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "5772c1d5-42ee-420d-862f-64617bd483dd")
+	)
+	(segment
+		(start 133.21 69.83)
+		(end 133.22 69.84)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "5dc531aa-a440-4908-9291-40cd1f1253f2")
+	)
+	(segment
+		(start 127.4289 81.99)
+		(end 127.4289 80.58415)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "82a69b2f-3c0b-4bc1-a278-3a06ba859348")
+	)
+	(segment
+		(start 126.96 81.99)
+		(end 127.4289 81.99)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "87a600ef-8af9-4836-a820-8e0630d19d8c")
+	)
+	(segment
+		(start 127.14305 80.18805)
+		(end 126.29195 79.33695)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "a6a12491-76f0-4bf1-9a48-eed2b4f493f8")
+	)
+	(segment
+		(start 126.35 86.415)
+		(end 126.35 82.6)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "a895456c-bdb2-48bb-b070-4336e5a00fff")
+	)
+	(segment
+		(start 126.35 86.915)
+		(end 126.35 86.415)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "daf9f468-3153-4968-8529-109252416028")
+	)
+	(segment
+		(start 127.4289 80.58415)
+		(end 127.825 80.18805)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net "/VLED+")
+		(uuid "ff47af89-8d57-460c-af0b-f136cd0928a3")
 	)
 	(segment
 		(start 117.2 55.06)
@@ -36195,182 +36371,6 @@
 		(layer "B.Cu")
 		(net "Net-(IC4-P2)")
 		(uuid "f37946e4-db01-4a5c-b4df-6b57f5f41233")
-	)
-	(segment
-		(start 133.22 69.84)
-		(end 133.22 81.43)
-		(width 0.127)
-		(layer "F.Cu")
-		(net "/VLED+")
-		(uuid "4932484b-7abc-4521-b612-f5e078ce36b9")
-	)
-	(segment
-		(start 132.14875 67.10875)
-		(end 133.21 68.17)
-		(width 0.127)
-		(layer "F.Cu")
-		(net "/VLED+")
-		(uuid "4a7922c9-59f9-4483-9b9f-105168584e4b")
-	)
-	(segment
-		(start 133.22 81.43)
-		(end 132.64 82.01)
-		(width 0.127)
-		(layer "F.Cu")
-		(net "/VLED+")
-		(uuid "786c3402-09a3-4836-8eed-a792c3518f32")
-	)
-	(segment
-		(start 132.64 82.01)
-		(end 128.22 82.01)
-		(width 0.127)
-		(layer "F.Cu")
-		(net "/VLED+")
-		(uuid "c2e65018-d927-47f2-8fbe-5a8c73da1bea")
-	)
-	(segment
-		(start 132.14875 55.06)
-		(end 132.14875 67.10875)
-		(width 0.127)
-		(layer "F.Cu")
-		(net "/VLED+")
-		(uuid "ef297a1d-c4f1-4226-803e-8e6cbdca57d6")
-	)
-	(via
-		(at 133.21 68.17)
-		(size 0.5)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/VLED+")
-		(uuid "05dbe18e-e026-474e-9b18-57dafc6bcce4")
-	)
-	(via
-		(at 128.22 82.01)
-		(size 0.5)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/VLED+")
-		(uuid "5796b60b-8231-4383-a9a1-d97974cef780")
-	)
-	(via
-		(at 133.22 69.84)
-		(size 0.5)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/VLED+")
-		(uuid "9dc770ed-551e-45de-9af9-70ccd7d8735d")
-	)
-	(segment
-		(start 127.47 82.0311)
-		(end 127.4289 81.99)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "0b03c22d-ef3f-4484-b50b-793e5d45a9a9")
-	)
-	(segment
-		(start 127.4489 82.01)
-		(end 127.4289 81.99)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "1e35d782-f932-4aec-b9ff-79678440b76a")
-	)
-	(segment
-		(start 133.21 68.17)
-		(end 133.21 69.83)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "1ee7ab3f-2848-4a72-af7e-398def1f2d5d")
-	)
-	(segment
-		(start 127.4789 81.94)
-		(end 127.4289 81.99)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "314078b2-d46c-4674-91a1-39acc0e755ad")
-	)
-	(segment
-		(start 127.78695 80.18805)
-		(end 127.14305 80.18805)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "44b6f113-4dfe-403e-a941-dfb39a94cda1")
-	)
-	(segment
-		(start 128.22 82.01)
-		(end 127.4489 82.01)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "4786b56c-69b7-45d0-93d0-5f2e2d7489c0")
-	)
-	(segment
-		(start 126.35 82.6)
-		(end 126.96 81.99)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "5772c1d5-42ee-420d-862f-64617bd483dd")
-	)
-	(segment
-		(start 133.21 69.83)
-		(end 133.22 69.84)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "5dc531aa-a440-4908-9291-40cd1f1253f2")
-	)
-	(segment
-		(start 127.4289 81.99)
-		(end 127.4289 80.58415)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "82a69b2f-3c0b-4bc1-a278-3a06ba859348")
-	)
-	(segment
-		(start 126.96 81.99)
-		(end 127.4289 81.99)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "87a600ef-8af9-4836-a820-8e0630d19d8c")
-	)
-	(segment
-		(start 127.14305 80.18805)
-		(end 126.29195 79.33695)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "a6a12491-76f0-4bf1-9a48-eed2b4f493f8")
-	)
-	(segment
-		(start 126.35 86.415)
-		(end 126.35 82.6)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "a895456c-bdb2-48bb-b070-4336e5a00fff")
-	)
-	(segment
-		(start 126.35 86.915)
-		(end 126.35 86.415)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "daf9f468-3153-4968-8529-109252416028")
-	)
-	(segment
-		(start 127.4289 80.58415)
-		(end 127.825 80.18805)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net "/VLED+")
-		(uuid "ff47af89-8d57-460c-af0b-f136cd0928a3")
 	)
 	(segment
 		(start 95.75 59.15)
