@@ -51,22 +51,22 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.381,
-          "corner_smoothing": 2,
+          "border_hatch_pitch": 0.254,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2032,
-          "min_island_area": 10.0,
-          "min_thickness": 0.2032,
+          "min_clearance": 0.1524,
+          "min_island_area": 9.99999999996,
+          "min_thickness": 0.254,
           "pad_connection": 3,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.2032,
-          "thermal_relief_spoke_width": 0.508
+          "thermal_relief_gap": 0.1524,
+          "thermal_relief_spoke_width": 0.381
         }
       },
       "diff_pair_dimensions": [
@@ -114,10 +114,6 @@
           ""
         ],
         [
-          "clearance|408779800|-34921775|14a49fb8-2e71-4df4-a6ea-13f69c545708|5a07379d-59c9-4fca-8ba7-5e49fce78538",
-          ""
-        ],
-        [
           "clearance|411734800|107940000|3965e800-ee76-4781-a34c-e5fd689b5ebe|4355ce8c-da1b-4ad1-a20f-bd1b44e02cac",
           ""
         ],
@@ -131,14 +127,6 @@
         ],
         [
           "clearance|417522374|108387158|b5e4b003-dd29-4e27-a6cf-645028f949a1|b871f6bc-47e5-4c77-b9bd-1b12cddf4c3e",
-          ""
-        ],
-        [
-          "courtyards_overlap|311995000|146857707|004a20f0-a10a-4674-9ada-b4af18bc89f4|6a909d63-a7b6-48f6-b1be-2fbc7dc6d5dc",
-          ""
-        ],
-        [
-          "courtyards_overlap|311995000|151060800|004a20f0-a10a-4674-9ada-b4af18bc89f4|fb3f1507-b6c7-425b-8cf2-7cbfcb9690fb",
           ""
         ],
         [
@@ -270,19 +258,19 @@
           ""
         ],
         [
-          "silk_overlap|313118122|113097128|2d6297d5-1c6b-413c-9fd1-48560284453c|48e61d2e-742a-4153-89cc-a6932b83bdf4",
+          "silk_overlap|314492638|117951260|271c921c-fc2e-4243-9831-f64cbb2dae2e|e8955031-1776-4c5b-a65b-1ef0670bc0eb",
           ""
         ],
         [
-          "silk_overlap|339451929|144739616|79a10d83-6da5-4b97-a897-2510e7f2f47b|c14a5f93-f173-40b7-897d-8bbfca3b20bf",
+          "silk_overlap|339594588|150405272|be38bc6e-cce5-446f-ba49-3c2b1a873b72|feb9554d-1481-415d-907f-e00b54c6115f",
           ""
         ],
         [
-          "silk_overlap|374285000|168354000|a495d156-ceb4-436f-83a5-1dde1882fb95|f37c9be2-6c5a-4986-941f-fb39e62e8632",
+          "silk_overlap|374285000|171148000|a495d156-ceb4-436f-83a5-1dde1882fb95|f37c9be2-6c5a-4986-941f-fb39e62e8632",
           ""
         ],
         [
-          "silk_overlap|377815000|161706000|895a703e-89b9-4348-b031-c2c3b3b633b2|90c981a5-3b59-4278-a0ed-01c7d242e562",
+          "silk_overlap|377815000|158912000|895a703e-89b9-4348-b031-c2c3b3b633b2|90c981a5-3b59-4278-a0ed-01c7d242e562",
           ""
         ],
         [
@@ -290,7 +278,7 @@
           ""
         ],
         [
-          "silk_overlap|397107000|117745000|40c6b3fd-d462-457f-97c9-0454032b32a9|4db84dd3-1435-488f-92dc-034792e4f439",
+          "silk_overlap|394314000|117745000|40c6b3fd-d462-457f-97c9-0454032b32a9|4db84dd3-1435-488f-92dc-034792e4f439",
           ""
         ],
         [
@@ -2445,7 +2433,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "#P+1-8,R1-98,R104,L1-13,#GND1-45,FM1-4,#SUPPLY1-115,TP1-18,FB1-7,VAR1-3,#+3V3_ISO1-2,H1-8,F1-2,LOGO1-7,SP1,#FLG1-18,SAR1,C1-136,C138-139,#PE1-14,SW1-2,#+3V1-58,#+3V63,#+5V1-11,LED1-8,Module1-2,#PWR1-33,JP1-21,Y1-3,Q1-8,ZD1,K1-12,OK1,IC1-27,#+5V_ISO1-8,CF1-2,TR1-2,X1-28,U8,D1-20,NTC1",
+    "used_designators": "IC1-28,OK1,Q1-8,Y1-3,JP1-21,#PWR1-36,#+3V1-58,#+3V63,SW1-2,NTC1,D1-20,#+3V3_ISO1-2,SP1,ZD1,K1-12,#+5V_ISO1-8,H1-8,LOGO1-7,F1-2,U8,X1-28,FM1-4,CF1-2,TR1-2,#PE1-14,C1-148,#SUPPLY1-117,VAR1-3,FB1-7,TP1-19,#GND1-45,L1-14,R1-100,R104,#P+1-10,#+5V1-11,LED1-8,Module1-2,#FLG1-18,SAR1",
     "variants": [
       {
         "name": "Ethernet PHY no xtal"
