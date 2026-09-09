@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-06")
+		(date "2026-09-09")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -9970,6 +9970,12 @@
 		(uuid "1960ebc8-a4d2-44c5-8476-81d9073fb33e")
 	)
 	(junction
+		(at 210.82 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c767ae3-bf5e-4065-a155-92a78a0da024")
+	)
+	(junction
 		(at 266.7 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11385,7 +11391,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 50.8) (xy 175.26 55.88)
+			(xy 175.26 50.8) (xy 175.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11622,6 +11628,16 @@
 			(type default)
 		)
 		(uuid "5035df43-86b6-429b-99ec-c272f9d252d7")
+	)
+	(wire
+		(pts
+			(xy 210.82 53.34) (xy 223.52 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "50f128fc-9e19-4f7f-befb-8d94f3e98769")
 	)
 	(wire
 		(pts
@@ -13781,7 +13797,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 55.88) (xy 185.42 55.88)
+			(xy 175.26 53.34) (xy 185.42 53.34)
 		)
 		(stroke
 			(width 0)
@@ -14331,16 +14347,6 @@
 		)
 		(uuid "7a7f91cb-9c1a-4fed-9aaa-7bcb63492dc1")
 	)
-	(label "AC2_OUT"
-		(at 22.86 170.18 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b2077a6-cbf4-4ef2-a320-ccbf56806153")
-	)
 	(label "AC_L_IN"
 		(at 76.2 25.4 0)
 		(effects
@@ -14352,7 +14358,7 @@
 		(uuid "b2d87bd0-4725-4248-a46b-01feae9516c3")
 	)
 	(label "AC2_OUT"
-		(at 185.42 55.88 180)
+		(at 185.42 53.34 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14360,6 +14366,26 @@
 			(justify right bottom)
 		)
 		(uuid "c570f9f9-454e-4c6f-90bd-b297426d62ec")
+	)
+	(label "AC2_SSTART"
+		(at 22.86 170.18 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "f520a597-df4b-4508-be1f-20f1bfa343b6")
+	)
+	(label "AC2_SSTART"
+		(at 223.52 53.34 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7f930e5-dabb-451b-adf1-79a21884016f")
 	)
 	(global_label "~{POWER_SW}"
 		(shape bidirectional)

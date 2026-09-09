@@ -258,11 +258,11 @@
           ""
         ],
         [
-          "silk_overlap|314492638|117951260|271c921c-fc2e-4243-9831-f64cbb2dae2e|e8955031-1776-4c5b-a65b-1ef0670bc0eb",
+          "silk_overlap|313114588|113091842|271c921c-fc2e-4243-9831-f64cbb2dae2e|e8955031-1776-4c5b-a65b-1ef0670bc0eb",
           ""
         ],
         [
-          "silk_overlap|339594588|150405272|be38bc6e-cce5-446f-ba49-3c2b1a873b72|feb9554d-1481-415d-907f-e00b54c6115f",
+          "silk_overlap|339594588|144771759|be38bc6e-cce5-446f-ba49-3c2b1a873b72|feb9554d-1481-415d-907f-e00b54c6115f",
           ""
         ],
         [
@@ -270,7 +270,7 @@
           ""
         ],
         [
-          "silk_overlap|377815000|158912000|895a703e-89b9-4348-b031-c2c3b3b633b2|90c981a5-3b59-4278-a0ed-01c7d242e562",
+          "silk_overlap|377815000|161706000|895a703e-89b9-4348-b031-c2c3b3b633b2|90c981a5-3b59-4278-a0ed-01c7d242e562",
           ""
         ],
         [
@@ -282,7 +282,7 @@
           ""
         ],
         [
-          "silk_overlap|404128086|152376181|94c50ace-1a1e-413f-8fe9-0ad2c3941868|eedd1e92-71b0-46ac-9408-bb7a547e5972",
+          "silk_overlap|398494573|153751593|94c50ace-1a1e-413f-8fe9-0ad2c3941868|eedd1e92-71b0-46ac-9408-bb7a547e5972",
           ""
         ],
         [
@@ -2433,7 +2433,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "FB1-7,TP1-19,VAR1-3,#SUPPLY1-117,#GND1-45,C1-148,#PE1-14,FM1-4,F1-2,NTC1,D1-20,SAR1,#FLG1-18,#P+1-10,R1-100,R104,L1-14,U8,X1-28,H1-8,#+3V3_ISO1-2,LED1-8,#+5V1-11,Module1-2,SW1-2,#+3V1-58,#+3V63,SP1,#PWR1-36,JP1-21,Y1-3,Q1-8,OK1,IC1-28,ZD1,K1-12,#+5V_ISO1-8,CF1-2,TR1-2,LOGO1-7",
+    "used_designators": "TP1-19,VAR1-3,#SUPPLY1-117,FB1-7,#GND1-45,C1-148,#PE1-14,TR1-2,CF1-2,NTC1,D1-20,SAR1,#FLG1-18,#P+1-10,R1-100,R104,L1-14,U8,X1-28,H1-8,#+3V3_ISO1-2,LED1-8,#+5V1-11,Module1-2,SW1-2,#+3V1-58,#+3V63,SP1,#PWR1-36,JP1-21,Y1-3,Q1-8,OK1,IC1-28,ZD1,K1-12,#+5V_ISO1-8,FM1-4,F1-2,LOGO1-7",
     "variants": [
       {
         "name": "Ethernet PHY no xtal"
