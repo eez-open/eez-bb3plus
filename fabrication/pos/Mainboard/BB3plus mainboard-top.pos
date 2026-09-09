@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-09-06T13:51:17 ###
+### Footprint positions - created on 2026-09-09T18:04:55 ###
 ### Printed by KiCad version 10.0.6-10.0.6~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -167,7 +167,7 @@ IC3       SN74LVC1G74DCUR             DCU8                                    99
 IC4       SN74LVC1G57DCKR             DCK6                                   104.2779    72.7300   90.0000  top
 IC5       STM32G071R8T6               LQFP-64_10x10MM                        109.7683    86.2000    0.0000  top
 IC6       TPS3851H18EDRBR             DRV8601DRBT                            118.5183    79.5500  180.0000  top
-IC7       SN74LVC00                   TSSOP-14                               122.0700    85.7992    0.0000  top
+IC7       SN74HCS02PWR                TSSOP-14                               122.0498    85.7900    0.0000  top
 IC8       TPS62933ODRLR               DRL0008A                                51.1809    27.8398    0.0000  top
 IC9       LM64460CPPQRYFRQ1           VQFN22_RYF_TEX                          15.6990    49.7532  180.0000  top
 IC10      SN6505BDBVR                 DBV0006A_N                             207.3550   188.8000  -90.0000  top

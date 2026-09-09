@@ -14,563 +14,6 @@
 		(comment 3 "${project_url}")
 	)
 	(lib_symbols
-		(symbol "PCM_EEZ_ICs:74LVC00"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74LVC00"
-				(at 0 -5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Quad 2-input NAND gate"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey" "296-1216-1-ND"
-				(at 0 -12.7 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "771-74LVC00APW-T"
-				(at 2.54 -15.24 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TME" "SN74LVC00APWR"
-				(at 0 -17.78 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C7803"
-				(at 0 -20.32 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NAND gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "74LVC00_1_0"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 0)
-					(radius 0.635)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "1A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "1B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "1Y"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_1_1"
-				(arc
-					(start 0.0221 5.08)
-					(mid 5.08 0)
-					(end 0.0221 -5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC00_2_0"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 0)
-					(radius 0.635)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "2A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "2B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "2Y"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_2_1"
-				(arc
-					(start 0.0221 5.08)
-					(mid 5.08 0)
-					(end 0.0221 -5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC00_3_0"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 0)
-					(radius 0.635)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "3Y"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "3A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "3B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_3_1"
-				(arc
-					(start 0.0221 5.08)
-					(mid 5.08 0)
-					(end 0.0221 -5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC00_4_0"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 0)
-					(radius 0.635)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "4Y"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "4A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "4B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_4_1"
-				(arc
-					(start 0.0221 5.08)
-					(mid 5.08 0)
-					(end 0.0221 -5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC00_5_0"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_5_1"
-				(text "VCC"
-					(at 1.27 2.54 900)
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "GND"
-					(at 1.27 -5.08 900)
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_EEZ_ICs:AT24CXX"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7954,13 +7397,19 @@
 		(uuid "0390a4ed-593d-4625-a7d7-e83a78ad0599")
 	)
 	(junction
+		(at 276.86 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05a69ee0-9f2b-49f4-8edf-c27268657606")
+	)
+	(junction
 		(at 111.76 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "064a0949-49be-4ff3-922e-9794dcd41096")
 	)
 	(junction
-		(at 236.22 71.12)
+		(at 233.68 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fa0a8bc-0963-4795-9441-73efdfc722ea")
@@ -7988,12 +7437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c9a067d-d2e5-472e-9952-a63d8171ef09")
-	)
-	(junction
-		(at 276.86 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24983fa9-f8e3-44cf-a616-ad0d34b24b3c")
 	)
 	(junction
 		(at 71.12 149.86)
@@ -8068,7 +7511,7 @@
 		(uuid "603a6db8-59cc-480d-8078-df7f5ef036e3")
 	)
 	(junction
-		(at 236.22 66.04)
+		(at 233.68 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f132229-ea49-4968-af1f-57b3ceea59c0")
@@ -8080,10 +7523,10 @@
 		(uuid "74535e92-ef98-4df0-b26e-ee0b3bcbfd0b")
 	)
 	(junction
-		(at 276.86 71.12)
+		(at 276.86 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b1d2c71-d106-4ab0-96f3-06ce006fe31c")
+		(uuid "7c755dfa-c813-4312-a4b1-2e0dc1c8449d")
 	)
 	(junction
 		(at 22.86 48.26)
@@ -8218,13 +7661,13 @@
 		(uuid "c8ddd75c-a902-4902-b4c5-62a1e0569bef")
 	)
 	(junction
-		(at 236.22 91.44)
+		(at 233.68 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d67f6160-3b8b-48c7-80a7-e9a3a78ccb9e")
 	)
 	(junction
-		(at 236.22 83.82)
+		(at 233.68 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da9fdc53-fc81-4371-b516-27fce250aae3")
@@ -8254,13 +7697,13 @@
 		(uuid "e5adc917-e21f-411b-b30d-297efcb8261e")
 	)
 	(junction
-		(at 236.22 60.96)
+		(at 233.68 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e812214a-c4fa-40d1-af5b-700d171f2a8e")
 	)
 	(junction
-		(at 236.22 78.74)
+		(at 233.68 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e977af90-e05b-441c-b45c-85b46d284aa8")
@@ -8315,7 +7758,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 83.82) (xy 236.22 91.44)
+			(xy 233.68 83.82) (xy 233.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8325,7 +7768,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 91.44) (xy 238.76 91.44)
+			(xy 233.68 91.44) (xy 236.22 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8426,16 +7869,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 66.04) (xy 238.76 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069cfd26-02b8-48b0-99ac-6ba216547fb3")
-	)
-	(wire
-		(pts
 			(xy 109.22 193.04) (xy 111.76 193.04)
 		)
 		(stroke
@@ -8453,16 +7886,6 @@
 			(type default)
 		)
 		(uuid "077d776d-c249-446c-a4bf-e5025e859756")
-	)
-	(wire
-		(pts
-			(xy 254 68.58) (xy 251.46 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "078a0d9d-b8a7-4c87-9961-9e81032bc799")
 	)
 	(wire
 		(pts
@@ -8626,16 +8049,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 60.96) (xy 248.92 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7880bc-ba00-4140-906b-0694e03f2e19")
-	)
-	(wire
-		(pts
 			(xy 132.08 180.34) (xy 132.08 187.96)
 		)
 		(stroke
@@ -8693,6 +8106,16 @@
 			(type default)
 		)
 		(uuid "14dcbcde-bacd-46e3-9641-852f79b118f0")
+	)
+	(wire
+		(pts
+			(xy 236.22 71.12) (xy 233.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b507a6-4437-4826-8a41-e3839684e6c6")
 	)
 	(wire
 		(pts
@@ -9009,7 +8432,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 236.22 83.82)
+			(xy 233.68 78.74) (xy 233.68 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9099,7 +8522,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 91.44) (xy 236.22 96.52)
+			(xy 233.68 91.44) (xy 233.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9261,7 +8684,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 66.04) (xy 236.22 71.12)
+			(xy 233.68 66.04) (xy 233.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -9552,16 +8975,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 71.12) (xy 238.76 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6939d19d-6208-41be-b273-0616fec65896")
-	)
-	(wire
-		(pts
 			(xy 231.14 25.4) (xy 231.14 27.94)
 		)
 		(stroke
@@ -9743,6 +9156,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 66.04) (xy 233.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bcebb3c-c2c1-430f-aac0-c2aada8a12bb")
+	)
+	(wire
+		(pts
 			(xy 22.86 43.18) (xy 22.86 48.26)
 		)
 		(stroke
@@ -9863,16 +9286,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 81.28) (xy 251.46 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88344c99-9c86-4d79-99dd-724ee7438323")
-	)
-	(wire
-		(pts
 			(xy 71.12 149.86) (xy 71.12 154.94)
 		)
 		(stroke
@@ -9893,7 +9306,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 60.96) (xy 236.22 60.96)
+			(xy 175.26 60.96) (xy 248.92 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9903,7 +9316,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 96.52) (xy 238.76 96.52)
+			(xy 233.68 96.52) (xy 236.22 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10014,7 +9427,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 71.12) (xy 236.22 78.74)
+			(xy 233.68 71.12) (xy 233.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10104,7 +9517,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 83.82) (xy 238.76 83.82)
+			(xy 233.68 83.82) (xy 236.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10154,7 +9567,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 238.76 78.74)
+			(xy 233.68 78.74) (xy 236.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10181,6 +9594,16 @@
 			(type default)
 		)
 		(uuid "a3f2dd00-b2d9-44dc-a989-2656bdf96c82")
+	)
+	(wire
+		(pts
+			(xy 254 81.28) (xy 251.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40f9077-f83f-4faf-840e-63e7028d5934")
 	)
 	(polyline
 		(pts
@@ -10342,6 +9765,16 @@
 			(type default)
 		)
 		(uuid "b4d2fb0f-3d95-4389-b83e-152a95ce5523")
+	)
+	(wire
+		(pts
+			(xy 254 68.58) (xy 251.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b84a18-f570-4b4e-aa93-4d39a2547003")
 	)
 	(wire
 		(pts
@@ -10677,7 +10110,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 60.96) (xy 236.22 66.04)
+			(xy 233.68 60.96) (xy 233.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10694,16 +10127,6 @@
 			(type default)
 		)
 		(uuid "d7bc8be1-c93b-4f0e-a652-1665342adf07")
-	)
-	(wire
-		(pts
-			(xy 254 93.98) (xy 251.46 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d831b35a-2a27-4818-8d31-e44276e590ca")
 	)
 	(wire
 		(pts
@@ -11106,6 +10529,16 @@
 			(type default)
 		)
 		(uuid "fc767171-c3e2-4694-9119-e603c3a5b217")
+	)
+	(wire
+		(pts
+			(xy 254 93.98) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd39c671-7036-4c04-8ddf-e665e47b1d00")
 	)
 	(wire
 		(pts
@@ -15583,167 +15016,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_ICs:74LVC00")
-		(at 241.3 81.28 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1970fdf2-05eb-46ec-bdc5-d18057c1e52b")
-		(property "Reference" "IC7"
-			(at 245.745 77.47 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SN74LVC00"
-			(at 245.745 85.725 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
-			(at 241.3 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad 2-input NAND gate"
-			(at 241.3 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "296-1216-1-ND"
-			(at 241.3 93.98 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "771-74LVC00APW-T"
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" "SN74LVC00APWR"
-			(at 241.3 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7803"
-			(at 241.3 101.6 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "5b73cf4b-c57f-4a29-8096-7a0ce0c2486e")
-		)
-		(pin "14"
-			(uuid "ee4e7477-bc46-4f45-93d9-929469987954")
-		)
-		(pin "13"
-			(uuid "de2a5c74-8d68-4153-9542-22f723a5679e")
-		)
-		(pin "10"
-			(uuid "f5fb94cb-3cea-4f8f-bcb6-1d1f48c4dcfb")
-		)
-		(pin "6"
-			(uuid "5e14cfa1-ca4f-4c3d-ac47-976744befec5")
-		)
-		(pin "12"
-			(uuid "5d21dd3d-6a92-489e-96ff-e80b07607d71")
-		)
-		(pin "1"
-			(uuid "10904c6c-0dbc-43e5-9bda-ff1e229d52f3")
-		)
-		(pin "5"
-			(uuid "c6adab33-a70a-4e9f-8c5f-c3e3b3ccd588")
-		)
-		(pin "7"
-			(uuid "69da7d1c-7573-4ca8-a3b7-6a0bb412c964")
-		)
-		(pin "9"
-			(uuid "937f9197-90b8-4404-b0b3-4c8a4449ac18")
-		)
-		(pin "4"
-			(uuid "eb8b2523-ed36-4f84-81c8-ebac6bd71a3c")
-		)
-		(pin "8"
-			(uuid "201a651f-5f76-4af1-87c8-fa975cdd75b4")
-		)
-		(pin "3"
-			(uuid "fb65d279-0a67-4354-b242-eb33bb4d3f1c")
-		)
-		(pin "2"
-			(uuid "13945cc5-49c1-4949-a199-71609d37458f")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
-					(reference "IC7")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
 		(at 218.44 157.48 0)
 		(unit 1)
@@ -16098,6 +15370,167 @@
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
 					(reference "#FLG03")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_TI:SN74HCS02PWR")
+		(at 276.86 78.74 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f8f1873-0621-429a-bd36-3976792d7bf8")
+		(property "Reference" "IC7"
+			(at 273.05 78.105 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN74HCS02PWR"
+			(at 273.05 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
+			(at 276.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quadruple 2-Input NOR Gates with Schmitt-Trigger Inputs"
+			(at 276.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-SN74HCS02PWRCT-ND"
+			(at 276.86 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "595-SN74HCS02PWR"
+			(at 276.86 93.98 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 276.86 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2868020"
+			(at 276.86 99.06 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1b29a6bd-a40e-416a-a464-6ce7d4afda58")
+		)
+		(pin "2"
+			(uuid "b0253f73-2e4f-4d62-8d74-ae7932c4c16b")
+		)
+		(pin "1"
+			(uuid "8a3abd46-4fbe-45dd-b88f-e4f652a55923")
+		)
+		(pin "4"
+			(uuid "69459515-b851-4cde-b0d8-aa6b47984485")
+		)
+		(pin "5"
+			(uuid "fbde6df2-8621-43ed-b63a-d5e18f33a072")
+		)
+		(pin "13"
+			(uuid "0eabb585-82b2-4da2-8c76-44e723713e53")
+		)
+		(pin "8"
+			(uuid "cccc538e-4072-4c36-b8aa-c77e7504dc6c")
+		)
+		(pin "6"
+			(uuid "92ebdff0-d61d-4d25-9d28-9dff511f86fe")
+		)
+		(pin "7"
+			(uuid "c7a273d6-bc6e-452a-870d-311f4a64031e")
+		)
+		(pin "9"
+			(uuid "745cabbb-9447-494d-8af6-bc27b637ca64")
+		)
+		(pin "14"
+			(uuid "a3b65e1c-5ca7-4c57-94b5-459a31224d59")
+		)
+		(pin "12"
+			(uuid "2f45ec94-1a8e-4da3-bd3a-5fbbf4f25847")
+		)
+		(pin "11"
+			(uuid "beabd12c-e965-4907-965a-418e27a7a5e4")
+		)
+		(pin "10"
+			(uuid "fe917d2f-01c8-4b8b-8099-721fef10ef26")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
+					(reference "IC7")
+					(unit 5)
 				)
 			)
 		)
@@ -17968,167 +17401,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_ICs:74LVC00")
-		(at 276.86 78.74 0)
-		(unit 5)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43f03ddf-2867-4740-b48f-a36e23860593")
-		(property "Reference" "IC7"
-			(at 275.59 78.1049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC00"
-			(at 275.59 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
-			(at 276.86 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad 2-input NAND gate"
-			(at 276.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "296-1216-1-ND"
-			(at 276.86 91.44 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "771-74LVC00APW-T"
-			(at 279.4 93.98 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" "SN74LVC00APWR"
-			(at 276.86 96.52 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7803"
-			(at 276.86 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "5b73cf4b-c57f-4a29-8096-7a0ce0c2486d")
-		)
-		(pin "14"
-			(uuid "3b2bd75b-d2cd-41ff-9737-b8390f61cfc3")
-		)
-		(pin "13"
-			(uuid "de2a5c74-8d68-4153-9542-22f723a5679d")
-		)
-		(pin "10"
-			(uuid "f5fb94cb-3cea-4f8f-bcb6-1d1f48c4dcfa")
-		)
-		(pin "6"
-			(uuid "66a49358-42a2-49b5-8c8e-6b3a3550bbb6")
-		)
-		(pin "12"
-			(uuid "5d21dd3d-6a92-489e-96ff-e80b07607d70")
-		)
-		(pin "1"
-			(uuid "10904c6c-0dbc-43e5-9bda-ff1e229d52f2")
-		)
-		(pin "5"
-			(uuid "119dda44-a7b1-4342-b760-ff1ae50af704")
-		)
-		(pin "7"
-			(uuid "1f08866d-f30e-47e6-9546-40409292bcda")
-		)
-		(pin "9"
-			(uuid "937f9197-90b8-4404-b0b3-4c8a4449ac17")
-		)
-		(pin "4"
-			(uuid "e6a07f50-4394-435d-99a3-8a128a2a3ded")
-		)
-		(pin "8"
-			(uuid "201a651f-5f76-4af1-87c8-fa975cdd75b3")
-		)
-		(pin "3"
-			(uuid "fb65d279-0a67-4354-b242-eb33bb4d3f1b")
-		)
-		(pin "2"
-			(uuid "13945cc5-49c1-4949-a199-71609d37458e")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
-					(reference "IC7")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_EEZ_symbols:+3V3")
 		(at 259.08 129.54 0)
 		(mirror y)
@@ -18845,6 +18117,166 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_TI:SN74HCS02PWR")
+		(at 241.3 68.58 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5010f661-fa9c-40b1-b650-181bb800c9b4")
+		(property "Reference" "IC7"
+			(at 241.3 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HCS02PWR"
+			(at 242.8238 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
+			(at 241.3 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quadruple 2-Input NOR Gates with Schmitt-Trigger Inputs"
+			(at 241.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-SN74HCS02PWRCT-ND"
+			(at 241.3 81.28 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "595-SN74HCS02PWR"
+			(at 241.3 83.82 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 241.3 86.36 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2868020"
+			(at 241.3 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1b29a6bd-a40e-416a-a464-6ce7d4afda58")
+		)
+		(pin "2"
+			(uuid "b0253f73-2e4f-4d62-8d74-ae7932c4c16b")
+		)
+		(pin "1"
+			(uuid "8a3abd46-4fbe-45dd-b88f-e4f652a55923")
+		)
+		(pin "4"
+			(uuid "69459515-b851-4cde-b0d8-aa6b47984485")
+		)
+		(pin "5"
+			(uuid "fbde6df2-8621-43ed-b63a-d5e18f33a072")
+		)
+		(pin "13"
+			(uuid "0eabb585-82b2-4da2-8c76-44e723713e53")
+		)
+		(pin "8"
+			(uuid "cccc538e-4072-4c36-b8aa-c77e7504dc6c")
+		)
+		(pin "6"
+			(uuid "92ebdff0-d61d-4d25-9d28-9dff511f86fe")
+		)
+		(pin "7"
+			(uuid "c7a273d6-bc6e-452a-870d-311f4a64031e")
+		)
+		(pin "9"
+			(uuid "745cabbb-9447-494d-8af6-bc27b637ca64")
+		)
+		(pin "14"
+			(uuid "a3b65e1c-5ca7-4c57-94b5-459a31224d59")
+		)
+		(pin "12"
+			(uuid "2f45ec94-1a8e-4da3-bd3a-5fbbf4f25847")
+		)
+		(pin "11"
+			(uuid "beabd12c-e965-4907-965a-418e27a7a5e4")
+		)
+		(pin "10"
+			(uuid "fe917d2f-01c8-4b8b-8099-721fef10ef26")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
+					(reference "IC7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_unsorted:PCB test point")
 		(at 251.46 60.96 0)
 		(unit 1)
@@ -19252,167 +18684,6 @@
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
 					(reference "R10")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_EEZ_ICs:74LVC00")
-		(at 241.3 68.58 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d0975db-cf91-467d-8f11-6a648708f3dc")
-		(property "Reference" "IC7"
-			(at 245.745 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SN74LVC00"
-			(at 245.745 73.025 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
-			(at 241.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad 2-input NAND gate"
-			(at 241.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "296-1216-1-ND"
-			(at 241.3 81.28 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "771-74LVC00APW-T"
-			(at 243.84 83.82 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" "SN74LVC00APWR"
-			(at 241.3 86.36 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7803"
-			(at 241.3 88.9 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "5b73cf4b-c57f-4a29-8096-7a0ce0c24870")
-		)
-		(pin "14"
-			(uuid "ee4e7477-bc46-4f45-93d9-929469987955")
-		)
-		(pin "13"
-			(uuid "de2a5c74-8d68-4153-9542-22f723a567a0")
-		)
-		(pin "10"
-			(uuid "a5e14d21-d535-402e-9127-69b33ec628a6")
-		)
-		(pin "6"
-			(uuid "66a49358-42a2-49b5-8c8e-6b3a3550bbb8")
-		)
-		(pin "12"
-			(uuid "5d21dd3d-6a92-489e-96ff-e80b07607d73")
-		)
-		(pin "1"
-			(uuid "10904c6c-0dbc-43e5-9bda-ff1e229d52f5")
-		)
-		(pin "5"
-			(uuid "119dda44-a7b1-4342-b760-ff1ae50af706")
-		)
-		(pin "7"
-			(uuid "69da7d1c-7573-4ca8-a3b7-6a0bb412c965")
-		)
-		(pin "9"
-			(uuid "e3c3a15f-1d06-49f9-8e73-a1e71783e96a")
-		)
-		(pin "4"
-			(uuid "e6a07f50-4394-435d-99a3-8a128a2a3def")
-		)
-		(pin "8"
-			(uuid "375be07d-eb6c-4e21-bf70-2cad486a0225")
-		)
-		(pin "3"
-			(uuid "fb65d279-0a67-4354-b242-eb33bb4d3f1e")
-		)
-		(pin "2"
-			(uuid "13945cc5-49c1-4949-a199-71609d374591")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
-					(reference "IC7")
-					(unit 3)
 				)
 			)
 		)
@@ -21455,6 +20726,165 @@
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_TI:SN74HCS02PWR")
+		(at 241.3 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78b9568e-6032-428e-b3a1-a692423f4c16")
+		(property "Reference" "IC7"
+			(at 241.3 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HCS02PWR"
+			(at 241.3 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
+			(at 241.3 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quadruple 2-Input NOR Gates with Schmitt-Trigger Inputs"
+			(at 241.3 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-SN74HCS02PWRCT-ND"
+			(at 241.3 106.68 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "595-SN74HCS02PWR"
+			(at 241.3 109.22 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 241.3 111.76 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2868020"
+			(at 241.3 114.3 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1b29a6bd-a40e-416a-a464-6ce7d4afda58")
+		)
+		(pin "2"
+			(uuid "b0253f73-2e4f-4d62-8d74-ae7932c4c16b")
+		)
+		(pin "1"
+			(uuid "8a3abd46-4fbe-45dd-b88f-e4f652a55923")
+		)
+		(pin "4"
+			(uuid "69459515-b851-4cde-b0d8-aa6b47984485")
+		)
+		(pin "5"
+			(uuid "fbde6df2-8621-43ed-b63a-d5e18f33a072")
+		)
+		(pin "13"
+			(uuid "0eabb585-82b2-4da2-8c76-44e723713e53")
+		)
+		(pin "8"
+			(uuid "cccc538e-4072-4c36-b8aa-c77e7504dc6c")
+		)
+		(pin "6"
+			(uuid "92ebdff0-d61d-4d25-9d28-9dff511f86fe")
+		)
+		(pin "7"
+			(uuid "c7a273d6-bc6e-452a-870d-311f4a64031e")
+		)
+		(pin "9"
+			(uuid "745cabbb-9447-494d-8af6-bc27b637ca64")
+		)
+		(pin "14"
+			(uuid "a3b65e1c-5ca7-4c57-94b5-459a31224d59")
+		)
+		(pin "12"
+			(uuid "2f45ec94-1a8e-4da3-bd3a-5fbbf4f25847")
+		)
+		(pin "11"
+			(uuid "beabd12c-e965-4907-965a-418e27a7a5e4")
+		)
+		(pin "10"
+			(uuid "fe917d2f-01c8-4b8b-8099-721fef10ef26")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
+					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -24339,6 +23769,166 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_TI:SN74HCS02PWR")
+		(at 241.3 81.28 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c48bab10-5fb4-417a-ad9f-c6d91a4648a7")
+		(property "Reference" "IC7"
+			(at 241.3 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HCS02PWR"
+			(at 242.8238 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
+			(at 241.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quadruple 2-Input NOR Gates with Schmitt-Trigger Inputs"
+			(at 241.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-SN74HCS02PWRCT-ND"
+			(at 241.3 93.98 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "595-SN74HCS02PWR"
+			(at 241.3 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 241.3 99.06 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2868020"
+			(at 241.3 101.6 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1b29a6bd-a40e-416a-a464-6ce7d4afda58")
+		)
+		(pin "2"
+			(uuid "b0253f73-2e4f-4d62-8d74-ae7932c4c16b")
+		)
+		(pin "1"
+			(uuid "8a3abd46-4fbe-45dd-b88f-e4f652a55923")
+		)
+		(pin "4"
+			(uuid "69459515-b851-4cde-b0d8-aa6b47984485")
+		)
+		(pin "5"
+			(uuid "fbde6df2-8621-43ed-b63a-d5e18f33a072")
+		)
+		(pin "13"
+			(uuid "0eabb585-82b2-4da2-8c76-44e723713e53")
+		)
+		(pin "8"
+			(uuid "cccc538e-4072-4c36-b8aa-c77e7504dc6c")
+		)
+		(pin "6"
+			(uuid "92ebdff0-d61d-4d25-9d28-9dff511f86fe")
+		)
+		(pin "7"
+			(uuid "c7a273d6-bc6e-452a-870d-311f4a64031e")
+		)
+		(pin "9"
+			(uuid "745cabbb-9447-494d-8af6-bc27b637ca64")
+		)
+		(pin "14"
+			(uuid "a3b65e1c-5ca7-4c57-94b5-459a31224d59")
+		)
+		(pin "12"
+			(uuid "2f45ec94-1a8e-4da3-bd3a-5fbbf4f25847")
+		)
+		(pin "11"
+			(uuid "beabd12c-e965-4907-965a-418e27a7a5e4")
+		)
+		(pin "10"
+			(uuid "fe917d2f-01c8-4b8b-8099-721fef10ef26")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
+					(reference "IC7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 38.1 0)
 		(unit 1)
@@ -26219,167 +25809,6 @@
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
 					(reference "#SUPPLY014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_EEZ_ICs:74LVC00")
-		(at 241.3 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f21f6b6f-277a-4eb8-a554-fa64e67cbaa7")
-		(property "Reference" "IC7"
-			(at 245.745 90.17 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SN74LVC00"
-			(at 245.745 98.425 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
-			(at 241.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad 2-input NAND gate"
-			(at 241.3 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "296-1216-1-ND"
-			(at 241.3 106.68 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "771-74LVC00APW-T"
-			(at 243.84 109.22 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" "SN74LVC00APWR"
-			(at 241.3 111.76 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7803"
-			(at 241.3 114.3 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "5b73cf4b-c57f-4a29-8096-7a0ce0c24873")
-		)
-		(pin "14"
-			(uuid "ee4e7477-bc46-4f45-93d9-929469987958")
-		)
-		(pin "13"
-			(uuid "de2a5c74-8d68-4153-9542-22f723a567a3")
-		)
-		(pin "10"
-			(uuid "f5fb94cb-3cea-4f8f-bcb6-1d1f48c4dcfe")
-		)
-		(pin "6"
-			(uuid "66a49358-42a2-49b5-8c8e-6b3a3550bbbb")
-		)
-		(pin "12"
-			(uuid "5d21dd3d-6a92-489e-96ff-e80b07607d76")
-		)
-		(pin "1"
-			(uuid "0298ef79-7e88-4bab-8dbd-74e9ff3925d6")
-		)
-		(pin "5"
-			(uuid "119dda44-a7b1-4342-b760-ff1ae50af709")
-		)
-		(pin "7"
-			(uuid "69da7d1c-7573-4ca8-a3b7-6a0bb412c968")
-		)
-		(pin "9"
-			(uuid "937f9197-90b8-4404-b0b3-4c8a4449ac1b")
-		)
-		(pin "4"
-			(uuid "e6a07f50-4394-435d-99a3-8a128a2a3df2")
-		)
-		(pin "8"
-			(uuid "201a651f-5f76-4af1-87c8-fa975cdd75b7")
-		)
-		(pin "3"
-			(uuid "3ca54c44-b29c-4c26-a844-e89905027e55")
-		)
-		(pin "2"
-			(uuid "87327c0d-be41-44d2-b9b3-f661f2a6f878")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/fecdace5-b1da-40fa-9e4e-3a9b862ce872"
-					(reference "IC7")
 					(unit 1)
 				)
 			)

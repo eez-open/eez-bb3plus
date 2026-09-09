@@ -603,563 +603,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_ICs:74LVC00"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74LVC00"
-				(at 0 -5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Quad 2-input NAND gate"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey" "296-1216-1-ND"
-				(at 0 -12.7 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "771-74LVC00APW-T"
-				(at 2.54 -15.24 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TME" "SN74LVC00APWR"
-				(at 0 -17.78 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C7803"
-				(at 0 -20.32 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NAND gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "74LVC00_1_0"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 0)
-					(radius 0.635)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "1A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "1B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "1Y"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_1_1"
-				(arc
-					(start 0.0221 5.08)
-					(mid 5.08 0)
-					(end 0.0221 -5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC00_2_0"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 0)
-					(radius 0.635)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "2A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "2B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "2Y"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_2_1"
-				(arc
-					(start 0.0221 5.08)
-					(mid 5.08 0)
-					(end 0.0221 -5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC00_3_0"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 0)
-					(radius 0.635)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "3Y"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "3A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "3B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_3_1"
-				(arc
-					(start 0.0221 5.08)
-					(mid 5.08 0)
-					(end 0.0221 -5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC00_4_0"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 0)
-					(radius 0.635)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "4Y"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "4A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "4B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_4_1"
-				(arc
-					(start 0.0221 5.08)
-					(mid 5.08 0)
-					(end 0.0221 -5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC00_5_0"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC00_5_1"
-				(text "VCC"
-					(at 1.27 2.54 900)
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "GND"
-					(at 1.27 -5.08 900)
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_EEZ_TI:LM64460CPPQRYFRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1715,6 +1158,803 @@
 						)
 					)
 					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_EEZ_TI:SN74HCS02PWR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at -2.54 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SN74HCS02PWR"
+				(at -2.54 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Quadruple 2-Input NOR Gates with Schmitt-Trigger Inputs"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "296-SN74HCS02PWRCT-ND"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "595-SN74HCS02PWR"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TME" "-"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2868020"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74HCS02PWR_1_0"
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 4.699)
+					(name "1Y"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 3.429)
+					(name "1A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 3.429)
+					(name "1B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS02PWR_1_1"
+				(arc
+					(start -2.2862 3.81)
+					(mid -1.0652 0)
+					(end -2.2862 -3.81)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2862 3.81) (xy 0.8888 3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2862 -3.81) (xy 0.8888 -3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.3338 0)
+					(mid 3.7093 -2.584)
+					(end 0.9142 -3.81)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 0.9142 3.81)
+					(mid 3.7166 2.5924)
+					(end 5.3338 0)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8888 3.81) (xy -2.2862 3.81) (xy -2.2862 3.81) (xy -2.0322 3.4036) (xy -1.4988 2.2606) (xy -1.1686 1.0414)
+						(xy -1.0924 -0.254) (xy -1.2448 -1.4986) (xy -1.6512 -2.7178) (xy -2.2862 -3.81) (xy -2.2862 -3.81)
+						(xy 0.8888 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.2973 1.2699) (xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74HCS02PWR_2_0"
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 4.699)
+					(name "2Y"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 3.429)
+					(name "2A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 3.429)
+					(name "2B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS02PWR_2_1"
+				(arc
+					(start -2.2862 3.81)
+					(mid -1.0652 0)
+					(end -2.2862 -3.81)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2862 3.81) (xy 0.8888 3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2862 -3.81) (xy 0.8888 -3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.3338 0)
+					(mid 3.7093 -2.584)
+					(end 0.9142 -3.81)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 0.9142 3.81)
+					(mid 3.7166 2.5924)
+					(end 5.3338 0)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8888 3.81) (xy -2.2862 3.81) (xy -2.2862 3.81) (xy -2.0322 3.4036) (xy -1.4988 2.2606) (xy -1.1686 1.0414)
+						(xy -1.0924 -0.254) (xy -1.2448 -1.4986) (xy -1.6512 -2.7178) (xy -2.2862 -3.81) (xy -2.2862 -3.81)
+						(xy 0.8888 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.2973 1.2699) (xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74HCS02PWR_3_0"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 3.429)
+					(name "3A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 3.429)
+					(name "3B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 4.699)
+					(name "3Y"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS02PWR_3_1"
+				(arc
+					(start -2.2862 3.81)
+					(mid -1.0652 0)
+					(end -2.2862 -3.81)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2862 3.81) (xy 0.8888 3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2862 -3.81) (xy 0.8888 -3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.3338 0)
+					(mid 3.7093 -2.584)
+					(end 0.9142 -3.81)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 0.9142 3.81)
+					(mid 3.7166 2.5924)
+					(end 5.3338 0)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8888 3.81) (xy -2.2862 3.81) (xy -2.2862 3.81) (xy -2.0322 3.4036) (xy -1.4988 2.2606) (xy -1.1686 1.0414)
+						(xy -1.0924 -0.254) (xy -1.2448 -1.4986) (xy -1.6512 -2.7178) (xy -2.2862 -3.81) (xy -2.2862 -3.81)
+						(xy 0.8888 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.2973 1.2699) (xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74HCS02PWR_4_0"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 3.429)
+					(name "4A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 3.429)
+					(name "4B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 4.699)
+					(name "4Y"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS02PWR_4_1"
+				(arc
+					(start -2.2862 3.81)
+					(mid -1.0652 0)
+					(end -2.2862 -3.81)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2862 3.81) (xy 0.8888 3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2862 -3.81) (xy 0.8888 -3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.3338 0)
+					(mid 3.7093 -2.584)
+					(end 0.9142 -3.81)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 0.9142 3.81)
+					(mid 3.7166 2.5924)
+					(end 5.3338 0)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8888 3.81) (xy -2.2862 3.81) (xy -2.2862 3.81) (xy -2.0322 3.4036) (xy -1.4988 2.2606) (xy -1.1686 1.0414)
+						(xy -1.0924 -0.254) (xy -1.2448 -1.4986) (xy -1.6512 -2.7178) (xy -2.2862 -3.81) (xy -2.2862 -3.81)
+						(xy 0.8888 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.2973 1.2699) (xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74HCS02PWR_5_0"
+				(text "VDD"
+					(at 1.27 2.54 900)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "VSS"
+					(at 1.27 -5.08 900)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "Vcc"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10659,7 +10899,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 185.42) (xy 157.48 185.42)
+			(xy 157.48 185.42) (xy 160.02 185.42)
 		)
 		(stroke
 			(width 0)
@@ -14485,7 +14725,7 @@
 	)
 	(global_label "AC_FREQ"
 		(shape output)
-		(at 157.48 185.42 0)
+		(at 160.02 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14495,7 +14735,7 @@
 		)
 		(uuid "cd7cbb05-66a8-4b3e-bf0c-5349bd0ea6fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.8265 185.42 0)
+			(at 167.3665 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19273,167 +19513,6 @@
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
 					(reference "Q6")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_EEZ_ICs:74LVC00")
-		(at 144.78 185.42 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5924219c-0569-4680-826c-beaf4f518877")
-		(property "Reference" "IC7"
-			(at 142.24 180.34 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SN74LVC00"
-			(at 142.24 190.5 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
-			(at 144.78 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad 2-input NAND gate"
-			(at 144.78 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "296-1216-1-ND"
-			(at 144.78 198.12 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "771-74LVC00APW-T"
-			(at 147.32 200.66 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" "SN74LVC00APWR"
-			(at 144.78 203.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7803"
-			(at 144.78 205.74 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "38be0294-06e6-496a-b7d9-1e3bad557c7b")
-		)
-		(pin "14"
-			(uuid "ee4e7477-bc46-4f45-93d9-929469987956")
-		)
-		(pin "13"
-			(uuid "ce55cc21-eddb-4dde-8e81-d3f451bdc324")
-		)
-		(pin "10"
-			(uuid "f5fb94cb-3cea-4f8f-bcb6-1d1f48c4dcfd")
-		)
-		(pin "6"
-			(uuid "66a49358-42a2-49b5-8c8e-6b3a3550bbb9")
-		)
-		(pin "12"
-			(uuid "59b45b81-57c4-4a79-9374-adf09a538ff9")
-		)
-		(pin "1"
-			(uuid "10904c6c-0dbc-43e5-9bda-ff1e229d52f5")
-		)
-		(pin "5"
-			(uuid "119dda44-a7b1-4342-b760-ff1ae50af707")
-		)
-		(pin "7"
-			(uuid "69da7d1c-7573-4ca8-a3b7-6a0bb412c966")
-		)
-		(pin "9"
-			(uuid "937f9197-90b8-4404-b0b3-4c8a4449ac1a")
-		)
-		(pin "4"
-			(uuid "e6a07f50-4394-435d-99a3-8a128a2a3df0")
-		)
-		(pin "8"
-			(uuid "201a651f-5f76-4af1-87c8-fa975cdd75b6")
-		)
-		(pin "3"
-			(uuid "fb65d279-0a67-4354-b242-eb33bb4d3f1e")
-		)
-		(pin "2"
-			(uuid "13945cc5-49c1-4949-a199-71609d374591")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "IC7")
-					(unit 4)
 				)
 			)
 		)
@@ -28042,6 +28121,165 @@
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
 					(reference "#SUPPLY029")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_TI:SN74HCS02PWR")
+		(at 147.32 185.42 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de472af5-d0cc-4152-bf2a-be1b7789ddab")
+		(property "Reference" "IC7"
+			(at 147.32 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HCS02PWR"
+			(at 147.32 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:TSSOP-14"
+			(at 147.32 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quadruple 2-Input NOR Gates with Schmitt-Trigger Inputs"
+			(at 147.32 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-SN74HCS02PWRCT-ND"
+			(at 147.32 198.12 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "595-SN74HCS02PWR"
+			(at 147.32 200.66 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 147.32 203.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2868020"
+			(at 147.32 205.74 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1b29a6bd-a40e-416a-a464-6ce7d4afda58")
+		)
+		(pin "2"
+			(uuid "b0253f73-2e4f-4d62-8d74-ae7932c4c16b")
+		)
+		(pin "1"
+			(uuid "8a3abd46-4fbe-45dd-b88f-e4f652a55923")
+		)
+		(pin "4"
+			(uuid "69459515-b851-4cde-b0d8-aa6b47984485")
+		)
+		(pin "5"
+			(uuid "fbde6df2-8621-43ed-b63a-d5e18f33a072")
+		)
+		(pin "13"
+			(uuid "0541bae1-8f02-4cf9-a495-faf0ef7b4114")
+		)
+		(pin "8"
+			(uuid "cccc538e-4072-4c36-b8aa-c77e7504dc6c")
+		)
+		(pin "6"
+			(uuid "92ebdff0-d61d-4d25-9d28-9dff511f86fe")
+		)
+		(pin "7"
+			(uuid "c7a273d6-bc6e-452a-870d-311f4a64031e")
+		)
+		(pin "9"
+			(uuid "745cabbb-9447-494d-8af6-bc27b637ca64")
+		)
+		(pin "14"
+			(uuid "a3b65e1c-5ca7-4c57-94b5-459a31224d59")
+		)
+		(pin "12"
+			(uuid "eae8779a-590b-4a11-8e6b-458d1df95603")
+		)
+		(pin "11"
+			(uuid "598e8bad-22b6-455d-ab7f-96ce31d265b0")
+		)
+		(pin "10"
+			(uuid "fe917d2f-01c8-4b8b-8099-721fef10ef26")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
+					(reference "IC7")
+					(unit 4)
 				)
 			)
 		)
