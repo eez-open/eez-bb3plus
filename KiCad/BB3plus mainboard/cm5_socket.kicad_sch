@@ -8067,6 +8067,12 @@
 		(uuid "88e5abe8-10e1-4df9-9bea-6f7fd21840e8")
 	)
 	(junction
+		(at 116.84 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf34d88-3267-4de0-baf0-e30dbbc7de1d")
+	)
+	(junction
 		(at 99.06 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11476,6 +11482,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 147.32) (xy 119.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f939cf-1d4a-42ae-ade7-4ad06b1054ee")
+	)
+	(wire
+		(pts
 			(xy 220.98 43.18) (xy 236.22 43.18)
 		)
 		(stroke
@@ -11983,16 +11999,6 @@
 			(justify left bottom)
 		)
 		(uuid "3c4381bf-f549-4b08-ad0a-f02752d3726c")
-	)
-	(label "~{LED_PWR}"
-		(at 101.6 147.32 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d2ac983-2731-4f6d-b921-6dec931fdb54")
 	)
 	(label "PCIe_nWAKE"
 		(at 127 30.48 0)
@@ -14016,6 +14022,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "CM5_LED_PWR"
+		(shape output)
+		(at 119.38 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "cf2288ff-4524-4349-93b4-181243887e56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.3249 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)

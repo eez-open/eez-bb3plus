@@ -7763,10 +7763,6 @@
 		(uuid "cfaf38b4-769f-4a01-87a2-16296979d75d")
 	)
 	(no_connect
-		(at 149.86 53.34)
-		(uuid "e2d6bd47-362d-48ea-9655-146865700a59")
-	)
-	(no_connect
 		(at 218.44 81.28)
 		(uuid "efaa7dc5-8009-4387-a74e-fd982ab2fa08")
 	)
@@ -9257,6 +9253,16 @@
 			(type default)
 		)
 		(uuid "8600fa10-444c-4bd2-9473-5ebd0f6c3592")
+	)
+	(wire
+		(pts
+			(xy 144.78 53.34) (xy 149.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c678ca-7a5e-4ddd-bc33-316bb3d36fcc")
 	)
 	(wire
 		(pts
@@ -12671,6 +12677,30 @@
 		(uuid "9b3cb9d3-3674-49ac-b75b-8e331403f85b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.5708 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CM5_LED_PWR"
+		(shape input)
+		(at 144.78 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "a09385b8-3c22-45a7-8f7d-da2de830e91b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.8351 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
