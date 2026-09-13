@@ -2813,7 +2813,7 @@
 				(color 132 0 132 1)
 			)
 		)
-		(column_widths 12.7 10.16 15.24 15.24)
+		(column_widths 12.7 10.16 17.78 17.78)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
 		(uuid "b8c78305-7079-4003-98c3-403aca18487d")
 		(cells
@@ -2860,7 +2860,7 @@
 			(table_cell "STM32H7 CM5 "
 				(exclude_from_sim no)
 				(at 48.26 66.04 0)
-				(size 15.24 2.54)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2879,8 +2879,8 @@
 			)
 			(table_cell "Raspberry Pi CM5"
 				(exclude_from_sim no)
-				(at 63.5 66.04 0)
-				(size 15.24 2.54)
+				(at 66.04 66.04 0)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2933,10 +2933,10 @@
 				)
 				(uuid "c5e81bf0-c81a-47c4-acf9-b086e4837a42")
 			)
-			(table_cell "USB FS/HS"
+			(table_cell "???"
 				(exclude_from_sim no)
 				(at 48.26 68.58 0)
-				(size 15.24 2.54)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2951,10 +2951,10 @@
 				)
 				(uuid "11780d11-fd6d-42ff-a022-179578b1c17d")
 			)
-			(table_cell "USB #0, FS/HS"
+			(table_cell "USB #0, HS/SS"
 				(exclude_from_sim no)
-				(at 63.5 68.58 0)
-				(size 15.24 2.54)
+				(at 66.04 68.58 0)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3005,12 +3005,12 @@
 				)
 				(uuid "7bba42e5-e5d1-44cf-9cf7-427562c837c2")
 			)
-			(table_cell "USB Hub P2, HS only"
+			(table_cell "???"
 				(exclude_from_sim no)
 				(at 48.26 71.12 0)
-				(size 30.48 2.54)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 2 1)
+				(span 1 1)
 				(fill
 					(type none)
 				)
@@ -3023,18 +3023,19 @@
 				)
 				(uuid "6e0405ef-e7e8-4e13-831b-2bd2c58db12a")
 			)
-			(table_cell "rgb(254, 254, 254)"
+			(table_cell "USB Hub P1 Flex"
 				(exclude_from_sim no)
-				(at 63.5 71.12 0)
-				(size 15.24 2.54)
+				(at 66.04 71.12 0)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 0 0)
+				(span 1 1)
 				(fill
 					(type none)
 				)
 				(effects
 					(font
 						(size 0.889 0.889)
+						(color 132 0 132 1)
 					)
 					(justify left)
 				)
@@ -3076,10 +3077,10 @@
 				)
 				(uuid "28d64716-5aff-4861-aa6f-a3efbefdddca")
 			)
-			(table_cell "USB Hub P1, HS/SS, Dual role"
+			(table_cell "USB Hub P2, HS/SS, Dual role"
 				(exclude_from_sim no)
 				(at 48.26 73.66 0)
-				(size 30.48 2.54)
+				(size 35.56 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 2 1)
 				(fill
@@ -3096,8 +3097,8 @@
 			)
 			(table_cell "rgb(254, 254, 254)"
 				(exclude_from_sim no)
-				(at 63.5 73.66 0)
-				(size 15.24 2.54)
+				(at 66.04 73.66 0)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
 				(fill
@@ -3150,7 +3151,7 @@
 			(table_cell "USB Hub P7, HS/SS"
 				(exclude_from_sim no)
 				(at 48.26 76.2 0)
-				(size 30.48 2.54)
+				(size 35.56 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 2 1)
 				(fill
@@ -3167,8 +3168,8 @@
 			)
 			(table_cell "rgb(254, 254, 254)"
 				(exclude_from_sim no)
-				(at 63.5 76.2 0)
-				(size 15.24 2.54)
+				(at 66.04 76.2 0)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
 				(fill
@@ -3221,7 +3222,7 @@
 			(table_cell "USB Hub P6, HS/SS"
 				(exclude_from_sim no)
 				(at 48.26 78.74 0)
-				(size 30.48 2.54)
+				(size 35.56 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 2 1)
 				(fill
@@ -3238,8 +3239,8 @@
 			)
 			(table_cell "rgb(254, 254, 254)"
 				(exclude_from_sim no)
-				(at 63.5 78.74 0)
-				(size 15.24 2.54)
+				(at 66.04 78.74 0)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
 				(fill
@@ -3292,7 +3293,7 @@
 			(table_cell "USB Hub P5, HS/SS"
 				(exclude_from_sim no)
 				(at 48.26 81.28 0)
-				(size 30.48 2.54)
+				(size 35.56 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 2 1)
 				(fill
@@ -3309,8 +3310,8 @@
 			)
 			(table_cell "rgb(254, 254, 254)"
 				(exclude_from_sim no)
-				(at 63.5 81.28 0)
-				(size 15.24 2.54)
+				(at 66.04 81.28 0)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
 				(fill
@@ -3363,7 +3364,7 @@
 			(table_cell "USB Hub P4, HS/SS"
 				(exclude_from_sim no)
 				(at 48.26 83.82 0)
-				(size 30.48 2.54)
+				(size 35.56 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 2 1)
 				(fill
@@ -3380,8 +3381,8 @@
 			)
 			(table_cell "rgb(254, 254, 254)"
 				(exclude_from_sim no)
-				(at 63.5 83.82 0)
-				(size 15.24 2.54)
+				(at 66.04 83.82 0)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
 				(fill
@@ -3434,7 +3435,7 @@
 			(table_cell "USB Hub P3, HS/SS"
 				(exclude_from_sim no)
 				(at 48.26 86.36 0)
-				(size 30.48 2.54)
+				(size 35.56 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 2 1)
 				(fill
@@ -3451,8 +3452,8 @@
 			)
 			(table_cell "rgb(254, 254, 254)"
 				(exclude_from_sim no)
-				(at 63.5 86.36 0)
-				(size 15.24 2.54)
+				(at 66.04 86.36 0)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
 				(fill
