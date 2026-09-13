@@ -16142,7 +16142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c7f9607-b6f3-45fd-a423-9ec489e76941")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 117.475 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16253,7 +16253,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -17631,7 +17631,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "2b97a004-bfb3-4993-a3b7-d71ff8d38281")
 		(property "Reference" "D11"
@@ -17645,7 +17645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PTVS22VP1UP.115"
+		(property "Value" "SMF16A"
 			(at 90.17 84.455 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17656,7 +17656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_SMD:SOD128F"
+		(property "Footprint" "PCM_EEZ_SMD:SODFL3718X130N"
 			(at 85.725 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -17667,7 +17667,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://hr.mouser.com/datasheet/2/389/esda25p35_1u1m-1848969.pdf"
+		(property "Datasheet" ""
 			(at 88.9 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17678,7 +17678,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS Diode, working voltage 22V, breakdown 23.3V, clamp 41V, 30kV, 0603"
+		(property "Description" ""
 			(at 88.9 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17689,7 +17689,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-SM6F22AYCT-ND"
+		(property "DigiKey" "4878-SMF16ATR-ND"
 			(at 88.9 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17700,7 +17700,7 @@
 				)
 			)
 		)
-		(property "Mouser" "771-PTVS22VP1UP115"
+		(property "Mouser" "637-SMF16A"
 			(at 88.9 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17711,7 +17711,7 @@
 				)
 			)
 		)
-		(property "TME" "PTVS22VP1UP.115"
+		(property "TME" "SMF16A-DIO"
 			(at 88.9 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17722,7 +17722,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C461181"
+		(property "LCSC" "C207257"
 			(at 88.9 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -17837,7 +17837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d8a4737-b301-42da-a5a4-48ef26bdb097")
-		(property "Reference" "Q5"
+		(property "Reference" "Q4"
 			(at 119.38 100.965 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17948,7 +17948,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -18752,7 +18752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45225923-5e27-4b08-bb02-6a19f7512618")
-		(property "Reference" "R34"
+		(property "Reference" "R32"
 			(at 96.52 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18860,7 +18860,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -20063,7 +20063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56017b46-92fc-4f21-9219-0564cf9db180")
-		(property "Reference" "R33"
+		(property "Reference" "R36"
 			(at 97.79 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20171,7 +20171,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "R33")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -22864,7 +22864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ba1a1c3-a48a-4875-888e-11f8f7aba1d3")
-		(property "Reference" "R32"
+		(property "Reference" "R35"
 			(at 97.79 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22972,7 +22972,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "R32")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -24037,7 +24037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b5c1e19-4e0d-4ffc-8af0-a80e66903e7f")
-		(property "Reference" "R35"
+		(property "Reference" "R33"
 			(at 100.33 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24145,7 +24145,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "R35")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -25966,7 +25966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1c3214e-d3b3-4f9c-8762-80b96869b37a")
-		(property "Reference" "R36"
+		(property "Reference" "R34"
 			(at 100.33 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26074,7 +26074,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "R36")
+					(reference "R34")
 					(unit 1)
 				)
 			)

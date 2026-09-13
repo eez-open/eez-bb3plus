@@ -11984,6 +11984,16 @@
 		)
 		(uuid "3c4381bf-f549-4b08-ad0a-f02752d3726c")
 	)
+	(label "~{LED_PWR}"
+		(at 101.6 147.32 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d2ac983-2731-4f6d-b921-6dec931fdb54")
+	)
 	(label "PCIe_nWAKE"
 		(at 127 30.48 0)
 		(effects
