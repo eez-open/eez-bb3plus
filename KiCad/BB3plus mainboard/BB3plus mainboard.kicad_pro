@@ -346,11 +346,11 @@
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5",
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
           ""
         ],
         [
@@ -2513,7 +2513,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "TP1-19,VAR1-3,#SUPPLY1-117,FB1-7,#GND1-49,TR1-2,CF1-2,C1-148,#PE1-16,NTC1,D1-20,SAR1,#FLG1-18,#P+1-10,R1-104,L1-15,U1,U8,X1-28,H1-8,#+3V3_ISO1-2,LED1-8,#+5V1-11,Module1-2,SW1-2,#+3V1-58,#+3V63,SP1,#PWR1-36,JP1-21,Y1-3,Q1-9,OK1-2,IC1-28,ZD1-4,K1-12,#+5V_ISO1-8,FM1-4,F1-2,LOGO1-7",
+    "used_designators": "Y1-3,JP1-21,Q1-9,#PWR1-36,SP1,#+3V1-58,#+3V63,SW1-2,D1-20,NTC1,#FLG1-18,SAR1,U1,U8,X1-28,OK1-2,IC1-28,ZD1-5,K1-12,#+5V_ISO1-8,FM1-4,F1-2,LOGO1-7,#PE1-16,C1-148,CF1-2,TR1-2,#GND1-49,#SUPPLY1-117,VAR1-3,TP1-19,FB1-7,#P+1-10,L1-15,R1-104,H1-8,Module1-2,#+5V1-11,LED1-8,#+3V3_ISO1-2",
     "variants": [
       {
         "name": "Ethernet PHY no xtal"

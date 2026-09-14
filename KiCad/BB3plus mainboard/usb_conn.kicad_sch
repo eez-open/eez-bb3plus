@@ -15605,7 +15605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "773a2db3-5ca5-4d83-95f6-d4d4baf17935")
-		(property "Reference" "#SUPPLY065"
+		(property "Reference" "#SUPPLY064"
 			(at 177.8 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15666,7 +15666,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "#SUPPLY065")
+					(reference "#SUPPLY064")
 					(unit 1)
 				)
 			)
@@ -15936,7 +15936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85703add-47e2-465f-be89-64dde1ecfbcc")
-		(property "Reference" "#SUPPLY067"
+		(property "Reference" "#SUPPLY066"
 			(at 205.74 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15997,7 +15997,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "#SUPPLY067")
+					(reference "#SUPPLY066")
 					(unit 1)
 				)
 			)
@@ -17678,7 +17678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1153282-192d-4fc7-87f0-3c43d0c86046")
-		(property "Reference" "#SUPPLY064"
+		(property "Reference" "#SUPPLY063"
 			(at 177.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -17739,7 +17739,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "#SUPPLY064")
+					(reference "#SUPPLY063")
 					(unit 1)
 				)
 			)
@@ -20194,7 +20194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed7999bb-7b7a-4ae3-b5a7-095ab1dc6192")
-		(property "Reference" "#SUPPLY066"
+		(property "Reference" "#SUPPLY065"
 			(at 205.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20255,7 +20255,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "#SUPPLY066")
+					(reference "#SUPPLY065")
 					(unit 1)
 				)
 			)
