@@ -3178,6 +3178,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_EEZ_discretes:DIODE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 2.54 0.4826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "???"
+				(at 2.54 -2.3114 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DIODE_1_0"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DIODE_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_EEZ_discretes:DIODE_LED"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6272,6 +6411,12 @@
 		(color 0 0 0 0)
 		(uuid "ee02de38-7fc8-412c-97ef-171db84724d5")
 	)
+	(junction
+		(at 40.64 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f50eb819-861f-4956-b69c-7ab7c67f43e8")
+	)
 	(no_connect
 		(at 127 68.58)
 		(uuid "91cbb0ad-b2f1-4dcd-9199-386b75fb51dc")
@@ -7443,6 +7588,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 154.94) (xy 30.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db56764-3c13-48a2-932f-62ad72765262")
+	)
+	(wire
+		(pts
 			(xy 203.2 60.96) (xy 208.28 60.96)
 		)
 		(stroke
@@ -8322,6 +8477,16 @@
 			(type default)
 		)
 		(uuid "b8ad2468-87bd-4c38-bc71-d3cea050b680")
+	)
+	(wire
+		(pts
+			(xy 35.56 154.94) (xy 40.64 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0b4c40-8986-4c50-be86-69da32aedc5a")
 	)
 	(wire
 		(pts
@@ -10092,6 +10257,30 @@
 			)
 		)
 	)
+	(global_label "CM5_BOOT0"
+		(shape input)
+		(at 27.94 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "68e28086-b5ca-4102-a5bd-29bd4920d7d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.6038 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "REAR_USB_TOP_TX-"
 		(shape bidirectional)
 		(at 111.76 144.78 180)
@@ -10503,7 +10692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "032d436b-c79d-4f0a-8788-764e93fa93d1")
-		(property "Reference" "R84"
+		(property "Reference" "R85"
 			(at 60.96 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10611,7 +10800,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R84")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -10850,7 +11039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bef6fbc-c98a-48ca-abaf-f6b6415092f6")
-		(property "Reference" "R89"
+		(property "Reference" "R90"
 			(at 224.79 75.565 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10969,7 +11158,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R89")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -11558,7 +11747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13da621d-f540-4aec-8a64-142d222ea598")
-		(property "Reference" "R85"
+		(property "Reference" "R86"
 			(at 60.96 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11666,7 +11855,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R85")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -13009,7 +13198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b9be9b4-b2dd-454b-a9ff-7f68ae17c0a4")
-		(property "Reference" "R81"
+		(property "Reference" "R82"
 			(at 41.91 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13117,7 +13306,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R81")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -14095,6 +14284,131 @@
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
 					(reference "L9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_discretes:DIODE")
+		(at 33.02 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52444591-f766-45af-ac17-7b6a0fa75e52")
+		(property "Reference" "D16"
+			(at 33.02 153.035 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BAS316"
+			(at 33.02 156.845 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:SOD-323_1P8X1P35_ONS-M"
+			(at 33.02 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "1727-7370-1-ND"
+			(at 33.02 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "771-BAS316-T/R"
+			(at 33.02 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "BAS316,115"
+			(at 33.02 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 33.02 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "2f3c96c0-9b86-4da5-9a2c-06af2c03951d")
+		)
+		(pin "C"
+			(uuid "b862e946-b5bb-45f7-be9f-7c21bd338125")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -15810,7 +16124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7dc0997b-c03e-436c-8f8a-bb979f6a6446")
-		(property "Reference" "R80"
+		(property "Reference" "R81"
 			(at 36.83 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15918,7 +16232,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R80")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -16664,7 +16978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "936d629b-a5e3-4d50-a8f4-bfd504ff25d1")
-		(property "Reference" "R83"
+		(property "Reference" "R84"
 			(at 59.69 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16783,7 +17097,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R83")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -17035,7 +17349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a1ae7d9-a199-4a85-9515-51d3af4e1476")
-		(property "Reference" "R82"
+		(property "Reference" "R83"
 			(at 49.53 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17154,7 +17468,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R82")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -18165,7 +18479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf7d840e-f6a2-4f06-82a3-7a541f2d4d8e")
-		(property "Reference" "R87"
+		(property "Reference" "R88"
 			(at 132.08 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18273,7 +18587,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R87")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -19578,7 +19892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6364cda-72eb-4862-9b1b-17acfbc046e2")
-		(property "Reference" "R91"
+		(property "Reference" "R92"
 			(at 273.05 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19697,7 +20011,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R91")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -19715,7 +20029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7d26180-2b88-4c2e-ae47-9469160ace9d")
-		(property "Reference" "R90"
+		(property "Reference" "R91"
 			(at 255.27 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19834,7 +20148,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R90")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -20273,7 +20587,7 @@
 		(in_pos_files no)
 		(dnp yes)
 		(uuid "eea8bd8e-a617-47c1-89aa-2a2178eabcf1")
-		(property "Reference" "R79"
+		(property "Reference" "R80"
 			(at 35.56 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20392,7 +20706,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R79")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -20546,7 +20860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1be9553-0f83-4bdf-8213-6197742949ce")
-		(property "Reference" "R86"
+		(property "Reference" "R87"
 			(at 121.92 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20654,7 +20968,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R86")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -21216,7 +21530,7 @@
 		(in_pos_files no)
 		(dnp yes)
 		(uuid "ffdd5ca0-d70e-492d-9773-7a5895181a41")
-		(property "Reference" "R88"
+		(property "Reference" "R89"
 			(at 147.32 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21324,7 +21638,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "R88")
+					(reference "R89")
 					(unit 1)
 				)
 			)
