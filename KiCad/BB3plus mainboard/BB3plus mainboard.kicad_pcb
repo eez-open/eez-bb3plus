@@ -117442,7 +117442,7 @@
 				)
 			)
 		)
-		(property "TME" "SN74LVC1G32DCKRG4"
+		(property "TME" "SN74LVC1G125DCKR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -117455,7 +117455,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7840"
+		(property "LCSC" "C7833"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

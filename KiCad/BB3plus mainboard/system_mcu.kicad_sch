@@ -13957,7 +13957,7 @@
 				)
 			)
 		)
-		(property "TME" "SN74LVC1G32DCKRG4"
+		(property "TME" "SN74LVC1G125DCKR"
 			(at 76.2 149.86 0)
 			(hide yes)
 			(show_name yes)
@@ -13968,7 +13968,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7840"
+		(property "LCSC" "C7833"
 			(at 76.2 147.32 0)
 			(hide yes)
 			(show_name yes)
@@ -22814,7 +22814,7 @@
 				)
 			)
 		)
-		(property "TME" "SN74LVC1G32DCKRG4"
+		(property "TME" "SN74LVC1G125DCKR"
 			(at 104.14 203.2 0)
 			(hide yes)
 			(show_name yes)
@@ -22825,7 +22825,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7840"
+		(property "LCSC" "C7833"
 			(at 104.14 205.74 0)
 			(hide yes)
 			(show_name yes)
