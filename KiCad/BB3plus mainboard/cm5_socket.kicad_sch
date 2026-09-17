@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-13")
+		(date "2026-09-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8937,16 +8937,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 71.12) (xy 101.6 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "200637a4-d9c5-4b7d-b220-c25c9014c67e")
-	)
-	(wire
-		(pts
 			(xy 93.98 30.48) (xy 101.6 30.48)
 		)
 		(stroke
@@ -8975,16 +8965,6 @@
 			(color 0 0 194 1)
 		)
 		(uuid "2128e359-362c-43f1-b5ff-765e87cb0b45")
-	)
-	(wire
-		(pts
-			(xy 93.98 149.86) (xy 101.6 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2218906a-aa9c-4f6b-bcb0-e567014b3293")
 	)
 	(wire
 		(pts
@@ -9942,6 +9922,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 71.12) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679244b5-71df-4e5a-8fd0-28443e34d613")
+	)
+	(wire
+		(pts
 			(xy 213.36 78.74) (xy 213.36 81.28)
 		)
 		(stroke
@@ -10299,16 +10289,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 71.12) (xy 43.18 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "815884bb-6626-4818-8f46-02577fb646bc")
-	)
-	(wire
-		(pts
 			(xy 22.86 114.3) (xy 25.4 114.3)
 		)
 		(stroke
@@ -10376,6 +10356,16 @@
 			(type default)
 		)
 		(uuid "89c879f8-3fa7-4977-bff5-b0e38d2b36c4")
+	)
+	(wire
+		(pts
+			(xy 35.56 71.12) (xy 43.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a473a2c-d64a-43a3-b04a-9892aba54c90")
 	)
 	(wire
 		(pts
@@ -10534,6 +10524,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 152.4) (xy 43.18 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d736f3-2445-4e00-93b3-965300a816de")
+	)
+	(wire
+		(pts
 			(xy 220.98 40.64) (xy 236.22 40.64)
 		)
 		(stroke
@@ -10572,16 +10572,6 @@
 			(type default)
 		)
 		(uuid "9abd52d4-903f-4f77-ba58-6987eab1e8cb")
-	)
-	(wire
-		(pts
-			(xy 33.02 152.4) (xy 43.18 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6b66fb-f0fe-484d-88c6-955ae8166c33")
 	)
 	(polyline
 		(pts
@@ -10834,6 +10824,16 @@
 			(type default)
 		)
 		(uuid "af00f94f-3d7f-40a2-90fb-e50d69abab5f")
+	)
+	(wire
+		(pts
+			(xy 93.98 149.86) (xy 101.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1db1a1-b7fe-40e9-bcd9-c13970e04181")
 	)
 	(polyline
 		(pts
@@ -12280,7 +12280,7 @@
 	)
 	(global_label "RTC_CM5"
 		(shape input)
-		(at 35.56 71.12 180)
+		(at 33.02 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12290,7 +12290,7 @@
 		)
 		(uuid "1355778f-ec67-4c04-bfde-e2c82d1bc2ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.0441 71.12 0)
+			(at 25.5041 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12919,17 +12919,17 @@
 	)
 	(global_label "RS485_TX{slash}DOUT3"
 		(shape output)
-		(at 101.6 149.86 0)
+		(at 35.56 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4e57999a-7302-42e8-a68d-7b78fef07f3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9156 149.86 0)
+			(at 22.2444 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12937,7 +12937,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -13263,7 +13263,7 @@
 	)
 	(global_label "DIN2"
 		(shape input)
-		(at 101.6 71.12 0)
+		(at 101.6 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13273,7 +13273,7 @@
 		)
 		(uuid "69aacccc-096b-42da-964c-c5cf23bf07ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.3219 71.12 0)
+			(at 106.3219 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13311,17 +13311,17 @@
 	)
 	(global_label "RS485_RX{slash}DIN3"
 		(shape input)
-		(at 33.02 152.4 180)
+		(at 101.6 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "79c1f57f-957e-4bc6-bf03-15b039051dc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.678 152.4 0)
+			(at 113.942 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13329,7 +13329,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
