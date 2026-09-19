@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-17")
+		(date "2026-09-19")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -17671,7 +17671,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1-2199230-6"
+		(property "Value" "SM3ZS067U410AMR1000"
 			(at 243.84 107.9499 0)
 			(hide yes)
 			(show_name no)
@@ -17717,7 +17717,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "A118046TR-ND"
+		(property "DigiKey" "670-2693-1-ND"
 			(at 241.3 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -17728,7 +17728,7 @@
 				)
 			)
 		)
-		(property "Mouser" "571-1-2199230-6"
+		(property "Mouser" "656-SM3ZS067U410AM10"
 			(at 241.3 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -17750,7 +17750,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4710843"
+		(property "LCSC" "C5078373"
 			(at 241.3 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -18275,7 +18275,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1-2199230-6"
+		(property "Value" "SM3ZS067U410AMR1000"
 			(at 238.76 99.695 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18320,7 +18320,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "A118046TR-ND"
+		(property "DigiKey" "670-2693-1-ND"
 			(at 238.76 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -18331,7 +18331,7 @@
 				)
 			)
 		)
-		(property "Mouser" "571-1-2199230-6"
+		(property "Mouser" "656-SM3ZS067U410AM10"
 			(at 238.76 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -18353,7 +18353,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4710843"
+		(property "LCSC" "C5078373"
 			(at 238.76 25.4 0)
 			(hide yes)
 			(show_name no)

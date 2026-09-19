@@ -36681,7 +36681,7 @@
 				)
 			)
 		)
-		(property "Value" "1-2199230-6"
+		(property "Value" "SM3ZS067U410AMR1000"
 			(at 2.54 -8.255 0)
 			(layer "F.Fab")
 			(uuid "ac6bb2eb-8f58-4cd2-85d0-16bf3af7bb22")
@@ -36718,7 +36718,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "A118046TR-ND"
+		(property "DigiKey" "670-2693-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36731,7 +36731,7 @@
 				)
 			)
 		)
-		(property "Mouser" "571-1-2199230-6"
+		(property "Mouser" "656-SM3ZS067U410AM10"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36757,7 +36757,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4710843"
+		(property "LCSC" "C5078373"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -79868,6 +79868,12 @@
 		(path "/fecdace5-b1da-40fa-9e4e-3a9b862ce872/a79491cf-9b26-473d-acdc-2cee3bd13427")
 		(sheetname "/System MCU, Watchdog, EEPROM/")
 		(sheetfile "system_mcu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
