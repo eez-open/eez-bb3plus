@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-09-14T18:31:47 ###
+### Footprint positions - created on 2026-09-19T08:24:31 ###
 ### Printed by KiCad version 10.0.6-10.0.6~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -246,9 +246,9 @@ R12       10K                         R_0603_1608Metric                       98
 R15       1K                          R_0603_1608Metric                       54.5900    51.5700  180.0000  top
 R16       47K                         R_0603_1608Metric                      117.2883    89.7700  -90.0000  top
 R17       10K                         R_0603_1608Metric                      114.1083    77.8700   90.0000  top
-R18       1K8                         R_0603_1608Metric                      109.1200    94.1800  180.0000  top
+R18       1K8                         R_0603_1608Metric                      109.1200    94.2800  180.0000  top
 R19       100R                        R_0603_1608Metric                      107.6683    77.9000  -90.0000  top
-R20       1K8                         R_0603_1608Metric                      109.1200    95.6341  180.0000  top
+R20       1K8                         R_0603_1608Metric                      106.1550    94.2800    0.0000  top
 R21       10K                         R_0603_1608Metric                      118.5900    82.1927    0.0000  top
 R23       18K                         R_0603_1608Metric                      112.6483    77.8786   90.0000  top
 R24       12K                         R_0603_1608Metric                      111.1683    77.8786  -90.0000  top

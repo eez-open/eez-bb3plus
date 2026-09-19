@@ -17460,7 +17460,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "3359d142-fa84-401d-aede-a13dee8c157e")
 		(property "Reference" "R63"
@@ -19526,7 +19526,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "68671eca-cea0-4a2c-9533-b5611672b250")
 		(property "Reference" "R64"
@@ -20294,7 +20294,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "74f6246d-e8d4-46b0-8e89-d51ba18a9f4a")
 		(property "Reference" "R65"
@@ -26390,7 +26390,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "e9c99abd-6fe5-496b-a093-c6ae05f0ed8f")
 		(property "Reference" "R73"

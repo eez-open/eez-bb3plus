@@ -3154,11 +3154,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_connectors:TC2030-IDC"
+		(symbol "PCM_EEZ_connectors:WR-WST REDFIT IDC"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "X"
 				(at 5.08 3.175 0)
@@ -3182,8 +3182,8 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_EEZ_connectors:TC2030"
-				(at 1.27 -17.78 0)
+			(property "Footprint" "PCM_EEZ_connectors:WR-WST_490107670612_DEBUG"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3204,8 +3204,8 @@
 					)
 				)
 			)
-			(property "Description" "Tag-Connect Plug-of-Nails connector"
-				(at 5.08 -17.78 0)
+			(property "Description" "SKEDD 2.54mm Pitch 6 Pin"
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3226,7 +3226,7 @@
 					)
 				)
 			)
-			(symbol "TC2030-IDC_1_0"
+			(symbol "WR-WST REDFIT IDC_1_0"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 0)
@@ -3348,7 +3348,7 @@
 					)
 				)
 			)
-			(symbol "TC2030-IDC_1_1"
+			(symbol "WR-WST REDFIT IDC_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -15.24)
@@ -18404,7 +18404,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "5ddd95b1-fdc9-4dd7-8fb3-217edebfdcd9")
 		(property "Reference" "R13"
@@ -19395,7 +19395,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "6a6947ba-3ebe-4dca-94bc-1d072c940068")
 		(property "Reference" "R14"
@@ -22226,14 +22226,14 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_connectors:TC2030-IDC")
+		(lib_id "PCM_EEZ_connectors:WR-WST REDFIT IDC")
 		(at 215.9 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a79491cf-9b26-473d-acdc-2cee3bd13427")
 		(property "Reference" "X4"
@@ -22258,8 +22258,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_connectors:TC2030"
-			(at 217.17 86.36 0)
+		(property "Footprint" "PCM_EEZ_connectors:WR-WST_490107670612_DEBUG"
+			(at 215.9 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22280,14 +22280,58 @@
 				)
 			)
 		)
-		(property "Description" "Tag-Connect Plug-of-Nails connector"
-			(at 220.98 86.36 0)
+		(property "Description" "SKEDD 2.54mm Pitch 6 Pin"
+			(at 215.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 215.9 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 215.9 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 215.9 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 215.9 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -24876,7 +24920,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "dd875b4e-5572-4ad3-a7d1-76e903a2c35d")
 		(property "Reference" "LED4"
@@ -25666,7 +25710,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "f2f8a00d-c46e-4a54-8650-ee973dbc3711")
 		(property "Reference" "R22"

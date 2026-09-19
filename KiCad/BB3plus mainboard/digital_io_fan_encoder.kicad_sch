@@ -22827,7 +22827,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "dad16824-cff4-4288-a408-bec76e38a051")
 		(property "Reference" "C51"

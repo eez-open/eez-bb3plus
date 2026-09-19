@@ -16938,25 +16938,25 @@
 		(dnp no)
 		(uuid "72ce39be-2bac-4fe2-a7c5-ee064f9ad245")
 		(property "Reference" "C134"
-			(at 107.95 91.44 0)
+			(at 104.14 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "100n"
-			(at 109.22 95.25 0)
+			(at 104.14 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
@@ -17074,7 +17074,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 92.075 0)
+			(at 114.3 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
