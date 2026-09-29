@@ -53,6 +53,7 @@ During development, several prototypes will be used for features planned for BB3
 
 * [EEZ BB3+ MCU](https://github.com/eez-open/eez-bb3plus-cm5-mcu) module
 * [DIB DCP405+](https://github.com/eez-open/dib-dcp405plus) power module
+* [DIB MIO168+](https://github.com/eez-open/dib-mio168plus) mixed I/O module
 * [EEZ BB3](https://github.com/eez-open/modular-psu)
 * [EEZ Studio](https://www.envox.eu/studio/studio-introduction)
 * [Discord](https://discord.com/invite/q5KAeeenNG) server
