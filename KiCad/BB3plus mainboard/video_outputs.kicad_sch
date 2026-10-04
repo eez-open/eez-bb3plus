@@ -2596,7 +2596,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "VBUS1"
@@ -2614,7 +2614,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "D1-"
@@ -2632,7 +2632,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name "D1+"
@@ -2650,7 +2650,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 2.54)
 					(name "GND1"
@@ -2668,7 +2668,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 2.54)
 					(name "SSRX1-"
@@ -2686,7 +2686,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 2.54)
 					(name "SSRX1+"
@@ -2704,7 +2704,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -22.86 0)
 					(length 2.54)
 					(name "GND_DRAIN1"
@@ -2722,7 +2722,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 2.54)
 					(name "SSTX1-"
@@ -2740,7 +2740,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 2.54)
 					(name "SSTX1+"
@@ -2771,7 +2771,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "VBUS2"
@@ -2789,7 +2789,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "D2-"
@@ -2807,7 +2807,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name "D2+"
@@ -2825,7 +2825,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 2.54)
 					(name "GND2"
@@ -2843,7 +2843,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 2.54)
 					(name "SSRX2-"
@@ -2861,7 +2861,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 2.54)
 					(name "SSRX2+"
@@ -2879,7 +2879,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -22.86 0)
 					(length 2.54)
 					(name "GND_DRAIN2"
@@ -2897,7 +2897,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 2.54)
 					(name "SSTX2-"
@@ -2915,7 +2915,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 2.54)
 					(name "SSTX2+"

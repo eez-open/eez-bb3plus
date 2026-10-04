@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-19")
+		(date "2026-10-04")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -2143,7 +2143,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "VBUS1"
@@ -2161,7 +2161,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "D1-"
@@ -2179,7 +2179,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name "D1+"
@@ -2197,7 +2197,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 2.54)
 					(name "GND1"
@@ -2215,7 +2215,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 2.54)
 					(name "SSRX1-"
@@ -2233,7 +2233,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 2.54)
 					(name "SSRX1+"
@@ -2251,7 +2251,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -22.86 0)
 					(length 2.54)
 					(name "GND_DRAIN1"
@@ -2269,7 +2269,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 2.54)
 					(name "SSTX1-"
@@ -2287,7 +2287,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 2.54)
 					(name "SSTX1+"
@@ -2318,7 +2318,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "VBUS2"
@@ -2336,7 +2336,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "D2-"
@@ -2354,7 +2354,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name "D2+"
@@ -2372,7 +2372,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 2.54)
 					(name "GND2"
@@ -2390,7 +2390,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 2.54)
 					(name "SSRX2-"
@@ -2408,7 +2408,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 2.54)
 					(name "SSRX2+"
@@ -2426,7 +2426,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -22.86 0)
 					(length 2.54)
 					(name "GND_DRAIN2"
@@ -2444,7 +2444,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 2.54)
 					(name "SSTX2-"
@@ -2462,7 +2462,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 2.54)
 					(name "SSTX2+"
@@ -3324,23 +3324,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 1.905 0.635 0)
+				(at 1.905 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 5.715 -2.032 90)
+			(property "Value" "LTST-C170KGKT"
+				(at 1.905 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 0.889 0.889)
 					)
 					(justify left bottom)
 				)
@@ -7437,7 +7437,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 157.48) (xy 93.98 162.56)
+			(xy 88.9 157.48) (xy 88.9 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7618,7 +7618,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 162.56) (xy 149.86 162.56)
+			(xy 88.9 162.56) (xy 149.86 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7788,7 +7788,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 157.48) (xy 93.98 157.48)
+			(xy 78.74 157.48) (xy 88.9 157.48)
 		)
 		(stroke
 			(width 0)
@@ -19625,9 +19625,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "e270cd74-688c-41e8-9cfc-2d4103e1abc3")
 		(property "Reference" "LED7"
