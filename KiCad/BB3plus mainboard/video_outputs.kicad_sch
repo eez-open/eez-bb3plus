@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-19")
+		(date "2026-10-05")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -14017,7 +14017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03adda93-e6dc-47b8-a0b2-d14b5b75e493")
-		(property "Reference" "#SUPPLY075"
+		(property "Reference" "#SUPPLY077"
 			(at 81.28 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -14078,7 +14078,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY075")
+					(reference "#SUPPLY077")
 					(unit 1)
 				)
 			)
@@ -14096,7 +14096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03db21ec-a30f-4ca5-816d-c1034657442f")
-		(property "Reference" "#GND048"
+		(property "Reference" "#GND045"
 			(at 261.62 127 0)
 			(hide yes)
 			(show_name no)
@@ -14156,7 +14156,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND048")
+					(reference "#GND045")
 					(unit 1)
 				)
 			)
@@ -14362,6 +14362,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 185.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 185.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 185.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 185.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "bf2b1d83-dd6c-4d79-a7b1-b8331b60a0e0")
 		)
@@ -14451,7 +14495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12963250-1fb2-422e-bff9-ac33c55c79c2")
-		(property "Reference" "#SUPPLY068"
+		(property "Reference" "#SUPPLY070"
 			(at 40.64 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14512,7 +14556,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY068")
+					(reference "#SUPPLY070")
 					(unit 1)
 				)
 			)
@@ -14530,7 +14574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "161a06ed-a91f-4ac3-8988-e280880ebb71")
-		(property "Reference" "#GND045"
+		(property "Reference" "#GND042"
 			(at 182.88 127 0)
 			(hide yes)
 			(show_name no)
@@ -14590,7 +14634,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND045")
+					(reference "#GND042")
 					(unit 1)
 				)
 			)
@@ -14607,7 +14651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20c1c196-b79b-4228-a9b6-39730df4ec11")
-		(property "Reference" "#SUPPLY067"
+		(property "Reference" "#SUPPLY069"
 			(at 40.64 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14668,7 +14712,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY067")
+					(reference "#SUPPLY069")
 					(unit 1)
 				)
 			)
@@ -14686,7 +14730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "237fdce4-3740-49cf-a009-9f6d05933961")
-		(property "Reference" "D18"
+		(property "Reference" "D16"
 			(at 86.36 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14796,6 +14840,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 83.82 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 83.82 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 83.82 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 83.82 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "0262d908-0d84-4baf-9bbd-c65102ad920c")
 		)
@@ -14805,7 +14893,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "D18")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -14822,7 +14910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26dd798b-64f7-4f35-9080-d3ea34ff7a95")
-		(property "Reference" "#SUPPLY070"
+		(property "Reference" "#SUPPLY072"
 			(at 40.64 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14883,7 +14971,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY070")
+					(reference "#SUPPLY072")
 					(unit 1)
 				)
 			)
@@ -14900,7 +14988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29807961-1b0d-4c4a-a9e0-320205db1a99")
-		(property "Reference" "#SUPPLY069"
+		(property "Reference" "#SUPPLY071"
 			(at 40.64 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14961,7 +15049,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY069")
+					(reference "#SUPPLY071")
 					(unit 1)
 				)
 			)
@@ -15088,6 +15176,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 116.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 116.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 116.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 116.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "0f77a9ee-0057-44a0-bd69-c0955e4dec0d")
 		)
@@ -15169,7 +15301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31e90e17-dbc9-4a96-aa9b-f7137e95dc6f")
-		(property "Reference" "#GND040"
+		(property "Reference" "#GND037"
 			(at 63.5 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15229,7 +15361,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND040")
+					(reference "#GND037")
 					(unit 1)
 				)
 			)
@@ -15247,7 +15379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "323b59cf-f755-4e9d-a285-f3fec59ee3ee")
-		(property "Reference" "C130"
+		(property "Reference" "C127"
 			(at 25.4 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15346,6 +15478,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f92c3b2-d35d-4630-b04c-4b75ec925f4d")
 		)
@@ -15355,7 +15531,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "C130")
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -15373,7 +15549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3541f04a-e87e-4529-b83c-169860b73d44")
-		(property "Reference" "R96"
+		(property "Reference" "R94"
 			(at 142.24 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15472,6 +15648,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 142.24 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 142.24 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 142.24 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 142.24 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e6244a8-1c64-45d1-a8e6-7195de672819")
 		)
@@ -15481,7 +15701,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "R96")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -15498,7 +15718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a716b9e-b0d0-4b00-bb76-1b89e739bc29")
-		(property "Reference" "L14"
+		(property "Reference" "L15"
 			(at 46.99 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15597,6 +15817,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 40.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 40.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 40.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 40.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "1559bbc3-6db9-4c64-8e7b-4937175c932b")
 		)
@@ -15630,7 +15894,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "L14")
+					(reference "L15")
 					(unit 1)
 				)
 			)
@@ -15648,7 +15912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43737f0f-6233-4eb2-be50-70b8934ef847")
-		(property "Reference" "#SUPPLY072"
+		(property "Reference" "#SUPPLY074"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15709,7 +15973,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY072")
+					(reference "#SUPPLY074")
 					(unit 1)
 				)
 			)
@@ -15728,7 +15992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4516524e-8768-4d28-96fd-317c801f7b96")
-		(property "Reference" "R93"
+		(property "Reference" "R91"
 			(at 75.565 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15827,6 +16091,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 73.66 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 73.66 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 73.66 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 73.66 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c40657b-4094-4e18-8c90-df982cb90e4d")
 		)
@@ -15836,7 +16144,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "R93")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -15854,7 +16162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dc1c8f1-f0d8-434d-b23f-e3ac1577229b")
-		(property "Reference" "C133"
+		(property "Reference" "C130"
 			(at 98.552 91.5924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15953,6 +16261,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68196fdb-5ae8-432d-842b-e4faef21dd9c")
 		)
@@ -15962,7 +16314,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "C133")
+					(reference "C130")
 					(unit 1)
 				)
 			)
@@ -15980,7 +16332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f1e1825-43d2-423c-8dcf-da6f6bbf25e8")
-		(property "Reference" "#SUPPLY076"
+		(property "Reference" "#SUPPLY078"
 			(at 96.52 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16041,7 +16393,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY076")
+					(reference "#SUPPLY078")
 					(unit 1)
 				)
 			)
@@ -16059,7 +16411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f9b3c0a-2224-43b9-a6b0-562a7b15b2f0")
-		(property "Reference" "#P+07"
+		(property "Reference" "#P+06"
 			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16120,7 +16472,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#P+07")
+					(reference "#P+06")
 					(unit 1)
 				)
 			)
@@ -16237,6 +16589,50 @@
 			)
 		)
 		(property "Label" "TFT DSI"
+			(at 251.46 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 251.46 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 251.46 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 251.46 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
 			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -16414,7 +16810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5746acf2-c023-4ec9-9042-6a1d74d0d553")
-		(property "Reference" "L12"
+		(property "Reference" "L13"
 			(at 46.99 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16513,6 +16909,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 40.64 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 40.64 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 40.64 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 40.64 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "742b590a-002e-4ea7-a7a1-0173916f68fb")
 		)
@@ -16546,7 +16986,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "L12")
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -16564,7 +17004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e187aa9-f11b-427a-8ee3-1f8fe99c5a50")
-		(property "Reference" "D17"
+		(property "Reference" "D15"
 			(at 86.36 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16674,6 +17114,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 83.82 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 83.82 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 83.82 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 83.82 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "4cc8263a-e873-4534-b886-0c6d92138c02")
 		)
@@ -16683,7 +17167,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "D17")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -16701,7 +17185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "698b9f27-e12c-4f73-9d2e-89a2957efcb6")
-		(property "Reference" "#GND046"
+		(property "Reference" "#GND043"
 			(at 195.58 127 0)
 			(hide yes)
 			(show_name no)
@@ -16761,7 +17245,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND046")
+					(reference "#GND043")
 					(unit 1)
 				)
 			)
@@ -16858,7 +17342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71669a45-1d02-4341-8033-be33fcb6e68f")
-		(property "Reference" "#P+06"
+		(property "Reference" "#P+05"
 			(at 20.32 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16919,7 +17403,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#P+06")
+					(reference "#P+05")
 					(unit 1)
 				)
 			)
@@ -16937,7 +17421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72ce39be-2bac-4fe2-a7c5-ee064f9ad245")
-		(property "Reference" "C134"
+		(property "Reference" "C131"
 			(at 104.14 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17036,6 +17520,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 104.14 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 104.14 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 104.14 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d476783-afb5-44bc-bd75-ef25d0cb3a1a")
 		)
@@ -17045,7 +17573,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "C134")
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -17062,7 +17590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7602fdd3-5eaf-42ce-8c00-76427d5f1423")
-		(property "Reference" "#GND043"
+		(property "Reference" "#GND040"
 			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -17122,7 +17650,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND043")
+					(reference "#GND040")
 					(unit 1)
 				)
 			)
@@ -17139,7 +17667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "861f6e66-903f-458e-84b4-446c68b671e2")
-		(property "Reference" "C132"
+		(property "Reference" "C129"
 			(at 81.28 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17238,6 +17766,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c35de0c4-6e3d-4d31-9350-833bff60bc5e")
 		)
@@ -17247,7 +17819,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "C132")
+					(reference "C129")
 					(unit 1)
 				)
 			)
@@ -17265,7 +17837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88a22602-4592-4c56-a3db-c850554753be")
-		(property "Reference" "R95"
+		(property "Reference" "R93"
 			(at 132.08 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17364,6 +17936,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 132.08 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 132.08 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 132.08 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 132.08 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51f6089e-e551-4df7-8582-4ce08caebc44")
 		)
@@ -17373,7 +17989,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "R95")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -17391,7 +18007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b5b4ab9-82db-4a73-80fa-4e076cebf69b")
-		(property "Reference" "#P+08"
+		(property "Reference" "#P+07"
 			(at 175.26 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -17452,7 +18068,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#P+08")
+					(reference "#P+07")
 					(unit 1)
 				)
 			)
@@ -17469,7 +18085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96a37547-67a8-4e40-a4ee-b57e74f815b2")
-		(property "Reference" "L13"
+		(property "Reference" "L14"
 			(at 46.99 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17568,6 +18184,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 40.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 40.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 40.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 40.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "a26614cf-b94a-4540-bd8e-2e168afe5e29")
 		)
@@ -17601,7 +18261,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "L13")
+					(reference "L14")
 					(unit 1)
 				)
 			)
@@ -17618,7 +18278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ea8c666-7e43-48e6-af3f-07894293db9a")
-		(property "Reference" "L15"
+		(property "Reference" "L16"
 			(at 46.99 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17717,6 +18377,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 40.64 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 40.64 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 40.64 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 40.64 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "6a090a91-6ea5-402c-9c96-d2081b01f42a")
 		)
@@ -17750,7 +18454,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "L15")
+					(reference "L16")
 					(unit 1)
 				)
 			)
@@ -17767,7 +18471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1e08a3d-9fca-4594-b9ce-03ac3eb81455")
-		(property "Reference" "#GND042"
+		(property "Reference" "#GND039"
 			(at 104.14 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -17827,7 +18531,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND042")
+					(reference "#GND039")
 					(unit 1)
 				)
 			)
@@ -17845,7 +18549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4aec36d-f6c9-4fcb-9c4a-66734701d110")
-		(property "Reference" "#SUPPLY073"
+		(property "Reference" "#SUPPLY075"
 			(at 68.58 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17907,7 +18611,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY073")
+					(reference "#SUPPLY075")
 					(unit 1)
 				)
 			)
@@ -17925,7 +18629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4e6721f-dcd1-41ea-8180-26b9f9a8082d")
-		(property "Reference" "#P+09"
+		(property "Reference" "#P+08"
 			(at 226.06 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -17986,7 +18690,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#P+09")
+					(reference "#P+08")
 					(unit 1)
 				)
 			)
@@ -18003,7 +18707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9ff36db-9cd6-45ad-8c57-b9d80da96828")
-		(property "Reference" "IC27"
+		(property "Reference" "IC24"
 			(at 38.1 80.645 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -18102,6 +18806,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "44ca8e72-803a-479b-8881-45176a1e758c")
 		)
@@ -18123,7 +18871,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "IC27")
+					(reference "IC24")
 					(unit 1)
 				)
 			)
@@ -18239,6 +18987,50 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -18362,7 +19154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae2f393f-bb6c-47ef-ae71-dfd37158bc03")
-		(property "Reference" "#GND039"
+		(property "Reference" "#GND036"
 			(at 25.4 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -18422,7 +19214,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND039")
+					(reference "#GND036")
 					(unit 1)
 				)
 			)
@@ -18439,7 +19231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4f5bd2f-ec0b-4902-ae82-6c57d6a02b17")
-		(property "Reference" "C131"
+		(property "Reference" "C128"
 			(at 78.74 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18538,6 +19330,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 78.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 78.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 78.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 78.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b106217-aa08-4d67-90e0-73829ee781be")
 		)
@@ -18547,7 +19383,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "C131")
+					(reference "C128")
 					(unit 1)
 				)
 			)
@@ -18566,7 +19402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1042c0d-3e37-44ec-9794-b12d076f8300")
-		(property "Reference" "R94"
+		(property "Reference" "R92"
 			(at 85.725 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18665,6 +19501,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 83.82 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 83.82 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 83.82 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 83.82 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7eeabe90-109f-4fc1-8262-fd2cf90f4605")
 		)
@@ -18674,7 +19554,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "R94")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -18692,7 +19572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbaa25af-2dde-41f7-9f58-5eb2a1bb5026")
-		(property "Reference" "#SUPPLY074"
+		(property "Reference" "#SUPPLY076"
 			(at 68.58 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -18753,7 +19633,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY074")
+					(reference "#SUPPLY076")
 					(unit 1)
 				)
 			)
@@ -18770,7 +19650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfab7b1c-fbd9-4a52-ac5a-83b0301a507d")
-		(property "Reference" "#FLG015"
+		(property "Reference" "#FLG012"
 			(at 243.84 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -18830,7 +19710,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#FLG015")
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -18848,7 +19728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8ec1167-f46b-4ed5-907c-7ea310c28d5f")
-		(property "Reference" "C135"
+		(property "Reference" "C132"
 			(at 137.16 95.885 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18947,6 +19827,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 137.16 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 137.16 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 137.16 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 137.16 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9faf9af9-d348-4cce-bca4-c93912356d37")
 		)
@@ -18956,7 +19880,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "C135")
+					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -18974,7 +19898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5c67701-4d5f-4669-847b-0eea8b277f50")
-		(property "Reference" "#GND047"
+		(property "Reference" "#GND044"
 			(at 248.92 127 0)
 			(hide yes)
 			(show_name no)
@@ -19034,7 +19958,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND047")
+					(reference "#GND044")
 					(unit 1)
 				)
 			)
@@ -19052,7 +19976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6db0ded-2165-43cd-b995-d437b2c6a817")
-		(property "Reference" "#GND044"
+		(property "Reference" "#GND041"
 			(at 147.32 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -19113,7 +20037,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND044")
+					(reference "#GND041")
 					(unit 1)
 				)
 			)
@@ -19131,7 +20055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7ad0363-2658-4a44-b16d-08ca2eda8553")
-		(property "Reference" "#GND041"
+		(property "Reference" "#GND038"
 			(at 78.74 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -19191,7 +20115,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#GND041")
+					(reference "#GND038")
 					(unit 1)
 				)
 			)
@@ -19289,7 +20213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc9b57d2-93c6-469a-ae5b-a7ab262113e2")
-		(property "Reference" "JP18"
+		(property "Reference" "JP17"
 			(at 232.41 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19388,6 +20312,50 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 233.68 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 233.68 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 233.68 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 233.68 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "NC"
 			(uuid "de2dc8c6-91d6-47ba-9447-4b29a9f7c9e7")
 		)
@@ -19400,7 +20368,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "JP18")
+					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -19418,7 +20386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe53c0a6-5d90-43d5-ace3-ff77bf676412")
-		(property "Reference" "#SUPPLY071"
+		(property "Reference" "#SUPPLY073"
 			(at 68.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19479,7 +20447,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY071")
+					(reference "#SUPPLY073")
 					(unit 1)
 				)
 			)
