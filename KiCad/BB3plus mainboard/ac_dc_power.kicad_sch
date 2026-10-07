@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-05")
+		(date "2026-10-06")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -15986,7 +15986,7 @@
 		(dnp no)
 		(uuid "0f9294b1-6328-441e-b1f0-1bf352f9541f")
 		(property "Reference" "SW1"
-			(at 77.47 117.856 0)
+			(at 86.995 120.65 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -15997,7 +15997,7 @@
 			)
 		)
 		(property "Value" "WBL2UOAGQR05CLR"
-			(at 73.025 134.62 0)
+			(at 86.995 122.555 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17380,10 +17380,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "20d25fff-f1a1-462e-a72f-4d59840de5d2")
 		(property "Reference" "JP8"
 			(at 92.71 130.81 0)
