@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-06")
+		(date "2026-10-08")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -6436,7 +6436,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "9978f247-8f50-4e1a-a431-ff0e786a0608")
-		(property "Sheetname" "Ethernet, Video outputs"
+		(property "Sheetname" "Ethernet, Video outputs, Ref clk"
 			(at 60.96 42.4684 0)
 			(show_name no)
 			(do_not_autoplace no)

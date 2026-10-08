@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-06")
+		(date "2026-10-08")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -17385,8 +17385,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20d25fff-f1a1-462e-a72f-4d59840de5d2")
-		(property "Reference" "JP8"
-			(at 92.71 130.81 0)
+		(property "Reference" "JP9"
+			(at 91.44 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17547,7 +17547,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
-					(reference "JP8")
+					(reference "JP9")
 					(unit 1)
 				)
 			)

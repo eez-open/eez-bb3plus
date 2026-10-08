@@ -110,6 +110,10 @@
           ""
         ],
         [
+          "clearance|439900000|66450000|918b788d-b116-4188-b960-dfcc03e60889|bdd8b94b-abc4-4be1-a242-40808794a1bf",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|297000000|166700000|b2955eb4-9abe-424b-8912-f590e0389fef|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -143,6 +147,10 @@
         ],
         [
           "shorting_items|412955200|75343143|49be017b-1924-464b-9eca-3e40471a73ae|bdb41078-cdc7-4e0f-ae05-8c0652b2e637",
+          ""
+        ],
+        [
+          "shorting_items|439239600|66450000|bdd8b94b-abc4-4be1-a242-40808794a1bf|d6076027-5235-43c2-98d0-cb15bb5f0762",
           ""
         ],
         [
@@ -182,15 +190,15 @@
           ""
         ],
         [
-          "silk_edge_clearance|373900000|-10363177|87ba165f-b8a2-43bf-ac48-0924e4a1cf4a|a25cab50-fc93-4cce-91ce-306481421dbf",
+          "silk_edge_clearance|374900000|-10363177|6d8f3cca-e1e1-4bdb-8f81-8c8c7ea832c5|a25cab50-fc93-4cce-91ce-306481421dbf",
           ""
         ],
         [
-          "silk_edge_clearance|373900000|-13013177|87ba165f-b8a2-43bf-ac48-0924e4a1cf4a|7679f01c-d5a5-4d6f-a14f-4a5e3b5dfa0b",
+          "silk_edge_clearance|374900000|-13013177|6d8f3cca-e1e1-4bdb-8f81-8c8c7ea832c5|7679f01c-d5a5-4d6f-a14f-4a5e3b5dfa0b",
           ""
         ],
         [
-          "silk_edge_clearance|373900000|-7290000|87ba165f-b8a2-43bf-ac48-0924e4a1cf4a|f535fbec-f4aa-4f11-b407-c93fee8dfd9d",
+          "silk_edge_clearance|374900000|-7290000|6d8f3cca-e1e1-4bdb-8f81-8c8c7ea832c5|f535fbec-f4aa-4f11-b407-c93fee8dfd9d",
           ""
         ],
         [
@@ -234,11 +242,11 @@
           ""
         ],
         [
-          "silk_overlap|377815000|158912000|895a703e-89b9-4348-b031-c2c3b3b633b2|90c981a5-3b59-4278-a0ed-01c7d242e562",
+          "silk_overlap|377815000|161706000|895a703e-89b9-4348-b031-c2c3b3b633b2|90c981a5-3b59-4278-a0ed-01c7d242e562",
           ""
         ],
         [
-          "silk_overlap|399295000|105884000|40c6b3fd-d462-457f-97c9-0454032b32a9|4db84dd3-1435-488f-92dc-034792e4f439",
+          "silk_overlap|399295000|108678000|40c6b3fd-d462-457f-97c9-0454032b32a9|4db84dd3-1435-488f-92dc-034792e4f439",
           ""
         ],
         [
@@ -334,6 +342,18 @@
           ""
         ],
         [
+          "solder_mask_bridge|439239600|66450000|7047219d-f130-4c50-91fc-dd902cde4406|918b788d-b116-4188-b960-dfcc03e60889",
+          ""
+        ],
+        [
+          "solder_mask_bridge|439239600|66450000|bdd8b94b-abc4-4be1-a242-40808794a1bf|d6076027-5235-43c2-98d0-cb15bb5f0762",
+          ""
+        ],
+        [
+          "solder_mask_bridge|439900000|66450000|bdd8b94b-abc4-4be1-a242-40808794a1bf|918b788d-b116-4188-b960-dfcc03e60889",
+          ""
+        ],
+        [
           "unconnected_items|377180000|-44130000|F.Cu|4|be498e05-0561-4eb7-a6d2-9d63cb4087c3|49bff854-bc6f-4f68-b92f-fda31f500640",
           ""
         ],
@@ -346,11 +366,11 @@
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5",
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
           ""
         ],
         [
@@ -2000,63 +2020,63 @@
       },
       {
         "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs/REAR_D2+"
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D2+"
       },
       {
         "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs/REAR_D1-"
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D1-"
       },
       {
         "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs/REAR_D1+"
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D1+"
       },
       {
         "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs/REAR_D0-"
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D0-"
       },
       {
         "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs/REAR_D0+"
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D0+"
       },
       {
         "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs/REAR_CK-"
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_CK-"
       },
       {
         "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs/REAR_CK+"
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_CK+"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs/TRD3-"
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD3-"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs/TRD3+"
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD3+"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs/TRD1-"
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD1-"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs/TRD1+"
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD1+"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs/TRD2-"
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD2-"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs/TRD2+"
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD2+"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs/TRD4-"
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD4-"
       },
       {
         "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs/TRD4+"
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD4+"
       },
       {
         "netclass": "USB",
@@ -2519,7 +2539,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "Y1-3,JP1-21,Q1-9,#PWR1-36,SP1,#+3V1-58,#+3V63,SW1-2,D1-20,NTC1,#FLG1-18,SAR1,U1,U8,X1-28,OK1-2,IC1-28,ZD1-5,K1-12,#+5V_ISO1-8,FM1-4,F1-2,LOGO1-7,#PE1-16,C1-148,CF1-2,TR1-2,#GND1-49,#SUPPLY1-117,VAR1-3,TP1-19,FB1-7,#P+1-10,L1-16,R1-104,H1-8,Module1-2,#+5V1-11,LED1-8,#+3V3_ISO1-2",
+    "used_designators": "TP1-19,VAR1-3,#SUPPLY1-117,FB1-7,#GND1-49,TR1-2,CF1-2,C1-148,#PE1-16,NTC1,D1-20,SAR1,#FLG1-18,#P+1-10,R1-104,L1-16,U1,U8,X1-28,H1-8,#+3V3_ISO1-2,LED1-8,#+5V1-11,Module1-2,SW1-2,#+3V1-58,#+3V63,SP1,#PWR1-36,JP1-21,Y1-3,Q1-9,OK1-2,IC1-28,ZD1-5,K1-12,#+5V_ISO1-8,FM1-4,F1-2,LOGO1-7",
     "variants": [
       {
         "name": "Ethernet PHY no xtal"
@@ -2557,7 +2577,7 @@
     ],
     [
       "9978f247-8f50-4e1a-a431-ff0e786a0608",
-      "Ethernet, Video outputs"
+      "Ethernet, Video outputs, Ref clk"
     ],
     [
       "57aee854-8c94-4105-bcce-97e3d73b363b",
