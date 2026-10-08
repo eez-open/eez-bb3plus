@@ -10526,16 +10526,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 137.16) (xy 35.56 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea25fa85-aab4-4901-9b9b-49244b6c1e11")
-	)
-	(wire
-		(pts
 			(xy 45.72 149.86) (xy 43.18 149.86)
 		)
 		(stroke
@@ -10796,7 +10786,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 137.16) (xy 35.56 137.16)
+			(xy 25.4 147.32) (xy 45.72 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10823,16 +10813,6 @@
 			(type default)
 		)
 		(uuid "ff4a16db-1af6-4323-8522-889ba0ec81c0")
-	)
-	(wire
-		(pts
-			(xy 35.56 147.32) (xy 45.72 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff67effa-0bea-446a-ab62-75c1766b1f69")
 	)
 	(image
 		(at 245.745 112.6388)
@@ -11266,7 +11246,7 @@
 		(row_heights 2.54 1.905 1.905 1.905 1.905)
 		(uuid "945708a6-b596-4144-9e53-1364fea0b602")
 		(cells
-			(table_cell "~{BOOT_RST}"
+			(table_cell "DOUT1"
 				(exclude_from_sim no)
 				(at 181.61 149.86 0)
 				(size 7.62 2.54)
@@ -13411,7 +13391,7 @@
 	)
 	(global_label "DIB_OE_SYNC"
 		(shape input)
-		(at 25.4 137.16 180)
+		(at 25.4 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13421,7 +13401,7 @@
 		)
 		(uuid "e20daa4b-bbf4-4535-b8f4-15fc8c4e2e83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.0479 137.16 0)
+			(at 15.0479 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

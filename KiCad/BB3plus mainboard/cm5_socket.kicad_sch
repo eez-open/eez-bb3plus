@@ -12260,7 +12260,7 @@
 		(effects
 			(font
 				(size 0.889 0.889)
-				(color 204 102 0 1)
+				(color 132 132 0 1)
 			)
 			(justify right)
 		)
@@ -13071,7 +13071,7 @@
 		(effects
 			(font
 				(size 0.889 0.889)
-				(color 204 102 0 1)
+				(color 132 132 0 1)
 			)
 			(justify right)
 		)
