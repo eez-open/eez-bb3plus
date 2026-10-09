@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-08")
+		(date "2026-10-09")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8063,6 +8063,10 @@
 		(uuid "12adc0ee-b5c5-46b9-befa-27f5f5ad8ac9")
 	)
 	(no_connect
+		(at 149.86 124.46)
+		(uuid "71bd8f2f-7e4c-41d9-bba3-ee69991a3ed7")
+	)
+	(no_connect
 		(at 218.44 68.58)
 		(uuid "cfaf38b4-769f-4a01-87a2-16296979d75d")
 	)
@@ -8995,16 +8999,6 @@
 			(type default)
 		)
 		(uuid "523bcd06-f98a-4f59-bd1c-8831a1adf262")
-	)
-	(wire
-		(pts
-			(xy 144.78 124.46) (xy 149.86 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f2b892-308b-4f19-a089-6c776a430a73")
 	)
 	(wire
 		(pts
@@ -13216,31 +13210,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "HUB_VBUS_EN"
-		(shape output)
-		(at 144.78 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 204 102 0 1)
-			)
-			(justify right)
-		)
-		(uuid "c6f18ecf-20e3-496e-8097-f13f9fcf0aa9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.8776 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -22901,7 +22870,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "STM32G071R8T6"
+		(property "Value" "STM32G071RBT6"
 			(at 152.4 130.175 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -22946,7 +22915,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-STM32G071R8T6-ND"
+		(property "DigiKey" "497-18341-ND"
 			(at 149.86 139.7 0)
 			(hide yes)
 			(show_name yes)
@@ -22957,7 +22926,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-STM32G071R8T6"
+		(property "Mouser" "511-STM32G071RBT6"
 			(at 149.86 142.24 0)
 			(hide yes)
 			(show_name yes)
@@ -22968,7 +22937,7 @@
 				)
 			)
 		)
-		(property "TME" "STM32G071R8T6"
+		(property "TME" "STM32G071RBT6"
 			(at 149.86 144.78 0)
 			(hide yes)
 			(show_name yes)
@@ -22979,7 +22948,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C432214"
+		(property "LCSC" "C432213"
 			(at 149.86 147.32 0)
 			(hide yes)
 			(show_name yes)

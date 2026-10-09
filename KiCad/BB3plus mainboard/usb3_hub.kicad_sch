@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-08")
+		(date "2026-10-09")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -6020,12 +6020,6 @@
 		(uuid "f2ab1166-fa89-4ec3-8dd3-42f137baa74c")
 	)
 	(junction
-		(at 58.42 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f676b93c-a699-467b-8b1b-75a371dc3797")
-	)
-	(junction
 		(at 43.18 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6271,16 +6265,6 @@
 			(color 0 0 194 1)
 		)
 		(uuid "07cfa0ac-5688-477a-992a-5eb23ca18b34")
-	)
-	(wire
-		(pts
-			(xy 48.26 17.78) (xy 58.42 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0858cde8-2f87-44ad-808c-2187e6ce74e1")
 	)
 	(polyline
 		(pts
@@ -8443,16 +8427,6 @@
 			(color 0 0 194 1)
 		)
 		(uuid "518b1e93-5481-4df4-8809-178b0f30c5f2")
-	)
-	(wire
-		(pts
-			(xy 58.42 17.78) (xy 58.42 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51bb0d52-5109-4f47-aca6-812487036fcf")
 	)
 	(polyline
 		(pts
@@ -14802,31 +14776,6 @@
 			)
 		)
 	)
-	(global_label "HUB_VBUS_EN"
-		(shape input)
-		(at 48.26 17.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 204 102 0 1)
-			)
-			(justify right)
-		)
-		(uuid "9ca077c6-3e7a-4026-b449-1ea1a1d16ca6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.3576 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DIB4_USB_RX+"
 		(shape input)
 		(at 134.62 99.06 0)
@@ -20580,10 +20529,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "68671eca-cea0-4a2c-9533-b5611672b250")
 		(property "Reference" "R62"
 			(at 50.8 21.59 90)
@@ -21612,10 +21561,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "74f6246d-e8d4-46b0-8e89-d51ba18a9f4a")
 		(property "Reference" "R63"
 			(at 50.8 29.21 90)
