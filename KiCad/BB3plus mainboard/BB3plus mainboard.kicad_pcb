@@ -41601,6 +41601,18 @@
 				)
 			)
 		)
+		(property "Part Description" "M.2 type M slot"
+			(at 0 -7.5 0)
+			(unlocked yes)
+			(layer "F.SilkS" knockout)
+			(uuid "57ad1521-4ac9-4d08-99e9-bdfcb82eeaac")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(property "DigiKey" "670-2693-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
@@ -41650,18 +41662,6 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "Label" "M.2 type M slot"
-			(at 0 -7.5 0)
-			(unlocked yes)
-			(layer "F.SilkS" knockout)
-			(uuid "57ad1521-4ac9-4d08-99e9-bdfcb82eeaac")
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.1524)
 				)
 			)
 		)
@@ -41721,21 +41721,6 @@
 		(path "/d74ad35b-5ae5-4e4c-8cd2-c11fba35596b/b01e1c79-9a0f-46d4-8578-a2212cb16b5d")
 		(sheetname "/CM5 socket, M.2 connector/")
 		(sheetfile "cm5_socket.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "50" "52" "54" "55" "53" "49" "47" "43" "41" "37" "35" "31" "29"
-					"25" "23" "19" "17" "13" "11" "7" "5" "38" "70" "72" "74" "2" "16" "12"
-					"18" "4" "14" "45" "51" "39" "9" "57" "27" "33" "71" "3" "73" "15" "SH"
-					"56" "58" "67" "48" "46" "44" "42" "40" "36" "34" "32" "30" "28" "26"
-					"24" "22" "20" "8" "6" "10" "21" "69" "75" "1" "68"
-				)
-			)
-			(unit
-				(name "B")
-				(pins "M1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -42875,7 +42860,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/MDT420STD001.step"
@@ -42887,7 +42872,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/MDT420STD001.step"
@@ -42899,7 +42884,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/MDT420STD001.step"
@@ -42910,10 +42895,10 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
-		(model "${KICAD7_3RD_PARTY}/3dmodels/xyz_chili-chips_kicad/c-1-2199230-6-b3-3d.stp"
+		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/c-1-2199230-6-b3-3d.stp"
 			(offset
 				(xyz 0 -2.5 2.2)
 			)
@@ -42921,7 +42906,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
