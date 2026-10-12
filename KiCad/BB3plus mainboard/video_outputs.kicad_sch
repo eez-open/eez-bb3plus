@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-09")
+		(date "2026-10-12")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -17077,7 +17077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1084f63f-e525-4c4f-86f8-417363f82a2e")
-		(property "Reference" "X17"
+		(property "Reference" "X18"
 			(at 203.835 55.8801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17303,7 +17303,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "X17")
+					(reference "X18")
 					(unit 1)
 				)
 			)
@@ -18149,7 +18149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a130e53-a04b-4d0e-a378-37c1dcff6347")
-		(property "Reference" "X16"
+		(property "Reference" "X17"
 			(at 125.095 34.925 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18366,7 +18366,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "X16")
+					(reference "X17")
 					(unit 1)
 				)
 			)
@@ -20239,7 +20239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53e85acf-291b-4ca8-936a-cfae791f23bd")
-		(property "Reference" "X18"
+		(property "Reference" "X19"
 			(at 269.875 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20465,7 +20465,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "X18")
+					(reference "X19")
 					(unit 1)
 				)
 			)
@@ -23626,7 +23626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad31112a-50bf-4aa5-9b39-1d415132f7e7")
-		(property "Reference" "X15"
+		(property "Reference" "X16"
 			(at 120.65 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23873,7 +23873,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "X15")
+					(reference "X16")
 					(unit 1)
 				)
 			)

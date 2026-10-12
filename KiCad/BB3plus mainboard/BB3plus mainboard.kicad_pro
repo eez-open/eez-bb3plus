@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.5,
-          "height": 1.85,
-          "width": 1.85
+          "drill": 1.19,
+          "height": 2.19,
+          "width": 1.74
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -111,6 +111,10 @@
         ],
         [
           "clearance|439900000|66450000|918b788d-b116-4188-b960-dfcc03e60889|bdd8b94b-abc4-4be1-a242-40808794a1bf",
+          ""
+        ],
+        [
+          "courtyards_overlap|339345000|65345000|297417ba-d38e-42a0-b0ea-8c6abb35080c|ae9ba646-3cf9-4521-93a6-c9bf26acc38e",
           ""
         ],
         [
@@ -234,7 +238,7 @@
           ""
         ],
         [
-          "silk_overlap|339594588|150405272|be38bc6e-cce5-446f-ba49-3c2b1a873b72|feb9554d-1481-415d-907f-e00b54c6115f",
+          "silk_overlap|339594588|144771759|be38bc6e-cce5-446f-ba49-3c2b1a873b72|feb9554d-1481-415d-907f-e00b54c6115f",
           ""
         ],
         [
@@ -242,7 +246,7 @@
           ""
         ],
         [
-          "silk_overlap|377815000|161706000|895a703e-89b9-4348-b031-c2c3b3b633b2|90c981a5-3b59-4278-a0ed-01c7d242e562",
+          "silk_overlap|377815000|158912000|895a703e-89b9-4348-b031-c2c3b3b633b2|90c981a5-3b59-4278-a0ed-01c7d242e562",
           ""
         ],
         [
@@ -366,7 +370,7 @@
           ""
         ],
         [
-          "unconnected_items|390570000|-44130000|F.Cu|4|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194",
+          "unconnected_items|390570000|-44130000|F.Cu|4|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194",
           ""
         ],
         [
@@ -483,6 +487,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -494,6 +499,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -505,6 +511,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -823,6 +830,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -939,8 +947,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "USB",
@@ -2539,7 +2547,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "Y1-3,JP1-21,Q1-9,#PWR1-36,SP1,#+3V1-58,#+3V63,SW1-2,D1-20,NTC1,#FLG1-18,SAR1,U1,U8,X1-28,OK1-2,IC1-28,ZD1-5,K1-12,#+5V_ISO1-8,FM1-4,F1-2,LOGO1-7,#PE1-16,C1-148,CF1-2,TR1-2,#GND1-49,#SUPPLY1-119,VAR1-3,TP1-19,FB1-7,#P+1-10,L1-16,R1-104,H1-8,Module1-2,#+5V1-11,LED1-8,#+3V3_ISO1-2",
+    "used_designators": "#+3V1-58,#+3V63,#+3V3_ISO1-2,#+5V1-11,#+5V_ISO1-8,#FLG1-18,#GND1-49,#P+1-10,#PE1-16,#PWR1-36,#SUPPLY1-119,C1-148,CF1-2,D1-20,F1-2,FB1-7,FM1-4,H1-8,IC1-28,JP1-21,K1-12,L1-16,LED1-8,LOGO1-7,Module1-2,NTC1,OK1-2,Q1-9,R1-104,SAR1,SP1,SW1-2,TP1-19,TR1-2,U1,U8,VAR1-3,X1-28,Y1-3,ZD1-5",
     "variants": [
       {
         "name": "Ethernet PHY no xtal"

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-09")
+		(date "2026-10-12")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8959,7 +8959,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 48.26 53.34)
+			(xy 30.48 53.34) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -9899,7 +9899,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 68.58) (xy 45.72 68.58)
+			(xy 30.48 68.58) (xy 45.72 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -11247,7 +11247,7 @@
 	)
 	(global_label "RS485_RX{slash}DIN3"
 		(shape output)
-		(at 38.1 68.58 180)
+		(at 30.48 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11257,7 +11257,7 @@
 		)
 		(uuid "529b4f7a-719e-4f90-985d-81232e0c73a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.758 68.58 0)
+			(at 18.138 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11367,7 +11367,7 @@
 	)
 	(global_label "RS485_TX{slash}DOUT3"
 		(shape input)
-		(at 43.18 53.34 180)
+		(at 30.48 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11377,7 +11377,7 @@
 		)
 		(uuid "9c552fad-20dc-4746-8a5d-bebd1b01fcbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.8644 53.34 0)
+			(at 17.1644 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14289,7 +14289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45246c1e-f20d-4274-94b0-e5d7c0cd30be")
-		(property "Reference" "X12"
+		(property "Reference" "X13"
 			(at 167.64 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14458,7 +14458,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "X12")
+					(reference "X13")
 					(unit 1)
 				)
 			)
@@ -22186,7 +22186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddc1f594-b4eb-49d9-aca3-c6aaedd18a52")
-		(property "Reference" "X13"
+		(property "Reference" "X14"
 			(at 242.57 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22362,7 +22362,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "X13")
+					(reference "X14")
 					(unit 1)
 				)
 			)
