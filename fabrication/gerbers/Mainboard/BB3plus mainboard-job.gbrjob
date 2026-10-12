@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.7-10.0.7~ubuntu24.04.1"
     },
-    "CreationDate": "2026-10-12T09:39:26+02:00"
+    "CreationDate": "2026-10-12T18:32:31+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -101,6 +101,7 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Top Silk Screen"
     },
     {
@@ -109,6 +110,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "Green",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -119,6 +121,7 @@
     },
     {
       "Type": "Dielectric",
+      "Color": "R109G116B75",
       "Thickness": 0.21,
       "Material": "FR4",
       "Name": "F.Cu/In1.Cu",
@@ -131,6 +134,7 @@
     },
     {
       "Type": "Dielectric",
+      "Color": "R109G116B75",
       "Thickness": 1.065,
       "Material": "FR4",
       "Name": "In1.Cu/In2.Cu",
@@ -143,6 +147,7 @@
     },
     {
       "Type": "Dielectric",
+      "Color": "R109G116B75",
       "Thickness": 0.21,
       "Material": "FR4",
       "Name": "In2.Cu/B.Cu",
@@ -155,6 +160,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "Green",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
@@ -164,6 +170,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Bottom Silk Screen"
     }
   ]
