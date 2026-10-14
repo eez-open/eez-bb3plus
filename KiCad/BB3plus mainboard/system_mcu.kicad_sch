@@ -7388,12 +7388,8 @@
 		(uuid "12adc0ee-b5c5-46b9-befa-27f5f5ad8ac9")
 	)
 	(no_connect
-		(at 144.78 139.7)
-		(uuid "71bd8f2f-7e4c-41d9-bba3-ee69991a3ed7")
-	)
-	(no_connect
 		(at 170.18 101.6)
-		(uuid "b8459a8f-c463-4d92-9274-b2c1d2936a7a")
+		(uuid "9042efb7-e5f2-49bc-874e-529bc0bbc908")
 	)
 	(no_connect
 		(at 213.36 83.82)
@@ -9060,6 +9056,16 @@
 			(type default)
 		)
 		(uuid "c0dfebaa-e25a-429b-af31-66f3eff814c8")
+	)
+	(wire
+		(pts
+			(xy 139.7 139.7) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f8f0a9-2014-4bc4-9739-45876c162ab4")
 	)
 	(wire
 		(pts
@@ -11085,6 +11091,31 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "~{DVID_PWR_FAULT}"
+		(shape input)
+		(at 139.7 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 153 0 1)
+			)
+			(justify right)
+		)
+		(uuid "bef5034d-13e6-4779-a314-2ae67d24bdb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.1042 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

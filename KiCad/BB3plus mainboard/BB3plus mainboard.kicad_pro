@@ -134,11 +134,11 @@
           ""
         ],
         [
-          "copper_edge_clearance|368000000|172400000|98b50b61-d683-4f9b-a0c0-0cd135e21a68|0c76e8cf-8eb8-42f0-91fe-4d017f4dc721",
+          "copper_edge_clearance|368300000|172770000|cdfd18d1-3944-4124-8092-dbbc557fe1ef|e4ad0603-9b5c-4c2a-97af-a1277c8e0bd0",
           ""
         ],
         [
-          "copper_edge_clearance|368130000|172600000|98b50b61-d683-4f9b-a0c0-0cd135e21a68|e4ad0603-9b5c-4c2a-97af-a1277c8e0bd0",
+          "copper_edge_clearance|368620000|172210000|cdfd18d1-3944-4124-8092-dbbc557fe1ef|0c76e8cf-8eb8-42f0-91fe-4d017f4dc721",
           ""
         ],
         [
@@ -146,11 +146,15 @@
           ""
         ],
         [
+          "courtyards_overlap|420395000|-20069500|3b46a7b9-03bd-4eca-ad97-2130a2e15887|baec3643-f367-4a06-a26d-b7c1a34c34fa",
+          ""
+        ],
+        [
           "hole_clearance|360423000|173157000|7e38cf86-8785-41bc-858b-0ac109968dc0|0e053e76-3777-487d-a28a-85f551472fdd",
           ""
         ],
         [
-          "hole_clearance|360980000|173350000|a2f45635-2bbd-4a13-b52d-1f4e7cef3114|0e053e76-3777-487d-a28a-85f551472fdd",
+          "hole_clearance|361040000|173290000|a2f45635-2bbd-4a13-b52d-1f4e7cef3114|0e053e76-3777-487d-a28a-85f551472fdd",
           ""
         ],
         [
@@ -422,11 +426,11 @@
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5",
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
           ""
         ],
         [
