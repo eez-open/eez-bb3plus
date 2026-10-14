@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-12")
+		(date "2026-10-14")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5565,10 +5565,10 @@
 		)
 		(uuid "dd80af2d-0246-41e3-b0e9-d88c959da0b9")
 	)
-	(text_box "Battery charging enabled on P1 "
+	(text_box "Battery charging enabled on P1, P2"
 		(exclude_from_sim no)
-		(at 20.955 54.61 0)
-		(size 12.7 3.81)
+		(at 19.05 57.785 0)
+		(size 14.605 4.195)
 		(margins 0.6668 0.6668 0.6668 0.6668)
 		(stroke
 			(width 0)
@@ -6020,7 +6020,7 @@
 		(uuid "f2ab1166-fa89-4ec3-8dd3-42f137baa74c")
 	)
 	(junction
-		(at 43.18 55.88)
+		(at 43.18 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f989ebf4-8321-4bf1-a1a7-85e20840f0c0")
@@ -7739,6 +7739,16 @@
 		)
 		(uuid "3de0655e-852b-4bc0-b2d7-13fdead88c5f")
 	)
+	(wire
+		(pts
+			(xy 43.18 58.42) (xy 43.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de366a5-0250-4e17-849e-50b5d0861db0")
+	)
 	(polyline
 		(pts
 			(xy 133.985 107.95) (xy 133.35 107.95)
@@ -8235,16 +8245,6 @@
 			(type default)
 		)
 		(uuid "4a225d1d-1b9c-42a1-8456-d1b74c3af2a4")
-	)
-	(wire
-		(pts
-			(xy 33.02 60.96) (xy 45.72 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a521b97-8643-4bc7-bc24-42a81b3a7c67")
 	)
 	(wire
 		(pts
@@ -10419,6 +10419,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 60.96) (xy 45.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938a1aa1-a757-4b7e-8f3f-464eda2489ce")
+	)
+	(wire
+		(pts
 			(xy 40.64 147.32) (xy 40.64 152.4)
 		)
 		(stroke
@@ -10522,6 +10532,16 @@
 			(color 0 0 194 1)
 		)
 		(uuid "964d19b6-7abc-4320-b46a-a8a75d21bac5")
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42) (xy 43.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c963fa-a9b8-4f0d-8cbf-013311c7c871")
 	)
 	(wire
 		(pts
@@ -12208,16 +12228,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 55.88) (xy 43.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9eb3bd8-21e3-4004-b3a5-63e626d5743d")
-	)
-	(wire
-		(pts
 			(xy 116.84 167.64) (xy 134.62 167.64)
 		)
 		(stroke
@@ -13562,7 +13572,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 55.88) (xy 43.18 55.88)
+			(xy 40.64 58.42) (xy 43.18 58.42)
 		)
 		(stroke
 			(width 0)
@@ -17120,7 +17130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2be2a1d0-3034-4ab0-926b-ce478bd8ec29")
-		(property "Reference" "#+3V029"
+		(property "Reference" "#+3V028"
 			(at 279.4 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -17181,86 +17191,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#+3V029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_EEZ_symbols:+3V3")
-		(at 30.48 60.96 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c14b079-452e-4975-944f-f6679be82fda")
-		(property "Reference" "#+3V027"
-			(at 30.48 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 24.765 61.595 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d8bc67e-e126-4e89-87a7-5db73bed23a2")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#+3V027")
+					(reference "#+3V028")
 					(unit 1)
 				)
 			)
@@ -23736,7 +23667,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 55.88 0)
+		(at 40.64 58.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23747,7 +23678,7 @@
 		(dnp no)
 		(uuid "8ac0fe3e-923b-48ba-912a-94415208ba18")
 		(property "Reference" "#PWR021"
-			(at 40.64 62.23 0)
+			(at 40.64 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23758,7 +23689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 57.785 0)
+			(at 39.37 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23769,7 +23700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 55.88 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23780,7 +23711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 55.88 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23791,7 +23722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 55.88 0)
+			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24594,7 +24525,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "200K"
+		(property "Value" "10K"
 			(at 53.975 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24638,7 +24569,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "13-RC0603FR-13200KLCT-ND"
+		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
 			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -24649,7 +24580,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-13200KL "
+		(property "Mouser" "756-WCR0603-10KFI"
 			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -24660,7 +24591,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-200K-1%"
+		(property "TME" "SMD0603-10K-1%"
 			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -24671,7 +24602,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25811"
+		(property "LCSC" "C25804"
 			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -26465,7 +26396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b730e7dd-60e6-4897-a7f7-bb24bd4c7007")
-		(property "Reference" "#+3V028"
+		(property "Reference" "#+3V027"
 			(at 38.1 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -26526,7 +26457,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#+3V028")
+					(reference "#+3V027")
 					(unit 1)
 				)
 			)

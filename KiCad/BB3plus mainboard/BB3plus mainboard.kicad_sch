@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-12")
+		(date "2026-10-14")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -2756,7 +2756,7 @@
 				)
 				(uuid "7d57cb58-21fd-4702-8cee-00dc90b0d9ae")
 			)
-			(table_cell "0x7A"
+			(table_cell "0x3A"
 				(exclude_from_sim no)
 				(at 25.4 104.14 0)
 				(size 10.16 2.54)

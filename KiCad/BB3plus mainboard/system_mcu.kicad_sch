@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-12")
+		(date "2026-10-14")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7392,6 +7392,10 @@
 		(uuid "71bd8f2f-7e4c-41d9-bba3-ee69991a3ed7")
 	)
 	(no_connect
+		(at 170.18 101.6)
+		(uuid "b8459a8f-c463-4d92-9274-b2c1d2936a7a")
+	)
+	(no_connect
 		(at 213.36 83.82)
 		(uuid "cfaf38b4-769f-4a01-87a2-16296979d75d")
 	)
@@ -7498,16 +7502,6 @@
 			(type default)
 		)
 		(uuid "0850c7e5-6567-4109-b6e9-d1993a4966ba")
-	)
-	(wire
-		(pts
-			(xy 170.18 101.6) (xy 175.26 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08766ed0-a045-43fc-bcc3-ec8f0b863f1a")
 	)
 	(wire
 		(pts
@@ -11083,31 +11077,6 @@
 		(uuid "b4ea0a43-7e95-44c7-ad97-419af84ff9bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 183.8765 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "USBC_PORT_ROLE"
-		(shape output)
-		(at 175.26 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 204 102 0 1)
-			)
-			(justify left)
-		)
-		(uuid "b8ca73bb-5751-4c15-8f56-ffea1fe426b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.5331 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15216,7 +15185,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "750R"
+		(property "Value" "1K"
 			(at 124.46 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15260,7 +15229,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "RC0603FR-07750RL"
+		(property "DigiKey" "13-RC0603FR-131KLCT-ND"
 			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15271,7 +15240,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-07750RL"
+		(property "Mouser" "603-RC0603FR-131KL"
 			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -15282,7 +15251,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-750R-1%"
+		(property "TME" "CQ0603-1K-1%"
 			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15293,7 +15262,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23241"
+		(property "LCSC" "C21190"
 			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
