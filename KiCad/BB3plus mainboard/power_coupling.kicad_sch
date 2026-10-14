@@ -12518,7 +12518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4b726e9-e304-493f-ab5b-5230eed7b8cb")
-		(property "Reference" "#+3V047"
+		(property "Reference" "#+3V048"
 			(at 35.56 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12579,7 +12579,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/bb7e7620-5970-4f17-83aa-0b2c666475d0"
-					(reference "#+3V047")
+					(reference "#+3V048")
 					(unit 1)
 				)
 			)

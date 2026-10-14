@@ -11468,7 +11468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84df9e2c-af05-4fb1-a5d4-b349178373b2")
-		(property "Reference" "#+3V046"
+		(property "Reference" "#+3V047"
 			(at 276.86 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11529,7 +11529,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "#+3V046")
+					(reference "#+3V047")
 					(unit 1)
 				)
 			)
@@ -11624,7 +11624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "873aa4f9-f35f-40c3-8101-b75fff578f72")
-		(property "Reference" "#+3V043"
+		(property "Reference" "#+3V044"
 			(at 114.3 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11685,7 +11685,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "#+3V043")
+					(reference "#+3V044")
 					(unit 1)
 				)
 			)
@@ -12175,7 +12175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c30ba2da-8ec4-4d86-a2d6-cc8d746ed0c0")
-		(property "Reference" "#+3V045"
+		(property "Reference" "#+3V046"
 			(at 218.44 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12236,7 +12236,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "#+3V045")
+					(reference "#+3V046")
 					(unit 1)
 				)
 			)
@@ -13529,7 +13529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f290e393-58d6-4e1e-a6a3-e3bee12667e3")
-		(property "Reference" "#+3V044"
+		(property "Reference" "#+3V045"
 			(at 165.1 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13590,7 +13590,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "#+3V044")
+					(reference "#+3V045")
 					(unit 1)
 				)
 			)
@@ -14050,7 +14050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fba1c86e-a3a1-41c0-926e-2ea5d84b8c96")
-		(property "Reference" "#+3V042"
+		(property "Reference" "#+3V043"
 			(at 66.04 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14111,7 +14111,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/57aee854-8c94-4105-bcce-97e3d73b363b"
-					(reference "#+3V042")
+					(reference "#+3V043")
 					(unit 1)
 				)
 			)
