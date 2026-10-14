@@ -62,11 +62,11 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.1524,
           "min_island_area": 9.99999999996,
-          "min_thickness": 0.2032,
-          "pad_connection": 3,
+          "min_thickness": 0.1524,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.2032,
-          "thermal_relief_spoke_width": 0.381
+          "thermal_relief_gap": 0.1524,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -122,7 +122,39 @@
           ""
         ],
         [
+          "copper_edge_clearance|359380000|172200000|4aee9830-1bb5-449a-82de-b369d3af6626|7e38cf86-8785-41bc-858b-0ac109968dc0",
+          ""
+        ],
+        [
+          "copper_edge_clearance|359680000|172790000|4aee9830-1bb5-449a-82de-b369d3af6626|c1bb5698-b371-43ac-b3c2-7dfe7ba578b7",
+          ""
+        ],
+        [
+          "copper_edge_clearance|359680000|172790000|4aee9830-1bb5-449a-82de-b369d3af6626|f8842307-1a9e-45b9-b970-3aafa0de64b9",
+          ""
+        ],
+        [
+          "copper_edge_clearance|368000000|172400000|98b50b61-d683-4f9b-a0c0-0cd135e21a68|0c76e8cf-8eb8-42f0-91fe-4d017f4dc721",
+          ""
+        ],
+        [
+          "copper_edge_clearance|368130000|172600000|98b50b61-d683-4f9b-a0c0-0cd135e21a68|e4ad0603-9b5c-4c2a-97af-a1277c8e0bd0",
+          ""
+        ],
+        [
           "courtyards_overlap|339345000|65345000|297417ba-d38e-42a0-b0ea-8c6abb35080c|ae9ba646-3cf9-4521-93a6-c9bf26acc38e",
+          ""
+        ],
+        [
+          "hole_clearance|360423000|173157000|7e38cf86-8785-41bc-858b-0ac109968dc0|0e053e76-3777-487d-a28a-85f551472fdd",
+          ""
+        ],
+        [
+          "hole_clearance|360980000|173350000|a2f45635-2bbd-4a13-b52d-1f4e7cef3114|0e053e76-3777-487d-a28a-85f551472fdd",
+          ""
+        ],
+        [
+          "hole_clearance|367577000|173157000|0c76e8cf-8eb8-42f0-91fe-4d017f4dc721|8eec0bca-e0d6-4e37-a631-3cffeaf88577",
           ""
         ],
         [
@@ -198,18 +230,6 @@
           ""
         ],
         [
-          "silk_edge_clearance|359075000|178500000|9038b3f9-0d23-4679-9aa2-d3573ba6254a|15924e39-5672-43a6-ba98-45563217832d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|359075000|178550000|9038b3f9-0d23-4679-9aa2-d3573ba6254a|8815a0a1-9d9a-48cd-abe7-5b6854bee711",
-          ""
-        ],
-        [
-          "silk_edge_clearance|368925000|178500000|9038b3f9-0d23-4679-9aa2-d3573ba6254a|f380e89d-6d34-47b2-b7e4-96b65e0dcd62",
-          ""
-        ],
-        [
           "silk_edge_clearance|374900000|-10363177|6d8f3cca-e1e1-4bdb-8f81-8c8c7ea832c5|a25cab50-fc93-4cce-91ce-306481421dbf",
           ""
         ],
@@ -250,7 +270,7 @@
           ""
         ],
         [
-          "silk_overlap|313114588|113091842|271c921c-fc2e-4243-9831-f64cbb2dae2e|e8955031-1776-4c5b-a65b-1ef0670bc0eb",
+          "silk_overlap|314492638|117951260|271c921c-fc2e-4243-9831-f64cbb2dae2e|e8955031-1776-4c5b-a65b-1ef0670bc0eb",
           ""
         ],
         [
@@ -386,6 +406,10 @@
           ""
         ],
         [
+          "unconnected_items|370197507|174555321|F.Cu|4|1f578db9-e006-4027-81c1-7cbde6e458d3|e4ad0603-9b5c-4c2a-97af-a1277c8e0bd0",
+          ""
+        ],
+        [
           "unconnected_items|374550000|-33420000|F.Cu|4|90f9beff-a189-4bb0-82be-6cc844876e6b|b96fe76a-c962-4b5c-83e0-e94242f5053c",
           ""
         ],
@@ -398,15 +422,15 @@
           ""
         ],
         [
-          "unconnected_items|390570000|-44130000|F.Cu|4|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
           ""
         ],
         [
-          "unconnected_items|393450000|-35570000|F.Cu|4|c86620a4-8fdb-4042-a17d-38da9e985af8|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac",
           ""
         ],
         [
-          "unconnected_items|393450000|-46760000|F.Cu|4|769dd671-ab9c-437f-8102-d40994ae6edb|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5",
+          "unconnected_items|390820000|-44130000|F.Cu|4|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5|769dd671-ab9c-437f-8102-d40994ae6edb",
           ""
         ]
       ],
