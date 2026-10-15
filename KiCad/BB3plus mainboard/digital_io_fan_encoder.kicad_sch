@@ -21421,10 +21421,10 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d381cf4c-43ac-4649-88c2-8a4d3c60c1fc")
-		(property "Reference" "TP11"
+		(property "Reference" "TP13"
 			(at 90.805 71.755 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21585,7 +21585,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "TP11")
+					(reference "TP13")
 					(unit 1)
 				)
 			)

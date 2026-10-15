@@ -14246,7 +14246,7 @@
 			)
 		)
 	)
-	(global_label "CM5_BOOT0"
+	(global_label "CM5_BOOT"
 		(shape input)
 		(at 104.14 144.78 0)
 		(fields_autoplaced yes)
@@ -18104,7 +18104,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9a032377-0e88-4929-b074-4cca07ca4966")
 		(property "Reference" "JP4"
@@ -18928,7 +18928,7 @@
 				)
 			)
 		)
-		(property "Label" "CM5_BOOT0"
+		(property "Label" "CM5_BOOT"
 			(at 109.22 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19933,7 +19933,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "baca88d1-21c4-4854-a7ed-d9b34c92fb94")
 		(property "Reference" "JP5"
