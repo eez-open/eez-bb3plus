@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.7-9.0.7~ubuntu24.04.1"
+      "Version": "10.0.7-10.0.7~ubuntu24.04.1"
     },
-    "CreationDate": "2026-01-29T16:37:05+01:00"
+    "CreationDate": "2026-10-15T16:49:38+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,7 +14,7 @@
       "Revision": "r1B1"
     },
     "Size": {
-      "X": 35.05,
+      "X": 35.45,
       "Y": 111.55
     },
     "LayerNumber": 2,
@@ -43,6 +43,16 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "Bare front mask full width-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Bare front mask full width-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "Bare front mask full width-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
@@ -50,6 +60,11 @@
     {
       "Path": "Bare front mask full width-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Bare front mask full width-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
@@ -61,6 +76,7 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Top Silk Screen"
     },
     {
@@ -69,6 +85,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "White",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -91,6 +108,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "White",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
@@ -100,6 +118,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Bottom Silk Screen"
     }
   ]

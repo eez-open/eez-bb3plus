@@ -41,3 +41,5 @@ fp-info-cache
 .history
 KiCad/BB3plus mainboard/fabrication-toolkit-options.json
 KiCad/BB3plus mainboard/production/
+KiCad/Front masks/fabrication-toolkit-options.json
+KiCad/Front masks/production/
