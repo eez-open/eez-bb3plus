@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-10-14T18:57:32 ###
+### Footprint positions - created on 2026-10-15T11:09:10 ###
 ### Printed by KiCad version 10.0.7-10.0.7~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -141,8 +141,8 @@ C137      100n                        C_0603_1608Metric                 201.7850
 C138      10u                         C_0805_2012Metric                 204.6750   105.6500  180.0000  top
 C139      10n/200V                    C_1206_3216Metric                 170.7100   221.6500  180.0000  top
 C140      10n/200V                    C_1206_3216Metric                 153.2100   221.6200  180.0000  top
-D1        BAS316                      SOD-323_1P8X1P35_ONS-M            109.4283    71.9557   90.0000  top
-D2        BAS316                      SOD-323_1P8X1P35_ONS-M            109.4283    77.2500  -90.0000  top
+D1        BAS316                      SOD-323_1P8X1P35_ONS-M            109.4283    71.9011   90.0000  top
+D2        BAS316                      SOD-323_1P8X1P35_ONS-M            109.4200    77.2989  -90.0000  top
 D3        BAS316                      SOD-323_1P8X1P35_ONS-M            137.9150   138.2300    0.0000  top
 D4        BAS316                      SOD-323_1P8X1P35_ONS-M             19.5200    27.1919   90.0000  top
 D5        BAS316                      SOD-323_1P8X1P35_ONS-M             71.2500   195.7127   90.0000  top
