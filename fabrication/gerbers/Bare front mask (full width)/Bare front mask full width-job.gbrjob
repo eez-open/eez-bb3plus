@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.7-10.0.7~ubuntu24.04.1"
     },
-    "CreationDate": "2026-10-15T16:49:38+02:00"
+    "CreationDate": "2026-10-16T07:12:10+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -38,18 +38,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Bare front mask full width-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "Bare front mask full width-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Bare front mask full width-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -60,11 +50,6 @@
     {
       "Path": "Bare front mask full width-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "Bare front mask full width-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
