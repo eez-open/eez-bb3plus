@@ -278,11 +278,11 @@
           ""
         ],
         [
-          "silk_overlap|339594588|150405272|be38bc6e-cce5-446f-ba49-3c2b1a873b72|feb9554d-1481-415d-907f-e00b54c6115f",
+          "silk_overlap|339594588|144771759|be38bc6e-cce5-446f-ba49-3c2b1a873b72|feb9554d-1481-415d-907f-e00b54c6115f",
           ""
         ],
         [
-          "silk_overlap|398494573|153751593|94c50ace-1a1e-413f-8fe9-0ad2c3941868|eedd1e92-71b0-46ac-9408-bb7a547e5972",
+          "silk_overlap|404128086|152376181|94c50ace-1a1e-413f-8fe9-0ad2c3941868|eedd1e92-71b0-46ac-9408-bb7a547e5972",
           ""
         ],
         [
@@ -2666,7 +2666,7 @@
     "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
     "project_name": "BB3+ mainboard",
     "project_url": "https://github.com/eez-open/eez-bb3plus",
-    "project_version": "r1B3"
+    "project_version": "r1B4"
   },
   "tuning_profiles": {
     "meta": {

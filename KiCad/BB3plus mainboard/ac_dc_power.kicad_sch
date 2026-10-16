@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-15")
+		(date "2026-10-16")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -16396,8 +16396,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:WBL2UOAGQR05CLR"
-			(at 78.74 132.08 0)
+		(property "Footprint" "PCM_EEZ_unsorted:WBL2UOAGQR05CLR_2"
+			(at 78.74 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16419,7 +16419,7 @@
 			)
 		)
 		(property "Description" "Illuminated push button switch"
-			(at 78.74 141.732 0)
+			(at 78.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34173,8 +34173,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:WBL2UOAGQR05CLR"
-			(at 58.42 109.22 0)
+		(property "Footprint" "PCM_EEZ_unsorted:WBL2UOAGQR05CLR_2"
+			(at 63.5 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34196,7 +34196,7 @@
 			)
 		)
 		(property "Description" "Illuminated push button switch"
-			(at 68.072 109.22 0)
+			(at 66.04 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34306,28 +34306,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "de7c2673-c114-460e-95b8-2dcbb3d5d234")
+			(uuid "de7c2673-c114-460e-95b8-2dcbb3d5d235")
 		)
 		(pin "C"
-			(uuid "cab91194-c63d-47ef-a419-3106450d0261")
+			(uuid "cab91194-c63d-47ef-a419-3106450d0262")
 		)
 		(pin "A"
-			(uuid "d34f0b1c-d838-4311-a97a-d39ac5f1b0ff")
+			(uuid "d34f0b1c-d838-4311-a97a-d39ac5f1b100")
 		)
 		(pin "5"
-			(uuid "508f531b-6bad-4edb-bd77-9e51e901d5a9")
+			(uuid "508f531b-6bad-4edb-bd77-9e51e901d5aa")
 		)
 		(pin "3"
-			(uuid "d5c24e80-ea05-48ba-803c-1790e114c081")
+			(uuid "d5c24e80-ea05-48ba-803c-1790e114c082")
 		)
 		(pin "1"
-			(uuid "6a54a975-73e4-47fe-8f35-9fa7c17fe837")
+			(uuid "6a54a975-73e4-47fe-8f35-9fa7c17fe838")
 		)
 		(pin "2"
-			(uuid "51c7936d-0e11-47ec-83e0-f83bdd414af6")
+			(uuid "51c7936d-0e11-47ec-83e0-f83bdd414af7")
 		)
 		(pin "6"
-			(uuid "babe50c6-d081-4002-bd3c-a3ac27940997")
+			(uuid "babe50c6-d081-4002-bd3c-a3ac27940998")
 		)
 		(instances
 			(project "BB3plus mainboard"
