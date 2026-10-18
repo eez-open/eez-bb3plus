@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-16")
+		(date "2026-10-18")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -22015,7 +22015,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "ERZE14A431"
+		(property "Value" "B72214S0271K101"
 			(at 86.36 36.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22059,7 +22059,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "P16688-ND"
+		(property "DigiKey" "495-76433-1-ND"
 			(at 81.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -22070,7 +22070,7 @@
 				)
 			)
 		)
-		(property "Mouser" "667-ERZ-E11A431"
+		(property "Mouser" "871-B72214S271K101"
 			(at 78.74 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -22081,7 +22081,7 @@
 				)
 			)
 		)
-		(property "TME" "V275LA20AP"
+		(property "TME" "B72214S0271K101"
 			(at 76.2 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -22092,7 +22092,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1527395"
+		(property "LCSC" "C7502584"
 			(at 88.9 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -24597,7 +24597,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "ERZE14A431"
+		(property "Value" "B72214S0271K101"
 			(at 76.2 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24641,7 +24641,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "P16688-ND"
+		(property "DigiKey" "495-76433-1-ND"
 			(at 81.28 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -24652,7 +24652,7 @@
 				)
 			)
 		)
-		(property "Mouser" "667-ERZ-E11A431"
+		(property "Mouser" "871-B72214S271K101"
 			(at 83.82 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -24663,7 +24663,7 @@
 				)
 			)
 		)
-		(property "TME" "V275LA20AP"
+		(property "TME" "B72214S0271K101"
 			(at 86.36 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -24674,7 +24674,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1527395"
+		(property "LCSC" "C7502584"
 			(at 73.66 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -28004,7 +28004,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "ERZE14A431"
+		(property "Value" "B72214S0271K101"
 			(at 76.2 45.085 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28048,7 +28048,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "P16688-ND"
+		(property "DigiKey" "495-76433-1-ND"
 			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28059,7 +28059,7 @@
 				)
 			)
 		)
-		(property "Mouser" "667-ERZ-E11A431"
+		(property "Mouser" "871-B72214S271K101"
 			(at 83.82 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28070,7 +28070,7 @@
 				)
 			)
 		)
-		(property "TME" "V275LA20AP"
+		(property "TME" "B72214S0271K101"
 			(at 86.36 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28081,7 +28081,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1527395"
+		(property "LCSC" "C7502584"
 			(at 73.66 43.18 90)
 			(hide yes)
 			(show_name no)

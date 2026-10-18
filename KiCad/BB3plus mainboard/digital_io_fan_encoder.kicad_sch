@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-16")
+		(date "2026-10-18")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8030,6 +8030,18 @@
 			(justify right bottom)
 		)
 		(uuid "53cb6fd0-bf1d-4655-8e50-09841f4d25d0")
+	)
+	(text "Alternative models:\nAimtec M1SS-0503SLPZ, AM1SS-0503SEZ\nGaptec 1S4E_0503S1U\nTraco power TBA 1-0510\n"
+		(exclude_from_sim no)
+		(at 114.3 99.06 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left top)
+		)
+		(uuid "55765d75-ec3b-46b8-a671-ff4c4ceacb05")
 	)
 	(text "RS485_A_ISO 2"
 		(exclude_from_sim no)

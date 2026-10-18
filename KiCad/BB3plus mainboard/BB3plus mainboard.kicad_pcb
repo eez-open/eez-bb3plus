@@ -50045,7 +50045,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "ERZE14A431"
+		(property "Value" "B72214S0271K101"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "999dd6c6-683a-4242-b175-c5a878464084")
@@ -50081,7 +50081,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "P16688-ND"
+		(property "DigiKey" "495-76433-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50094,7 +50094,7 @@
 				)
 			)
 		)
-		(property "Mouser" "667-ERZ-E11A431"
+		(property "Mouser" "871-B72214S271K101"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50107,7 +50107,7 @@
 				)
 			)
 		)
-		(property "TME" "V275LA20AP"
+		(property "TME" "B72214S0271K101"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50120,7 +50120,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1527395"
+		(property "LCSC" "C7502584"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -82817,7 +82817,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "ERZE14A431"
+		(property "Value" "B72214S0271K101"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1b45e70a-f192-4af0-b367-53ca612512d1")
@@ -82853,7 +82853,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "P16688-ND"
+		(property "DigiKey" "495-76433-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -82866,7 +82866,7 @@
 				)
 			)
 		)
-		(property "Mouser" "667-ERZ-E11A431"
+		(property "Mouser" "871-B72214S271K101"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -82879,7 +82879,7 @@
 				)
 			)
 		)
-		(property "TME" "V275LA20AP"
+		(property "TME" "B72214S0271K101"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -82892,7 +82892,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1527395"
+		(property "LCSC" "C7502584"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -95819,7 +95819,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ERZE14A431"
+		(property "Value" "B72214S0271K101"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d0612e43-0d71-43ef-9612-7896c66985fe")
@@ -95855,7 +95855,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "P16688-ND"
+		(property "DigiKey" "495-76433-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -95868,7 +95868,7 @@
 				)
 			)
 		)
-		(property "Mouser" "667-ERZ-E11A431"
+		(property "Mouser" "871-B72214S271K101"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -95881,7 +95881,7 @@
 				)
 			)
 		)
-		(property "TME" "V275LA20AP"
+		(property "TME" "B72214S0271K101"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -95894,7 +95894,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1527395"
+		(property "LCSC" "C7502584"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
