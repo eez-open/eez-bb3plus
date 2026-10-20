@@ -27,16 +27,19 @@ The following modifications are planned:
 
 Planned new features of BB3+:
 
-* [x]  Max. 5 peripheral modules
-* [x]  Soft-power switch with standby indication
-* [x]  RS485 port (with Modbus support)
-* [x]  Power/Sense terminals for the first two modules on the rear panel
-* [x]  MCU/CPU module slot [Raspberry Pi CM5](https://www.raspberrypi.com/products/compute-module-5/) compatible
-* [x]  M.2 slot, Key M (for NVMe SSD)
-* [x]  External display output (e.g. HDMI® or DisplayPort™ compatible): GUI and data could be displayed simultaneously on TFT and external display
-* [x]  2.0/3.0 USB Hub
-* [x]  10/100/1000 Mbps Ethernet port
-* [x]  New DIB specification for peripheral modules communication introducing QSPI, USB 2.0/3.0 and PCIe
+* [x] Max. 5 peripheral modules
+* [x] Soft-power switch with standby indication
+* [x] Isolated UART and RS485 port (with Modbus support) on the rear panel
+* [x] Power/Sense terminals for the first two modules on the rear panel
+* [x] MCU/CPU module slot [Raspberry Pi CM5](https://www.raspberrypi.com/products/compute-module-5/) compatible
+* [x] M.2 slot, Key M (for NVMe SSD)
+* [x] External display output (e.g. HDMI® or DisplayPort™ compatible): GUI and data could be displayed simultaneously on TFT and external display
+* [x] 2.0/3.0 USB Hub
+* [x] 10/100/1000 Mbps Ethernet port
+* [x] USB-C on the front panel, 2x USB 3 on the rear panel
+* [x] Low-jitter 10 MHz reference clock
+* [x] Trigger switch matrix (8 sources, 6 destinations)
+* [x] New DIB specification for peripheral modules communication introducing USB HS/SS and PCIe
 * **CE certified design**
 
 ### Modules

@@ -118,7 +118,7 @@
           ""
         ],
         [
-          "clearance|439900000|66450000|918b788d-b116-4188-b960-dfcc03e60889|bdd8b94b-abc4-4be1-a242-40808794a1bf",
+          "clearance|440760000|67670000|918b788d-b116-4188-b960-dfcc03e60889|bdd8b94b-abc4-4be1-a242-40808794a1bf",
           ""
         ],
         [
@@ -206,7 +206,7 @@
           ""
         ],
         [
-          "shorting_items|439239600|66450000|bdd8b94b-abc4-4be1-a242-40808794a1bf|d6076027-5235-43c2-98d0-cb15bb5f0762",
+          "shorting_items|440099600|67670000|bdd8b94b-abc4-4be1-a242-40808794a1bf|d6076027-5235-43c2-98d0-cb15bb5f0762",
           ""
         ],
         [
@@ -398,15 +398,15 @@
           ""
         ],
         [
-          "solder_mask_bridge|439239600|66450000|7047219d-f130-4c50-91fc-dd902cde4406|918b788d-b116-4188-b960-dfcc03e60889",
+          "solder_mask_bridge|440099600|67670000|7047219d-f130-4c50-91fc-dd902cde4406|918b788d-b116-4188-b960-dfcc03e60889",
           ""
         ],
         [
-          "solder_mask_bridge|439239600|66450000|bdd8b94b-abc4-4be1-a242-40808794a1bf|d6076027-5235-43c2-98d0-cb15bb5f0762",
+          "solder_mask_bridge|440099600|67670000|bdd8b94b-abc4-4be1-a242-40808794a1bf|d6076027-5235-43c2-98d0-cb15bb5f0762",
           ""
         ],
         [
-          "solder_mask_bridge|439900000|66450000|bdd8b94b-abc4-4be1-a242-40808794a1bf|918b788d-b116-4188-b960-dfcc03e60889",
+          "solder_mask_bridge|440760000|67670000|bdd8b94b-abc4-4be1-a242-40808794a1bf|918b788d-b116-4188-b960-dfcc03e60889",
           ""
         ],
         [
@@ -422,15 +422,15 @@
           ""
         ],
         [
-          "unconnected_items|377430000|-38450000|F.Cu|4|b96fe76a-c962-4b5c-83e0-e94242f5053c|143f8474-ddc6-404a-89a9-9b727a608b31",
+          "unconnected_items|377430000|-38450000|F.Cu|4|b96fe76a-c962-4b5c-83e0-e94242f5053c|be498e05-0561-4eb7-a6d2-9d63cb4087c3",
+          ""
+        ],
+        [
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5",
           ""
         ],
         [
           "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
-          ""
-        ],
-        [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac",
           ""
         ],
         [
@@ -2611,7 +2611,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "#+3V1-58,#+3V63,#+3V3_ISO1-2,#+5V1-11,#+5V_ISO1-8,#FLG1-18,#GND1-49,#P+1-10,#PE1-16,#PWR1-36,#SUPPLY1-119,C1-148,CF1-2,D1-20,F1-2,FB1-7,FM1-4,H1-8,IC1-28,JP1-21,K1-12,L1-16,LED1-8,LOGO1-7,Module1-2,NTC1,OK1-2,Q1-9,R1-104,SAR1,SP1,SW1-2,TP1-19,TR1-2,U1,U8,VAR1-3,X1-28,Y1-3,ZD1-5",
+    "used_designators": "#+3V1-58,#+3V63,#+3V3_ISO1-2,#+5V1-11,#+5V_ISO1-8,#FLG1-18,#GND1-49,#P+1-10,#PE1-16,#PWR1-36,#SUPPLY1-121,C1-148,CF1-2,D1-20,F1-2,FB1-7,FM1-4,H1-8,IC1-28,JP1-24,K1-12,L1-16,LED1-8,LOGO1-7,Module1-2,NTC1,OK1-2,Q1-9,R1-104,SAR1,SP1,SW1-2,TP1-19,TR1-2,U1,U8,VAR1-3,X1-28,Y1-3,ZD1-5",
     "variants": [
       {
         "name": "Ethernet PHY no xtal"
@@ -2657,7 +2657,7 @@
     ],
     [
       "bb7e7620-5970-4f17-83aa-0b2c666475d0",
-      "Power modules coupling"
+      "Trigger switch matrix, Power modules coupling"
     ]
   ],
   "text_variables": {

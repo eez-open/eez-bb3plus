@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-18")
+		(date "2026-10-19")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -2610,7 +2610,7 @@
 			)
 		)
 		(column_widths 10.16 22.86)
-		(row_heights 2.54 2.54 2.54 2.54 2.54)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54)
 		(uuid "3afa86de-59a0-4a10-a1a8-703c157bc556")
 		(cells
 			(table_cell "I2C address"
@@ -2651,7 +2651,7 @@
 				)
 				(uuid "c65823de-9141-4612-8d8f-2b399053ad06")
 			)
-			(table_cell "0x51"
+			(table_cell "0x53"
 				(exclude_from_sim no)
 				(at 25.4 96.52 0)
 				(size 10.16 2.54)
@@ -2790,6 +2790,41 @@
 					(justify left)
 				)
 				(uuid "5611f316-1e1d-495d-8984-0b6de6bb4d63")
+			)
+			(table_cell "0x70"
+				(exclude_from_sim no)
+				(at 25.4 106.68 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "700082a3-385d-40fd-94ca-9ddc4b03b8a7")
+			)
+			(table_cell "ADG2188Y 8 x 8 switch array"
+				(exclude_from_sim no)
+				(at 35.56 106.68 0)
+				(size 22.86 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "dba17a7c-dfd5-4be5-a554-b94fe0fc2d9a")
 			)
 		)
 	)
@@ -7019,7 +7054,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "bb7e7620-5970-4f17-83aa-0b2c666475d0")
-		(property "Sheetname" "Power modules coupling"
+		(property "Sheetname" "Trigger switch matrix, Power modules coupling"
 			(at 137.16 42.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
