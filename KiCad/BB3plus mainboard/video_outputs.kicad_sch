@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-21")
+		(date "2026-10-22")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8981,6 +8981,16 @@
 		)
 		(uuid "4910d4d5-de2f-4bf7-9a4f-e459ab81a9d7")
 	)
+	(wire
+		(pts
+			(xy 259.08 134.62) (xy 261.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0d1542-e03c-42db-84bd-1e3923246194")
+	)
 	(polyline
 		(pts
 			(xy 84.455 49.53) (xy 83.82 49.53)
@@ -11195,7 +11205,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 124.46) (xy 261.62 132.08)
+			(xy 261.62 124.46) (xy 261.62 134.62)
 		)
 		(stroke
 			(width 0)
@@ -12219,6 +12229,16 @@
 			(color 0 0 194 1)
 		)
 		(uuid "b1be0c71-ec13-490f-bd0c-343af4c73d96")
+	)
+	(wire
+		(pts
+			(xy 259.08 132.08) (xy 266.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f09ea9-ff93-456a-a279-49b7dd183ded")
 	)
 	(wire
 		(pts
@@ -13521,16 +13541,6 @@
 		)
 		(uuid "d772ad20-73ec-42d1-bb2f-6e29409c63cd")
 	)
-	(wire
-		(pts
-			(xy 259.08 134.62) (xy 266.7 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d777c54f-98ae-4574-bdb8-f913b32dca50")
-	)
 	(polyline
 		(pts
 			(xy 83.185 30.175) (xy 83.82 29.54)
@@ -14614,16 +14624,6 @@
 		)
 		(uuid "f7a202ba-0afd-42ab-87c2-69ba7bbd9971")
 	)
-	(wire
-		(pts
-			(xy 261.62 132.08) (xy 259.08 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7dbade1-828f-40e5-89c9-cbc6a0b6c3cc")
-	)
 	(polyline
 		(pts
 			(xy 240.03 32.715) (xy 238.76 32.715)
@@ -15080,7 +15080,7 @@
 		)
 		(uuid "a39c942b-6071-4bfd-b074-39fdf871d053")
 	)
-	(label "REFCLK #5"
+	(label "REFCLK #4"
 		(at 233.68 114.3 0)
 		(effects
 			(font
@@ -15339,7 +15339,7 @@
 			)
 		)
 	)
-	(global_label "DIB5_REFCLK"
+	(global_label "DIB4_REFCLK"
 		(shape bidirectional)
 		(at 269.24 106.68 0)
 		(fields_autoplaced yes)
@@ -15483,6 +15483,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "DIB5_REFCLK"
+		(shape output)
+		(at 266.7 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "4c58fb60-3e06-4cfe-b55d-327b06aec48b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.0099 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15656,30 +15680,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "DIB4_REFCLK"
-		(shape output)
-		(at 266.7 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "64608abb-cc72-4e8d-a87a-3abcba0b97a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.0099 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -17908,7 +17908,7 @@
 				)
 			)
 		)
-		(property "Label" "REFCLK #5"
+		(property "Label" "REFCLK #4"
 			(at 195.58 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)

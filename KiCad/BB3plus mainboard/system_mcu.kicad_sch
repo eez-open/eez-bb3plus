@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-21")
+		(date "2026-10-22")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -19720,7 +19720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_connectors:WR-WST_490107670612_DEBUG"
+		(property "Footprint" "PCM_EEZ_connectors:WR-WST_490107670612_DEBUG_pads"
 			(at 210.82 101.6 0)
 			(hide yes)
 			(show_name no)

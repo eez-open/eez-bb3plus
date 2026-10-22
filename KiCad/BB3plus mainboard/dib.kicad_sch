@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-21")
+		(date "2026-10-22")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7833,7 +7833,7 @@
 		)
 	)
 	(global_label "DIB5_REFCLK"
-		(shape bidirectional)
+		(shape input)
 		(at 271.78 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7844,7 +7844,7 @@
 		)
 		(uuid "890f866e-957e-4f49-b804-c262b29c054d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.7567 63.5 0)
+			(at 282.0899 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8827,7 +8827,7 @@
 		)
 	)
 	(global_label "DIB4_REFCLK"
-		(shape input)
+		(shape bidirectional)
 		(at 213.36 119.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8838,7 +8838,7 @@
 		)
 		(uuid "e3938191-affa-4a85-9311-de6f7d43250a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.6699 119.38 0)
+			(at 224.3367 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
