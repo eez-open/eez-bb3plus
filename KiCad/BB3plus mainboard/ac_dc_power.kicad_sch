@@ -10520,11 +10520,11 @@
 	(text_box "Mating part: VHR-3N\nCrimp terminal: SVH-41T-P1.1"
 		(exclude_from_sim no)
 		(at 215.265 24.765 0)
-		(size 60.325 16.51)
+		(size 60.325 18.415)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type solid)
+			(type dot)
 			(color 132 0 132 1)
 		)
 		(fill

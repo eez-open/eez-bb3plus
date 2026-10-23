@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-06")
+		(date "2026-10-23")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_url}")
@@ -10750,7 +10750,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 1.016 0)
@@ -10767,6 +10767,7 @@
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11539,6 +11540,12 @@
 		(uuid "27097884-6b52-4f5c-9b53-66fe605cb673")
 	)
 	(junction
+		(at 203.2 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d19b8fe-dcb3-4ddf-83b3-49057e2acf60")
+	)
+	(junction
 		(at 279.4 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11881,6 +11888,12 @@
 		(uuid "9e651f31-fd3e-47b9-b6d3-d48224be742f")
 	)
 	(junction
+		(at 218.44 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f23689f-8a76-4a4c-b730-f97a83231a5c")
+	)
+	(junction
 		(at 83.82 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11911,6 +11924,12 @@
 		(uuid "a594952d-7b50-4a9e-a9a2-56e54d07e10e")
 	)
 	(junction
+		(at 271.78 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a599e21f-61ea-490f-98c0-915415a1c07e")
+	)
+	(junction
 		(at 83.82 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11935,7 +11954,7 @@
 		(uuid "b6edae8b-791a-4e7e-b30d-95432c6379b2")
 	)
 	(junction
-		(at 269.24 25.4)
+		(at 271.78 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b95bdfc3-d5f8-4c94-863b-b06add88fc26")
@@ -11951,6 +11970,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be9c9e94-afe6-4deb-bf40-27fd81b130fe")
+	)
+	(junction
+		(at 210.82 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf0d6fca-4613-40cd-8ea3-8e940f61eca5")
 	)
 	(junction
 		(at 114.3 175.26)
@@ -12031,7 +12056,7 @@
 		(uuid "e2c6d848-913f-402d-9a10-c8087c3d3f4c")
 	)
 	(junction
-		(at 198.12 81.28)
+		(at 198.12 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7918062-947c-45cd-bbdc-b0f744c1b1bb")
@@ -12097,10 +12122,22 @@
 		(uuid "f83d1177-7829-43db-bc59-55194ddea7a8")
 	)
 	(junction
+		(at 180.34 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbb76389-9107-4298-a6e5-5718ae0d66c3")
+	)
+	(junction
 		(at 83.82 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fda065cc-90bf-4108-92e3-cb586e91062f")
+	)
+	(junction
+		(at 210.82 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff4030cf-6d6a-4435-bc82-502dda43929d")
 	)
 	(no_connect
 		(at 127 25.4)
@@ -12115,7 +12152,7 @@
 		(uuid "1a631366-4fda-491e-bbe8-4d5b7871fe89")
 	)
 	(no_connect
-		(at 20.32 175.26)
+		(at 248.92 154.94)
 		(uuid "1c168b8b-06ce-404e-9473-e43e328db3b8")
 	)
 	(no_connect
@@ -12207,7 +12244,7 @@
 		(uuid "88d9a2da-7489-45ee-bec1-dcf70303f88b")
 	)
 	(no_connect
-		(at 40.64 175.26)
+		(at 269.24 154.94)
 		(uuid "915e6973-5fac-4d5a-afb0-4507f2701f78")
 	)
 	(no_connect
@@ -12215,11 +12252,11 @@
 		(uuid "963562d3-6f7f-4722-b3c3-9c5caa7c68cc")
 	)
 	(no_connect
-		(at 30.48 175.26)
+		(at 259.08 154.94)
 		(uuid "99f1a9a5-62a4-4493-b1d6-03192a32446c")
 	)
 	(no_connect
-		(at 50.8 175.26)
+		(at 279.4 154.94)
 		(uuid "a7efef15-7edf-4122-82f6-8855ab18fb22")
 	)
 	(no_connect
@@ -12979,6 +13016,16 @@
 		)
 		(uuid "0bd3fc20-a511-4ac4-ac08-25bf47ac12c6")
 	)
+	(wire
+		(pts
+			(xy 208.28 93.98) (xy 208.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c85f6d0-3b6d-4a19-804d-d8c6ac95719e")
+	)
 	(bus
 		(pts
 			(xy 134.62 99.06) (xy 134.62 101.6)
@@ -13410,7 +13457,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 91.44) (xy 213.36 91.44)
+			(xy 205.74 93.98) (xy 208.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -13550,16 +13597,6 @@
 			(type default)
 		)
 		(uuid "23742e3b-de92-4f44-8a6f-ee348fa217b0")
-	)
-	(wire
-		(pts
-			(xy 203.2 93.98) (xy 203.2 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24f44224-3815-4735-91f4-22a0eb8a68bc")
 	)
 	(wire
 		(pts
@@ -14205,23 +14242,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 81.28) (xy 213.36 81.28)
+			(xy 198.12 81.28) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "45f496ac-2a85-44d0-914e-ffa46d93d2e8")
-	)
-	(wire
-		(pts
-			(xy 198.12 81.28) (xy 198.12 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "461c89ec-04e9-4b15-b25b-17bb3f4cff0c")
 	)
 	(wire
 		(pts
@@ -14524,6 +14551,16 @@
 			(type default)
 		)
 		(uuid "53df201d-cc8a-4d00-bb41-0ff70260a581")
+	)
+	(wire
+		(pts
+			(xy 210.82 83.82) (xy 213.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548eb8b2-4d3f-4d8e-ac29-d256d9626d9a")
 	)
 	(wire
 		(pts
@@ -15167,7 +15204,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 78.74) (xy 213.36 78.74)
+			(xy 205.74 78.74) (xy 210.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -15696,6 +15733,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 22.86) (xy 177.8 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8628f442-99af-4efd-938d-460f92a45a57")
+	)
+	(wire
+		(pts
 			(xy 210.82 93.98) (xy 210.82 96.52)
 		)
 		(stroke
@@ -15988,7 +16035,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 88.9) (xy 198.12 96.52)
+			(xy 198.12 91.44) (xy 198.12 96.52)
 		)
 		(stroke
 			(width 0)
@@ -16089,7 +16136,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 25.4) (xy 269.24 25.4)
+			(xy 264.16 25.4) (xy 276.86 25.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -16166,16 +16213,6 @@
 			(type default)
 		)
 		(uuid "9d936e89-4be0-46f2-9db3-4753d6a9b129")
-	)
-	(wire
-		(pts
-			(xy 269.24 25.4) (xy 276.86 25.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9e04d9cd-f40b-4dee-93c6-2f1d1da43f32")
 	)
 	(wire
 		(pts
@@ -16363,7 +16400,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 86.36) (xy 205.74 86.36)
+			(xy 200.66 88.9) (xy 213.36 88.9)
 		)
 		(stroke
 			(width 0)
@@ -17028,7 +17065,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 83.82) (xy 213.36 83.82)
+			(xy 205.74 83.82) (xy 210.82 83.82)
 		)
 		(stroke
 			(width 0)
@@ -17355,7 +17392,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 22.86) (xy 177.8 22.86)
+			(xy 185.42 22.86) (xy 180.34 22.86)
 		)
 		(stroke
 			(width 0)
@@ -17494,6 +17531,16 @@
 			(color 0 0 194 1)
 		)
 		(uuid "d7c0c234-be82-4587-b820-aab7ea495bdf")
+	)
+	(wire
+		(pts
+			(xy 208.28 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80f6d3d-cfbf-4ec4-a3ef-1a53e380bc95")
 	)
 	(wire
 		(pts
@@ -17681,7 +17728,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 81.28) (xy 203.2 88.9)
+			(xy 203.2 86.36) (xy 203.2 91.44)
 		)
 		(stroke
 			(width 0)
@@ -17718,6 +17765,16 @@
 			(type default)
 		)
 		(uuid "e32cc98a-6dfe-4957-a9bb-5fd241da32bc")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 213.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3530028-4ba1-44e4-8a76-d7549acf3300")
 	)
 	(wire
 		(pts
@@ -17831,7 +17888,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 203.2 81.28)
+			(xy 198.12 86.36) (xy 203.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -17960,16 +18017,6 @@
 			(type default)
 		)
 		(uuid "ebc70901-57b5-480b-97da-dc2af6b7f4d6")
-	)
-	(wire
-		(pts
-			(xy 205.74 86.36) (xy 205.74 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec2736b9-a472-4b22-b75d-762cd71a8265")
 	)
 	(bus
 		(pts
@@ -18330,6 +18377,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 78.74) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf9e4b5-5efc-4c84-8192-e350dfa522e8")
+	)
+	(wire
+		(pts
 			(xy 165.1 60.96) (xy 165.1 63.5)
 		)
 		(stroke
@@ -18357,16 +18414,6 @@
 			(type default)
 		)
 		(uuid "fc8f1fcb-0f92-4759-a222-bae4611d57bb")
-	)
-	(wire
-		(pts
-			(xy 205.74 88.9) (xy 213.36 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcbe8838-5ac1-4449-a796-2da89256edd0")
 	)
 	(wire
 		(pts
@@ -18458,6 +18505,385 @@
 			(type default)
 		)
 		(uuid "ff4c99fe-39ba-4187-a150-ac4002cfdd5c")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 132 0 132 1)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 132 0 132 1)
+			)
+		)
+		(column_widths 7.62 17.78)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(uuid "4610f65a-dfe8-4037-84a9-9245044da561")
+		(cells
+			(table_cell "#"
+				(exclude_from_sim no)
+				(at 15.24 165.1 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(thickness 0.1778)
+						(bold yes)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "78348e5f-924a-4d84-be3f-06a420204294")
+			)
+			(table_cell "Description"
+				(exclude_from_sim no)
+				(at 22.86 165.1 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(thickness 0.1778)
+						(bold yes)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "c65823de-9141-4612-8d8f-2b399053ad06")
+			)
+			(table_cell "TP1"
+				(exclude_from_sim no)
+				(at 15.24 167.64 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "4f7f3ed9-1ee7-41a2-b757-07f98b113114")
+			)
+			(table_cell "+3V3 power output"
+				(exclude_from_sim no)
+				(at 22.86 167.64 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "11eacb77-7414-41fc-8cfe-7bd2154eca90")
+			)
+			(table_cell "TP2"
+				(exclude_from_sim no)
+				(at 15.24 170.18 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "ae095187-a4ee-4108-8d9c-dd51ebd90d18")
+			)
+			(table_cell "+5V power input"
+				(exclude_from_sim no)
+				(at 22.86 170.18 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "cbba9a43-db48-466a-b60d-417714c1fb58")
+			)
+			(table_cell "TP3"
+				(exclude_from_sim no)
+				(at 15.24 172.72 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "a05df4ec-ee8a-49c8-939f-b0493951982c")
+			)
+			(table_cell "Boost VLED+"
+				(exclude_from_sim no)
+				(at 22.86 172.72 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "7d57cb58-21fd-4702-8cee-00dc90b0d9ae")
+			)
+			(table_cell "TP4"
+				(exclude_from_sim no)
+				(at 15.24 175.26 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "7e7c414e-9954-4432-bfdf-6ea898d786c0")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 22.86 175.26 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "5611f316-1e1d-495d-8984-0b6de6bb4d63")
+			)
+			(table_cell "TP5"
+				(exclude_from_sim no)
+				(at 15.24 177.8 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "700082a3-385d-40fd-94ca-9ddc4b03b8a7")
+			)
+			(table_cell "Boost VLED-"
+				(exclude_from_sim no)
+				(at 22.86 177.8 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "dba17a7c-dfd5-4be5-a554-b94fe0fc2d9a")
+			)
+			(table_cell "TP6"
+				(exclude_from_sim no)
+				(at 15.24 180.34 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "25a0f958-364c-470b-a355-3ac8988fedb7")
+			)
+			(table_cell "Boost PWM input"
+				(exclude_from_sim no)
+				(at 22.86 180.34 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "d0792a59-d0cd-4415-b976-c430d5a899d5")
+			)
+			(table_cell "TP7"
+				(exclude_from_sim no)
+				(at 15.24 182.88 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "d2a519ee-0565-49d8-af5b-32f9e1f404e9")
+			)
+			(table_cell "I/O Exp I2C SCL"
+				(exclude_from_sim no)
+				(at 22.86 182.88 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "dce91edd-e0c6-480e-9e2a-5eb67b414c83")
+			)
+			(table_cell "TP8"
+				(exclude_from_sim no)
+				(at 15.24 185.42 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "ae0dae3f-98f6-4b7c-a7b5-082eff6d4f75")
+			)
+			(table_cell "I/O Exp I2C SDA"
+				(exclude_from_sim no)
+				(at 22.86 185.42 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "673234fb-ece8-4af2-b73d-376aa0c6dfca")
+			)
+			(table_cell "TP9"
+				(exclude_from_sim no)
+				(at 15.24 187.96 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "0cff25fe-8a3e-4299-9b90-868ffafe9ee6")
+			)
+			(table_cell "I/O Exp IRQ"
+				(exclude_from_sim no)
+				(at 22.86 187.96 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "9fd0870f-5e24-4e2e-8485-af8f34de9c57")
+			)
+		)
 	)
 	(label "TOUCH_WAKE"
 		(at 248.92 93.98 180)
@@ -18620,7 +19046,7 @@
 		(uuid "2c8ad902-8551-4940-879c-2be43f664b6a")
 	)
 	(label "~{IRQ}"
-		(at 208.28 83.82 0)
+		(at 205.74 83.82 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -19110,7 +19536,7 @@
 		(uuid "a1c5cd8c-198c-4939-91f7-1d7ba9978a3f")
 	)
 	(label "SCL"
-		(at 208.28 78.74 0)
+		(at 205.74 78.74 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -19380,7 +19806,7 @@
 		(uuid "dd1e0aa6-8c41-49fa-94ff-43b3c0574a46")
 	)
 	(label "SDA"
-		(at 208.28 81.28 0)
+		(at 198.12 81.28 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -20338,16 +20764,150 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:PCB test point")
+		(at 210.82 86.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "0e751a7f-ad20-41e5-8bcd-3745b6d53ee4")
+		(property "Reference" "TP9"
+			(at 209.55 86.995 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCB_TEST_TABSHIELD"
+			(at 208.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:Testpad 1.6mm"
+			(at 208.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 210.82 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 210.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 210.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 210.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 210.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6996f8e1-0589-4f7d-aca1-6aad80d02160")
+		)
+		(instances
+			(project "BB3plus DVID TFT display"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB test point")
 		(at 200.66 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0e802203-e465-4462-bbfe-2a797e68a730")
-		(property "Reference" "TP3"
+		(property "Reference" "TP4"
 			(at 200.66 38.735 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20370,7 +20930,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_THT:Testhole 24_50mils"
+		(property "Footprint" "PCM_EEZ_SMD:Testpad 1.6mm"
 			(at 203.2 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -20414,13 +20974,57 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 200.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 200.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 200.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c24346b0-86a7-41a1-be9e-15bb49fe106d")
 		)
 		(instances
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -20565,7 +21169,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:MountingHole_Pad")
-		(at 20.32 172.72 0)
+		(at 248.92 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20576,7 +21180,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fe5b2b5-394b-4bcb-a441-04ffbed594c3")
 		(property "Reference" "H1"
-			(at 22.86 171.45 0)
+			(at 251.46 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20587,7 +21191,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 22.86 172.72 0)
+			(at 251.46 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20599,7 +21203,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:Mounting_hole 3.2_5.5mm"
-			(at 20.32 172.72 0)
+			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20610,7 +21214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 172.72 0)
+			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20621,7 +21225,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 20.32 172.72 0)
+			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20632,7 +21236,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 20.32 172.72 0)
+			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20643,7 +21247,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 20.32 172.72 0)
+			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20654,7 +21258,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 20.32 172.72 0)
+			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20665,7 +21269,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 20.32 172.72 0)
+			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20676,7 +21280,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 20.32 172.72 0)
+			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20962,7 +21566,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:JP3 shorted")
-		(at 198.12 86.36 0)
+		(at 198.12 88.9 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -20973,7 +21577,7 @@
 		(dnp no)
 		(uuid "152086f1-15fd-4b04-afec-e4a32a9e0ecf")
 		(property "Reference" "JP4"
-			(at 197.485 86.36 0)
+			(at 197.485 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20984,7 +21588,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 198.12 86.36 90)
+			(at 198.12 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20995,7 +21599,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted (0603)"
-			(at 198.12 81.28 0)
+			(at 198.12 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21006,7 +21610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 86.36 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21017,7 +21621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 86.36 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21203,7 +21807,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:MountingHole_Pad")
-		(at 30.48 172.72 0)
+		(at 259.08 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21214,7 +21818,7 @@
 		(fields_autoplaced yes)
 		(uuid "16725879-1fc7-474e-b082-b3920248ccde")
 		(property "Reference" "H2"
-			(at 33.02 171.45 0)
+			(at 261.62 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21225,7 +21829,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 33.02 172.72 0)
+			(at 261.62 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21237,7 +21841,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:Mounting_hole 3.2_5.5mm"
-			(at 30.48 172.72 0)
+			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21248,7 +21852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 172.72 0)
+			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21259,7 +21863,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 30.48 172.72 0)
+			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21270,7 +21874,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 30.48 172.72 0)
+			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21281,7 +21885,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 30.48 172.72 0)
+			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21292,7 +21896,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 30.48 172.72 0)
+			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21303,7 +21907,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 30.48 172.72 0)
+			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21314,7 +21918,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 30.48 172.72 0)
+			(at 259.08 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21485,7 +22089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18413799-8e33-4aa6-803f-0b70d0a71022")
-		(property "Reference" "LOGO5"
+		(property "Reference" "LOGO6"
 			(at 50.8 200.8584 0)
 			(hide yes)
 			(show_name no)
@@ -21554,7 +22158,7 @@
 		(instances
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
-					(reference "LOGO5")
+					(reference "LOGO6")
 					(unit 1)
 				)
 			)
@@ -22874,28 +23478,28 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:PCB test point")
-		(at 269.24 22.86 90)
+		(at 271.78 22.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "30322f4c-f855-4b20-8ef8-45420c67d194")
-		(property "Reference" "TP2"
-			(at 271.78 19.05 90)
+		(property "Reference" "TP3"
+			(at 271.78 20.955 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Value" "PCB_TEST_TABSHIELD"
-			(at 271.78 22.86 0)
+			(at 274.32 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22906,8 +23510,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_THT:Testhole 24_50mils"
-			(at 271.78 22.86 0)
+		(property "Footprint" "PCM_EEZ_SMD:Testpad 1.6mm"
+			(at 274.32 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22918,7 +23522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 22.86 0)
+			(at 271.78 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22929,7 +23533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 22.86 0)
+			(at 271.78 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22940,7 +23544,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 269.24 22.86 90)
+			(at 271.78 22.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22950,13 +23554,57 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 271.78 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 271.78 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 271.78 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 271.78 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83bc9f00-5d94-40cb-b34e-7b23deffae40")
 		)
 		(instances
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -23569,7 +24217,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:WEEE logo")
-		(at 33.02 190.5 0)
+		(at 66.04 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23579,8 +24227,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "381c35b2-e874-4f9a-bfa3-09293702f483")
-		(property "Reference" "LOGO3"
-			(at 33.02 186.8755 0)
+		(property "Reference" "LOGO4"
+			(at 66.04 176.7155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23591,7 +24239,7 @@
 			)
 		)
 		(property "Value" "WEEE logo"
-			(at 33.02 194.1245 0)
+			(at 66.04 183.9645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23602,7 +24250,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_unsorted:WEEE logo"
-			(at 33.02 190.5 0)
+			(at 66.04 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23613,7 +24261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 190.5 0)
+			(at 66.04 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23624,7 +24272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 190.5 0)
+			(at 66.04 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23635,7 +24283,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 33.02 190.5 0)
+			(at 66.04 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23646,7 +24294,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 33.02 190.5 0)
+			(at 66.04 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23657,7 +24305,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 33.02 190.5 0)
+			(at 66.04 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23668,7 +24316,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 33.02 190.5 0)
+			(at 66.04 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23681,7 +24329,7 @@
 		(instances
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
-					(reference "LOGO3")
+					(reference "LOGO4")
 					(unit 1)
 				)
 			)
@@ -23766,7 +24414,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 198.12 81.28 0)
+		(at 198.12 86.36 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23777,7 +24425,7 @@
 		(dnp no)
 		(uuid "3e930f06-860e-4707-9838-68154f45e502")
 		(property "Reference" "#PWR05"
-			(at 198.12 85.09 0)
+			(at 198.12 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23788,7 +24436,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 198.12 78.105 0)
+			(at 200.66 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23799,7 +24447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 81.28 0)
+			(at 198.12 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23810,7 +24458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 81.28 0)
+			(at 198.12 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23821,7 +24469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 198.12 81.28 0)
+			(at 198.12 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23851,10 +24499,10 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "41de56ab-9473-41ae-affa-5dec1f8454b3")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 205.74 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23877,7 +24525,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_THT:Testhole 24_50mils"
+		(property "Footprint" "PCM_EEZ_SMD:Testpad 1.6mm"
 			(at 205.74 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -23921,13 +24569,57 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 203.2 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 203.2 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 203.2 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 203.2 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c6dfd3e-dd45-4ff9-98bd-08d53dac6fb0")
 		)
 		(instances
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -24705,7 +25397,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:JP3 shorted")
-		(at 203.2 91.44 0)
+		(at 203.2 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24715,7 +25407,7 @@
 		(dnp no)
 		(uuid "5128d2db-ff9c-4aad-a975-a9530932ebda")
 		(property "Reference" "JP5"
-			(at 202.565 91.44 0)
+			(at 202.565 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24726,7 +25418,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 203.2 91.44 90)
+			(at 203.2 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24737,7 +25429,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted (0603)"
-			(at 203.2 96.52 0)
+			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24748,7 +25440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 91.44 0)
+			(at 203.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24759,7 +25451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 91.44 0)
+			(at 203.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24799,7 +25491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5288acc8-4e8d-46eb-b9e2-4a6a44c1a7a3")
-		(property "Reference" "LOGO6"
+		(property "Reference" "LOGO1"
 			(at 81.28 186.7025 0)
 			(hide yes)
 			(show_name no)
@@ -24857,7 +25549,7 @@
 		(instances
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
-					(reference "LOGO6")
+					(reference "LOGO1")
 					(unit 1)
 				)
 			)
@@ -24865,7 +25557,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:FIDUCIAL")
-		(at 43.18 180.34 0)
+		(at 271.78 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24876,7 +25568,7 @@
 		(fields_autoplaced yes)
 		(uuid "56772d12-23f1-424a-b63b-4a90463c053e")
 		(property "Reference" "FM4"
-			(at 44.704 176.784 0)
+			(at 273.304 156.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24887,7 +25579,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 43.18 180.34 0)
+			(at 271.78 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24898,7 +25590,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:Fiducial_0.75mm_Mask1.5mm"
-			(at 43.18 185.42 0)
+			(at 271.78 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24909,7 +25601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 180.34 0)
+			(at 271.78 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24920,7 +25612,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 180.34 0)
+			(at 271.78 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24931,7 +25623,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 43.18 180.34 0)
+			(at 271.78 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25978,7 +26670,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:MountingHole_Pad")
-		(at 50.8 172.72 0)
+		(at 279.4 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25989,7 +26681,7 @@
 		(fields_autoplaced yes)
 		(uuid "67c54622-edfb-4cd0-a11f-2c277316deb8")
 		(property "Reference" "H4"
-			(at 53.34 171.45 0)
+			(at 281.94 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26000,7 +26692,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 53.34 172.72 0)
+			(at 281.94 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26012,7 +26704,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:Mounting_hole 3.2_5.5mm"
-			(at 50.8 172.72 0)
+			(at 279.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26023,7 +26715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 172.72 0)
+			(at 279.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26034,7 +26726,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 50.8 172.72 0)
+			(at 279.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26045,7 +26737,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 50.8 172.72 0)
+			(at 279.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26056,7 +26748,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 50.8 172.72 0)
+			(at 279.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26067,7 +26759,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 50.8 172.72 0)
+			(at 279.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26078,7 +26770,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 50.8 172.72 0)
+			(at 279.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26089,7 +26781,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 50.8 172.72 0)
+			(at 279.4 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26106,6 +26798,140 @@
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB test point")
+		(at 210.82 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "68616ddf-2097-43af-b2f1-a162c575205c")
+		(property "Reference" "TP7"
+			(at 210.82 74.295 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "PCB_TEST_TABSHIELD"
+			(at 213.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:Testpad 1.6mm"
+			(at 213.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 210.82 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 210.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 210.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 210.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 210.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87abeb05-00ba-44c9-87a8-f5a9b9be9fc4")
+		)
+		(instances
+			(project "BB3plus DVID TFT display"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -26825,6 +27651,140 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB test point")
+		(at 218.44 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "7ae7eb5e-b816-49c3-bff3-1e645e693e58")
+		(property "Reference" "TP6"
+			(at 218.44 52.705 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "PCB_TEST_TABSHIELD"
+			(at 215.9 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:Testpad 1.6mm"
+			(at 215.9 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 218.44 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84a24fb0-4a1c-4723-bbc8-74d1f6cba26e")
+		)
+		(instances
+			(project "BB3plus DVID TFT display"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_discretes:DIODE_ZENER")
 		(at 276.86 33.02 270)
 		(mirror x)
@@ -27296,6 +28256,140 @@
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB test point")
+		(at 271.78 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "82f1c2d1-f025-4826-b214-35f1577baec3")
+		(property "Reference" "TP5"
+			(at 271.78 47.625 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "PCB_TEST_TABSHIELD"
+			(at 269.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:Testpad 1.6mm"
+			(at 269.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 271.78 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 271.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 271.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 271.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 271.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d664c27-df96-45f1-9d70-ebff605f8580")
+		)
+		(instances
+			(project "BB3plus DVID TFT display"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -28394,7 +29488,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:FIDUCIAL")
-		(at 35.56 180.34 0)
+		(at 264.16 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28405,7 +29499,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cac73e1-e782-4db2-96d6-332e88409e6a")
 		(property "Reference" "FM3"
-			(at 37.084 176.784 0)
+			(at 265.684 156.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28416,7 +29510,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 35.56 180.34 0)
+			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28427,7 +29521,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:Fiducial_0.75mm_Mask1.5mm"
-			(at 35.56 185.42 0)
+			(at 264.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28438,7 +29532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 180.34 0)
+			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28449,7 +29543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 180.34 0)
+			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28460,7 +29554,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 35.56 180.34 0)
+			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29758,6 +30852,140 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB test point")
+		(at 203.2 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "c0a1fee5-989c-4b52-a499-bda72c30983a")
+		(property "Reference" "TP8"
+			(at 203.2 76.835 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "PCB_TEST_TABSHIELD"
+			(at 205.74 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:Testpad 1.6mm"
+			(at 205.74 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 203.2 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 203.2 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 203.2 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 203.2 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 203.2 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4385aa8f-f473-45f8-8584-f40606998073")
+		)
+		(instances
+			(project "BB3plus DVID TFT display"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_unsorted:B32-1360")
 		(at 208.28 116.84 0)
 		(unit 1)
@@ -30776,7 +32004,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:FIDUCIAL")
-		(at 20.32 180.34 0)
+		(at 248.92 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30787,7 +32015,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc60c9ae-7437-4fa8-976e-e673ec1d0da2")
 		(property "Reference" "FM1"
-			(at 21.844 176.784 0)
+			(at 250.444 156.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30798,7 +32026,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 20.32 180.34 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30809,7 +32037,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:Fiducial_0.75mm_Mask1.5mm"
-			(at 20.32 185.42 0)
+			(at 248.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30820,7 +32048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 180.34 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30831,7 +32059,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 180.34 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30842,7 +32070,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 20.32 180.34 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31124,7 +32352,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:05-22-A-0101-A-4-06-4-T")
-		(at 60.96 170.18 0)
+		(at 55.88 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31134,7 +32362,7 @@
 		(dnp no)
 		(uuid "ce250d87-ae92-4f04-bb15-b1e4c6c08b74")
 		(property "Reference" "CBL1"
-			(at 66.675 177.8 0)
+			(at 61.595 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31145,7 +32373,7 @@
 			)
 		)
 		(property "Value" "05-22-A-0101-A-4-06-4-T"
-			(at 66.675 179.07 0)
+			(at 61.595 163.83 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -31156,7 +32384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 170.18 0)
+			(at 55.88 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31167,7 +32395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 170.18 0)
+			(at 55.88 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31178,7 +32406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 170.18 0)
+			(at 55.88 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31189,7 +32417,7 @@
 			)
 		)
 		(property "DigiKey" "2073-05-22-A-0101-A-4-06-4-T-ND"
-			(at 60.96 187.96 0)
+			(at 55.88 172.72 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -31200,7 +32428,7 @@
 			)
 		)
 		(property "Mouser" "640-522A0101A4064T"
-			(at 60.96 190.5 0)
+			(at 55.88 175.26 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -31211,7 +32439,7 @@
 			)
 		)
 		(property "TME" "05-22-A-0101-A"
-			(at 60.96 193.04 0)
+			(at 55.88 177.8 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -31222,7 +32450,7 @@
 			)
 		)
 		(property "LCSC" "C18024481"
-			(at 60.96 195.58 0)
+			(at 55.88 180.34 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -32012,6 +33240,140 @@
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
 					(reference "#SUPPLY08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB test point")
+		(at 180.34 20.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "de682b8a-9154-4b88-a776-209dee66a6a2")
+		(property "Reference" "TP1"
+			(at 180.34 18.415 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "PCB_TEST_TABSHIELD"
+			(at 182.88 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:Testpad 1.6mm"
+			(at 182.88 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 180.34 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 180.34 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 180.34 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 180.34 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 180.34 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1095a6d2-0801-4355-8574-f3ec5cf1f56a")
+		)
+		(instances
+			(project "BB3plus DVID TFT display"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -33061,7 +34423,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:ESD logo")
-		(at 40.64 190.5 0)
+		(at 73.66 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33071,8 +34433,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ec35af-78a2-46e6-a320-89cce0d6dc4f")
-		(property "Reference" "LOGO4"
-			(at 40.64 188.504 0)
+		(property "Reference" "LOGO5"
+			(at 73.66 178.344 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33083,7 +34445,7 @@
 			)
 		)
 		(property "Value" "ESD logo"
-			(at 40.64 192.496 0)
+			(at 73.66 182.336 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33094,7 +34456,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_unsorted:ESD  logo"
-			(at 40.64 190.5 0)
+			(at 73.66 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33105,7 +34467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 190.5 0)
+			(at 73.66 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33116,7 +34478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 190.5 0)
+			(at 73.66 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33127,7 +34489,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 40.64 190.5 0)
+			(at 73.66 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33140,7 +34502,7 @@
 		(instances
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
-					(reference "LOGO4")
+					(reference "LOGO5")
 					(unit 1)
 				)
 			)
@@ -33290,7 +34652,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:MountingHole_Pad")
-		(at 40.64 172.72 0)
+		(at 269.24 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33301,7 +34663,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef02b28d-ca69-4497-88a4-7920a5b7d583")
 		(property "Reference" "H3"
-			(at 43.18 171.45 0)
+			(at 271.78 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33312,7 +34674,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 43.18 172.72 0)
+			(at 271.78 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33324,7 +34686,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:Mounting_hole 3.2_5.5mm"
-			(at 40.64 172.72 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33335,7 +34697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 172.72 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33346,7 +34708,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 40.64 172.72 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33357,7 +34719,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 40.64 172.72 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33368,7 +34730,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 40.64 172.72 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33379,7 +34741,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 40.64 172.72 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33390,7 +34752,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 40.64 172.72 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33401,7 +34763,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 40.64 172.72 0)
+			(at 269.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33698,7 +35060,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:FIDUCIAL")
-		(at 27.94 180.34 0)
+		(at 256.54 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33709,7 +35071,7 @@
 		(fields_autoplaced yes)
 		(uuid "f382c323-8b1a-497d-9274-62b0c5b3e330")
 		(property "Reference" "FM2"
-			(at 29.464 176.784 0)
+			(at 258.064 156.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33720,7 +35082,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 27.94 180.34 0)
+			(at 256.54 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33731,7 +35093,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:Fiducial_0.75mm_Mask1.5mm"
-			(at 27.94 185.42 0)
+			(at 256.54 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33742,7 +35104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 180.34 0)
+			(at 256.54 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33753,7 +35115,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 180.34 0)
+			(at 256.54 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33764,7 +35126,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 27.94 180.34 0)
+			(at 256.54 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33785,7 +35147,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:Open HW logo")
-		(at 17.78 190.5 0)
+		(at 50.8 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33795,8 +35157,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3f2786e-46b0-40db-825a-0b32a7823959")
-		(property "Reference" "LOGO1"
-			(at 17.78 188.1584 0)
+		(property "Reference" "LOGO2"
+			(at 50.8 177.9984 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33807,7 +35169,7 @@
 			)
 		)
 		(property "Value" "Open HW logo"
-			(at 17.78 192.8416 0)
+			(at 50.8 182.6816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33818,7 +35180,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_unsorted:Open HW logo"
-			(at 17.78 190.5 0)
+			(at 50.8 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33829,7 +35191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 190.5 0)
+			(at 50.8 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33840,7 +35202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 17.78 190.5 0)
+			(at 50.8 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33851,7 +35213,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 17.78 190.5 0)
+			(at 50.8 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33864,7 +35226,7 @@
 		(instances
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
-					(reference "LOGO1")
+					(reference "LOGO2")
 					(unit 1)
 				)
 			)
@@ -34912,7 +36274,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:EEZ logo")
-		(at 25.4 190.5 0)
+		(at 58.42 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34922,8 +36284,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "febbf333-b00e-4170-be9b-fb50e396f878")
-		(property "Reference" "LOGO2"
-			(at 25.4 188.1522 0)
+		(property "Reference" "LOGO3"
+			(at 58.42 177.9922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34934,7 +36296,7 @@
 			)
 		)
 		(property "Value" "EEZ logo"
-			(at 25.4 192.8478 0)
+			(at 58.42 182.6878 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34945,7 +36307,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_unsorted:EEZ logo (outline 6mm)"
-			(at 25.4 190.5 0)
+			(at 58.42 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34956,7 +36318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 190.5 0)
+			(at 58.42 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34967,7 +36329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 190.5 0)
+			(at 58.42 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34978,7 +36340,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 25.4 190.5 0)
+			(at 58.42 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34991,7 +36353,7 @@
 		(instances
 			(project "BB3plus DVID TFT display"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76"
-					(reference "LOGO2")
+					(reference "LOGO3")
 					(unit 1)
 				)
 			)
