@@ -22716,7 +22716,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:R_1210_3225Metric"
+		(property "Footprint" "PCM_EEZ_passives:R_2010_5025Metric"
 			(at 91.44 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -22771,7 +22771,7 @@
 				)
 			)
 		)
-		(property "TME" "CQ1210-100K-1%"
+		(property "TME" "201007J0104T4E"
 			(at 91.44 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -34790,7 +34790,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:R_1210_3225Metric"
+		(property "Footprint" "PCM_EEZ_passives:R_2010_5025Metric"
 			(at 81.28 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -34845,7 +34845,7 @@
 				)
 			)
 		)
-		(property "TME" "CQ1210-100K-1%"
+		(property "TME" "201007J0104T4E"
 			(at 81.28 180.34 0)
 			(hide yes)
 			(show_name no)
