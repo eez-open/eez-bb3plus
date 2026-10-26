@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-22")
+		(date "2026-10-25")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8320,7 +8320,7 @@
 	)
 	(text_box "Encoder shaft length: 15 mm / Flatted"
 		(exclude_from_sim no)
-		(at 210.82 142.24 0)
+		(at 210.82 139.7 0)
 		(size 30.48 2.7636)
 		(margins 0.6667 0.6667 0.6667 0.6667)
 		(stroke
@@ -16320,10 +16320,9 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ccdfff6-831a-4458-b389-809110d1afa4")
 		(property "Reference" "KN1"
-			(at 233.68 156.8449 0)
+			(at 233.045 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16333,8 +16332,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "A3123068"
-			(at 233.68 159.3849 0)
+		(property "Value" "A3131068"
+			(at 233.045 158.115 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16399,7 +16398,7 @@
 				)
 			)
 		)
-		(property "TME" "A3123068"
+		(property "TME" "A3131068"
 			(at 223.52 172.72 0)
 			(hide yes)
 			(show_name yes)
@@ -16419,6 +16418,17 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Label" "Knob; polyamide; Ø31x16mm; grey"
+			(at 233.045 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left bottom)
 			)
 		)
 		(instances
@@ -18386,7 +18396,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:A3223007")
-		(at 223.52 149.86 0)
+		(at 223.52 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18396,7 +18406,7 @@
 		(dnp no)
 		(uuid "a0b49746-edb5-40ca-b898-d7cfa501bdc2")
 		(property "Reference" "KN2"
-			(at 232.41 149.225 0)
+			(at 232.41 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18406,8 +18416,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "A3223007"
-			(at 232.41 151.765 0)
+		(property "Value" "A3231007"
+			(at 232.41 147.955 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18418,7 +18428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 149.86 0)
+			(at 223.52 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18429,7 +18439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 149.86 0)
+			(at 223.52 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18440,7 +18450,7 @@
 			)
 		)
 		(property "Description" "Knob head cap; polyamide; grey"
-			(at 223.52 154.94 0)
+			(at 223.52 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18451,7 +18461,7 @@
 			)
 		)
 		(property "DigiKey" "-"
-			(at 223.52 157.48 0)
+			(at 223.52 154.94 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -18462,6 +18472,17 @@
 			)
 		)
 		(property "Mouser" "-"
+			(at 223.52 157.48 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "A3231007"
 			(at 223.52 160.02 0)
 			(hide yes)
 			(show_name yes)
@@ -18472,7 +18493,7 @@
 				)
 			)
 		)
-		(property "TME" "A3223007"
+		(property "LCSC" "-"
 			(at 223.52 162.56 0)
 			(hide yes)
 			(show_name yes)
@@ -18483,15 +18504,15 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
-			(at 223.52 165.1 0)
-			(hide yes)
-			(show_name yes)
+		(property "Label" "Cap; polyamide; grey; push-in"
+			(at 232.41 150.495 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
+				(justify left bottom)
 			)
 		)
 		(instances
