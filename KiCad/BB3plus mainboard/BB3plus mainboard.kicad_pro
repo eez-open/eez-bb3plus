@@ -122,15 +122,15 @@
           ""
         ],
         [
-          "copper_edge_clearance|359680000|173000000|f3d3a5ba-9a0f-4dd8-8bd8-6e21d7c275c6|f8842307-1a9e-45b9-b970-3aafa0de64b9",
+          "copper_edge_clearance|359380000|172200000|4aee9830-1bb5-449a-82de-b369d3af6626|7e38cf86-8785-41bc-858b-0ac109968dc0",
           ""
         ],
         [
-          "copper_edge_clearance|359870000|172600000|f380e89d-6d34-47b2-b7e4-96b65e0dcd62|c1bb5698-b371-43ac-b3c2-7dfe7ba578b7",
+          "copper_edge_clearance|359680000|172790000|4aee9830-1bb5-449a-82de-b369d3af6626|c1bb5698-b371-43ac-b3c2-7dfe7ba578b7",
           ""
         ],
         [
-          "copper_edge_clearance|360000000|172400000|f380e89d-6d34-47b2-b7e4-96b65e0dcd62|7e38cf86-8785-41bc-858b-0ac109968dc0",
+          "copper_edge_clearance|359680000|172790000|4aee9830-1bb5-449a-82de-b369d3af6626|f8842307-1a9e-45b9-b970-3aafa0de64b9",
           ""
         ],
         [
@@ -274,7 +274,7 @@
           ""
         ],
         [
-          "silk_overlap|314492638|117951260|271c921c-fc2e-4243-9831-f64cbb2dae2e|e8955031-1776-4c5b-a65b-1ef0670bc0eb",
+          "silk_overlap|313114588|113091842|271c921c-fc2e-4243-9831-f64cbb2dae2e|e8955031-1776-4c5b-a65b-1ef0670bc0eb",
           ""
         ],
         [
@@ -430,11 +430,11 @@
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5",
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
           ""
         ],
         [
@@ -2381,6 +2381,22 @@
       {
         "netclass": "USB",
         "pattern": "/7-port USB3 Hub/RX1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CM5 socket, M.2 connector/USB3_0_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CM5 socket, M.2 connector/USB3_0_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CM5 socket, M.2 connector/USB2-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CM5 socket, M.2 connector/USB2+"
       }
     ]
   },
@@ -2621,7 +2637,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "#+3V1-58,#+3V63,#+3V3_ISO1-2,#+5V1-11,#+5V_ISO1-8,#FLG1-18,#GND1-49,#P+1-10,#PE1-16,#PWR1-36,#SUPPLY1-121,C1-148,CF1-2,D1-20,F1-4,FB1-7,FH1-4,FM1-4,H1-8,IC1-28,JP1-24,K1-12,KN1-2,L1-16,LED1-8,LOGO1-7,Module1-2,NTC1,OK1-2,Q1-9,R1-104,SAR1,SP1,SW1-2,TP1-19,TR1-2,U1,U8,VAR1-3,X1-28,Y1-3,ZD1-5",
+    "used_designators": "#+3V1-58,#+3V63,#+3V3_ISO1-2,#+5V1-11,#+5V_ISO1-8,#FLG1-18,#GND1-49,#P+1-10,#PE1-16,#PWR1-38,#SUPPLY1-123,C1-148,CF1-2,D1-20,F1-4,FB1-7,FH1-4,FM1-4,H1-8,IC1-28,JP1-25,K1-12,KN1-2,L1-16,LED1-8,LOGO1-7,Module1-2,NTC1,OK1-2,Q1-9,R1-104,SAR1,SP1,SW1-2,TP1-19,TR1-2,U1,U8,VAR1-3,X1-28,Y1-3,ZD1-5",
     "variants": []
   },
   "sheets": [
