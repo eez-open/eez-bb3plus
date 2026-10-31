@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "boms": [
+    {
+      "path": "BB3plus mainboard.eezbom",
+      "perDevice": 1
+    },
+    {
+      "path": "../TFT module/BB3plus DVID TFT display.eezbom",
+      "perDevice": 1
+    },
+    {
+      "path": "../../../../dib-dcp405plus/fabrication/bom/EEZ DIB DCP405plus.eezbom",
+      "perDevice": 2
+    },
+    {
+      "path": "../../../../dib-dcp405plus/fabrication/wire harness/DCP405plus wire harness.eezbom",
+      "perDevice": 1
+    },
+    {
+      "path": "../../wire harness/EEZ BB3plus wire harness.eezbom",
+      "perDevice": 1
+    },
+    {
+      "path": "CM5.eezbom",
+      "perDevice": 1
+    },
+    {
+      "path": "../Other/Enclosure.eezbom",
+      "perDevice": 1
+    }
+  ],
+  "history": "BOM list history.eezbom",
+  "buildQuantity": 1
+}

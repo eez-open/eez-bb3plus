@@ -6015,25 +6015,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at -2.286 1.905 0)
+				(at 0 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -2.286 -3.429 0)
+			(property "Value" "???"
+				(at 0.635 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify top)
 				)
 			)
 			(property "Footprint" ""
@@ -6063,16 +6063,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6217,18 +6207,18 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "???"
 				(at -1.778 -3.429 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
@@ -6260,16 +6250,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -20119,7 +20099,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 50.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -20130,7 +20110,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 50.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -20163,7 +20143,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 50.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -20266,7 +20246,7 @@
 				)
 			)
 		)
-		(property "Mouser" "71-CRCW080510R0FKEAC"
+		(property "Mouser" "603-RC0805FR-1010RP"
 			(at 223.52 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -20277,7 +20257,7 @@
 				)
 			)
 		)
-		(property "TME" "0805S8F100JT5E"
+		(property "TME" "SMD0805-10R-1%"
 			(at 223.52 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -20614,7 +20594,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 45.72 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -20625,7 +20605,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 45.72 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -20658,7 +20638,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 45.72 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -21141,7 +21121,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 256.54 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -22007,7 +21987,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 45.72 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -22018,7 +21998,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 45.72 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -22051,7 +22031,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 45.72 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -22668,7 +22648,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 66.04 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -22690,7 +22670,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C98220"
+		(property "LCSC" "C25804"
 			(at 66.04 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -23406,7 +23386,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 45.72 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -23417,7 +23397,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 45.72 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -23450,7 +23430,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 45.72 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -25325,7 +25305,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 60.96 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -25336,7 +25316,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 60.96 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -25369,7 +25349,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 60.96 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -27081,7 +27061,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -27092,7 +27072,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -27103,7 +27083,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -27125,7 +27105,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -27851,7 +27831,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1727-3645-1-ND"
+		(property "DigiKey" "MM3Z24VT1GOSCT-ND"
 			(at 276.86 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -27862,7 +27842,7 @@
 				)
 			)
 		)
-		(property "Mouser" "771-BZX384-B24115"
+		(property "Mouser" "78-BZX384B24-HE3-08"
 			(at 276.86 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -27987,7 +27967,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -27998,7 +27978,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -28009,7 +27989,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -28020,7 +28000,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -28191,7 +28171,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -28202,7 +28182,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -28235,7 +28215,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -28473,7 +28453,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "791-0603X475K100CT"
 			(at 177.8 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -28506,7 +28486,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1705"
+		(property "LCSC" "C19666"
 			(at 177.8 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -28878,7 +28858,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 259.08 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -29192,7 +29172,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "296-40821-2-ND"
+		(property "DigiKey" "296-40821-1-ND"
 			(at 238.76 55.88 0)
 			(hide yes)
 			(show_name yes)
@@ -29460,7 +29440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29796,7 +29776,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 38.1 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -29807,7 +29787,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 38.1 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -29818,7 +29798,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 38.1 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -29840,7 +29820,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 38.1 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -30645,7 +30625,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -30656,7 +30636,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -30689,7 +30669,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -30781,7 +30761,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 38.1 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -30792,7 +30772,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 38.1 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -30803,7 +30783,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 38.1 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -30825,7 +30805,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 38.1 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -31392,7 +31372,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -31403,7 +31383,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -31436,7 +31416,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -31529,7 +31509,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 50.8 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -31540,7 +31520,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 50.8 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -31573,7 +31553,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 50.8 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -31665,7 +31645,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 185.42 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -31676,7 +31656,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 185.42 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -31687,7 +31667,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 185.42 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -31698,7 +31678,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 185.42 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -31813,7 +31793,7 @@
 				)
 			)
 		)
-		(property "TME" "5051102291-MOL"
+		(property "TME" "FFC2B35-22-G"
 			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name yes)
@@ -32155,7 +32135,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -32166,7 +32146,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -32177,7 +32157,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -32199,7 +32179,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -32302,7 +32282,7 @@
 				)
 			)
 		)
-		(property "Mouser" "771-RB751V40,115"
+		(property "Mouser" "241-RB751V40XR100001"
 			(at 259.08 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -32537,7 +32517,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "31-AZ1117CH2-3.3TRG1CT-ND"
+		(property "DigiKey" "AZ1117CH-3.3TRG1DICT-ND"
 			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name yes)
@@ -32548,7 +32528,7 @@
 				)
 			)
 		)
-		(property "Mouser" "621-AZ1117CH2-33TRG1"
+		(property "Mouser" "621-AZ1117CH-3.3TRG1"
 			(at 154.94 40.64 0)
 			(hide yes)
 			(show_name yes)
@@ -32559,7 +32539,7 @@
 				)
 			)
 		)
-		(property "TME" "AZ1117CH2-3.3TRG1"
+		(property "TME" "AZ1117CH-3.3TRG1"
 			(at 154.94 43.18 0)
 			(hide yes)
 			(show_name yes)
@@ -32961,7 +32941,7 @@
 				)
 			)
 		)
-		(property "TME" "CL10B105KB8NQNC"
+		(property "TME" "CL10A105KB8NNNC"
 			(at 264.16 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -32972,7 +32952,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1861-1-ND"
+		(property "DigiKey" "1276-1859-1-ND"
 			(at 264.16 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -32983,7 +32963,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10A105KL8NNNC"
+		(property "Mouser" "187-CL10A105KB8NNNC"
 			(at 264.16 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -33005,7 +32985,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C478859"
+		(property "LCSC" "C15849"
 			(at 264.16 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -33097,7 +33077,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 208.28 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -33108,7 +33088,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 208.28 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -33119,7 +33099,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 208.28 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -33141,7 +33121,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 208.28 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -33648,7 +33628,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 251.46 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -34863,7 +34843,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "791-0603X475K100CT"
 			(at 177.8 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -34896,7 +34876,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1705"
+		(property "LCSC" "C19666"
 			(at 177.8 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -35436,7 +35416,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 203.2 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -35447,7 +35427,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 203.2 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -35480,7 +35460,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 203.2 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -35674,7 +35654,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 71.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -35696,7 +35676,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C98220"
+		(property "LCSC" "C25804"
 			(at 71.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -36202,7 +36182,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1005-2-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 50.8 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -36213,7 +36193,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 50.8 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -36246,7 +36226,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 50.8 121.92 0)
 			(hide yes)
 			(show_name no)

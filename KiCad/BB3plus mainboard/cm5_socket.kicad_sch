@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-25")
+		(date "2026-10-31")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -14695,7 +14695,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "311-330HRCT-ND"
+		(property "DigiKey" "311-330LMCT-ND"
 			(at 116.84 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15020,7 +15020,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15031,7 +15031,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15042,7 +15042,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15189,7 +15189,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 231.14 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15200,7 +15200,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 231.14 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15211,7 +15211,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 231.14 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15855,7 +15855,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
+		(property "DigiKey" "H124602CT-ND"
 			(at 144.78 160.02 0)
 			(hide yes)
 			(show_name yes)
@@ -15866,7 +15866,7 @@
 				)
 			)
 		)
-		(property "Mouser" "798-DF40HC30100DS451 "
+		(property "Mouser" "798-DF40HC30100DS458"
 			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name yes)
@@ -15877,7 +15877,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "DF40HC30100DS04V58"
 			(at 144.78 165.1 0)
 			(hide yes)
 			(show_name yes)
@@ -16319,7 +16319,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "160-1414-2-ND"
+		(property "DigiKey" "160-1414-1-ND"
 			(at 116.84 55.88 0)
 			(hide yes)
 			(show_name yes)
@@ -16499,7 +16499,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "311-330HRCT-ND"
+		(property "DigiKey" "311-330LMCT-ND"
 			(at 127 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -16824,7 +16824,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "311-330HRCT-ND"
+		(property "DigiKey" "311-330LMCT-ND"
 			(at 269.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17073,7 +17073,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 228.6 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -17084,7 +17084,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 228.6 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -17095,7 +17095,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 228.6 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -19528,7 +19528,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "26-DF40HC(3.0)-100DS-0.4V(51)CT-ND"
+		(property "DigiKey" "H124602CT-ND"
 			(at 45.72 160.02 0)
 			(hide yes)
 			(show_name yes)
@@ -19539,7 +19539,7 @@
 				)
 			)
 		)
-		(property "Mouser" "798-DF40HC30100DS451 "
+		(property "Mouser" "798-DF40HC30100DS458"
 			(at 45.72 162.56 0)
 			(hide yes)
 			(show_name yes)
@@ -19550,7 +19550,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "DF40HC30100DS04V58"
 			(at 45.72 165.1 0)
 			(hide yes)
 			(show_name yes)

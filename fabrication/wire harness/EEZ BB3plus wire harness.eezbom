@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 6,
+  "source": {
+    "kind": "manual"
+  },
+  "suppliers": [
+    "digikey",
+    "mouser",
+    "tme",
+    "lcsc"
+  ],
+  "customColumns": [
+    {
+      "id": "6f7016f8-d575-4f3f-9b92-6d0c48d7b1c5",
+      "name": "Comment",
+      "type": "text"
+    }
+  ],
+  "manualSuppliers": [],
+  "rows": [
+    {
+      "id": "ee179b57-da98-49d9-a221-ac786197b07e",
+      "reference": "3-pin receptacle for DC fan",
+      "value": "0022013037",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {
+        "tme": "MX-22-01-3037",
+        "lcsc": "C185238",
+        "mouser": "538-22-01-3037",
+        "digikey": "900-0022013037-ND"
+      },
+      "custom": {}
+    },
+    {
+      "id": "9e1d0990-2cb8-4e6d-befe-234f1ca8dbaa",
+      "reference": "Terminal for crimping",
+      "value": "0008500032",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {
+        "tme": "MX-4809C-P914L",
+        "lcsc": "C45408619",
+        "mouser": "538-08-50-0114",
+        "digikey": "WM2623-ND"
+      },
+      "custom": {}
+    },
+    {
+      "id": "404ca8d7-6138-4005-b291-4d713cec3c38",
+      "reference": "FFC 101 mm, 0.5 mm pitch, 22 pin",
+      "value": "05-22-A-0101-A-4-06-4-T",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {
+        "tme": "05-22-A-0101-A",
+        "mouser": "640-522A0101A4064T",
+        "lcsc": "C18024481",
+        "digikey": "2073-05-22-A-0101-A-4-06-4-T-ND"
+      },
+      "custom": {}
+    }
+  ],
+  "buildQuantity": 1
+}

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-25")
+		(date "2026-10-31")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -15312,7 +15312,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1069-1-ND"
+		(property "DigiKey" "1276-2149-1-ND"
 			(at 45.72 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -15470,7 +15470,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-6501-1-ND"
+		(property "DigiKey" "1276-6687-1-ND"
 			(at 271.78 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -15640,7 +15640,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15755,7 +15755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12236c07-17aa-4ef0-8d00-8edb763ec6c3")
-		(property "Reference" "R74"
+		(property "Reference" "R75"
 			(at 246.38 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15821,7 +15821,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-0720KL"
+		(property "Mouser" "603-AC0603FR-1320KL"
 			(at 246.38 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -15907,7 +15907,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R74")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -16059,7 +16059,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16070,7 +16070,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16228,7 +16228,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "296-TPS62933ODRLRTR-ND"
+		(property "DigiKey" "296-TPS62933ODRLRCT-ND"
 			(at 187.96 170.18 0)
 			(hide yes)
 			(show_name yes)
@@ -16416,7 +16416,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 251.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16531,7 +16531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20d850c5-3403-4f0e-8d3f-90977d9f52cb")
-		(property "Reference" "R57"
+		(property "Reference" "R58"
 			(at 34.925 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16586,7 +16586,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 38.1 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16597,7 +16597,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 38.1 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16608,7 +16608,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 38.1 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16694,7 +16694,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R57")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -16845,7 +16845,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 261.62 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17015,7 +17015,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 266.7 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17209,7 +17209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e271858-bca3-479f-9c35-fcab7fd66c9e")
-		(property "Reference" "R66"
+		(property "Reference" "R67"
 			(at 46.355 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17264,7 +17264,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 50.8 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -17275,7 +17275,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 50.8 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -17286,7 +17286,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 50.8 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -17372,7 +17372,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R66")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -17871,7 +17871,7 @@
 		(in_pos_files no)
 		(dnp yes)
 		(uuid "3359d142-fa84-401d-aede-a13dee8c157e")
-		(property "Reference" "R58"
+		(property "Reference" "R59"
 			(at 40.64 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18034,7 +18034,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R58")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -18118,7 +18118,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1069-1-ND"
+		(property "DigiKey" "1276-2149-1-ND"
 			(at 45.72 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18627,7 +18627,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18638,7 +18638,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18742,7 +18742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43621c57-3b80-42cc-820b-bbdb121f0ad3")
-		(property "Reference" "R70"
+		(property "Reference" "R71"
 			(at 47.625 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18905,7 +18905,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R70")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -19148,7 +19148,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 246.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -19475,7 +19475,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19486,7 +19486,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19758,7 +19758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5841211d-4c20-4a34-84a4-ea15e970d7fc")
-		(property "Reference" "R71"
+		(property "Reference" "R72"
 			(at 168.91 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19813,7 +19813,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 170.18 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19824,7 +19824,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 170.18 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19835,7 +19835,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 170.18 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19910,7 +19910,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R71")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -20102,7 +20102,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20113,7 +20113,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20271,7 +20271,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 162.56 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -20465,7 +20465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68671eca-cea0-4a2c-9533-b5611672b250")
-		(property "Reference" "R59"
+		(property "Reference" "R60"
 			(at 50.8 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20542,7 +20542,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-100K-1%"
+		(property "TME" "RC0603FR-07100K"
 			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -20617,7 +20617,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R59")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -20635,7 +20635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b12a016-83c2-435c-8bc2-225e91c8d04c")
-		(property "Reference" "R73"
+		(property "Reference" "R74"
 			(at 240.03 151.765 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20690,7 +20690,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 238.76 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20701,7 +20701,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 238.76 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20712,7 +20712,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 238.76 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20787,7 +20787,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R73")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -20860,7 +20860,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20871,7 +20871,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -21030,7 +21030,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -21041,7 +21041,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -21200,7 +21200,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 256.54 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21315,7 +21315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73075f8f-5264-4592-9c3d-b65296c8f4bc")
-		(property "Reference" "R65"
+		(property "Reference" "R66"
 			(at 46.355 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21370,7 +21370,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21381,7 +21381,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21392,7 +21392,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21478,7 +21478,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R65")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -21497,7 +21497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74f6246d-e8d4-46b0-8e89-d51ba18a9f4a")
-		(property "Reference" "R60"
+		(property "Reference" "R61"
 			(at 50.8 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21649,7 +21649,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R60")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -21722,7 +21722,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 251.46 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21837,7 +21837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b5050a9-6328-490a-ab1a-913879e7b810")
-		(property "Reference" "R61"
+		(property "Reference" "R62"
 			(at 46.355 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21892,7 +21892,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 50.8 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -21903,7 +21903,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 50.8 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -21914,7 +21914,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 50.8 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -22000,7 +22000,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R61")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -22263,7 +22263,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -22274,7 +22274,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -22433,7 +22433,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 246.38 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -22603,7 +22603,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 43.18 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -22614,7 +22614,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 43.18 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -22784,7 +22784,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -22795,7 +22795,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -22964,7 +22964,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-6501-1-ND"
+		(property "DigiKey" "1276-6687-1-ND"
 			(at 254 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -23212,7 +23212,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23223,7 +23223,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23327,7 +23327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8995db88-2772-4a71-872c-ca6572179919")
-		(property "Reference" "R64"
+		(property "Reference" "R65"
 			(at 46.355 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23490,7 +23490,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R64")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -23811,7 +23811,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 236.22 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -23981,7 +23981,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 236.22 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -24151,7 +24151,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -24162,7 +24162,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -24321,7 +24321,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 215.9 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -24514,7 +24514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9666706f-6b9f-4121-9661-a0fae2fd0660")
-		(property "Reference" "R63"
+		(property "Reference" "R64"
 			(at 46.355 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24569,7 +24569,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -24580,7 +24580,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -24591,7 +24591,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -24677,7 +24677,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R63")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -24749,7 +24749,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-6501-1-ND"
+		(property "DigiKey" "1276-6687-1-ND"
 			(at 259.08 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -25199,7 +25199,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -26112,7 +26112,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 43.18 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -26123,7 +26123,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 43.18 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -26475,7 +26475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9b73428-07a7-407e-b177-2d36efe1d9d2")
-		(property "Reference" "R62"
+		(property "Reference" "R63"
 			(at 46.355 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26530,7 +26530,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
+		(property "DigiKey" "13-RC0603FR-1310KLCT-ND"
 			(at 50.8 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -26541,7 +26541,7 @@
 				)
 			)
 		)
-		(property "Mouser" "756-WCR0603-10KFI"
+		(property "Mouser" "603-RC0603FR-1310KL"
 			(at 50.8 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -26552,7 +26552,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 50.8 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -26638,7 +26638,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R62")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -26656,7 +26656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbfb3415-96da-4275-bca0-2b129fa8ca4b")
-		(property "Reference" "R67"
+		(property "Reference" "R68"
 			(at 48.26 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26733,7 +26733,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-100K-1%"
+		(property "TME" "RC0603FR-07100K"
 			(at 50.8 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -26819,7 +26819,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R67")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -26892,7 +26892,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 231.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -27062,7 +27062,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 236.22 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -27311,7 +27311,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -27322,7 +27322,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -27425,7 +27425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4c3ff4f-d34f-4fd0-8bf8-c8deda120e4b")
-		(property "Reference" "R69"
+		(property "Reference" "R70"
 			(at 47.625 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27577,7 +27577,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R69")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -27898,7 +27898,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -27909,7 +27909,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -28223,7 +28223,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 241.3 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -28668,7 +28668,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 43.18 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -28679,7 +28679,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 43.18 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -28848,7 +28848,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 157.48 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -28859,7 +28859,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 157.48 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -28870,7 +28870,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 157.48 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -29018,7 +29018,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 251.46 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -29133,7 +29133,7 @@
 		(in_pos_files no)
 		(dnp yes)
 		(uuid "e9c99abd-6fe5-496b-a093-c6ae05f0ed8f")
-		(property "Reference" "R68"
+		(property "Reference" "R69"
 			(at 50.8 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29296,7 +29296,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R68")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -29369,7 +29369,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 246.38 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -29617,7 +29617,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1001-1-ND"
+		(property "DigiKey" "1276-1002-1-ND"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -29628,7 +29628,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL05B104KO5NNNC"
+		(property "Mouser" "81-GRM022R60J104KE5L"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -29731,7 +29731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f608a8c6-f6a2-4e1c-b435-49aa30c99aed")
-		(property "Reference" "R72"
+		(property "Reference" "R73"
 			(at 177.8 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29808,7 +29808,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0603-100K-1%"
+		(property "TME" "RC0603FR-07100K"
 			(at 177.8 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -29883,7 +29883,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "R72")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -29956,7 +29956,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 231.14 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -30126,7 +30126,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 241.3 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -30665,7 +30665,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 256.54 35.56 0)
 			(hide yes)
 			(show_name no)

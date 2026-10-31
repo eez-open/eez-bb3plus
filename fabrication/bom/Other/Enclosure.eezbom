@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 6,
+  "source": {
+    "kind": "manual"
+  },
+  "suppliers": [],
+  "customColumns": [],
+  "manualSuppliers": [
+    {
+      "id": "908e377a-a05d-46cc-adbf-581466367e5b",
+      "name": "Custom"
+    }
+  ],
+  "rows": [
+    {
+      "id": "876374ef-f5c9-4a77-a57d-de91192a10ad",
+      "reference": "Enclosure bottom plate",
+      "value": "Enclosure bottom plate (Aluminum)",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {},
+      "custom": {},
+      "manual": {
+        "908e377a-a05d-46cc-adbf-581466367e5b": {
+          "partNumber": "BB3 plus enclosure bottom plate",
+          "unitPrice": 11.07,
+          "stock": 100,
+          "moq": 1
+        }
+      }
+    },
+    {
+      "id": "9485620e-4844-4c5d-b952-5fe56b82079a",
+      "reference": "Enclosure top cover",
+      "value": "Enclosure top cover (Aluminum)",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {},
+      "custom": {},
+      "manual": {
+        "908e377a-a05d-46cc-adbf-581466367e5b": {
+          "partNumber": "BB3 plus enclosure top plate",
+          "unitPrice": 12.83,
+          "stock": 100,
+          "moq": 1
+        }
+      }
+    },
+    {
+      "id": "7f914c27-b205-4ebc-b8f0-e2925767ae97",
+      "reference": "Enclosure front panel",
+      "value": "Enclosure front panel (sheet metal)",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {},
+      "custom": {},
+      "manual": {
+        "908e377a-a05d-46cc-adbf-581466367e5b": {
+          "partNumber": "BB3 plus enclosure front panel",
+          "unitPrice": 7.03,
+          "stock": 100,
+          "moq": 1
+        }
+      }
+    },
+    {
+      "id": "e13f5ab0-10a7-4d94-b1bc-7812ed7966f8",
+      "reference": "Enclosure rear panel",
+      "value": "Enclosure rear panel (Aluminum)",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {},
+      "custom": {},
+      "manual": {
+        "908e377a-a05d-46cc-adbf-581466367e5b": {
+          "partNumber": "BB3 plus enclosure rear panel",
+          "unitPrice": 5.69,
+          "stock": 100,
+          "moq": 1
+        }
+      }
+    },
+    {
+      "id": "99659858-9ea3-467a-b096-fa688decab60",
+      "reference": "Altynkaya, Türkiye",
+      "value": "A-951 Tilt Foot Set (4pcs set), black",
+      "qty": 1,
+      "footprint": "A-951 Tilt Foot Set (4pcs set), black",
+      "partNumbers": {},
+      "custom": {},
+      "manual": {
+        "908e377a-a05d-46cc-adbf-581466367e5b": {
+          "partNumber": "A-951-A-0-S-0",
+          "unitPrice": 3.14,
+          "stock": 100,
+          "moq": 1
+        }
+      }
+    },
+    {
+      "id": "c1392f9e-1a8a-48cf-ba3e-4bb1f5ce7f5d",
+      "reference": "JLCPCB",
+      "value": "Half width bare front mask",
+      "qty": 2,
+      "footprint": "",
+      "partNumbers": {},
+      "custom": {},
+      "manual": {
+        "908e377a-a05d-46cc-adbf-581466367e5b": {
+          "partNumber": "Half width bare front mask",
+          "unitPrice": 0.63,
+          "stock": 100,
+          "moq": 1
+        }
+      }
+    }
+  ],
+  "buildQuantity": 1
+}

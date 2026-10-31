@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 6,
+  "source": {
+    "kind": "kicad",
+    "path": "../../../KiCad/TFT module/BB3plus DVID TFT display.kicad_pro",
+    "variant": "Default",
+    "importedAt": "2026-10-27T13:19:12.137Z"
+  },
+  "suppliers": [
+    "digikey",
+    "mouser",
+    "tme",
+    "lcsc"
+  ],
+  "customColumns": [],
+  "manualSuppliers": [
+    {
+      "id": "438fb2a8-4edf-4fd3-b622-c7a5c4907b90",
+      "name": "BuyDisplay"
+    }
+  ],
+  "rows": [
+    {
+      "id": "b3faadde-45f6-4b56-8b3a-638bebdfe98d",
+      "reference": "C1,C2,C4,C11,C15,C20,C26",
+      "value": "10u",
+      "qty": 7,
+      "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
+      "partNumbers": {
+        "digikey": "490-GRM21BR61E106MA73KCT-ND",
+        "mouser": "81-GRM21BR61C106KE5K",
+        "tme": "CL21A106KAYNNNE",
+        "lcsc": "C15850"
+      },
+      "custom": {}
+    },
+    {
+      "id": "3db17203-7320-46d5-868e-2aaad653f024",
+      "reference": "C3",
+      "value": "1u",
+      "qty": 1,
+      "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+      "partNumbers": {
+        "digikey": "1276-1859-1-ND",
+        "mouser": "187-CL10A105KB8NNNC",
+        "tme": "CL10A105KB8NNNC",
+        "lcsc": "C15849"
+      },
+      "custom": {}
+    },
+    {
+      "id": "28f31238-0b50-474e-8447-47208e10fdc4",
+      "reference": "C5,C8",
+      "value": "4u7",
+      "qty": 2,
+      "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+      "partNumbers": {
+        "digikey": "1276-1044-1-ND",
+        "mouser": "791-0603X475K100CT",
+        "tme": "CL10A475KP8NNNC",
+        "lcsc": "C19666"
+      },
+      "custom": {}
+    },
+    {
+      "id": "47d3e442-c0d7-43d1-9e63-725f6e9ce7b3",
+      "reference": "C6,C7,C10,C14",
+      "value": "10n",
+      "qty": 4,
+      "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+      "partNumbers": {
+        "digikey": "1276-1009-1-ND",
+        "mouser": "187-CL10B103KB8NNNC",
+        "tme": "CL10B103KB8NNNC",
+        "lcsc": "C57112"
+      },
+      "custom": {}
+    },
+    {
+      "id": "57e056ad-887a-41ff-a924-65ff644cb077",
+      "reference": "C9,C12,C13,C16,C17,C18,C19,C21,C22,C23,C27",
+      "value": "100n",
+      "qty": 11,
+      "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+      "partNumbers": {
+        "digikey": "1276-6717-1-ND",
+        "mouser": "80-C0603C104M4R",
+        "tme": "CL10B104KA8NNNC",
+        "lcsc": "C14663"
+      },
+      "custom": {}
+    },
+    {
+      "id": "587a5aec-2634-4087-8f00-0e0fa533f12c",
+      "reference": "CAP1,CAP2,CAP3,CAP4",
+      "value": "B32-1360",
+      "qty": 4,
+      "footprint": "",
+      "partNumbers": {
+        "digikey": "SW259-ND",
+        "mouser": "653-B32-1360",
+        "tme": "B32-1360",
+        "lcsc": "C2733574"
+      },
+      "custom": {}
+    },
+    {
+      "id": "48462b0f-54f9-4b10-b745-6ad25aa0bc22",
+      "reference": "CBL1",
+      "value": "05-22-A-0101-A-4-06-4-T",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {
+        "digikey": "2073-05-22-A-0101-A-4-06-4-T-ND",
+        "mouser": "640-522A0101A4064T",
+        "tme": "05-22-A-0101-A",
+        "lcsc": "C18024481"
+      },
+      "custom": {}
+    },
+    {
+      "id": "ee52af04-3a03-48fe-b24a-673a6d0040d7",
+      "reference": "D1",
+      "value": "RB751V40,115",
+      "qty": 1,
+      "footprint": "PCM_EEZ_SMD:SOD-323_1P8X1P35_ONS-M",
+      "partNumbers": {
+        "digikey": "1727-6301-1-ND",
+        "mouser": "241-RB751V40XR100001",
+        "tme": "RB751V40.115",
+        "lcsc": "C553814"
+      },
+      "custom": {}
+    },
+    {
+      "id": "6ddcc193-6e7c-4172-a80f-16c6b46aff45",
+      "reference": "FB1,FB2,FB3,FB4,FB5,FB6",
+      "value": "60R@100MHz",
+      "qty": 6,
+      "footprint": "PCM_EEZ_passives:BEAD0603",
+      "partNumbers": {
+        "digikey": "490-7809-1-ND",
+        "mouser": "81-BLM18AG102SH1D",
+        "tme": "BLM18AG102SH1D",
+        "lcsc": "C337877"
+      },
+      "custom": {}
+    },
+    {
+      "id": "e5bc4610-1e8a-436c-ae1d-e1c64d5eeee3",
+      "reference": "IC1",
+      "value": "TFP401APZP",
+      "qty": 1,
+      "footprint": "PCM_EEZ_SMD:QFP50P1600X1600X120-101N",
+      "partNumbers": {
+        "digikey": "296-9991-ND",
+        "mouser": "595-TFP401APZPR",
+        "tme": "TFP401APZP",
+        "lcsc": "C962083"
+      },
+      "custom": {}
+    },
+    {
+      "id": "6f4d628b-c83b-4719-b94e-cdee6644f198",
+      "reference": "IC2",
+      "value": "AZ1117CH2-3.3TRG1",
+      "qty": 1,
+      "footprint": "PCM_EEZ_SMD:SOT223",
+      "partNumbers": {
+        "digikey": "AZ1117CH-3.3TRG1DICT-ND",
+        "mouser": "621-AZ1117CH-3.3TRG1",
+        "tme": "AZ1117CH-3.3TRG1",
+        "lcsc": "C108492"
+      },
+      "custom": {}
+    },
+    {
+      "id": "6f18c4fe-9161-45e6-8f56-127c50ef4166",
+      "reference": "IC3",
+      "value": "TPS61169DCKR",
+      "qty": 1,
+      "footprint": "PCM_EEZ_SMD:DCK5",
+      "partNumbers": {
+        "digikey": "296-40821-1-ND",
+        "mouser": "595-TPS61169DCKR",
+        "tme": "TPS61169DCKR",
+        "lcsc": "C71045"
+      },
+      "custom": {}
+    },
+    {
+      "id": "913fa9cd-992e-4b47-9199-66ddbd240981",
+      "reference": "IC4",
+      "value": "TCA9554APWR",
+      "qty": 1,
+      "footprint": "PCM_EEZ_SMD:PW(R-PDSO-G16)",
+      "partNumbers": {
+        "digikey": "296-28120-1-ND",
+        "mouser": "595-TCA9554APWR",
+        "tme": "TCA9554APWR",
+        "lcsc": "C2863976"
+      },
+      "custom": {}
+    },
+    {
+      "id": "7a74a5d8-1739-417d-a2b5-3ed963cd217d",
+      "reference": "L1",
+      "value": "DLG-0403-4R7",
+      "qty": 1,
+      "footprint": "PCM_EEZ_passives:DE0403",
+      "partNumbers": {
+        "digikey": "SDR0403-4R7MLCT-ND",
+        "mouser": "815-ASPI-4030S-4R7MT",
+        "tme": "DLG-0403-4R7",
+        "lcsc": "C2041983"
+      },
+      "custom": {}
+    },
+    {
+      "id": "4abc1396-2f28-4762-a9ca-3fa756bba50d",
+      "reference": "R1",
+      "value": "10R",
+      "qty": 1,
+      "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+      "partNumbers": {
+        "digikey": "311-10.0CRCT-ND",
+        "mouser": "603-RC0805FR-1010RP",
+        "tme": "SMD0805-10R-1%",
+        "lcsc": "C17415"
+      },
+      "custom": {}
+    },
+    {
+      "id": "6ee71afa-1856-4fcf-95ad-cd78f57f622e",
+      "reference": "R2,R3",
+      "value": "9R1",
+      "qty": 2,
+      "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+      "partNumbers": {
+        "digikey": "13-RC0805FR-079R1LCT-ND",
+        "mouser": "603-RC0805FR-079R1L",
+        "tme": "-",
+        "lcsc": "C483254"
+      },
+      "custom": {}
+    },
+    {
+      "id": "c3ae89b1-cef0-44b6-8922-c27225b56f69",
+      "reference": "R4,R5",
+      "value": "10K",
+      "qty": 2,
+      "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
+      "partNumbers": {
+        "digikey": "13-RC0603FR-1310KLCT-ND",
+        "mouser": "603-RC0603FR-1310KL",
+        "tme": "RC0603FR-0710K",
+        "lcsc": "C25804"
+      },
+      "custom": {}
+    },
+    {
+      "id": "4be144cb-81da-437b-9af5-c4022a0b8039",
+      "reference": "SW1,SW2,SW3,SW4",
+      "value": "B3FS-4052P",
+      "qty": 4,
+      "footprint": "PCM_EEZ_unsorted:B3FS-4052P (cut out)",
+      "partNumbers": {
+        "digikey": "39-B3FS-4055PCT-ND",
+        "mouser": "653-B3FS-4055P",
+        "tme": "B3FS-4055P",
+        "lcsc": "C2733614"
+      },
+      "custom": {}
+    },
+    {
+      "id": "79df8734-c03a-4c1d-88e0-ddc1ec8b38fd",
+      "reference": "X1",
+      "value": "505110-2291",
+      "qty": 1,
+      "footprint": "PCM_EEZ_connectors:5051102291",
+      "partNumbers": {
+        "digikey": "WM11288CT-ND",
+        "mouser": "538-505110-2291",
+        "tme": "FFC2B35-22-G",
+        "lcsc": "C3168367"
+      },
+      "custom": {}
+    },
+    {
+      "id": "40e3154d-700f-4a08-bf71-2ed53225297a",
+      "reference": "X2",
+      "value": "F3311A7H121006E200",
+      "qty": 1,
+      "footprint": "PCM_EEZ_connectors:F3311A7H121006E200_MIRROR",
+      "partNumbers": {
+        "digikey": "609-F3311A7H121006E200CT-ND",
+        "mouser": "649-311A7H121006E200",
+        "tme": "-",
+        "lcsc": "C3169743"
+      },
+      "custom": {}
+    },
+    {
+      "id": "dfa05620-775b-4a68-bb8e-decebc3976db",
+      "reference": "X3",
+      "value": "F32D-1A7Y1-21040",
+      "qty": 1,
+      "footprint": "PCM_EEZ_connectors:F32D-1A7Y1-21040_MIRROR",
+      "partNumbers": {
+        "digikey": "609-F32D-1A7Y1-21040CT-ND",
+        "mouser": "649-F32D-1A7Y1-21040",
+        "tme": "-",
+        "lcsc": "C3168737"
+      },
+      "custom": {}
+    },
+    {
+      "id": "1cb1f643-d0a9-4926-8446-1625364288ca",
+      "reference": "ZD1",
+      "value": "BZX384-B24,115",
+      "qty": 1,
+      "footprint": "PCM_EEZ_SMD:SOD-323_1P8X1P35_ONS-M",
+      "partNumbers": {
+        "digikey": "MM3Z24VT1GOSCT-ND",
+        "mouser": "78-BZX384B24-HE3-08",
+        "tme": "BZX384-B24.115",
+        "lcsc": "C550550"
+      },
+      "custom": {}
+    },
+    {
+      "id": "33fbae3a-d90c-475f-bbd6-d10d11ef45d9",
+      "reference": "Fixing tape",
+      "value": "04952-00002-00",
+      "qty": 0.004,
+      "footprint": "",
+      "partNumbers": {
+        "tme": "TESA-4952-19-5M"
+      },
+      "custom": {}
+    },
+    {
+      "id": "596f925f-94af-4e88-b4b1-586a0737c803",
+      "reference": "5\" TFT capacitive touch",
+      "value": "ER-TFT050-6-3661-3684",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {},
+      "custom": {},
+      "manual": {
+        "438fb2a8-4edf-4fd3-b622-c7a5c4907b90": {
+          "partNumber": "ER-TFT050-6-3661-3684",
+          "unitPrice": 19.29,
+          "stock": 1000,
+          "moq": 1
+        }
+      }
+    }
+  ],
+  "buildQuantity": 1
+}

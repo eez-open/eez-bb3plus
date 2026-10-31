@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 6,
+  "source": {
+    "kind": "manual"
+  },
+  "suppliers": [
+    "digikey",
+    "mouser",
+    "tme"
+  ],
+  "customColumns": [
+    {
+      "id": "e30102cb-ed6a-438b-a5de-7afc9c3fb9da",
+      "name": "Comment",
+      "type": "text"
+    }
+  ],
+  "manualSuppliers": [
+    {
+      "id": "e4050d6c-3e58-489a-be38-c3dd455b3a67",
+      "name": "Instar"
+    },
+    {
+      "id": "1144aa9c-9d52-4167-95b2-0675f105cc8c",
+      "name": "Toner Partner"
+    }
+  ],
+  "rows": [
+    {
+      "id": "1bcac911-57ff-42dd-873c-54b5c920f281",
+      "reference": "Raspberry Pi CM5004000 4GB RAM LITE",
+      "value": "SC1562",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {
+        "mouser": "358-SC1562",
+        "digikey": "2648-SC1562-ND",
+        "tme": "SC1562"
+      },
+      "custom": {}
+    },
+    {
+      "id": "c66807cb-84c0-4edd-b4aa-82dd40b64eff",
+      "reference": "Raspberry Pi CM5 Passive Cooler",
+      "value": "SC1752",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {
+        "mouser": "358-SC1752",
+        "digikey": "2648-SC1752-ND",
+        "tme": "SC1752"
+      },
+      "custom": {}
+    },
+    {
+      "id": "a75b08ea-1070-47bd-8e7a-7a530280c3f2",
+      "reference": "128GB M.2 NVMe SSD",
+      "value": "P300P128GM28",
+      "qty": 1,
+      "footprint": "",
+      "partNumbers": {},
+      "custom": {
+        "e30102cb-ed6a-438b-a5de-7afc9c3fb9da": "https://www.tonerpartner.hr/patriot-p300-128gb-ssd-m-2-nvme-5r-278936hr/"
+      },
+      "manual": {
+        "e4050d6c-3e58-489a-be38-c3dd455b3a67": {
+          "partNumber": "PAT-P300-2280-128",
+          "unitPrice": 51.37,
+          "stock": 25,
+          "moq": 1
+        },
+        "1144aa9c-9d52-4167-95b2-0675f105cc8c": {
+          "partNumber": "AH20505045",
+          "unitPrice": 41.87,
+          "stock": 25,
+          "moq": 1
+        }
+      }
+    }
+  ],
+  "buildQuantity": 1
+}

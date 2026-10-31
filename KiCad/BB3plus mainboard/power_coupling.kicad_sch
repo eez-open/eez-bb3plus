@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-25")
+		(date "2026-10-31")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -9774,7 +9774,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 30.48 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9943,7 +9943,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 45.72 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9954,7 +9954,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 45.72 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9965,7 +9965,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 45.72 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10238,7 +10238,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 160.02 86.36 0)
 			(hide yes)
 			(show_name yes)
@@ -10436,7 +10436,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 177.8 71.12 0)
 			(hide yes)
 			(show_name yes)
@@ -10633,7 +10633,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 93.98 101.6 0)
 			(hide yes)
 			(show_name yes)
@@ -10831,7 +10831,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name yes)
@@ -11031,7 +11031,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 248.92 76.2 0)
 			(hide yes)
 			(show_name yes)
@@ -12153,7 +12153,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 259.08 38.1 0)
 			(hide yes)
 			(show_name yes)
@@ -12352,7 +12352,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 182.88 38.1 0)
 			(hide yes)
 			(show_name yes)
@@ -12549,7 +12549,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 119.38 101.6 0)
 			(hide yes)
 			(show_name yes)
@@ -13224,7 +13224,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 248.92 55.88 0)
 			(hide yes)
 			(show_name yes)
@@ -13421,7 +13421,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name yes)
@@ -13620,7 +13620,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 50.8 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13993,7 +13993,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 170.18 71.12 0)
 			(hide yes)
 			(show_name yes)
@@ -14426,7 +14426,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 106.68 101.6 0)
 			(hide yes)
 			(show_name yes)
@@ -14972,7 +14972,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 45.72 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -14983,7 +14983,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 45.72 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -14994,7 +14994,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 45.72 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15361,7 +15361,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 167.64 86.36 0)
 			(hide yes)
 			(show_name yes)
@@ -15559,7 +15559,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 50.8 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15888,7 +15888,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 182.88 30.48 0)
 			(hide yes)
 			(show_name yes)
@@ -16087,7 +16087,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1111-RT424012-ND"
+		(property "DigiKey" "PB967-ND"
 			(at 182.88 20.32 0)
 			(hide yes)
 			(show_name yes)
@@ -16852,7 +16852,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-5523-1-ND"
+		(property "DigiKey" "490-GRM21BR61E106MA73KCT-ND"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16863,7 +16863,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61E106KA3L"
+		(property "Mouser" "81-GRM21BR61C106KE5K"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16874,7 +16874,7 @@
 				)
 			)
 		)
-		(property "TME" "GRM21BR61E106KA73L"
+		(property "TME" "CL21A106KAYNNNE"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
