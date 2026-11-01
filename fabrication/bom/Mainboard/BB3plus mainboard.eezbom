@@ -70,7 +70,7 @@
         "pn:tme": "CL21A106KAYNNNE",
         "pn:lcsc": "C15850"
       },
-      "C85": {
+      "C86": {
         "value": "10u",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
@@ -78,7 +78,7 @@
         "pn:tme": "CL21A106KAYNNNE",
         "pn:lcsc": "C15850"
       },
-      "C112": {
+      "C113": {
         "value": "10u",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
@@ -86,7 +86,7 @@
         "pn:tme": "CL21A106KAYNNNE",
         "pn:lcsc": "C15850"
       },
-      "C130": {
+      "C131": {
         "value": "10u",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
@@ -94,15 +94,7 @@
         "pn:tme": "CL21A106KAYNNNE",
         "pn:lcsc": "C15850"
       },
-      "C133": {
-        "value": "10u",
-        "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
-        "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
-        "pn:mouser": "81-GRM21BR61C106KE5K",
-        "pn:tme": "CL21A106KAYNNNE",
-        "pn:lcsc": "C15850"
-      },
-      "C139": {
+      "C134": {
         "value": "10u",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
@@ -118,7 +110,15 @@
         "pn:tme": "CL21A106KAYNNNE",
         "pn:lcsc": "C15850"
       },
-      "C143": {
+      "C141": {
+        "value": "10u",
+        "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
+        "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
+        "pn:mouser": "81-GRM21BR61C106KE5K",
+        "pn:tme": "CL21A106KAYNNNE",
+        "pn:lcsc": "C15850"
+      },
+      "C144": {
         "value": "10u",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
@@ -238,15 +238,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C64": {
-        "value": "100n",
-        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
-        "pn:digikey": "1276-6717-1-ND",
-        "pn:mouser": "80-C0603C104M4R",
-        "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
-      },
-      "C86": {
+      "C65": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -286,7 +278,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C92": {
+      "C91": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -382,7 +374,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C105": {
+      "C104": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -398,7 +390,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C108": {
+      "C107": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -414,7 +406,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C113": {
+      "C110": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -422,7 +414,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C121": {
+      "C114": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -430,7 +422,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C127": {
+      "C122": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -454,7 +446,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C131": {
+      "C130": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -462,7 +454,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C138": {
+      "C132": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -470,7 +462,7 @@
         "pn:tme": "CL10B104KA8NNNC",
         "pn:lcsc": "C14663"
       },
-      "C141": {
+      "C139": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -479,6 +471,14 @@
         "pn:lcsc": "C14663"
       },
       "C142": {
+        "value": "100n",
+        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+        "pn:digikey": "1276-6717-1-ND",
+        "pn:mouser": "80-C0603C104M4R",
+        "pn:tme": "CL10B104KA8NNNC",
+        "pn:lcsc": "C14663"
+      },
+      "C143": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-6717-1-ND",
@@ -502,7 +502,7 @@
         "pn:tme": "VJ0603A100JXACW1BC",
         "pn:lcsc": "C1634"
       },
-      "C71": {
+      "C72": {
         "value": "10p",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-2149-1-ND",
@@ -510,7 +510,7 @@
         "pn:tme": "VJ0603A100JXACW1BC",
         "pn:lcsc": "C1634"
       },
-      "C72": {
+      "C73": {
         "value": "10p",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-2149-1-ND",
@@ -566,15 +566,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112"
       },
-      "C63": {
-        "value": "10n",
-        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
-        "pn:digikey": "1276-1009-1-ND",
-        "pn:mouser": "187-CL10B103KB8NNNC",
-        "pn:tme": "CL10B103KB8NNNC",
-        "pn:lcsc": "C57112"
-      },
-      "C65": {
+      "C64": {
         "value": "10n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1009-1-ND",
@@ -590,6 +582,14 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112"
       },
+      "C67": {
+        "value": "10n",
+        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+        "pn:digikey": "1276-1009-1-ND",
+        "pn:mouser": "187-CL10B103KB8NNNC",
+        "pn:tme": "CL10B103KB8NNNC",
+        "pn:lcsc": "C57112"
+      },
       "C9": {
         "value": "4u7",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
@@ -598,7 +598,7 @@
         "pn:tme": "CL10A475KP8NNNC",
         "pn:lcsc": "C19666"
       },
-      "C119": {
+      "C120": {
         "value": "4u7",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1044-1-ND",
@@ -662,7 +662,15 @@
         "pn:tme": "CL10A105KB8NNNC",
         "pn:lcsc": "C15849"
       },
-      "C134": {
+      "C60": {
+        "value": "1u",
+        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+        "pn:digikey": "1276-1859-1-ND",
+        "pn:mouser": "187-CL10A105KB8NNNC",
+        "pn:tme": "CL10A105KB8NNNC",
+        "pn:lcsc": "C15849"
+      },
+      "C135": {
         "value": "1u",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1859-1-ND",
@@ -750,7 +758,7 @@
         "pn:tme": "CL10C470JB8NNNC",
         "pn:lcsc": "C1671"
       },
-      "C91": {
+      "C92": {
         "value": "47p",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1037-1-ND",
@@ -830,7 +838,7 @@
         "pn:tme": "CL21A226MQQNNNE",
         "pn:lcsc": "C45783"
       },
-      "C104": {
+      "C105": {
         "value": "22u",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
         "pn:digikey": "1276-6687-1-ND",
@@ -838,7 +846,7 @@
         "pn:tme": "CL21A226MQQNNNE",
         "pn:lcsc": "C45783"
       },
-      "C107": {
+      "C108": {
         "value": "22u",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
         "pn:digikey": "1276-6687-1-ND",
@@ -846,7 +854,7 @@
         "pn:tme": "CL21A226MQQNNNE",
         "pn:lcsc": "C45783"
       },
-      "C110": {
+      "C111": {
         "value": "22u",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
         "pn:digikey": "1276-6687-1-ND",
@@ -854,21 +862,13 @@
         "pn:tme": "CL21A226MQQNNNE",
         "pn:lcsc": "C45783"
       },
-      "C60": {
+      "C61": {
         "value": "1n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1018-1-ND",
         "pn:mouser": "187-CL10B102KB8NNNC",
         "pn:tme": "C0805C102J5GAC",
         "pn:lcsc": "C1588"
-      },
-      "C61": {
-        "value": "33p/1kV",
-        "footprint": "PCM_EEZ_passives:C_1206_3216Metric",
-        "pn:digikey": "311-3627-1-ND",
-        "pn:mouser": "791-1206N330J102CT",
-        "pn:tme": "CC1206JKNPOCBN330",
-        "pn:lcsc": ""
       },
       "C62": {
         "value": "33p/1kV",
@@ -878,13 +878,13 @@
         "pn:tme": "CC1206JKNPOCBN330",
         "pn:lcsc": ""
       },
-      "C67": {
-        "value": "100n",
-        "footprint": "PCM_EEZ_passives:C_0402_1005Metric",
-        "pn:digikey": "1276-1002-1-ND",
-        "pn:mouser": "81-GRM022R60J104KE5L",
-        "pn:tme": "CL05B104KO5NNNC",
-        "pn:lcsc": "C1525"
+      "C63": {
+        "value": "33p/1kV",
+        "footprint": "PCM_EEZ_passives:C_1206_3216Metric",
+        "pn:digikey": "311-3627-1-ND",
+        "pn:mouser": "791-1206N330J102CT",
+        "pn:tme": "CC1206JKNPOCBN330",
+        "pn:lcsc": ""
       },
       "C68": {
         "value": "100n",
@@ -910,7 +910,7 @@
         "pn:tme": "CL05B104KO5NNNC",
         "pn:lcsc": "C1525"
       },
-      "C73": {
+      "C71": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0402_1005Metric",
         "pn:digikey": "1276-1002-1-ND",
@@ -1006,7 +1006,7 @@
         "pn:tme": "CL05B104KO5NNNC",
         "pn:lcsc": "C1525"
       },
-      "C116": {
+      "C85": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0402_1005Metric",
         "pn:digikey": "1276-1002-1-ND",
@@ -1014,7 +1014,7 @@
         "pn:tme": "CL05B104KO5NNNC",
         "pn:lcsc": "C1525"
       },
-      "C122": {
+      "C117": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0402_1005Metric",
         "pn:digikey": "1276-1002-1-ND",
@@ -1054,7 +1054,7 @@
         "pn:tme": "CL05B104KO5NNNC",
         "pn:lcsc": "C1525"
       },
-      "C135": {
+      "C127": {
         "value": "100n",
         "footprint": "PCM_EEZ_passives:C_0402_1005Metric",
         "pn:digikey": "1276-1002-1-ND",
@@ -1078,15 +1078,15 @@
         "pn:tme": "CL05B104KO5NNNC",
         "pn:lcsc": "C1525"
       },
-      "C111": {
-        "value": "100u",
-        "footprint": "PCM_EEZ_passives:CAP-ASLI_5X5.5_DXL_",
-        "pn:digikey": "732-8389-1-ND",
-        "pn:mouser": "710-865080142007",
-        "pn:tme": "EEEHA0J101WR",
-        "pn:lcsc": "C336508"
+      "C138": {
+        "value": "100n",
+        "footprint": "PCM_EEZ_passives:C_0402_1005Metric",
+        "pn:digikey": "1276-1002-1-ND",
+        "pn:mouser": "81-GRM022R60J104KE5L",
+        "pn:tme": "CL05B104KO5NNNC",
+        "pn:lcsc": "C1525"
       },
-      "C114": {
+      "C112": {
         "value": "100u",
         "footprint": "PCM_EEZ_passives:CAP-ASLI_5X5.5_DXL_",
         "pn:digikey": "732-8389-1-ND",
@@ -1102,13 +1102,13 @@
         "pn:tme": "EEEHA0J101WR",
         "pn:lcsc": "C336508"
       },
-      "C117": {
-        "value": "330p",
-        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
-        "pn:digikey": "1276-1073-1-ND",
-        "pn:mouser": "187-CL10C331JB8NNNC",
-        "pn:tme": "CL10C331JB8NNNC",
-        "pn:lcsc": "C1664"
+      "C116": {
+        "value": "100u",
+        "footprint": "PCM_EEZ_passives:CAP-ASLI_5X5.5_DXL_",
+        "pn:digikey": "732-8389-1-ND",
+        "pn:mouser": "710-865080142007",
+        "pn:tme": "EEEHA0J101WR",
+        "pn:lcsc": "C336508"
       },
       "C118": {
         "value": "330p",
@@ -1118,7 +1118,15 @@
         "pn:tme": "CL10C331JB8NNNC",
         "pn:lcsc": "C1664"
       },
-      "C120": {
+      "C119": {
+        "value": "330p",
+        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+        "pn:digikey": "1276-1073-1-ND",
+        "pn:mouser": "187-CL10C331JB8NNNC",
+        "pn:tme": "CL10C331JB8NNNC",
+        "pn:lcsc": "C1664"
+      },
+      "C121": {
         "value": "10n/200V",
         "footprint": "PCM_EEZ_passives:C_1206_3216Metric",
         "pn:digikey": "311-4491-1-ND",
@@ -1126,15 +1134,7 @@
         "pn:tme": "VJ1206Y103KXCTW1BC",
         "pn:lcsc": "C49652935"
       },
-      "C132": {
-        "value": "10n/200V",
-        "footprint": "PCM_EEZ_passives:C_1206_3216Metric",
-        "pn:digikey": "311-4491-1-ND",
-        "pn:mouser": "603-C1206KRX7RABB103",
-        "pn:tme": "VJ1206Y103KXCTW1BC",
-        "pn:lcsc": "C49652935"
-      },
-      "C144": {
+      "C133": {
         "value": "10n/200V",
         "footprint": "PCM_EEZ_passives:C_1206_3216Metric",
         "pn:digikey": "311-4491-1-ND",
@@ -1143,6 +1143,14 @@
         "pn:lcsc": "C49652935"
       },
       "C145": {
+        "value": "10n/200V",
+        "footprint": "PCM_EEZ_passives:C_1206_3216Metric",
+        "pn:digikey": "311-4491-1-ND",
+        "pn:mouser": "603-C1206KRX7RABB103",
+        "pn:tme": "VJ1206Y103KXCTW1BC",
+        "pn:lcsc": "C49652935"
+      },
+      "C146": {
         "value": "10n/200V",
         "footprint": "PCM_EEZ_passives:C_1206_3216Metric",
         "pn:digikey": "311-4491-1-ND",
@@ -1390,7 +1398,7 @@
         "pn:tme": "-",
         "pn:lcsc": "C6290372"
       },
-      "IC15": {
+      "IC16": {
         "value": "TPS62933ODRLR",
         "footprint": "PCM_EEZ_SMD:DRL0008A",
         "pn:digikey": "296-TPS62933ODRLRCT-ND",
@@ -1439,12 +1447,12 @@
         "pn:lcsc": "C3235215"
       },
       "IC12": {
-        "value": "TPD4E001DRLR",
-        "footprint": "PCM_EEZ_SMD:DRL6",
-        "pn:digikey": "296-21887-1-ND",
-        "pn:mouser": "595-TPD4E001DRLR",
-        "pn:tme": "TPD4E001DRLR",
-        "pn:lcsc": "C527516"
+        "value": "TLV77333PDBVR",
+        "footprint": "PCM_EEZ_SMD:SOT23-5L_STM",
+        "pn:digikey": "296-TLV77333PDBVRCT-ND",
+        "pn:mouser": "595-TLV77333PDBVR",
+        "pn:tme": "-",
+        "pn:lcsc": "C32445874"
       },
       "IC13": {
         "value": "TPD4E001DRLR",
@@ -1455,6 +1463,14 @@
         "pn:lcsc": "C527516"
       },
       "IC14": {
+        "value": "TPD4E001DRLR",
+        "footprint": "PCM_EEZ_SMD:DRL6",
+        "pn:digikey": "296-21887-1-ND",
+        "pn:mouser": "595-TPD4E001DRLR",
+        "pn:tme": "TPD4E001DRLR",
+        "pn:lcsc": "C527516"
+      },
+      "IC15": {
         "value": "USB5807C/KD",
         "footprint": "PCM_EEZ_SMD:VQFN100_KDX_MCH-L",
         "pn:digikey": "USB5807C/KD-ND",
@@ -1462,7 +1478,7 @@
         "pn:tme": "-",
         "pn:lcsc": "C633968"
       },
-      "IC16": {
+      "IC17": {
         "value": "MIC2026A-1YM-TR",
         "footprint": "PCM_EEZ_SMD:SOIC127P600X173-8N",
         "pn:digikey": "576-3733-5-ND",
@@ -1470,7 +1486,7 @@
         "pn:tme": "MIC2026A-1YM",
         "pn:lcsc": "C627741"
       },
-      "IC17": {
+      "IC18": {
         "value": "PTN5150AHXMP",
         "footprint": "PCM_EEZ_SMD:SOT1355-1_X2QFN12_NXP-L",
         "pn:digikey": "568-13083-1-ND",
@@ -1478,21 +1494,13 @@
         "pn:tme": "-",
         "pn:lcsc": "C2651889"
       },
-      "IC18": {
+      "IC19": {
         "value": "TPS2068E",
         "footprint": "PCM_EEZ_SMD:DBV5",
         "pn:digikey": "296-TPS2068EDBVRCT-ND",
         "pn:mouser": "595-TPS2068EDBVR",
         "pn:tme": "-",
         "pn:lcsc": "C35243661"
-      },
-      "IC19": {
-        "value": "TPD2E001DRLR",
-        "footprint": "PCM_EEZ_SMD:DRL5",
-        "pn:digikey": "296-21883-1-ND",
-        "pn:mouser": "595-TPD2E001DRLR",
-        "pn:tme": "TPD2E001DRLR",
-        "pn:lcsc": "C150526"
       },
       "IC20": {
         "value": "TPD2E001DRLR",
@@ -1503,6 +1511,14 @@
         "pn:lcsc": "C150526"
       },
       "IC21": {
+        "value": "TPD2E001DRLR",
+        "footprint": "PCM_EEZ_SMD:DRL5",
+        "pn:digikey": "296-21883-1-ND",
+        "pn:mouser": "595-TPD2E001DRLR",
+        "pn:tme": "TPD2E001DRLR",
+        "pn:lcsc": "C150526"
+      },
+      "IC22": {
         "value": "FUSB340TMX",
         "footprint": "PCM_EEZ_SMD:QFN40P200X280X40-19N",
         "pn:digikey": "FUSB340TMXCT-ND",
@@ -1510,7 +1526,7 @@
         "pn:tme": "-",
         "pn:lcsc": "C478457"
       },
-      "IC22": {
+      "IC23": {
         "value": "TPS22948DCKR",
         "footprint": "PCM_EEZ_SMD:DCK6",
         "pn:digikey": "296-TPS22948DCKRCT-ND",
@@ -1518,7 +1534,15 @@
         "pn:tme": "-",
         "pn:lcsc": "C1849487"
       },
-      "IC23": {
+      "IC24": {
+        "value": "SN74LVC1G3157DCK",
+        "footprint": "PCM_EEZ_SMD:SOT65P210X110-6N",
+        "pn:digikey": "296-14909-1-ND",
+        "pn:mouser": "771-LVC1G3157GV125",
+        "pn:tme": "SN74LVC1G3157DCKR",
+        "pn:lcsc": "C38663"
+      },
+      "IC26": {
         "value": "SN74LVC1G3157DCK",
         "footprint": "PCM_EEZ_SMD:SOT65P210X110-6N",
         "pn:digikey": "296-14909-1-ND",
@@ -1527,14 +1551,6 @@
         "pn:lcsc": "C38663"
       },
       "IC25": {
-        "value": "SN74LVC1G3157DCK",
-        "footprint": "PCM_EEZ_SMD:SOT65P210X110-6N",
-        "pn:digikey": "296-14909-1-ND",
-        "pn:mouser": "771-LVC1G3157GV125",
-        "pn:tme": "SN74LVC1G3157DCKR",
-        "pn:lcsc": "C38663"
-      },
-      "IC24": {
         "value": "LMK1C1106APWR",
         "footprint": "PCM_EEZ_SMD:SOP65P640X120-14N",
         "pn:digikey": "296-LMK1C1106APWRCT-ND",
@@ -1542,7 +1558,7 @@
         "pn:tme": "-",
         "pn:lcsc": "C49307590"
       },
-      "IC26": {
+      "IC27": {
         "value": "TLE75008ESDXUMA1",
         "footprint": "PCM_EEZ_SMD:SOP65P600X115-25N",
         "pn:digikey": "448-TLE75008ESDXUMA1CT-ND",
@@ -1550,7 +1566,7 @@
         "pn:tme": "-",
         "pn:lcsc": "C2150432"
       },
-      "IC27": {
+      "IC28": {
         "value": "ADG2188Y",
         "footprint": "PCM_EEZ_SMD:CP_32_7_ADI-M",
         "pn:digikey": "505-ADG2188BCPZ-REEL7CT-ND",
@@ -2912,8 +2928,8 @@
   "manualSuppliers": [],
   "rows": [
     {
-      "id": "c178b493-c834-46c6-9e73-b267b814f71f",
-      "reference": "C1,C3,C25,C29,C35,C47,C49,C55,C85,C112,C130,C133,C139,C140,C143",
+      "id": "bb6228f0-0dd6-4693-90f1-8227400355fb",
+      "reference": "C1,C3,C25,C29,C35,C47,C49,C55,C86,C113,C131,C134,C140,C141,C144",
       "value": "10u",
       "qty": 15,
       "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
@@ -2926,8 +2942,8 @@
       "custom": {}
     },
     {
-      "id": "212a7966-a998-4774-a900-a965c00dfbd1",
-      "reference": "C2,C4,C5,C10,C11,C15,C26,C27,C32,C34,C48,C50,C54,C58,C64,C86,C87,C88,C89,C90,C92,C93,C94,C95,C96,C97,C98,C99,C100,C101,C102,C103,C105,C106,C108,C109,C113,C121,C127,C128,C129,C131,C138,C141,C142",
+      "id": "0c6b7285-7a42-4ec4-ac60-4f480a7d6384",
+      "reference": "C2,C4,C5,C10,C11,C15,C26,C27,C32,C34,C48,C50,C54,C58,C65,C87,C88,C89,C90,C91,C93,C94,C95,C96,C97,C98,C99,C100,C101,C102,C103,C104,C106,C107,C109,C110,C114,C122,C128,C129,C130,C132,C139,C142,C143",
       "value": "100n",
       "qty": 45,
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
@@ -2940,8 +2956,8 @@
       "custom": {}
     },
     {
-      "id": "f5222f4f-0e74-4b19-b499-0809eba15d94",
-      "reference": "C6,C7,C71,C72",
+      "id": "b216c093-13c1-4a5f-a0bd-f645cfc03e0d",
+      "reference": "C6,C7,C72,C73",
       "value": "10p",
       "qty": 4,
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
@@ -2954,8 +2970,8 @@
       "custom": {}
     },
     {
-      "id": "34ce9094-9a1a-445e-aede-bc4384d88366",
-      "reference": "C8,C13,C18,C21,C31,C33,C63,C65,C66",
+      "id": "0d2cd58a-7114-444a-b7fa-492591864921",
+      "reference": "C8,C13,C18,C21,C31,C33,C64,C66,C67",
       "value": "10n",
       "qty": 9,
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
@@ -2968,8 +2984,8 @@
       "custom": {}
     },
     {
-      "id": "d92c4bf8-c693-4d0c-b098-0728dd24dd37",
-      "reference": "C9,C119",
+      "id": "303e439e-42a4-47c6-8e71-58a5194caa0e",
+      "reference": "C9,C120",
       "value": "4u7",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
@@ -2982,10 +2998,10 @@
       "custom": {}
     },
     {
-      "id": "bd97fc2b-6bcf-4784-be20-3c0fbd795697",
-      "reference": "C12,C17,C30,C38,C52,C57,C59,C134",
+      "id": "3e249576-c3be-40ce-9902-0f5c32e8e4a6",
+      "reference": "C12,C17,C30,C38,C52,C57,C59,C60,C135",
       "value": "1u",
-      "qty": 8,
+      "qty": 9,
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
       "partNumbers": {
         "digikey": "1276-1859-1-ND",
@@ -2996,7 +3012,7 @@
       "custom": {}
     },
     {
-      "id": "e31f7918-894f-44db-9176-34dee29b9554",
+      "id": "45981a93-dbed-4e0b-9e7f-59aed9fcfc9e",
       "reference": "C14",
       "value": "CE5R5105HF-ZJ",
       "qty": 1,
@@ -3010,7 +3026,7 @@
       "custom": {}
     },
     {
-      "id": "c0b1d496-0cc4-4fde-b40b-4e73c5519d7d",
+      "id": "851caeca-8a9e-43f4-85bf-c565c897b88f",
       "reference": "C16",
       "value": "33n/Y2",
       "qty": 1,
@@ -3024,7 +3040,7 @@
       "custom": {}
     },
     {
-      "id": "c23924c2-c591-458f-aba9-584d89cf190c",
+      "id": "25463643-6bef-49bd-9014-fae8b0b906ca",
       "reference": "C19,C56",
       "value": "EEEFK1V470P",
       "qty": 2,
@@ -3038,7 +3054,7 @@
       "custom": {}
     },
     {
-      "id": "705fc13a-90c3-41a0-8b05-04f6ce738adb",
+      "id": "a1c90823-4c4d-44da-9bc9-2783354eddc9",
       "reference": "C20,C22,C28",
       "value": "100n/X2",
       "qty": 3,
@@ -3052,7 +3068,7 @@
       "custom": {}
     },
     {
-      "id": "7ddb338a-04ec-4d01-a17b-1c26bafc1d48",
+      "id": "075def73-3e5a-4f62-aafd-551e69e5a3a6",
       "reference": "C23,C24",
       "value": "2n2/Y2",
       "qty": 2,
@@ -3066,8 +3082,8 @@
       "custom": {}
     },
     {
-      "id": "c30ea1cf-fdb7-46e6-8636-607a57f28108",
-      "reference": "C36,C91",
+      "id": "2f094d04-151f-497b-89e7-0bdb51545183",
+      "reference": "C36,C92",
       "value": "47p",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
@@ -3080,7 +3096,7 @@
       "custom": {}
     },
     {
-      "id": "3578bf38-a561-4af9-a71e-832d3f5f61fb",
+      "id": "ba0347f1-a97b-431a-b9df-bc1ba57a5f1c",
       "reference": "C37,C39,C40",
       "value": "47u",
       "qty": 3,
@@ -3094,8 +3110,8 @@
       "custom": {}
     },
     {
-      "id": "3b22aa43-0480-4b9e-9d88-686daa3a29fc",
-      "reference": "C41,C42,C43,C44,C45,C46,C104,C107,C110",
+      "id": "025f27b9-e06c-49bc-8791-df1fefe1233f",
+      "reference": "C41,C42,C43,C44,C45,C46,C105,C108,C111",
       "value": "22u",
       "qty": 9,
       "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
@@ -3108,8 +3124,8 @@
       "custom": {}
     },
     {
-      "id": "f204ba2c-739e-477e-94ee-12de4ff7febb",
-      "reference": "C60",
+      "id": "278b3c3c-061f-4ad7-8506-46953454581d",
+      "reference": "C61",
       "value": "1n",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
@@ -3122,8 +3138,8 @@
       "custom": {}
     },
     {
-      "id": "90b5287c-4e6d-44d3-89db-7773b8871af6",
-      "reference": "C61,C62",
+      "id": "ee607f72-1c67-4536-a2cf-71404cfc4dc5",
+      "reference": "C62,C63",
       "value": "33p/1kV",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:C_1206_3216Metric",
@@ -3135,8 +3151,8 @@
       "custom": {}
     },
     {
-      "id": "ba892433-75d8-40ce-a87e-00e59a807c4b",
-      "reference": "C67,C68,C69,C70,C73,C74,C75,C76,C77,C78,C79,C80,C81,C82,C83,C84,C116,C122,C123,C124,C125,C126,C135,C136,C137",
+      "id": "870eaa58-fdb5-4c1c-8926-6aec5b40ee00",
+      "reference": "C68,C69,C70,C71,C74,C75,C76,C77,C78,C79,C80,C81,C82,C83,C84,C85,C117,C123,C124,C125,C126,C127,C136,C137,C138",
       "value": "100n",
       "qty": 25,
       "footprint": "PCM_EEZ_passives:C_0402_1005Metric",
@@ -3149,8 +3165,8 @@
       "custom": {}
     },
     {
-      "id": "afc1a1b6-3a52-415b-aac1-f3d3d0776702",
-      "reference": "C111,C114,C115",
+      "id": "398b1b43-9af2-43fb-a879-d350a7a8e729",
+      "reference": "C112,C115,C116",
       "value": "100u",
       "qty": 3,
       "footprint": "PCM_EEZ_passives:CAP-ASLI_5X5.5_DXL_",
@@ -3163,8 +3179,8 @@
       "custom": {}
     },
     {
-      "id": "36a64609-4a7c-47f2-b50d-f3aba7b75e90",
-      "reference": "C117,C118",
+      "id": "40892f8b-e4b6-450a-8d90-cf54f6fd718f",
+      "reference": "C118,C119",
       "value": "330p",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
@@ -3177,8 +3193,8 @@
       "custom": {}
     },
     {
-      "id": "b2040fca-029e-4a7d-a06c-c5815aebd33b",
-      "reference": "C120,C132,C144,C145",
+      "id": "12ed2987-f3c8-41ab-ae45-febcf733f461",
+      "reference": "C121,C133,C145,C146",
       "value": "10n/200V",
       "qty": 4,
       "footprint": "PCM_EEZ_passives:C_1206_3216Metric",
@@ -3191,7 +3207,7 @@
       "custom": {}
     },
     {
-      "id": "2d5e9489-95bd-43e3-aacb-7576a3bb75cd",
+      "id": "112e1e19-1451-44ac-b273-4cc2899c6cf0",
       "reference": "CF1",
       "value": "MF92251V1-G99-A",
       "qty": 1,
@@ -3205,7 +3221,7 @@
       "custom": {}
     },
     {
-      "id": "509d68ca-d32c-460b-a35f-bbf6f8e27d9a",
+      "id": "2cbf1676-ba80-4f05-8f47-99da7e482661",
       "reference": "CF2",
       "value": "FG-09-BK",
       "qty": 1,
@@ -3219,7 +3235,7 @@
       "custom": {}
     },
     {
-      "id": "43447d09-44fe-487d-9e83-f063060b42bf",
+      "id": "9e780ead-e7fc-4d47-9861-6af6cb896884",
       "reference": "D1,D2,D3,D4,D5,D6,D7,D9,D10",
       "value": "BAS316",
       "qty": 9,
@@ -3233,7 +3249,7 @@
       "custom": {}
     },
     {
-      "id": "ee462d1c-53e3-4b53-92b4-5d6e1b22f8d2",
+      "id": "ec2c30d5-5cee-4ca8-bb9f-9d67f90e19b5",
       "reference": "D8",
       "value": "SKL16",
       "qty": 1,
@@ -3247,7 +3263,7 @@
       "custom": {}
     },
     {
-      "id": "84e21d74-7cb6-4dc6-be3e-27944ba9475f",
+      "id": "4805f427-2c1c-4bce-b918-9eb8d8bfdd78",
       "reference": "F1,F2",
       "value": "ZCT-5A",
       "qty": 2,
@@ -3261,7 +3277,7 @@
       "custom": {}
     },
     {
-      "id": "65d74cf7-acd5-4d18-8d0e-28c93b7b8078",
+      "id": "982c05b0-ed68-4ca8-98fe-4075a11c8c11",
       "reference": "FB1,FB5,FB6",
       "value": "60R@100MHz",
       "qty": 3,
@@ -3275,7 +3291,7 @@
       "custom": {}
     },
     {
-      "id": "eae59fc1-88f2-49f4-809c-8613351cd224",
+      "id": "18253241-1223-40e2-9a1a-efe9ceb6bfb1",
       "reference": "FB2",
       "value": "LSMCA160808T180NGR",
       "qty": 1,
@@ -3289,7 +3305,7 @@
       "custom": {}
     },
     {
-      "id": "9591e6db-4a3f-438e-be02-ed626e146e78",
+      "id": "b43e7c58-fa12-456d-8485-402947dfd333",
       "reference": "FB3,FB4",
       "value": "BLE18PS080SN1D",
       "qty": 2,
@@ -3303,7 +3319,7 @@
       "custom": {}
     },
     {
-      "id": "57523cf1-d4ff-48bf-86bb-b5ece8b682d7",
+      "id": "bb7d01dd-5542-4b16-a95a-83ba1874107d",
       "reference": "FH1,FH2,FH3,FH4",
       "value": "3561KTR",
       "qty": 4,
@@ -3317,7 +3333,7 @@
       "custom": {}
     },
     {
-      "id": "e4937b43-9970-4e6c-a255-cebac9b61ee3",
+      "id": "12b8ab38-a65e-47c5-86b4-cac5815bd968",
       "reference": "IC1",
       "value": "PI3USB102ZLEX",
       "qty": 1,
@@ -3331,7 +3347,7 @@
       "custom": {}
     },
     {
-      "id": "309a6e5b-f024-4c4a-9658-00e59f3f9906",
+      "id": "22e95339-f3ec-4666-8fc5-3b2b80fb0b8b",
       "reference": "IC2",
       "value": "M24C32-DFDW6TP",
       "qty": 1,
@@ -3345,7 +3361,7 @@
       "custom": {}
     },
     {
-      "id": "10368256-ae57-4e96-8e87-3f8f1409b988",
+      "id": "605be62f-ae1d-4e8c-8028-d373347d2b67",
       "reference": "IC3",
       "value": "TPS3851H18EDRBR",
       "qty": 1,
@@ -3359,7 +3375,7 @@
       "custom": {}
     },
     {
-      "id": "229093d0-94e3-4cf9-a89b-8652abb60ab3",
+      "id": "08c5ad47-3961-46ee-ad67-0aa6a6aa1b1e",
       "reference": "IC4",
       "value": "STM32G071RBT6",
       "qty": 1,
@@ -3373,7 +3389,7 @@
       "custom": {}
     },
     {
-      "id": "c055e4a9-1bf9-4a61-b2d6-2c67c2db6473",
+      "id": "8e88a748-0a51-4dc0-8089-73d4a0e6b75a",
       "reference": "IC5",
       "value": "SN74HCS02PWR",
       "qty": 1,
@@ -3387,8 +3403,8 @@
       "custom": {}
     },
     {
-      "id": "e4bd3aa8-b2eb-4612-bd0f-acd60141b24f",
-      "reference": "IC6,IC15",
+      "id": "74043963-5e1f-455f-9451-9b4ea4c7e5b7",
+      "reference": "IC6,IC16",
       "value": "TPS62933ODRLR",
       "qty": 2,
       "footprint": "PCM_EEZ_SMD:DRL0008A",
@@ -3401,7 +3417,7 @@
       "custom": {}
     },
     {
-      "id": "cf906142-9261-4191-beff-81e3c0fe35ed",
+      "id": "04573988-10b2-4f3a-a595-23552a2deba3",
       "reference": "IC7",
       "value": "LM64460CPPQRYFRQ1",
       "qty": 1,
@@ -3415,7 +3431,7 @@
       "custom": {}
     },
     {
-      "id": "a1f94d72-59c9-451b-86c4-43832731a73a",
+      "id": "38b47f19-a3f9-416d-9fdf-03858f5ce529",
       "reference": "IC8",
       "value": "EMC2301-1-ACZL-TR",
       "qty": 1,
@@ -3429,7 +3445,7 @@
       "custom": {}
     },
     {
-      "id": "458abe12-add6-4186-8d9d-53a5b59d708c",
+      "id": "08026a79-7de2-49f7-ac59-72661e91030f",
       "reference": "IC9",
       "value": "ISO6763FDWR",
       "qty": 1,
@@ -3443,7 +3459,7 @@
       "custom": {}
     },
     {
-      "id": "75ce86cf-e919-4e9b-ac56-dd0de26cbaff",
+      "id": "532e4045-6b16-4ab1-9001-462a671ab372",
       "reference": "IC10",
       "value": "BD00FC0W",
       "qty": 1,
@@ -3457,7 +3473,7 @@
       "custom": {}
     },
     {
-      "id": "11716b12-5778-492e-ba4e-a414aeae627b",
+      "id": "1e3333dc-efe9-42d6-a2a6-ace60b3f7f1f",
       "reference": "IC11",
       "value": "THVD1420DR",
       "qty": 1,
@@ -3471,8 +3487,22 @@
       "custom": {}
     },
     {
-      "id": "906da06c-bac7-458a-89bb-70e50bbc6609",
-      "reference": "IC12,IC13",
+      "id": "a5da91c7-99eb-4293-9b00-166c0283b586",
+      "reference": "IC12",
+      "value": "TLV77333PDBVR",
+      "qty": 1,
+      "footprint": "PCM_EEZ_SMD:SOT23-5L_STM",
+      "partNumbers": {
+        "digikey": "296-TLV77333PDBVRCT-ND",
+        "mouser": "595-TLV77333PDBVR",
+        "tme": "-",
+        "lcsc": "C32445874"
+      },
+      "custom": {}
+    },
+    {
+      "id": "9f618236-7685-43fd-9a05-0d38c71c0037",
+      "reference": "IC13,IC14",
       "value": "TPD4E001DRLR",
       "qty": 2,
       "footprint": "PCM_EEZ_SMD:DRL6",
@@ -3485,8 +3515,8 @@
       "custom": {}
     },
     {
-      "id": "e43fa3c5-ed9c-4b54-ba71-82e437717233",
-      "reference": "IC14",
+      "id": "a16a1463-a0eb-4cd7-86b2-4280d09c1719",
+      "reference": "IC15",
       "value": "USB5807C/KD",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:VQFN100_KDX_MCH-L",
@@ -3499,8 +3529,8 @@
       "custom": {}
     },
     {
-      "id": "42596519-4b80-41c8-81e2-216cd5a93c3b",
-      "reference": "IC16",
+      "id": "8af4c2fb-563b-412f-9048-6ec025b3ec50",
+      "reference": "IC17",
       "value": "MIC2026A-1YM-TR",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:SOIC127P600X173-8N",
@@ -3513,8 +3543,8 @@
       "custom": {}
     },
     {
-      "id": "15b6960a-6bb7-45b1-9241-d0ee5c4f9d06",
-      "reference": "IC17",
+      "id": "7b0c9215-4460-49aa-ac00-2a4d878ca368",
+      "reference": "IC18",
       "value": "PTN5150AHXMP",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:SOT1355-1_X2QFN12_NXP-L",
@@ -3527,8 +3557,8 @@
       "custom": {}
     },
     {
-      "id": "26779cac-daf2-4256-810f-63639497a0f8",
-      "reference": "IC18",
+      "id": "61b80a59-e838-4ca2-a03f-358b9381ac90",
+      "reference": "IC19",
       "value": "TPS2068E",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:DBV5",
@@ -3541,8 +3571,8 @@
       "custom": {}
     },
     {
-      "id": "2bb0d31b-5007-4ae9-9b95-dfe378e5fc5f",
-      "reference": "IC19,IC20",
+      "id": "d62d21ce-676b-4af1-9bc9-788f6bd997a5",
+      "reference": "IC20,IC21",
       "value": "TPD2E001DRLR",
       "qty": 2,
       "footprint": "PCM_EEZ_SMD:DRL5",
@@ -3555,8 +3585,8 @@
       "custom": {}
     },
     {
-      "id": "84712ae5-aff1-4208-9be4-aa1a5b405005",
-      "reference": "IC21",
+      "id": "9ee7ab25-67b5-4a24-be71-6fdb263cc6f8",
+      "reference": "IC22",
       "value": "FUSB340TMX",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:QFN40P200X280X40-19N",
@@ -3569,8 +3599,8 @@
       "custom": {}
     },
     {
-      "id": "22dd603d-3fcf-414b-b73d-92d6b6ff2c2a",
-      "reference": "IC22",
+      "id": "b34a5b2d-a626-4a78-bb95-648ee94ec10c",
+      "reference": "IC23",
       "value": "TPS22948DCKR",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:DCK6",
@@ -3583,8 +3613,8 @@
       "custom": {}
     },
     {
-      "id": "2f225a5d-2c7c-4d30-a064-bde03ebc5fd1",
-      "reference": "IC23,IC25",
+      "id": "3e4e17ea-7ba5-4db3-8167-eea97510536e",
+      "reference": "IC24,IC26",
       "value": "SN74LVC1G3157DCK",
       "qty": 2,
       "footprint": "PCM_EEZ_SMD:SOT65P210X110-6N",
@@ -3597,8 +3627,8 @@
       "custom": {}
     },
     {
-      "id": "91a3da8e-719a-4287-9972-b5991f41337a",
-      "reference": "IC24",
+      "id": "e1a36925-8bc3-49dd-9602-8e308f118eec",
+      "reference": "IC25",
       "value": "LMK1C1106APWR",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:SOP65P640X120-14N",
@@ -3611,8 +3641,8 @@
       "custom": {}
     },
     {
-      "id": "38fd4a60-5f31-4f61-94d1-3819f17b501c",
-      "reference": "IC26",
+      "id": "ead66660-5014-42c1-84c8-97aedfcb1196",
+      "reference": "IC27",
       "value": "TLE75008ESDXUMA1",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:SOP65P600X115-25N",
@@ -3625,8 +3655,8 @@
       "custom": {}
     },
     {
-      "id": "ac212fcf-9e96-4099-abb4-d9f560a51d44",
-      "reference": "IC27",
+      "id": "64ce0d6e-b37e-4af7-a893-2f4292640d41",
+      "reference": "IC28",
       "value": "ADG2188Y",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:CP_32_7_ADI-M",
@@ -3639,7 +3669,7 @@
       "custom": {}
     },
     {
-      "id": "0871f207-b49d-4055-a41f-e30211598a56",
+      "id": "127747a5-0149-49f1-aa43-9975042a989a",
       "reference": "JP18",
       "value": "10129378-902001BLF",
       "qty": 1,
@@ -3653,7 +3683,7 @@
       "custom": {}
     },
     {
-      "id": "08e58a9b-3577-4d54-a4f9-21f94c175e27",
+      "id": "f6436636-40b6-4ecb-97b2-05f8a47a379e",
       "reference": "K1,K2",
       "value": "AZ943-1CH-12DE",
       "qty": 2,
@@ -3667,7 +3697,7 @@
       "custom": {}
     },
     {
-      "id": "c45c202a-3995-4020-b239-3d31c5315297",
+      "id": "70955d14-0681-4d98-80c5-36e393ec14d0",
       "reference": "K3,K4,K5,K6,K7",
       "value": "RT424012",
       "qty": 5,
@@ -3681,7 +3711,7 @@
       "custom": {}
     },
     {
-      "id": "cb515769-878d-4791-aefd-56e307ce2bcf",
+      "id": "f45d37eb-2082-43bf-a1a6-edbfc9bbb744",
       "reference": "KN1",
       "value": "A3231007",
       "qty": 1,
@@ -3695,7 +3725,7 @@
       "custom": {}
     },
     {
-      "id": "0a81cae2-af7f-4114-9edb-58f7c7b200dd",
+      "id": "4c690718-e1aa-4a69-89d7-69b7db286380",
       "reference": "KN2",
       "value": "A3131068",
       "qty": 1,
@@ -3709,7 +3739,7 @@
       "custom": {}
     },
     {
-      "id": "28290aea-e332-445e-a6bc-1d5ac034e379",
+      "id": "7c0da85e-8f2b-43fa-8d6a-a9962c9cfde4",
       "reference": "L1",
       "value": "6u8",
       "qty": 1,
@@ -3723,7 +3753,7 @@
       "custom": {}
     },
     {
-      "id": "73cee67c-5a2f-42dc-8e6f-a68b157ca5d5",
+      "id": "fa7754eb-83fa-41a8-8bb6-cb4b3e35523b",
       "reference": "L2",
       "value": "2200HT-221-V-RC",
       "qty": 1,
@@ -3737,7 +3767,7 @@
       "custom": {}
     },
     {
-      "id": "fd604657-36ee-4af5-93b4-829ad7ee9ab8",
+      "id": "f99e0740-6cf7-478d-a9dd-388a2adf23cf",
       "reference": "L3",
       "value": "RN222-4-02-3M3",
       "qty": 1,
@@ -3751,7 +3781,7 @@
       "custom": {}
     },
     {
-      "id": "27221a5c-6925-4125-bada-63aa2fe3d4ce",
+      "id": "5393d034-2416-4fd6-bbc5-480cc5cff812",
       "reference": "L4",
       "value": "2u2",
       "qty": 1,
@@ -3765,7 +3795,7 @@
       "custom": {}
     },
     {
-      "id": "dd39e363-f97e-4065-afb2-5b235f906abc",
+      "id": "b3d8487e-94f4-4dad-8ac4-cc235d0aabb5",
       "reference": "L5,L8",
       "value": "1u",
       "qty": 2,
@@ -3779,7 +3809,7 @@
       "custom": {}
     },
     {
-      "id": "e13483a0-b84e-40d5-ad15-e74ec7dda718",
+      "id": "53952959-23db-4925-b859-7cf3a03be831",
       "reference": "L6",
       "value": "SDCL1V4030-470M-R",
       "qty": 1,
@@ -3793,7 +3823,7 @@
       "custom": {}
     },
     {
-      "id": "40e24430-5ed8-4e22-945d-7a542fc52634",
+      "id": "36697c6d-f372-4e66-9e06-3396b955dc5a",
       "reference": "L7",
       "value": "DLW21SN900SQ2L",
       "qty": 1,
@@ -3807,7 +3837,7 @@
       "custom": {}
     },
     {
-      "id": "a57fa3ec-f9db-4ad8-ae53-3215ef5fbb83",
+      "id": "00e9469c-fbfc-4b04-9168-8064f74dd121",
       "reference": "L9,L10,L11,L12,L13,L14,L15,L16",
       "value": "ECMF4-2450A60N10",
       "qty": 8,
@@ -3821,7 +3851,7 @@
       "custom": {}
     },
     {
-      "id": "abae3991-618e-49e4-89af-022c6a2d7b3e",
+      "id": "ef86e18c-e145-47db-997f-72bd551d6849",
       "reference": "LED1",
       "value": "LTST-C170KGKT",
       "qty": 1,
@@ -3835,7 +3865,7 @@
       "custom": {}
     },
     {
-      "id": "06906f7d-8992-44c4-a41c-0ac605ef6e40",
+      "id": "2ca05f88-9aa0-4afc-ba42-9395a403d9de",
       "reference": "LED2,LED3,LED5,LED6,LED7",
       "value": "LTST-C170KRKT",
       "qty": 5,
@@ -3849,7 +3879,7 @@
       "custom": {}
     },
     {
-      "id": "78f7c58d-3f51-4a28-8ff2-d898f3cd9025",
+      "id": "920e1f7c-af7c-46ba-9bfd-7cfc74202cc2",
       "reference": "NTC1",
       "value": "B57236S0200M000",
       "qty": 1,
@@ -3863,7 +3893,7 @@
       "custom": {}
     },
     {
-      "id": "3dfd3e12-027f-4f55-a75e-8fa6e3b14e63",
+      "id": "ba70b2e6-77ee-4737-a93d-207da8507d4f",
       "reference": "OK1",
       "value": "TLP291(GB.SE(T",
       "qty": 1,
@@ -3877,7 +3907,7 @@
       "custom": {}
     },
     {
-      "id": "df8bec2a-10f3-4248-9c62-309e18accfd0",
+      "id": "0cf6ea34-48cd-4c4c-b015-2207d490e383",
       "reference": "Q1,Q2,Q3,Q4,Q7,Q8",
       "value": "2N7002",
       "qty": 6,
@@ -3891,7 +3921,7 @@
       "custom": {}
     },
     {
-      "id": "a63a45cd-6be3-4e63-9006-80607fb07011",
+      "id": "86c57db1-e4c3-42d4-9ce4-7ce445b6d0ac",
       "reference": "Q5",
       "value": "MMBT5401",
       "qty": 1,
@@ -3905,7 +3935,7 @@
       "custom": {}
     },
     {
-      "id": "d343afd8-eec9-4f0e-be32-f707066ff28a",
+      "id": "3ffc5450-c2a4-4e7f-9e72-aef4504f7be0",
       "reference": "Q6",
       "value": "DMP3013SFV-7",
       "qty": 1,
@@ -3919,7 +3949,7 @@
       "custom": {}
     },
     {
-      "id": "3d17d537-0b5d-4658-ad78-3351c706c558",
+      "id": "3133a619-4883-4198-a23e-f19c7771ffdc",
       "reference": "R3,R4,R7",
       "value": "330R",
       "qty": 3,
@@ -3933,7 +3963,7 @@
       "custom": {}
     },
     {
-      "id": "6a05bd9b-9cf2-4f2f-990f-9775ac7e9111",
+      "id": "661f5717-6ed2-4457-98a3-7015fd26282f",
       "reference": "R5,R6,R8,R9,R13,R14,R18,R39,R40,R55,R56,R57,R58,R59,R63,R64,R65,R67,R68,R73,R75,R77,R78,R79,R80,R81,R88,R91",
       "value": "10K",
       "qty": 28,
@@ -3947,7 +3977,7 @@
       "custom": {}
     },
     {
-      "id": "1833da68-de86-4238-9420-a1f706f3bd12",
+      "id": "dfaa4af4-c4a3-4da6-bb72-629c4d612190",
       "reference": "R11,R35,R36,R41,R42,R61,R69,R74",
       "value": "100K",
       "qty": 8,
@@ -3961,7 +3991,7 @@
       "custom": {}
     },
     {
-      "id": "1edff68c-dc14-49a1-a29f-d4aef9f4a29c",
+      "id": "4a668cd3-bd99-4dfe-8545-dd67e135934d",
       "reference": "R12,R16,R20,R25,R32,R54",
       "value": "100R",
       "qty": 6,
@@ -3975,7 +4005,7 @@
       "custom": {}
     },
     {
-      "id": "8de5c3f6-90e0-4614-adec-013ad5b7ed3f",
+      "id": "43982fdf-ead2-473e-892f-0a978a627179",
       "reference": "R17,R37,R87,R96",
       "value": "47K",
       "qty": 4,
@@ -3989,7 +4019,7 @@
       "custom": {}
     },
     {
-      "id": "043fb588-1644-40b5-a189-7139a2f68535",
+      "id": "03398821-6026-4625-80d7-9515d9db432e",
       "reference": "R19,R21,R27,R82,R83,R86",
       "value": "1K8",
       "qty": 6,
@@ -4003,7 +4033,7 @@
       "custom": {}
     },
     {
-      "id": "d84799c5-4b3f-45f7-a609-c35dc5c1149d",
+      "id": "40e30202-7950-4be4-bded-9f6a66a4f9a0",
       "reference": "R22,R92,R93",
       "value": "68R",
       "qty": 3,
@@ -4017,7 +4047,7 @@
       "custom": {}
     },
     {
-      "id": "b4a41444-e0d0-4663-be09-9da07a33f77f",
+      "id": "14f7a111-9ab7-47e7-8036-532cf6ea4f33",
       "reference": "R23,R51,R52",
       "value": "18K",
       "qty": 3,
@@ -4031,7 +4061,7 @@
       "custom": {}
     },
     {
-      "id": "1984b78b-4ebf-42d5-96bd-6e63cbb66b77",
+      "id": "8f5dcae8-813c-49fe-8a77-d300f58d48c1",
       "reference": "R24,R71",
       "value": "12K",
       "qty": 2,
@@ -4045,7 +4075,7 @@
       "custom": {}
     },
     {
-      "id": "ee70b6db-2e69-402e-aee2-7351c79472f1",
+      "id": "8b7af61a-f148-4a39-adc5-6742c5a2d22f",
       "reference": "R26,R29,R38,R45,R46",
       "value": "4K7",
       "qty": 5,
@@ -4059,7 +4089,7 @@
       "custom": {}
     },
     {
-      "id": "1da1c180-5c21-4de2-9dcb-0028a921066c",
+      "id": "66ee7ee6-55a0-4769-90af-894d31987375",
       "reference": "R28,R48,R49",
       "value": "3K3",
       "qty": 3,
@@ -4073,7 +4103,7 @@
       "custom": {}
     },
     {
-      "id": "8f778a2b-265d-4e60-8471-36441136a0fb",
+      "id": "5c383591-36e5-4000-bc01-c184a77c556e",
       "reference": "R30,R31",
       "value": "110K/0.5W",
       "qty": 2,
@@ -4087,7 +4117,7 @@
       "custom": {}
     },
     {
-      "id": "bb690ef2-ccdc-478e-9a94-eee60e4c6f57",
+      "id": "384c0814-6ba0-46f1-9631-c8938332680d",
       "reference": "R33,R34,R84,R85,R94,R95",
       "value": "470K",
       "qty": 6,
@@ -4101,7 +4131,7 @@
       "custom": {}
     },
     {
-      "id": "9fb1de58-389d-4bd5-be9f-1d7a82d25051",
+      "id": "892bf59f-f5d1-4127-bf0b-80d8912799d5",
       "reference": "R43",
       "value": "36K5",
       "qty": 1,
@@ -4115,7 +4145,7 @@
       "custom": {}
     },
     {
-      "id": "4603d0b5-09d0-4048-8ea9-538efe2c2112",
+      "id": "0798a431-e857-4e3c-825a-18ac002e6ef4",
       "reference": "R44",
       "value": "11K8",
       "qty": 1,
@@ -4129,7 +4159,7 @@
       "custom": {}
     },
     {
-      "id": "aec462d5-e58d-4cc1-a61c-7e87f6dffbf1",
+      "id": "27e7815f-fbfa-4daa-9d78-f77172ae6a59",
       "reference": "R47",
       "value": "39K",
       "qty": 1,
@@ -4143,7 +4173,7 @@
       "custom": {}
     },
     {
-      "id": "81abe593-03b3-4b18-98dc-8b4973c9e015",
+      "id": "49e306fd-39af-4dc0-8dba-7bf9de3db8df",
       "reference": "R50",
       "value": "1K",
       "qty": 1,
@@ -4157,7 +4187,7 @@
       "custom": {}
     },
     {
-      "id": "91bb29b1-a931-47c7-9498-6afa9d5de9d9",
+      "id": "822a69d6-21c1-4eb3-92c1-64cdb69d19d8",
       "reference": "R62,R66,R72",
       "value": "200K",
       "qty": 3,
@@ -4171,7 +4201,7 @@
       "custom": {}
     },
     {
-      "id": "5c718c4d-b766-4850-9c68-4d82726a5821",
+      "id": "bc4bc742-7648-4e37-82bb-dcaec96eeecc",
       "reference": "R76",
       "value": "20K",
       "qty": 1,
@@ -4185,7 +4215,7 @@
       "custom": {}
     },
     {
-      "id": "b03afe0c-d205-4a45-bd72-1205b150b94d",
+      "id": "75e8a7b2-b4c3-452e-8542-5812907a104d",
       "reference": "R89",
       "value": "7K5",
       "qty": 1,
@@ -4199,7 +4229,7 @@
       "custom": {}
     },
     {
-      "id": "2b189e37-30ea-4f01-84b5-49015c2637b8",
+      "id": "8c269181-6a33-4efb-8c85-4ca2fe3d77b9",
       "reference": "SAR1",
       "value": "2051-47-SM-RPLF",
       "qty": 1,
@@ -4213,7 +4243,7 @@
       "custom": {}
     },
     {
-      "id": "6d13b190-95e1-4125-82ff-3accc07a8eb7",
+      "id": "83d2ff4d-9024-4330-afb5-cee5700b68b5",
       "reference": "SP1",
       "value": "CMI-9605-1280T",
       "qty": 1,
@@ -4227,7 +4257,7 @@
       "custom": {}
     },
     {
-      "id": "c398d6f2-06de-41da-a893-40b0d36ec05f",
+      "id": "2c39409c-c065-4ea8-8eda-946dcd901eb8",
       "reference": "SW1",
       "value": "WBL2UOAGQR05CLR",
       "qty": 1,
@@ -4241,7 +4271,7 @@
       "custom": {}
     },
     {
-      "id": "4d808207-9ad6-435b-b657-86b26c30623d",
+      "id": "efc380ae-9500-4e28-b663-7be77b935b99",
       "reference": "SW2",
       "value": "PEC16-2215F-S0024",
       "qty": 1,
@@ -4255,7 +4285,7 @@
       "custom": {}
     },
     {
-      "id": "686cb280-a4dc-4ebf-ab7c-ab5b4215c642",
+      "id": "eb9b07a0-2111-471d-ab16-9480c1d01e0a",
       "reference": "TR1",
       "value": "IRM-45-12",
       "qty": 1,
@@ -4269,7 +4299,7 @@
       "custom": {}
     },
     {
-      "id": "7f4acd84-746c-42e6-8eed-eeb0307ce81a",
+      "id": "14610c5a-edc0-4870-b8f2-e55d397ecc17",
       "reference": "TR2",
       "value": "SCT01F05S3V3",
       "qty": 1,
@@ -4283,7 +4313,7 @@
       "custom": {}
     },
     {
-      "id": "50980831-e3ec-4e9e-97a9-1338b0073ec3",
+      "id": "07ebacd1-1efa-473e-aef7-1ab4409b890d",
       "reference": "VAR1,VAR2,VAR3",
       "value": "B72214S0271K101",
       "qty": 3,
@@ -4297,7 +4327,7 @@
       "custom": {}
     },
     {
-      "id": "9c87cd19-2242-4e5a-8cc8-af4ad6f91afd",
+      "id": "7c63b34a-c380-49ee-b556-9df0cbb98d00",
       "reference": "X1",
       "value": "DF40HC(3.0)-100DS-0.4V(51)",
       "qty": 1,
@@ -4311,7 +4341,7 @@
       "custom": {}
     },
     {
-      "id": "2d0cbff8-e96b-469a-890f-40527904b434",
+      "id": "1ef78ff4-1b47-41a0-a32b-f2050b466735",
       "reference": "X2",
       "value": "DF40HC(3.0)-100DS-0.4V(51)",
       "qty": 1,
@@ -4325,7 +4355,7 @@
       "custom": {}
     },
     {
-      "id": "61d74b48-ecfd-43ae-a3d0-18bad593441c",
+      "id": "2580558e-8680-4bf3-802e-45a3df2159ff",
       "reference": "X3",
       "value": "SM3ZS067U410AMR1000",
       "qty": 1,
@@ -4339,7 +4369,7 @@
       "custom": {}
     },
     {
-      "id": "9e067b19-86e9-434c-8630-b402bebf6c21",
+      "id": "e1ac40bb-4a8a-416b-995b-02c0f3f433cb",
       "reference": "X5",
       "value": "571-0400",
       "qty": 1,
@@ -4353,7 +4383,7 @@
       "custom": {}
     },
     {
-      "id": "af6a8021-4afc-4c3e-9c34-f2cafd8fc5e0",
+      "id": "46b3cddb-4d60-4949-ba67-9517b037c1b8",
       "reference": "X6",
       "value": "GSP1.9101.1",
       "qty": 1,
@@ -4367,7 +4397,7 @@
       "custom": {}
     },
     {
-      "id": "7b51cf5c-df97-455c-a629-583b23e70984",
+      "id": "8ce49c09-cf76-48e6-a7d5-45367b923af8",
       "reference": "X10,X11,X12",
       "value": "B3P-VH-FB-B",
       "qty": 3,
@@ -4381,7 +4411,7 @@
       "custom": {}
     },
     {
-      "id": "9e6e5b4b-3723-4ba7-9305-660b124a1830",
+      "id": "130b9bf8-95da-413b-9831-18f2b58e6408",
       "reference": "X13",
       "value": "22-27-2031",
       "qty": 1,
@@ -4395,7 +4425,7 @@
       "custom": {}
     },
     {
-      "id": "5843ef3f-223d-47a3-9eeb-ce018bc0eb86",
+      "id": "ae8b1487-4bb5-4304-84c8-f340e29e4d2f",
       "reference": "X14,X27",
       "value": "TBP03R1-350-10BE",
       "qty": 2,
@@ -4409,7 +4439,7 @@
       "custom": {}
     },
     {
-      "id": "24a6ffb5-c4ba-4ff1-ad42-8f601de9f8c4",
+      "id": "95e455eb-2ba2-4bd5-a7f1-8a939917d887",
       "reference": "X15",
       "value": "USB4080-03-A",
       "qty": 1,
@@ -4423,7 +4453,7 @@
       "custom": {}
     },
     {
-      "id": "ae964eca-db1d-4f49-9975-ce8f1b700cf9",
+      "id": "7333743c-fafe-44aa-91b1-f0e3876bae5f",
       "reference": "X16",
       "value": "MGB0A1-1CDDB005H",
       "qty": 1,
@@ -4437,7 +4467,7 @@
       "custom": {}
     },
     {
-      "id": "8bc92f25-45db-4406-93ec-adc280f062a9",
+      "id": "329ce3df-bcc7-47f2-b458-ee5f9602bb4f",
       "reference": "X17",
       "value": "SS-53000-002",
       "qty": 1,
@@ -4451,7 +4481,7 @@
       "custom": {}
     },
     {
-      "id": "990a49b4-3edb-4c24-920d-bef46e231f38",
+      "id": "e1eac865-e7bc-4916-b2df-a2e7becf3427",
       "reference": "X18",
       "value": "505110-2291",
       "qty": 1,
@@ -4465,7 +4495,7 @@
       "custom": {}
     },
     {
-      "id": "215ca405-b6f4-4836-be69-35fca72dc250",
+      "id": "0b0b7b29-6af9-495d-b693-9f5b15aa8bfc",
       "reference": "X20,X21,X22,X23,X24",
       "value": "10018783-10101TLF",
       "qty": 5,
@@ -4479,7 +4509,7 @@
       "custom": {}
     },
     {
-      "id": "2c6a82cd-9cdf-49db-b7ee-5dfb5ac54eea",
+      "id": "44fe2d3e-f398-42e5-8645-ec9482771815",
       "reference": "X25,X26,X28",
       "value": "PH2-20-UA",
       "qty": 3,
@@ -4493,7 +4523,7 @@
       "custom": {}
     },
     {
-      "id": "9756e919-f137-40b8-87de-494bcea302ba",
+      "id": "795d778f-b478-4476-8b47-1f9f6420f9c1",
       "reference": "Y1",
       "value": "FC-135 32.7680KA-K0",
       "qty": 1,
@@ -4507,7 +4537,7 @@
       "custom": {}
     },
     {
-      "id": "36e9c7f2-cfb2-4220-954f-e8c9efb12b7c",
+      "id": "29a276c9-ea4c-43ee-b1e9-7f3f11bf98f0",
       "reference": "Y2",
       "value": "VXM7-9032-25M0000000",
       "qty": 1,
@@ -4521,7 +4551,7 @@
       "custom": {}
     },
     {
-      "id": "9406391a-998d-46b4-9a84-5fa4e3820df1",
+      "id": "0d1d89c7-a3ee-4a73-b980-00c5447a1864",
       "reference": "Y3",
       "value": "I537-2O7- 10.000 MHz",
       "qty": 1,
@@ -4535,7 +4565,7 @@
       "custom": {}
     },
     {
-      "id": "7efb37c5-bf21-4ff5-91c6-6d29be1c7d70",
+      "id": "dbb5da27-de6c-462a-a0c3-8f490d8a885c",
       "reference": "ZD1",
       "value": "BZT52-B5V1",
       "qty": 1,
@@ -4549,7 +4579,7 @@
       "custom": {}
     },
     {
-      "id": "ea88d99d-1055-4c6c-a53b-8539710903da",
+      "id": "ef048cc8-f2dd-413f-aff5-50541b896fc2",
       "reference": "ZD4",
       "value": "SMF16CA",
       "qty": 1,
