@@ -3,7 +3,12 @@
   "source": {
     "kind": "manual"
   },
-  "suppliers": [],
+  "suppliers": [
+    "digikey",
+    "mouser",
+    "tme",
+    "lcsc"
+  ],
   "customColumns": [],
   "manualSuppliers": [
     {
@@ -113,6 +118,104 @@
           "moq": 1
         }
       }
+    },
+    {
+      "id": "44893b8f-ae00-496b-9918-3f2d21ffda60",
+      "reference": "CF1",
+      "value": "MF92251V1-G99-A",
+      "qty": 1,
+      "footprint": "PCM_EEZ_unsorted:Cooling fan (3D only)",
+      "partNumbers": {
+        "digikey": "-",
+        "mouser": "-",
+        "tme": "MF92251V1-G99-A",
+        "lcsc": "-"
+      },
+      "custom": {},
+      "manual": {
+        "908e377a-a05d-46cc-adbf-581466367e5b": {
+          "partNumber": "-"
+        }
+      }
+    },
+    {
+      "id": "a0b48b8a-2aeb-49e5-bc4b-829e54195b93",
+      "reference": "CF2",
+      "value": "FG-09-BK",
+      "qty": 1,
+      "footprint": "PCM_EEZ_unsorted:Cooling fan finger guard (3D only)",
+      "partNumbers": {
+        "digikey": "1053-1384-ND",
+        "mouser": "670-G9216B",
+        "tme": "FG-09-BK",
+        "lcsc": "-"
+      },
+      "custom": {},
+      "manual": {
+        "908e377a-a05d-46cc-adbf-581466367e5b": {
+          "partNumber": "-"
+        }
+      }
+    },
+    {
+      "id": "c587c0b0-6874-464e-bb02-a7f09086d983",
+      "reference": "KN1",
+      "value": "A3231007",
+      "qty": 1,
+      "footprint": "Knob head cap; polyamide; grey",
+      "partNumbers": {
+        "lcsc": "-",
+        "tme": "A3231007",
+        "mouser": "-",
+        "digikey": "-"
+      },
+      "custom": {},
+      "manual": {
+        "908e377a-a05d-46cc-adbf-581466367e5b": {
+          "partNumber": "-"
+        }
+      }
+    },
+    {
+      "id": "bc3c8803-3863-4577-bbb0-371d2ddf7261",
+      "reference": "KN2",
+      "value": "A3131068",
+      "qty": 1,
+      "footprint": "Knob head Ø23x16mm; grey",
+      "partNumbers": {
+        "digikey": "-",
+        "mouser": "-",
+        "tme": "A3131068",
+        "lcsc": "-"
+      },
+      "custom": {}
+    },
+    {
+      "id": "f57d9c22-62e4-4db9-a0e3-d55b65cf11fc",
+      "reference": "KK1",
+      "value": "123A-SCREW",
+      "qty": 1,
+      "footprint": "Screw; M.2 (NGFF)",
+      "partNumbers": {
+        "tme": "123A-SCREW",
+        "digikey": "4827-123A-SCREW-ND",
+        "mouser": "523-MDTSCW001",
+        "lcsc": "-"
+      },
+      "custom": {}
+    },
+    {
+      "id": "7733e61d-8ad1-466b-b9fc-029d02f49202",
+      "reference": "CBL1",
+      "value": "AC mains cable 1.8m",
+      "qty": 1,
+      "footprint": "EU; IEC C13 female",
+      "partNumbers": {
+        "tme": "SAVKABELCL-138",
+        "mouser": "530-PC-E7006FC13",
+        "digikey": "380-PC-E7006FC13-ND"
+      },
+      "custom": {}
     }
   ],
   "buildQuantity": 1

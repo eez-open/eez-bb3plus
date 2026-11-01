@@ -1158,22 +1158,6 @@
         "pn:tme": "VJ1206Y103KXCTW1BC",
         "pn:lcsc": "C49652935"
       },
-      "CF1": {
-        "value": "MF92251V1-G99-A",
-        "footprint": "PCM_EEZ_unsorted:Cooling fan (3D only)",
-        "pn:digikey": "-",
-        "pn:mouser": "-",
-        "pn:tme": "MF92251V1-G99-A",
-        "pn:lcsc": "-"
-      },
-      "CF2": {
-        "value": "FG-09-BK",
-        "footprint": "PCM_EEZ_unsorted:Cooling fan finger guard (3D only)",
-        "pn:digikey": "1053-1384-ND",
-        "pn:mouser": "670-G9216B",
-        "pn:tme": "FG-09-BK",
-        "pn:lcsc": "-"
-      },
       "D1": {
         "value": "BAS316",
         "footprint": "PCM_EEZ_SMD:SOD-323_1P8X1P35_ONS-M",
@@ -1637,22 +1621,6 @@
         "pn:mouser": "655-RT424012",
         "pn:tme": "RT424012",
         "pn:lcsc": "C1524591"
-      },
-      "KN1": {
-        "value": "A3231007",
-        "footprint": "",
-        "pn:digikey": "-",
-        "pn:mouser": "-",
-        "pn:tme": "A3231007",
-        "pn:lcsc": "-"
-      },
-      "KN2": {
-        "value": "A3131068",
-        "footprint": "",
-        "pn:digikey": "-",
-        "pn:mouser": "-",
-        "pn:tme": "A3131068",
-        "pn:lcsc": "-"
       },
       "L1": {
         "value": "6u8",
@@ -3207,34 +3175,6 @@
       "custom": {}
     },
     {
-      "id": "112e1e19-1451-44ac-b273-4cc2899c6cf0",
-      "reference": "CF1",
-      "value": "MF92251V1-G99-A",
-      "qty": 1,
-      "footprint": "PCM_EEZ_unsorted:Cooling fan (3D only)",
-      "partNumbers": {
-        "digikey": "-",
-        "mouser": "-",
-        "tme": "MF92251V1-G99-A",
-        "lcsc": "-"
-      },
-      "custom": {}
-    },
-    {
-      "id": "2cbf1676-ba80-4f05-8f47-99da7e482661",
-      "reference": "CF2",
-      "value": "FG-09-BK",
-      "qty": 1,
-      "footprint": "PCM_EEZ_unsorted:Cooling fan finger guard (3D only)",
-      "partNumbers": {
-        "digikey": "1053-1384-ND",
-        "mouser": "670-G9216B",
-        "tme": "FG-09-BK",
-        "lcsc": "-"
-      },
-      "custom": {}
-    },
-    {
       "id": "9e780ead-e7fc-4d47-9861-6af6cb896884",
       "reference": "D1,D2,D3,D4,D5,D6,D7,D9,D10",
       "value": "BAS316",
@@ -3707,34 +3647,6 @@
         "mouser": "655-RT424012",
         "tme": "RT424012",
         "lcsc": "C1524591"
-      },
-      "custom": {}
-    },
-    {
-      "id": "f45d37eb-2082-43bf-a1a6-edbfc9bbb744",
-      "reference": "KN1",
-      "value": "A3231007",
-      "qty": 1,
-      "footprint": "",
-      "partNumbers": {
-        "digikey": "-",
-        "mouser": "-",
-        "tme": "A3231007",
-        "lcsc": "-"
-      },
-      "custom": {}
-    },
-    {
-      "id": "4c690718-e1aa-4a69-89d7-69b7db286380",
-      "reference": "KN2",
-      "value": "A3131068",
-      "qty": 1,
-      "footprint": "",
-      "partNumbers": {
-        "digikey": "-",
-        "mouser": "-",
-        "tme": "A3131068",
-        "lcsc": "-"
       },
       "custom": {}
     },
