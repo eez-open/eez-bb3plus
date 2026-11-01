@@ -8330,7 +8330,7 @@
 		)
 		(uuid "4aab4b73-65d0-4518-b5b0-3187ec52af4a")
 	)
-	(text "UART_RX/DIN1 8"
+	(text "UART_RX_DIN1 8"
 		(exclude_from_sim no)
 		(at 267.335 54.61 0)
 		(effects
@@ -8414,7 +8414,7 @@
 		)
 		(uuid "717cb2b2-e371-4fba-840e-495f9945fae1")
 	)
-	(text "UART_TX/DOUT1 5"
+	(text "UART_TX_DOUT1 5"
 		(exclude_from_sim no)
 		(at 267.335 46.99 0)
 		(effects
@@ -11418,6 +11418,280 @@
 		)
 		(uuid "ffe8d8c4-f7f7-4253-a22c-6453fbb9511b")
 	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 132 0 132 1)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 132 0 132 1)
+			)
+		)
+		(column_widths 7.62 8.89)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(uuid "fb31eb33-3863-4146-90ac-029850da9ac4")
+		(cells
+			(table_cell "I/O"
+				(exclude_from_sim no)
+				(at 19.05 21.59 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(thickness 0.1778)
+						(bold yes)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "78348e5f-924a-4d84-be3f-06a420204294")
+			)
+			(table_cell "CM5"
+				(exclude_from_sim no)
+				(at 26.67 21.59 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(thickness 0.1778)
+						(bold yes)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "c65823de-9141-4612-8d8f-2b399053ad06")
+			)
+			(table_cell "DIN1"
+				(exclude_from_sim no)
+				(at 19.05 24.13 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "4f7f3ed9-1ee7-41a2-b757-07f98b113114")
+			)
+			(table_cell "GPIO2"
+				(exclude_from_sim no)
+				(at 26.67 24.13 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "11eacb77-7414-41fc-8cfe-7bd2154eca90")
+			)
+			(table_cell "DIN2"
+				(exclude_from_sim no)
+				(at 19.05 26.67 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "ae095187-a4ee-4108-8d9c-dd51ebd90d18")
+			)
+			(table_cell "GPIO34"
+				(exclude_from_sim no)
+				(at 26.67 26.67 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "cbba9a43-db48-466a-b60d-417714c1fb58")
+			)
+			(table_cell "DIN3"
+				(exclude_from_sim no)
+				(at 19.05 29.21 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "a05df4ec-ee8a-49c8-939f-b0493951982c")
+			)
+			(table_cell "GPIO1"
+				(exclude_from_sim no)
+				(at 26.67 29.21 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "7d57cb58-21fd-4702-8cee-00dc90b0d9ae")
+			)
+			(table_cell "DOUT1"
+				(exclude_from_sim no)
+				(at 19.05 31.75 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "7e7c414e-9954-4432-bfdf-6ea898d786c0")
+			)
+			(table_cell "GPIO3"
+				(exclude_from_sim no)
+				(at 26.67 31.75 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "5611f316-1e1d-495d-8984-0b6de6bb4d63")
+			)
+			(table_cell "DOUT2"
+				(exclude_from_sim no)
+				(at 19.05 34.29 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "700082a3-385d-40fd-94ca-9ddc4b03b8a7")
+			)
+			(table_cell "GPIO16"
+				(exclude_from_sim no)
+				(at 26.67 34.29 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "dba17a7c-dfd5-4be5-a554-b94fe0fc2d9a")
+			)
+			(table_cell "DOUT3"
+				(exclude_from_sim no)
+				(at 19.05 36.83 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "6bcaaf27-bbee-49d4-8585-9a4a16ad0a77")
+			)
+			(table_cell "GPIO0"
+				(exclude_from_sim no)
+				(at 26.67 36.83 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "805bec40-1390-4628-a273-b84a710e3caf")
+			)
+		)
+	)
 	(label "FAN_SENSE1"
 		(at 127 180.34 180)
 		(effects
@@ -11438,6 +11712,26 @@
 		)
 		(uuid "191ce373-b8ac-46c1-b623-607476fcc44d")
 	)
+	(label "ISO_DOUT3"
+		(at 87.63 53.34 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ac821bc-9fe9-49ae-a173-dce0eb5efef5")
+	)
+	(label "ISO_DOUT1"
+		(at 87.63 58.42 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "46854beb-cf69-4d34-aabd-e5f8ab2fc8e5")
+	)
 	(label "PWM_OUT"
 		(at 127 177.8 180)
 		(effects
@@ -11447,6 +11741,46 @@
 			(justify right bottom)
 		)
 		(uuid "5829f518-e464-4096-bcd2-e820f66ba5bc")
+	)
+	(label "ISO_DOUT2"
+		(at 87.63 55.88 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "948587ca-50b9-4d99-922e-f260793486cd")
+	)
+	(label "ISO_DIN1"
+		(at 87.63 60.96 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "b883b668-59c8-4a49-b1dd-e8f8f7de756d")
+	)
+	(label "ISO_DIN3"
+		(at 87.63 66.04 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "b977f200-0d3e-4cd5-ae2d-87aa89700fdb")
+	)
+	(label "ISO_DIN2"
+		(at 87.63 63.5 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "be78a454-97a2-48d5-be9e-1f1880028710")
 	)
 	(label "FAN_OUT+"
 		(at 137.16 157.48 0)
@@ -11492,19 +11826,20 @@
 			)
 		)
 	)
-	(global_label "UART_RX{slash}DIN1"
+	(global_label "UART_RX_DIN1"
 		(shape output)
 		(at 33.02 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify right)
 		)
 		(uuid "2b71da9e-6254-46c7-a3a3-51058860e6dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.6942 60.96 0)
+			(at 21.9482 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11516,19 +11851,20 @@
 			)
 		)
 	)
-	(global_label "RS485_TX_EN{slash}DOUT2"
+	(global_label "RS485_TX_EN_DOUT2"
 		(shape input)
 		(at 35.56 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify right)
 		)
 		(uuid "346f3e49-5457-401b-a593-ebb65ddf3fd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8315 55.88 0)
+			(at 20.0855 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11540,19 +11876,20 @@
 			)
 		)
 	)
-	(global_label "RS485_RX{slash}DIN3"
+	(global_label "RS485_RX_DIN3"
 		(shape output)
 		(at 33.02 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify right)
 		)
 		(uuid "529b4f7a-719e-4f90-985d-81232e0c73a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.678 66.04 0)
+			(at 20.932 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11619,6 +11956,7 @@
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify right)
 		)
@@ -11636,19 +11974,20 @@
 			)
 		)
 	)
-	(global_label "UART_TX{slash}DOUT1"
+	(global_label "UART_TX_DOUT1"
 		(shape input)
 		(at 33.02 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify right)
 		)
 		(uuid "8c5eb621-8c39-4de1-96db-113120c461f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7206 58.42 0)
+			(at 20.9746 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,19 +11999,20 @@
 			)
 		)
 	)
-	(global_label "RS485_TX{slash}DOUT3"
+	(global_label "RS485_TX_DOUT3"
 		(shape input)
 		(at 33.02 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify right)
 		)
 		(uuid "9c552fad-20dc-4746-8a5d-bebd1b01fcbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.7044 53.34 0)
+			(at 19.9584 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

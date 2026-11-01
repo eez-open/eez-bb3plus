@@ -3575,7 +3575,7 @@
 				(pin passive line
 					(at 48.26 -124.46 180)
 					(length 2.54)
-					(name "CAM_GPIO0"
+					(name "CAM_GPIO0_GPIO34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3629,7 +3629,7 @@
 				(pin passive line
 					(at -2.54 -127 0)
 					(length 2.54)
-					(name "CAM_GPIO1"
+					(name "CAM_GPIO1_GPIO35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13814,19 +13814,20 @@
 			)
 		)
 	)
-	(global_label "RS485_TX_EN{slash}DOUT2"
+	(global_label "RS485_TX_EN_DOUT2"
 		(shape output)
 		(at 101.6 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify left)
 		)
 		(uuid "13fb1376-f4c4-4832-9d86-48f6328e339d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.3285 63.5 0)
+			(at 117.0745 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14035,19 +14036,20 @@
 			)
 		)
 	)
-	(global_label "UART_RX{slash}DIN1"
+	(global_label "UART_RX_DIN1"
 		(shape input)
 		(at 35.56 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify right)
 		)
 		(uuid "202d9e0c-1dc8-4ba2-938e-8208fcd7158f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.2342 99.06 0)
+			(at 24.4882 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14181,19 +14183,20 @@
 			)
 		)
 	)
-	(global_label "UART_TX{slash}DOUT1"
+	(global_label "UART_TX_DOUT1"
 		(shape output)
 		(at 35.56 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify right)
 		)
 		(uuid "2afe352b-b012-496f-a71b-0766e5d2228b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.2606 96.52 0)
+			(at 23.5146 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14478,19 +14481,20 @@
 			)
 		)
 	)
-	(global_label "RS485_TX{slash}DOUT3"
+	(global_label "RS485_TX_DOUT3"
 		(shape output)
 		(at 35.56 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify right)
 		)
 		(uuid "4e57999a-7302-42e8-a68d-7b78fef07f3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.2444 71.12 0)
+			(at 22.4984 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14828,6 +14832,7 @@
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify left)
 		)
@@ -14869,19 +14874,20 @@
 			)
 		)
 	)
-	(global_label "RS485_RX{slash}DIN3"
+	(global_label "RS485_RX_DIN3"
 		(shape input)
 		(at 101.6 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify left)
 		)
 		(uuid "79c1f57f-957e-4bc6-bf03-15b039051dc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.942 71.12 0)
+			(at 113.688 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

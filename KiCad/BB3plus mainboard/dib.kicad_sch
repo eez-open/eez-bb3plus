@@ -5965,7 +5965,7 @@
 		)
 		(uuid "ffe3bb7b-031c-4879-bde6-cbbf672be3d9")
 	)
-	(global_label "UART_RX{slash}DIN1"
+	(global_label "UART_RX_DIN1"
 		(shape output)
 		(at 271.78 66.04 0)
 		(fields_autoplaced yes)
@@ -6062,7 +6062,7 @@
 			)
 		)
 	)
-	(global_label "UART_RX{slash}DIN1"
+	(global_label "UART_RX_DIN1"
 		(shape output)
 		(at 60.96 66.04 0)
 		(fields_autoplaced yes)
@@ -6520,7 +6520,7 @@
 			)
 		)
 	)
-	(global_label "UART_TX{slash}DOUT1"
+	(global_label "UART_TX_DOUT1"
 		(shape input)
 		(at 271.78 68.58 0)
 		(fields_autoplaced yes)
@@ -7615,7 +7615,7 @@
 			)
 		)
 	)
-	(global_label "UART_TX{slash}DOUT1"
+	(global_label "UART_TX_DOUT1"
 		(shape input)
 		(at 160.02 68.58 0)
 		(fields_autoplaced yes)
@@ -7639,7 +7639,7 @@
 			)
 		)
 	)
-	(global_label "UART_TX{slash}DOUT1"
+	(global_label "UART_TX_DOUT1"
 		(shape input)
 		(at 213.36 124.46 0)
 		(fields_autoplaced yes)
@@ -8266,7 +8266,7 @@
 			)
 		)
 	)
-	(global_label "UART_RX{slash}DIN1"
+	(global_label "UART_RX_DIN1"
 		(shape output)
 		(at 160.02 66.04 0)
 		(fields_autoplaced yes)
@@ -8658,7 +8658,7 @@
 			)
 		)
 	)
-	(global_label "UART_RX{slash}DIN1"
+	(global_label "UART_RX_DIN1"
 		(shape output)
 		(at 109.22 152.4 0)
 		(fields_autoplaced yes)
@@ -8682,7 +8682,7 @@
 			)
 		)
 	)
-	(global_label "UART_TX{slash}DOUT1"
+	(global_label "UART_TX_DOUT1"
 		(shape input)
 		(at 60.96 68.58 0)
 		(fields_autoplaced yes)
@@ -8874,7 +8874,7 @@
 			)
 		)
 	)
-	(global_label "UART_RX{slash}DIN1"
+	(global_label "UART_RX_DIN1"
 		(shape output)
 		(at 213.36 121.92 0)
 		(fields_autoplaced yes)
@@ -9094,7 +9094,7 @@
 			)
 		)
 	)
-	(global_label "UART_TX{slash}DOUT1"
+	(global_label "UART_TX_DOUT1"
 		(shape input)
 		(at 109.22 154.94 0)
 		(fields_autoplaced yes)

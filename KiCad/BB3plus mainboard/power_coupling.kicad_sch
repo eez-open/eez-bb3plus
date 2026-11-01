@@ -9635,7 +9635,7 @@
 			)
 		)
 	)
-	(global_label "RS485_TX_EN{slash}DOUT2"
+	(global_label "RS485_TX_EN_DOUT2"
 		(shape output)
 		(at 93.98 175.26 0)
 		(fields_autoplaced yes)

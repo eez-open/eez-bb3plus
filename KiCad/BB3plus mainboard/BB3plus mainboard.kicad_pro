@@ -940,6 +940,13 @@
         "wire_width": 6
       },
       {
+        "name": "DIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 194, 0)",
+        "tuning_profile": ""
+      },
+      {
         "bus_width": 25,
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
@@ -1011,316 +1018,64 @@
     "netclass_assignments": {},
     "netclass_patterns": [
       {
-        "netclass": "USB",
-        "pattern": "REAR_USBC_TX+"
+        "netclass": "DIO",
+        "pattern": "RS485_RX_DIN3"
       },
       {
-        "netclass": "USB",
-        "pattern": "REAR_USBC_TX-"
+        "netclass": "DIO",
+        "pattern": "UART_RX_DIN1"
       },
       {
-        "netclass": "USB",
-        "pattern": "REAR_USBC_RX+"
+        "netclass": "DIO",
+        "pattern": "UART_TX_DOUT1"
       },
       {
-        "netclass": "USB",
-        "pattern": "REAR_USBC_RX-"
+        "netclass": "DIO",
+        "pattern": "RS485_TX_EN_DOUT2"
       },
       {
-        "netclass": "USB",
-        "pattern": "REAR_USBC_D+"
+        "netclass": "DIO",
+        "pattern": "RS485_TX_DOUT3"
       },
       {
-        "netclass": "USB",
-        "pattern": "REAR_USBC_D-"
+        "netclass": "DIO",
+        "pattern": "DIN1"
       },
       {
-        "netclass": "USB",
-        "pattern": "MCU_USB_UP_TX+"
+        "netclass": "DIO",
+        "pattern": "DIN2"
       },
       {
-        "netclass": "USB",
-        "pattern": "MCU_USB_UP_TX-"
+        "netclass": "DVID",
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D0+"
       },
       {
-        "netclass": "USB",
-        "pattern": "MCU_USB_UP_RX+"
+        "netclass": "DVID",
+        "pattern": "DSI0_D1-"
       },
       {
-        "netclass": "USB",
-        "pattern": "MCU_USB_UP_RX-"
+        "netclass": "DVID",
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_CK-"
       },
       {
-        "netclass": "USB",
-        "pattern": "MCU_USB_UP_D+"
+        "netclass": "DVID",
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_CK+"
       },
       {
-        "netclass": "USB",
-        "pattern": "MCU_USB_UP_D-"
+        "netclass": "DVID",
+        "pattern": "REAR_DVID_TX1_P"
       },
       {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub/USB3_UPTX-"
+        "netclass": "DVID",
+        "pattern": "REAR_DVID_TX2_N"
       },
       {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub/USB3_UPTX+"
+        "netclass": "DVID",
+        "pattern": "REAR_DVID_TX2_P"
       },
       {
-        "netclass": "USB",
-        "pattern": "USB_N"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "USB_P"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub/REAR_USB_DS6_D-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub/REAR_USB_DS6_D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB5_USB_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB5_USB_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB5_USB_RX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB5_USB_RX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB5_USB_D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB5_USB_D-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB4_USB_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB4_USB_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB4_USB_RX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB4_USB_RX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB4_USB_D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB4_USB_D-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB3_USB_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB3_USB_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB3_USB_RX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB3_USB_RX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB3_USB_D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB3_USB_D-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB2_USB_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB2_USB_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB2_USB_RX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB2_USB_RX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB2_USB_D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB2_USB_D-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB1_USB_RX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB1_USB_RX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB1_USB_D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB1_USB_D-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB1_USB_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DIB1_USB_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3_UPTX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3_UPTX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_D-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/SSTX1_N"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/SSTX1_P"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_TX1-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_TX1+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_RX1-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_RX1+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_RX2-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_RX2+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/SSTX2_N"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/SSTX2_P"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_TX2-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_TX2+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX1A-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX1A+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX1B-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX1B+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX2-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX2+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX3-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX3+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX4-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX4+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX5-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX5+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "REAR_USB_DS6_D-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "REAR_USB_DS6_D+"
+        "netclass": "DVID",
+        "pattern": "/Video outputs/REAR_D2+"
       },
       {
         "netclass": "DVID",
@@ -1332,11 +1087,47 @@
       },
       {
         "netclass": "DVID",
-        "pattern": "DSI0_D1-"
+        "pattern": "REAR_DVID_TX1_N"
       },
       {
         "netclass": "DVID",
-        "pattern": "DSI0_D1+"
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D0-"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D1+"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D1-"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "/Video outputs/REAR_CK+"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "/Video outputs/REAR_CK-"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "/Video outputs/REAR_D0+"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "/Video outputs/REAR_D0-"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "/Video outputs/REAR_D1+"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "/Video outputs/REAR_D1-"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D2+"
       },
       {
         "netclass": "DVID",
@@ -1344,39 +1135,27 @@
       },
       {
         "netclass": "DVID",
-        "pattern": "DSI0_CLK+"
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D1-"
       },
       {
         "netclass": "DVID",
-        "pattern": "DSI0_D2-"
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D1+"
       },
       {
         "netclass": "DVID",
-        "pattern": "DSI0_D2+"
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D0-"
       },
       {
         "netclass": "DVID",
-        "pattern": "DSI0_D3-"
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D0+"
       },
       {
         "netclass": "DVID",
-        "pattern": "DSI0_D3+"
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_CK-"
       },
       {
         "netclass": "DVID",
-        "pattern": "TFT_DVID_TX0_N"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "TFT_DVID_TX0_P"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "TFT_DVID_TX1_N"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "TFT_DVID_TX1_P"
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_CK+"
       },
       {
         "netclass": "DVID",
@@ -1408,23 +1187,211 @@
       },
       {
         "netclass": "DVID",
+        "pattern": "/Video outputs/REAR_D2-"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "DSI0_D1+"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "DSI0_CLK+"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "DSI0_D2-"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "DSI0_D2+"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "DSI0_D3-"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "DSI0_D3+"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "TFT_DVID_TX0_N"
+      },
+      {
+        "netclass": "DVID",
+        "pattern": "TFT_DVID_TX0_P"
+      },
+      {
+        "netclass": "DVID",
         "pattern": "REAR_DVID_TX0_P"
       },
       {
         "netclass": "DVID",
-        "pattern": "REAR_DVID_TX1_N"
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D2+"
       },
       {
         "netclass": "DVID",
-        "pattern": "REAR_DVID_TX1_P"
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D2-"
       },
       {
         "netclass": "DVID",
-        "pattern": "REAR_DVID_TX2_N"
+        "pattern": "TFT_DVID_TX1_P"
       },
       {
         "netclass": "DVID",
-        "pattern": "REAR_DVID_TX2_P"
+        "pattern": "TFT_DVID_TX1_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Video outputs/REAR_D2-"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DIN2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "slash"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Rear USB, USB-C/TRD2-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD1+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Rear USB, USB-C/TRD2+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Rear USB, USB-C/TRD4-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD1+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD2-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD2+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD4+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Rear USB, USB-C/TRD4+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Video outputs/REAR_D2-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD3-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD3+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD1-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Rear USB, USB-C/TRD1-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD2-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD1-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD3+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD2+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD4-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD4+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "GBE_TXRX_D+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "GBE_TXRX_D-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "GBE_TXRX_C-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "GBE_TXRX_A+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Rear USB, USB-C/TRD1+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Rear USB, USB-C/TRD3+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Rear USB, USB-C/TRD3-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet, Video outputs, Ref clk/TRD4-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD3-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "GBE_TXRX_B+"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "GBE_TXRX_B-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "GBE_TXRX_A-"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "GBE_TXRX_C+"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/CM5 socket, M.2 connector/PCIe_TX_P"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/DIB 2.0, TFT DSI/TX1_N"
       },
       {
         "netclass": "PCIe",
@@ -1444,11 +1411,15 @@
       },
       {
         "netclass": "PCIe",
-        "pattern": "PCIe_RX_P"
+        "pattern": "PCIe_RX_N"
       },
       {
         "netclass": "PCIe",
-        "pattern": "PCIe_RX_N"
+        "pattern": "/CM5 socket, M.2 connector/PCIe_CLK_P"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "PCIe_RX_P"
       },
       {
         "netclass": "PCIe",
@@ -1456,15 +1427,35 @@
       },
       {
         "netclass": "PCIe",
-        "pattern": "/DIB 2.0, TFT DSI/TX1_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/DIB 2.0, TFT DSI/RX1_P"
-      },
-      {
-        "netclass": "PCIe",
         "pattern": "/DIB 2.0, TFT DSI/RX1_N"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/CM5 socket, M.2 connector/PCIe_TX_N"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/Power modules coupling/CH1_OUT+"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/CM5 socket, M.2 connector/PCIe_RX_N"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/CM5 socket, M.2 connector/PCIe_RX_P"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/CM5 socket, M.2 connector/PCIe_CLK_N"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/CM5 socket, M.2 connector/<NO NET>"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/DIB 2.0, TFT DSI/CLK1_N"
       },
       {
         "netclass": "PCIe",
@@ -1472,179 +1463,15 @@
       },
       {
         "netclass": "PCIe",
-        "pattern": "/DIB 2.0, TFT DSI/CLK1_N"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "GBE_TXRX_B+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "GBE_TXRX_B-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "GBE_TXRX_A-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "GBE_TXRX_A+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "GBE_TXRX_C+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "GBE_TXRX_C-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "GBE_TXRX_D-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "GBE_TXRX_D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/CM5 socket, M.2 connector/DIB1_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/CM5 socket, M.2 connector/DIB1_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_D-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_TX2+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_TX2-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_RX1+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_RX1-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_TX1+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_TX1-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_RX2-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/USBC_RX2+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/DIB2_USB3DN_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/DIB2_USB3DN_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/DIB3_USB3DN_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/DIB3_USB3DN_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/DIB4_USB3DN_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/DIB4_USB3DN_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/DIB5_USB3DN_TX-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/DIB5_USB3DN_TX+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "REAR_USB_TOP-"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "REAR_USB_TOP+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD3-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD3+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD1-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD1+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD2-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD2+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD4-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/TRD4+"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/Power modules coupling/CH1_OUT+"
+        "pattern": "/DIB 2.0, TFT DSI/RX1_P"
       },
       {
         "netclass": "Power",
-        "pattern": "/Power modules coupling/CH1_IN+"
+        "pattern": "/Power modules coupling/CH2_OUT-"
       },
       {
         "netclass": "Power",
-        "pattern": "/Power modules coupling/CH1_OUT-"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power modules coupling/CH1_OUT+"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power modules coupling/CH2_IN+"
+        "pattern": "/Power modules coupling/CH3_OUT_NEG"
       },
       {
         "netclass": "Power",
@@ -1652,11 +1479,43 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/Power modules coupling/CH2_IN-"
+        "pattern": "/Power modules coupling/CH1_IN_POS"
       },
       {
         "netclass": "Power",
-        "pattern": "/Power modules coupling/CH2_OUT-"
+        "pattern": "/Power modules coupling/CH2_IN+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power modules coupling/CH1_OUT+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power modules coupling/CH1_OUT-"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power modules coupling/CH1_IN+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power modules coupling/CH3_IN_NEG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power modules coupling/CH3_OUT_POS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power modules coupling/CH3_IN_POS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power modules coupling/CH2_OUT_NEG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power modules coupling/CH2_IN-"
       },
       {
         "netclass": "Power",
@@ -1676,7 +1535,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/Power modules coupling/CH1_IN_POS"
+        "pattern": "/Power modules coupling/SRA_SER"
       },
       {
         "netclass": "Power",
@@ -1688,7 +1547,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/Power modules coupling/CH2_IN_POS"
+        "pattern": "/Power modules coupling/CH2_IN_NEG"
       },
       {
         "netclass": "Power",
@@ -1696,79 +1555,231 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/Power modules coupling/CH2_OUT_NEG"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power modules coupling/CH2_IN_NEG"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power modules coupling/CH3_IN_POS"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power modules coupling/CH3_OUT_POS"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power modules coupling/CH3_OUT_NEG"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power modules coupling/CH3_IN_NEG"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power modules coupling/SRA_SER"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D2-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D2+"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D1-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D1+"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D0-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_D0+"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_CK-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ext video, Ethernet, Rear USB, TFT/REAR_CK+"
+        "pattern": "/Power modules coupling/CH2_IN_POS"
       },
       {
         "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/TX6-"
+        "pattern": "/USB3 Hub, Front USB-C/USBC_D-"
       },
       {
         "netclass": "USB",
-        "pattern": "/USB3 Hub, Front USB-C/TX6+"
+        "pattern": "/USB3 Hub, Front USB-C/USBC_RX2+"
       },
       {
         "netclass": "USB",
-        "pattern": "USBC_D-"
+        "pattern": "/USB3 Hub, Front USB-C/USBC_TX2+"
       },
       {
         "netclass": "USB",
-        "pattern": "USBC_D+"
+        "pattern": "REAR_USB_TOP+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USB_TOP-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB1_USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/DIB5_USB3DN_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/DIB4_USB3DN_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/DIB4_USB3DN_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/DIB3_USB3DN_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/DIB3_USB3DN_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/DIB2_USB3DN_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/DIB2_USB3DN_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 7-port Hub/USB3DN_TX1B-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USBC_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CM5 socket, M.2 connector/DIB1_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/CM5 socket, M.2 connector/DIB1_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USB_DS6_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USB_DS6_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX5+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX5-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX4+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 7-port Hub/TX6+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB2_USB_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB2_USB_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USB_BTM_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USB_BTM_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX1A+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/SSTX1_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX1B-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX1A-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_TX2+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_TX2-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/SSTX2_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/SSTX2_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_RX2+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX4-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_RX1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_RX1-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_TX1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_TX1-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USBC_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USBC_RX2-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/SSTX1_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USB3_UPTX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USB3_UPTX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB1_USB_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB1_USB_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/DIB5_USB3DN_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USBC_RX1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USBC_RX1-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USBC_TX1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/USBC_TX1-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Ethernet, Rear USB, USB-C/USBC_TX1-"
       },
       {
         "netclass": "USB",
@@ -1804,7 +1815,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/Ethernet, Rear USB, USB-C/USBC_D-"
+        "pattern": "/USB3 Hub, Front USB-C/USBC_TX2-"
       },
       {
         "netclass": "USB",
@@ -1824,7 +1835,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/Ethernet, Rear USB, USB-C/USBC_TX1-"
+        "pattern": "USBC_D+"
       },
       {
         "netclass": "USB",
@@ -1835,52 +1846,48 @@
         "pattern": "/Ethernet, Rear USB, USB-C/USBC_RX2+"
       },
       {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Rear USB, USB-C/TRD3-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Rear USB, USB-C/TRD3+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Rear USB, USB-C/TRD1-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Rear USB, USB-C/TRD1+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Rear USB, USB-C/TRD2-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Rear USB, USB-C/TRD2+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Rear USB, USB-C/TRD4-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Rear USB, USB-C/TRD4+"
+        "netclass": "USB",
+        "pattern": "DIB1_USB_RX+"
       },
       {
         "netclass": "USB",
-        "pattern": "REAR_USB_BTM_D-"
+        "pattern": "DIB1_USB_RX-"
       },
       {
         "netclass": "USB",
-        "pattern": "REAR_USB_BTM_D+"
+        "pattern": "DIB2_USB_D-"
       },
       {
         "netclass": "USB",
-        "pattern": "/USB3 7-port Hub/USB3DN_TX1B-"
+        "pattern": "DIB2_USB_D+"
       },
       {
         "netclass": "USB",
-        "pattern": "/USB3 7-port Hub/USB3DN_TX1B+"
+        "pattern": "DIB2_USB_RX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB5_USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB4_USB_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB4_USB_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Ethernet, Rear USB, USB-C/USB3_TX2+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub/USB3_UPTX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB3_USB_D+"
       },
       {
         "netclass": "USB",
@@ -1912,7 +1919,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/USB3 7-port Hub/TX6+"
+        "pattern": "DIB2_USB_RX+"
       },
       {
         "netclass": "USB",
@@ -1931,64 +1938,64 @@
         "pattern": "/USB3 7-port Hub/USB3_UPRX+"
       },
       {
-        "netclass": "Ethernet",
-        "pattern": "/Video outputs/REAR_D2-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Video outputs/REAR_D2-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Video outputs/REAR_D2+"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Video outputs/REAR_D1-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Video outputs/REAR_D1+"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Video outputs/REAR_D0-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Video outputs/REAR_D0+"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Video outputs/REAR_CK-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Video outputs/REAR_CK+"
+        "netclass": "USB",
+        "pattern": "DIB3_USB_D-"
       },
       {
         "netclass": "USB",
-        "pattern": "/Video outputs/REAR_D2-"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Video outputs/REAR_D2-"
+        "pattern": "/USB3 7-port Hub/USB3DN_TX1B+"
       },
       {
         "netclass": "USB",
-        "pattern": "/7-port USB3 Hub/TX6-"
+        "pattern": "DIB3_USB_RX-"
       },
       {
         "netclass": "USB",
-        "pattern": "/7-port USB3 Hub/TX6+"
+        "pattern": "DIB3_USB_RX+"
       },
       {
         "netclass": "USB",
-        "pattern": "/7-port USB3 Hub/TX5-"
+        "pattern": "DIB3_USB_TX-"
       },
       {
         "netclass": "USB",
-        "pattern": "/7-port USB3 Hub/TX5+"
+        "pattern": "DIB3_USB_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB4_USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB4_USB_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB4_USB_RX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Ethernet, Rear USB, USB-C/USBC_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB1_USB_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/TX6-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub, Front USB-C/TX6+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USBC_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/7-port USB3 Hub/USB3_UPTX+"
       },
       {
         "netclass": "USB",
@@ -2024,7 +2031,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/Ethernet, Rear USB, USB-C/MUX_TX1-"
+        "pattern": "/Rear USB, USB-C/USB3_TX1+"
       },
       {
         "netclass": "USB",
@@ -2044,7 +2051,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/7-port USB3 Hub/USB3_UPTX+"
+        "pattern": "/7-port USB3 Hub/TX5+"
       },
       {
         "netclass": "USB",
@@ -2080,71 +2087,71 @@
       },
       {
         "netclass": "USB",
+        "pattern": "FRONT_USB_TX1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USBC_TX1-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USBC_TX1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Rear USB, USB-C/RBTM_RX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Rear USB, USB-C/RBTM_RX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Rear USB, USB-C/USBC_TX1-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB5_USB_RX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB5_USB_RX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB5_USB_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "DIB5_USB_TX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub/REAR_USB_DS6_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB3 Hub/REAR_USB_DS6_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_N"
+      },
+      {
+        "netclass": "USB",
         "pattern": "/Ethernet, Rear USB, USB-C/USB3_TX2-"
       },
       {
         "netclass": "USB",
-        "pattern": "/Ethernet, Rear USB, USB-C/USB3_TX2+"
+        "pattern": "/USB3 Hub/USB3_UPTX-"
       },
       {
-        "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D2+"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D1-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D1+"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D0-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_D0+"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_CK-"
-      },
-      {
-        "netclass": "DVID",
-        "pattern": "/Ethernet, Video outputs, Ref clk/REAR_CK+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs, Ref clk/TRD3-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs, Ref clk/TRD3+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs, Ref clk/TRD1-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs, Ref clk/TRD1+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs, Ref clk/TRD2-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs, Ref clk/TRD2+"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs, Ref clk/TRD4-"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet, Video outputs, Ref clk/TRD4+"
+        "netclass": "USB",
+        "pattern": "MCU_USB_UP_D-"
       },
       {
         "netclass": "USB",
@@ -2156,7 +2163,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/USBC_TX1-"
+        "pattern": "/Rear USB, USB-C/RBTM_TX-"
       },
       {
         "netclass": "USB",
@@ -2192,27 +2199,27 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/USB3_TX1+"
+        "pattern": "/Ethernet, Rear USB, USB-C/MUX_TX1-"
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/USB3_RX2-"
+        "pattern": "DIB4_USB_RX+"
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/USB3_RX2+"
+        "pattern": "/7-port USB3 Hub/TX6-"
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/USB3_TX2-"
+        "pattern": "/7-port USB3 Hub/TX6+"
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/USB3_TX2+"
+        "pattern": "/7-port USB3 Hub/TX5-"
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/MUX_TX1-"
+        "pattern": "REAR_USB_BTM_TX+"
       },
       {
         "netclass": "USB",
@@ -2227,32 +2234,32 @@
         "pattern": "/Rear USB, USB-C/MUX_TX2+"
       },
       {
-        "netclass": "PCIe",
-        "pattern": "/CM5 socket, M.2 connector/<NO NET>"
+        "netclass": "USB",
+        "pattern": "MCU_USB_UP_D+"
       },
       {
-        "netclass": "PCIe",
-        "pattern": "/CM5 socket, M.2 connector/PCIe_CLK_N"
+        "netclass": "USB",
+        "pattern": "MCU_USB_UP_RX-"
       },
       {
-        "netclass": "PCIe",
-        "pattern": "/CM5 socket, M.2 connector/PCIe_RX_P"
+        "netclass": "USB",
+        "pattern": "MCU_USB_UP_RX+"
       },
       {
-        "netclass": "PCIe",
-        "pattern": "/CM5 socket, M.2 connector/PCIe_RX_N"
+        "netclass": "USB",
+        "pattern": "MCU_USB_UP_TX-"
       },
       {
-        "netclass": "PCIe",
-        "pattern": "/CM5 socket, M.2 connector/PCIe_TX_P"
+        "netclass": "USB",
+        "pattern": "MCU_USB_UP_TX+"
       },
       {
-        "netclass": "PCIe",
-        "pattern": "/CM5 socket, M.2 connector/PCIe_TX_N"
+        "netclass": "USB",
+        "pattern": "/Video outputs/REAR_D2-"
       },
       {
-        "netclass": "PCIe",
-        "pattern": "/CM5 socket, M.2 connector/PCIe_CLK_P"
+        "netclass": "USB",
+        "pattern": "REAR_USBC_D+"
       },
       {
         "netclass": "USB",
@@ -2268,7 +2275,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "REAR_USB_BTM_TX+"
+        "pattern": "/Rear USB, USB-C/MUX_TX1-"
       },
       {
         "netclass": "USB",
@@ -2300,27 +2307,31 @@
       },
       {
         "netclass": "USB",
-        "pattern": "USBC_RX1+"
+        "pattern": "/USB3 Hub, Front USB-C/REAR_USBC_RX2-"
       },
       {
         "netclass": "USB",
-        "pattern": "USBC_TX1-"
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX3+"
       },
       {
         "netclass": "USB",
-        "pattern": "USBC_TX1+"
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX3-"
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/RBTM_RX-"
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX2+"
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/RBTM_RX+"
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX2-"
       },
       {
         "netclass": "USB",
-        "pattern": "/Rear USB, USB-C/RBTM_TX-"
+        "pattern": "/USB3 Hub, Front USB-C/USB3DN_TX1B+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/7-port USB3 Hub/RX1-"
       },
       {
         "netclass": "USB",
@@ -2356,7 +2367,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "FRONT_USB_TX1+"
+        "pattern": "USBC_RX1+"
       },
       {
         "netclass": "USB",
@@ -2376,7 +2387,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/7-port USB3 Hub/RX1-"
+        "pattern": "DIB5_USB_D+"
       },
       {
         "netclass": "USB",
@@ -2397,6 +2408,38 @@
       {
         "netclass": "USB",
         "pattern": "/CM5 socket, M.2 connector/USB2+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USBC_RX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USBC_RX+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USBC_TX-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "REAR_USBC_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Rear USB, USB-C/USB3_RX2-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Rear USB, USB-C/USB3_RX2+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Rear USB, USB-C/USB3_TX2-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Rear USB, USB-C/USB3_TX2+"
       }
     ]
   },
