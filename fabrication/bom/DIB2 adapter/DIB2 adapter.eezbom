@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 6,
+  "source": {
+    "kind": "kicad",
+    "path": "../../../KiCad/DIB2 adapter/DIB2 adapter.kicad_pro",
+    "variant": "Default",
+    "importedAt": "2026-11-02T11:00:59.087Z",
+    "kicadValues": {
+      "C1": {
+        "value": "4u7",
+        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+        "pn:digikey": "1276-1044-1-ND",
+        "pn:mouser": "187-CL10A475KP8NNNC",
+        "pn:tme": "CL10A475KP8NNNC",
+        "pn:lcsc": "C1705"
+      },
+      "C2": {
+        "value": "4u7",
+        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+        "pn:digikey": "1276-1044-1-ND",
+        "pn:mouser": "187-CL10A475KP8NNNC",
+        "pn:tme": "CL10A475KP8NNNC",
+        "pn:lcsc": "C1705"
+      },
+      "C3": {
+        "value": "4u7",
+        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+        "pn:digikey": "1276-1044-1-ND",
+        "pn:mouser": "187-CL10A475KP8NNNC",
+        "pn:tme": "CL10A475KP8NNNC",
+        "pn:lcsc": "C1705"
+      },
+      "C4": {
+        "value": "4u7",
+        "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+        "pn:digikey": "1276-1044-1-ND",
+        "pn:mouser": "187-CL10A475KP8NNNC",
+        "pn:tme": "CL10A475KP8NNNC",
+        "pn:lcsc": "C1705"
+      },
+      "KK1": {
+        "value": "PCB-MB-01",
+        "footprint": "PCM_EEZ_unsorted:PCB-MB-01",
+        "pn:digikey": "RPC1760-ND",
+        "pn:mouser": "144-PCB-MB-01",
+        "pn:tme": "RI-PCB-MB-01",
+        "pn:lcsc": ""
+      },
+      "KK2": {
+        "value": "PCB-MB-01",
+        "footprint": "PCM_EEZ_unsorted:PCB-MB-01",
+        "pn:digikey": "RPC1760-ND",
+        "pn:mouser": "144-PCB-MB-01",
+        "pn:tme": "RI-PCB-MB-01",
+        "pn:lcsc": ""
+      },
+      "LED1": {
+        "value": "LTST-C170KRKT",
+        "footprint": "PCM_EEZ_SMD:LED_LTST-C170KGKT_LTO-L",
+        "pn:digikey": "160-1415-1-ND",
+        "pn:mouser": "859-LTST-C170KRKT",
+        "pn:tme": "LTST-C170KRKT",
+        "pn:lcsc": "C94868"
+      },
+      "R1": {
+        "value": "4K7",
+        "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
+        "pn:digikey": "13-RC0603FR-134K7LTR-ND",
+        "pn:mouser": "603-RC0603FR-134K7L",
+        "pn:tme": "SMD0603-4K7-1%",
+        "pn:lcsc": ""
+      },
+      "R2": {
+        "value": "270R",
+        "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
+        "pn:digikey": "",
+        "pn:mouser": "",
+        "pn:tme": "CQ0603-1K-1%",
+        "pn:lcsc": ""
+      },
+      "X2": {
+        "value": "73100-0105",
+        "footprint": "PCM_EEZ_connectors:73100-0105",
+        "pn:digikey": "WM5524-ND",
+        "pn:mouser": "538-73100-0105",
+        "pn:tme": "-",
+        "pn:lcsc": "C3174924"
+      },
+      "X3": {
+        "value": "",
+        "footprint": "PCM_EEZ_connectors:61202021721",
+        "pn:digikey": "732-2100-ND",
+        "pn:mouser": "710-61202021721",
+        "pn:tme": "ZL231-20KG",
+        "pn:lcsc": "C41376017"
+      },
+      "X4": {
+        "value": "USB1135-15-9-L-B_REVA1",
+        "footprint": "PCM_EEZ_connectors:USB1135-15-9-L-B_REVA1",
+        "pn:digikey": "2073-USB1135-15-9-L-B-ND",
+        "pn:mouser": "640-USB1135-15-9-L-B",
+        "pn:tme": "USB1135-15-9-L-B",
+        "pn:lcsc": "C5456888"
+      }
+    }
+  },
+  "suppliers": [
+    "digikey",
+    "mouser",
+    "tme",
+    "lcsc"
+  ],
+  "customColumns": [],
+  "manualSuppliers": [],
+  "rows": [
+    {
+      "id": "2e879731-4d85-480b-9e4c-d9ca63d201e5",
+      "reference": "C1,C2,C3,C4",
+      "value": "4u7",
+      "qty": 4,
+      "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
+      "partNumbers": {
+        "digikey": "1276-1044-1-ND",
+        "mouser": "791-0603X475K100CT",
+        "tme": "CL10A475KP8NNNC",
+        "lcsc": "C19666"
+      },
+      "custom": {}
+    },
+    {
+      "id": "4a8cc7c9-fc53-414e-a7cb-803d64a9116f",
+      "reference": "KK1,KK2",
+      "value": "PCB-MB-01",
+      "qty": 2,
+      "footprint": "PCM_EEZ_unsorted:PCB-MB-01",
+      "partNumbers": {
+        "digikey": "RPC1760-ND",
+        "mouser": "144-PCB-MB-01",
+        "tme": "RI-PCB-MB-01",
+        "lcsc": "C959626"
+      },
+      "custom": {}
+    },
+    {
+      "id": "4cbe0702-f0f6-41d6-a3c0-bfec722acc7c",
+      "reference": "LED1",
+      "value": "LTST-C170KRKT",
+      "qty": 1,
+      "footprint": "PCM_EEZ_SMD:LED_LTST-C170KGKT_LTO-L",
+      "partNumbers": {
+        "digikey": "160-1415-1-ND",
+        "mouser": "859-LTST-C170KRKT",
+        "tme": "LTST-C170KRKT",
+        "lcsc": "C94868"
+      },
+      "custom": {}
+    },
+    {
+      "id": "31ddb069-cd1c-4b39-a532-93c6fc0a0428",
+      "reference": "R1",
+      "value": "4K7",
+      "qty": 1,
+      "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
+      "partNumbers": {
+        "digikey": "311-4.70KHRCT-ND",
+        "mouser": "603-RC0603FR-134K7L",
+        "tme": "SMD0603-4K7-1%",
+        "lcsc": "C23162"
+      },
+      "custom": {}
+    },
+    {
+      "id": "b55b5719-df50-48da-9f74-ac854c742441",
+      "reference": "R2",
+      "value": "1K",
+      "qty": 1,
+      "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
+      "partNumbers": {
+        "tme": "CQ0603-1K-1%",
+        "digikey": "13-RC0603FR-131KLCT-ND",
+        "mouser": "603-RC0603FR-131KL",
+        "lcsc": "C21190"
+      },
+      "custom": {}
+    },
+    {
+      "id": "479e6dde-712e-404c-8ee6-7f7af3b1c2e4",
+      "reference": "X2",
+      "value": "73100-0105",
+      "qty": 1,
+      "footprint": "PCM_EEZ_connectors:73100-0105",
+      "partNumbers": {
+        "digikey": "WM5524-ND",
+        "mouser": "538-73100-0105",
+        "tme": "-",
+        "lcsc": "C3174924"
+      },
+      "custom": {}
+    },
+    {
+      "id": "e9ea5f53-bd49-462a-92fe-12536f52541c",
+      "reference": "X3",
+      "value": "61202021721",
+      "qty": 1,
+      "footprint": "PCM_EEZ_connectors:61202021721",
+      "partNumbers": {
+        "tme": "ZL231-20KG",
+        "digikey": "732-2100-ND",
+        "mouser": "710-61202021721",
+        "lcsc": "C41376017"
+      },
+      "custom": {}
+    },
+    {
+      "id": "2a983cc5-7f2e-4b24-bdc1-ec5b31ec9a3d",
+      "reference": "X4",
+      "value": "USB1135-15-9-L-B_REVA1",
+      "qty": 1,
+      "footprint": "PCM_EEZ_connectors:USB1135-15-9-L-B_REVA1",
+      "partNumbers": {
+        "digikey": "2073-USB1135-15-9-L-B-ND",
+        "mouser": "640-USB1135-15-9-L-B",
+        "tme": "USB1135-15-9-L-B",
+        "lcsc": "C5456888"
+      },
+      "custom": {}
+    }
+  ],
+  "buildQuantity": 1
+}
