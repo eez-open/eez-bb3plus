@@ -5265,10 +5265,6 @@
 		(uuid "1dd7c76e-95ae-4fd3-baec-30ccd4fab7b3")
 	)
 	(no_connect
-		(at 71.12 91.44)
-		(uuid "1e7b4399-8fd1-4055-9fee-ac1fedac4811")
-	)
-	(no_connect
 		(at 71.12 104.14)
 		(uuid "3069722d-21f3-4da4-8c68-ad417def1184")
 	)
@@ -5564,16 +5560,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 55.88) (xy 190.5 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "380ddf09-1584-4159-a120-ab6575d85b93")
-	)
-	(wire
-		(pts
 			(xy 73.66 134.62) (xy 73.66 137.16)
 		)
 		(stroke
@@ -5774,16 +5760,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 68.58) (xy 198.12 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d28bc9-1903-4f4f-994c-ce7654df5ae4")
-	)
-	(wire
-		(pts
 			(xy 78.74 60.96) (xy 76.2 60.96)
 		)
 		(stroke
@@ -5821,6 +5797,16 @@
 			(type default)
 		)
 		(uuid "6d5d843f-a17b-470c-b502-50f34cbc5a32")
+	)
+	(wire
+		(pts
+			(xy 71.12 91.44) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2935da-8a1c-41fd-8c22-0bb69458f12f")
 	)
 	(wire
 		(pts
@@ -6094,6 +6080,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 55.88) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb1757b-2a10-49be-b897-32b23ef2345a")
+	)
+	(wire
+		(pts
 			(xy 205.74 43.18) (xy 205.74 50.8)
 		)
 		(stroke
@@ -6151,6 +6147,16 @@
 			(type default)
 		)
 		(uuid "a7e0809d-f143-41ce-b1dc-fed3119f4430")
+	)
+	(wire
+		(pts
+			(xy 203.2 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e93d08-dd4d-4f5e-8314-738abcea60be")
 	)
 	(wire
 		(pts
@@ -6394,16 +6400,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 68.58) (xy 198.12 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0fb1370-ea7d-4300-924a-71291cfae00f")
-	)
-	(wire
-		(pts
 			(xy 30.48 124.46) (xy 43.18 124.46)
 		)
 		(stroke
@@ -6642,6 +6638,16 @@
 		)
 		(uuid "2b92c78a-2865-447d-bbad-dfd97bd61aa0")
 	)
+	(label "TOUT"
+		(at 203.2 55.88 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e548344-ced6-4951-9a23-181a3c79ae99")
+	)
 	(label "DIB_MOSI"
 		(at 165.1 53.34 0)
 		(effects
@@ -6691,6 +6697,16 @@
 			(justify right bottom)
 		)
 		(uuid "425db39f-9095-435d-a10f-8da888dc9ca2")
+	)
+	(label "TOUT"
+		(at 83.82 91.44 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "4698f775-289b-4a4b-ae1f-6960691b4658")
 	)
 	(label "~{DIB_RESET}"
 		(at 83.82 71.12 180)
@@ -6773,7 +6789,7 @@
 		(uuid "8352bd8c-c02a-4958-845c-e18eb59adfda")
 	)
 	(label "AC_FREQ"
-		(at 203.2 55.88 180)
+		(at 203.2 68.58 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6882,7 +6898,7 @@
 		)
 		(uuid "db5ade0b-e8af-404c-8c34-6ab5407ed854")
 	)
-	(label "DIB_OE_SYNC"
+	(label "TIN"
 		(at 83.82 86.36 180)
 		(effects
 			(font
@@ -6962,7 +6978,7 @@
 		)
 		(uuid "f119b654-1cdc-4bb9-afc3-6f063fd90775")
 	)
-	(label "DIB_OE_SYNC"
+	(label "TIN"
 		(at 203.2 58.42 180)
 		(effects
 			(font
@@ -10771,128 +10787,6 @@
 			(project "DIB2 adapter"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
 					(reference "#GND010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_EEZ_symbols:PE")
-		(at 198.12 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8ca2dc1-6655-4a2a-ac34-3240536e751c")
-		(property "Reference" "#PE03"
-			(at 198.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PE"
-			(at 200.66 74.295 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" ""
-			(at 198.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 198.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" ""
-			(at 198.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 198.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "395a4656-b036-44a5-82b1-3078d65da854")
-		)
-		(instances
-			(project "DIB2 adapter"
-				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "#PE03")
 					(unit 1)
 				)
 			)
