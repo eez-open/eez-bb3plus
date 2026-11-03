@@ -2440,6 +2440,30 @@
       {
         "netclass": "USB",
         "pattern": "/Rear USB, USB-C/USB3_TX2+"
+      },
+      {
+        "netclass": "DIO",
+        "pattern": "/Isolated digital IO, Fan controller, Encoder/ISO_DOUT3"
+      },
+      {
+        "netclass": "DIO",
+        "pattern": "/Isolated digital IO, Fan controller, Encoder/ISO_DOUT2"
+      },
+      {
+        "netclass": "DIO",
+        "pattern": "/Isolated digital IO, Fan controller, Encoder/ISO_DOUT1"
+      },
+      {
+        "netclass": "DIO",
+        "pattern": "/Isolated digital IO, Fan controller, Encoder/ISO_DIN1"
+      },
+      {
+        "netclass": "DIO",
+        "pattern": "/Isolated digital IO, Fan controller, Encoder/ISO_DIN2"
+      },
+      {
+        "netclass": "DIO",
+        "pattern": "/Isolated digital IO, Fan controller, Encoder/ISO_DIN3"
       }
     ]
   },

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-01")
+		(date "2026-11-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7212,7 +7212,7 @@
 	)
 	(text_box "Make sure the bootloader bits are configured as follows:"
 		(exclude_from_sim no)
-		(at 205.74 119.38 0)
+		(at 213.36 119.38 0)
 		(size 69.85 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7562,7 +7562,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 137.16) (xy 198.12 137.16)
+			(xy 205.74 137.16) (xy 198.12 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7910,6 +7910,17 @@
 			(type default)
 		)
 		(uuid "2076a7d8-9334-4d4f-ae0a-1a5a6bb7edf3")
+	)
+	(polyline
+		(pts
+			(xy 231.14 114.3) (xy 281.94 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(uuid "210e4feb-477e-4c3d-9074-c1d9c66a0abe")
 	)
 	(wire
 		(pts
@@ -9391,7 +9402,7 @@
 	)
 	(polyline
 		(pts
-			(xy 231.14 68.58) (xy 231.14 116.84)
+			(xy 231.14 68.58) (xy 231.14 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -9682,7 +9693,7 @@
 		(uuid "fd39c671-7036-4c04-8ddf-e665e47b1d00")
 	)
 	(image
-		(at 240.665 127.8788)
+		(at 248.285 127.8788)
 		(uuid "f141ba51-dbc5-4ba0-b215-ebfbbeee9506")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAy8AAAB0CAIAAAAD7prOAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOydd1xTV//4T0LYEAgjIMsB4kZFqG0VF5SigqBorVBQ3AtFxT51KyrWoqJWi6L1cdTZoVTroFb0"
@@ -10950,7 +10961,7 @@
 	)
 	(global_label "~{DIB_FAULT}"
 		(shape input)
-		(at 203.2 137.16 0)
+		(at 205.74 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10960,7 +10971,7 @@
 		)
 		(uuid "73c5ec8c-123f-417e-a6d3-a7eac6ad6bc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.5625 137.16 0)
+			(at 214.1025 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

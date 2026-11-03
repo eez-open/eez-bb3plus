@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-01")
+		(date "2026-11-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -9354,6 +9354,7 @@
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify left)
 		)
@@ -9642,12 +9643,13 @@
 		(effects
 			(font
 				(size 0.889 0.889)
+				(color 0 194 0 1)
 			)
 			(justify left)
 		)
 		(uuid "db8971c4-fba5-4a2d-bb90-9e0458ae0252")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.7085 175.26 0)
+			(at 109.4545 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

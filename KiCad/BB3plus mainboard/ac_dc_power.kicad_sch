@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-01")
+		(date "2026-11-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -10500,15 +10500,27 @@
 	)
 	(text "EMI compliance filter"
 		(exclude_from_sim no)
-		(at 114.3 17.78 0)
+		(at 96.52 17.145 0)
 		(effects
 			(font
-				(size 1.27 1.0795)
+				(size 0.889 0.889)
 				(color 132 0 132 1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "60144ae3-21b6-4c5a-9b12-f5e63c7c87b6")
+	)
+	(text "Use 8A fuses for 115VAc"
+		(exclude_from_sim no)
+		(at 60.325 20.955 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "71ab41cb-4542-4b21-9c83-c68429f67773")
 	)
 	(text "DC-DC stepdown converters (+5V, +3V3)"
 		(exclude_from_sim no)
@@ -15925,7 +15937,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:Fuse_3651_OUTLINE")
-		(at 63.5 17.78 180)
+		(at 63.5 16.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15935,7 +15947,7 @@
 		(dnp no)
 		(uuid "0b687ebb-ce34-4a95-941d-1bfbbf0d0c41")
 		(property "Reference" "F1"
-			(at 63.5 16.51 0)
+			(at 63.5 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15945,8 +15957,8 @@
 				(justify top)
 			)
 		)
-		(property "Value" "ZCT-5A"
-			(at 63.5 20.32 0)
+		(property "Value" "ZKT-4A"
+			(at 63.5 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15957,7 +15969,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:3561_OUTLINE"
-			(at 63.5 15.24 0)
+			(at 63.5 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15968,7 +15980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 17.78 0)
+			(at 63.5 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15979,7 +15991,7 @@
 			)
 		)
 		(property "Description" "fuse holder outline"
-			(at 63.5 17.78 0)
+			(at 63.5 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15989,8 +16001,8 @@
 				)
 			)
 		)
-		(property "DigiKey" "5923-5HT5-R-ND"
-			(at 63.5 12.7 0)
+		(property "DigiKey" "5923-5HT4-R-ND"
+			(at 63.5 11.43 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -16000,8 +16012,8 @@
 				)
 			)
 		)
-		(property "Mouser" "576-0215005MXF160SPP"
-			(at 63.5 10.16 0)
+		(property "Mouser" "530-5HT4-R"
+			(at 63.5 8.89 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -16011,8 +16023,8 @@
 				)
 			)
 		)
-		(property "TME" "ZCT-5A"
-			(at 63.5 7.62 0)
+		(property "TME" "ZKT-4A"
+			(at 63.5 6.35 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -16023,7 +16035,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 63.5 17.78 0)
+			(at 63.5 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16034,7 +16046,7 @@
 			)
 		)
 		(property "Label" ""
-			(at 63.5 20.955 0)
+			(at 63.5 19.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21675,7 +21687,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:Fuse_3651_OUTLINE")
-		(at 63.5 27.94 180)
+		(at 73.66 16.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21685,7 +21697,7 @@
 		(dnp no)
 		(uuid "5c6c2856-d217-435a-9d99-e90ab0337075")
 		(property "Reference" "F2"
-			(at 63.5 26.67 0)
+			(at 73.66 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21695,8 +21707,8 @@
 				(justify top)
 			)
 		)
-		(property "Value" "ZCT-5A"
-			(at 63.5 30.48 0)
+		(property "Value" "ZKT-4A"
+			(at 73.66 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21707,7 +21719,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:3561_OUTLINE"
-			(at 63.5 25.4 0)
+			(at 73.66 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21718,7 +21730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 27.94 0)
+			(at 73.66 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21729,7 +21741,7 @@
 			)
 		)
 		(property "Description" "fuse holder outline"
-			(at 63.5 27.94 0)
+			(at 73.66 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21739,8 +21751,8 @@
 				)
 			)
 		)
-		(property "DigiKey" "5923-5HT5-R-ND"
-			(at 63.5 22.86 0)
+		(property "DigiKey" "5923-5HT4-R-ND"
+			(at 73.66 11.43 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -21750,8 +21762,8 @@
 				)
 			)
 		)
-		(property "Mouser" "576-0215005MXF160SPP"
-			(at 63.5 20.32 0)
+		(property "Mouser" "530-5HT4-R"
+			(at 73.66 8.89 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -21761,8 +21773,8 @@
 				)
 			)
 		)
-		(property "TME" "ZCT-5A"
-			(at 63.5 17.78 0)
+		(property "TME" "ZKT-4A"
+			(at 73.66 6.35 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -21773,7 +21785,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 63.5 27.94 0)
+			(at 73.66 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21784,7 +21796,7 @@
 			)
 		)
 		(property "Label" ""
-			(at 63.5 31.115 0)
+			(at 73.66 19.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

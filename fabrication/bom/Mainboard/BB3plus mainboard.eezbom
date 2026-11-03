@@ -1239,19 +1239,19 @@
         "pn:lcsc": "C323858"
       },
       "F1": {
-        "value": "ZCT-5A",
+        "value": "ZKT-4A",
         "footprint": "PCM_EEZ_SMD:3561_OUTLINE",
-        "pn:digikey": "5923-5HT5-R-ND",
-        "pn:mouser": "576-0215005MXF160SPP",
-        "pn:tme": "ZCT-5A",
+        "pn:digikey": "5923-5HT4-R-ND",
+        "pn:mouser": "530-5HT4-R",
+        "pn:tme": "ZKT-4A",
         "pn:lcsc": "-"
       },
       "F2": {
-        "value": "ZCT-5A",
+        "value": "ZKT-4A",
         "footprint": "PCM_EEZ_SMD:3561_OUTLINE",
-        "pn:digikey": "5923-5HT5-R-ND",
-        "pn:mouser": "576-0215005MXF160SPP",
-        "pn:tme": "ZCT-5A",
+        "pn:digikey": "5923-5HT4-R-ND",
+        "pn:mouser": "530-5HT4-R",
+        "pn:tme": "ZKT-4A",
         "pn:lcsc": "-"
       },
       "FB1": {
@@ -3205,13 +3205,13 @@
     {
       "id": "4805f427-2c1c-4bce-b918-9eb8d8bfdd78",
       "reference": "F1,F2",
-      "value": "ZCT-5A",
+      "value": "ZKT-4A",
       "qty": 2,
       "footprint": "PCM_EEZ_SMD:3561_OUTLINE",
       "partNumbers": {
-        "digikey": "5923-5HT5-R-ND",
-        "mouser": "576-0215005MXF160SPP",
-        "tme": "ZCT-5A",
+        "digikey": "5923-5HT4-R-ND",
+        "mouser": "530-5HT4-R",
+        "tme": "ZKT-4A",
         "lcsc": "-"
       },
       "custom": {}
