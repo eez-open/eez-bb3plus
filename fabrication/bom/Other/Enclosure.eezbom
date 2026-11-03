@@ -13,7 +13,7 @@
   "manualSuppliers": [
     {
       "id": "908e377a-a05d-46cc-adbf-581466367e5b",
-      "name": "Shenzhen Runze Metal Technology"
+      "name": "Other"
     }
   ],
   "rows": [
@@ -224,7 +224,9 @@
       "qty": 13,
       "footprint": "Screw; M3x4; cheese head; PH1; steel; zinc",
       "partNumbers": {
-        "tme": "M3X4/D7985"
+        "tme": "M3X4/D7985",
+        "digikey": "-",
+        "mouser": "-"
       },
       "custom": {}
     },
@@ -236,6 +238,28 @@
       "footprint": "Screw; M3x5; countersunk; PH1; steel; Black",
       "partNumbers": {
         "tme": "M3X5/D965B"
+      },
+      "custom": {}
+    },
+    {
+      "id": "2a0514da-d0fe-4b54-b8e6-ca88af030963",
+      "reference": "KK27, KK28",
+      "value": "M3X8/D965B",
+      "qty": 2,
+      "footprint": "Screw; M3x8; countersunk; PH1; steel; Black",
+      "partNumbers": {
+        "tme": "M3X8/D965B"
+      },
+      "custom": {}
+    },
+    {
+      "id": "ac1a83c2-cd96-41cf-8509-ca299a1c1a25",
+      "reference": "KK29, KK30",
+      "value": "B3/BN117",
+      "qty": 2,
+      "footprint": "Nut; hexagonal; M3; steel; zinc; H: 2.4 mm; 5.5 mm; DIN 934",
+      "partNumbers": {
+        "tme": "B3/BN117"
       },
       "custom": {}
     }

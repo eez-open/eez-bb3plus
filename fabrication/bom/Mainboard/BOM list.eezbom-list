@@ -10,10 +10,6 @@
       "perDevice": 1
     },
     {
-      "path": "../../../../dib-dcp405plus/fabrication/bom/EEZ DIB DCP405plus.eezbom",
-      "perDevice": 2
-    },
-    {
       "path": "../../../../dib-dcp405plus/fabrication/wire harness/DCP405plus wire harness.eezbom",
       "perDevice": 1
     },
@@ -28,8 +24,12 @@
     {
       "path": "../Other/Enclosure.eezbom",
       "perDevice": 1
+    },
+    {
+      "path": "../../../../dib-dcp405plus/fabrication/bom/EEZ DIB DCP405plus (Basic).eezbom",
+      "perDevice": 2
     }
   ],
   "history": "BOM list history.eezbom",
-  "buildQuantity": 1
+  "buildQuantity": 25
 }
