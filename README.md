@@ -34,7 +34,7 @@ Planned new features of BB3+:
 * [x] MCU/CPU module slot [Raspberry Pi CM5](https://www.raspberrypi.com/products/compute-module-5/) compatible
 * [x] M.2 slot, Key M (for NVMe SSD)
 * [x] External display output (e.g. HDMI® or DisplayPort™ compatible): GUI and data could be displayed simultaneously on TFT and external display
-* [x] 2.0/3.0 USB Hub
+* [x] 2.0/3.0 USB Hub with _FlexConnect_
 * [x] 10/100/1000 Mbps Ethernet port
 * [x] USB-C on the front panel, 2x USB 3 on the rear panel
 * [x] Low-jitter 10 MHz reference clock
@@ -44,7 +44,8 @@ Planned new features of BB3+:
 
 ### Modules
 
-* [5" DVID TFT display](https://github.com/eez-open/eez-bb3plus/tree/main/KiCad/TFT%20module) module (HDMI® compatible input, capacitive or optional resistive touchscreen)
+* [5" DVID TFT display](https://github.com/eez-open/eez-bb3plus/tree/main/KiCad/TFT%20module) module (HDMI® compatible input, optional EDID EEPROM, capacitive or optional resistive touchscreen)
+* [DIB2 Adapter](https://github.com/eez-open/eez-bb3plus/tree/main/KiCad/DIB2%20adapter) module (USB3 Type A, DIB2 I/O, Reference clock)
 
 
 

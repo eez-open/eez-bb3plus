@@ -13,7 +13,7 @@
   "manualSuppliers": [
     {
       "id": "908e377a-a05d-46cc-adbf-581466367e5b",
-      "name": "Custom"
+      "name": "Shenzhen Runze Metal Technology"
     }
   ],
   "rows": [
@@ -181,7 +181,7 @@
       "reference": "KN2",
       "value": "A3131068",
       "qty": 1,
-      "footprint": "Knob head Ø23x16mm; grey",
+      "footprint": "Knob head Ø31x16mm; grey",
       "partNumbers": {
         "digikey": "-",
         "mouser": "-",
@@ -214,6 +214,28 @@
         "tme": "SAVKABELCL-138",
         "mouser": "530-PC-E7006FC13",
         "digikey": "380-PC-E7006FC13-ND"
+      },
+      "custom": {}
+    },
+    {
+      "id": "e40c1bd0-aef9-4d52-b085-9d284ea891f8",
+      "reference": "KK2, KK3, KK4, KK5, KK6, KK7, KK8, KK9, KK10, KK11; KK12, KK13, KK14",
+      "value": "M3X4/D7985",
+      "qty": 13,
+      "footprint": "Screw; M3x4; cheese head; PH1; steel; zinc",
+      "partNumbers": {
+        "tme": "M3X4/D7985"
+      },
+      "custom": {}
+    },
+    {
+      "id": "31337198-8f90-46a9-9c0d-fca9e63a8c08",
+      "reference": "KK15, KK16, KK17, KK18, KK19, KK20, KK21, KK22, KK23, KK24, KK25, KK26",
+      "value": "M3X5/D965B",
+      "qty": 12,
+      "footprint": "Screw; M3x5; countersunk; PH1; steel; Black",
+      "partNumbers": {
+        "tme": "M3X5/D965B"
       },
       "custom": {}
     }
