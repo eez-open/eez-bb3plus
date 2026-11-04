@@ -17028,7 +17028,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-18217-1-ND"
+		(property "DigiKey" "EMI8142MUTAGOSCT-ND"
 			(at 139.7 160.02 0)
 			(hide yes)
 			(show_name yes)
@@ -17039,7 +17039,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-ECMF4-2450A60N10"
+		(property "Mouser" "863-EMI8142MUTAG"
 			(at 139.7 162.56 0)
 			(hide yes)
 			(show_name yes)
@@ -17050,7 +17050,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "EMI8142MUTAG"
 			(at 139.7 165.1 0)
 			(hide yes)
 			(show_name yes)
@@ -17113,6 +17113,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternative: ECMF4-2450A60N10"
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -17851,7 +17862,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-18217-1-ND"
+		(property "DigiKey" "EMI8142MUTAGOSCT-ND"
 			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name yes)
@@ -17862,7 +17873,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-ECMF4-2450A60N10"
+		(property "Mouser" "863-EMI8142MUTAG"
 			(at 177.8 83.82 0)
 			(hide yes)
 			(show_name yes)
@@ -17873,7 +17884,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "EMI8142MUTAG"
 			(at 177.8 86.36 0)
 			(hide yes)
 			(show_name yes)
@@ -17936,6 +17947,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternative: ECMF4-2450A60N10"
+			(at 177.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19852,7 +19874,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-18217-1-ND"
+		(property "DigiKey" "EMI8142MUTAGOSCT-ND"
 			(at 177.8 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -19863,7 +19885,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-ECMF4-2450A60N10"
+		(property "Mouser" "863-EMI8142MUTAG"
 			(at 177.8 53.34 0)
 			(hide yes)
 			(show_name yes)
@@ -19874,7 +19896,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "EMI8142MUTAG"
 			(at 177.8 55.88 0)
 			(hide yes)
 			(show_name yes)
@@ -19937,6 +19959,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternative: ECMF4-2450A60N10"
+			(at 177.8 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20047,7 +20080,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-18217-1-ND"
+		(property "DigiKey" "EMI8142MUTAGOSCT-ND"
 			(at 132.08 195.58 0)
 			(hide yes)
 			(show_name yes)
@@ -20058,7 +20091,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-ECMF4-2450A60N10"
+		(property "Mouser" "863-EMI8142MUTAG"
 			(at 132.08 198.12 0)
 			(hide yes)
 			(show_name yes)
@@ -20069,7 +20102,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "EMI8142MUTAG"
 			(at 132.08 200.66 0)
 			(hide yes)
 			(show_name yes)
@@ -20132,6 +20165,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternative: ECMF4-2450A60N10"
+			(at 132.08 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21454,6 +21498,18 @@
 				)
 			)
 		)
+		(property "Comment" "Mouser: 59.465 Expected 11/23/2026"
+			(at 78.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "86d09781-8d4e-4647-ba74-1eaa9714d8f6")
 		)
@@ -21731,7 +21787,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 154.94 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22995,7 +23051,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 48.26 165.1 0)
 			(hide yes)
 			(show_name no)

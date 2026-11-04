@@ -17584,7 +17584,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 233.68 121.92 0)
 			(hide yes)
 			(show_name no)

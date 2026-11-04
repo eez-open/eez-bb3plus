@@ -8366,7 +8366,7 @@
 		)
 		(uuid "53cb6fd0-bf1d-4655-8e50-09841f4d25d0")
 	)
-	(text "Alternative models:\nAimtec M1SS-0503SLPZ, AM1SS-0503SEZ\nGaptec 1S4E_0503S1U\nTraco power TBA 1-0510\n"
+	(text "Alternative models:\nEVISUN B0505S-1WR3"
 		(exclude_from_sim no)
 		(at 64.135 117.475 0)
 		(effects
@@ -9385,6 +9385,16 @@
 			(type default)
 		)
 		(uuid "286269f1-3a82-477d-be3b-908395a79a12")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a39e415-f626-499d-b0b4-5c91157280e3")
 	)
 	(wire
 		(pts
@@ -13201,6 +13211,84 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_symbols:+5V_ISO")
+		(at 109.22 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1df554ac-6b89-4df6-9148-46853c62bd83")
+		(property "Reference" "#+5V_ISO08"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_ISO"
+			(at 109.22 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "683bc220-1911-4e2b-9239-4a0bd84464b7")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
+					(reference "#+5V_ISO08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R-EU_4")
 		(lib_id "PCM_EEZ_passives:R-EU")
 		(at 88.9 165.1 0)
@@ -13526,7 +13614,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 228.6 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13876,7 +13964,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 43.18 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14173,7 +14261,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "SDCL1V4030-470M-R"
+		(property "Value" "MLZ2012N6R8LT000"
 			(at 45.72 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14184,7 +14272,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:L_4030Metric"
+		(property "Footprint" "PCM_EEZ_passives:L_0805_2012Metric"
 			(at 45.72 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14217,7 +14305,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "283-SDCL1V4030-470M-RCT-ND"
+		(property "DigiKey" "445-6761-1-ND"
 			(at 45.72 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14228,7 +14316,7 @@
 				)
 			)
 		)
-		(property "Mouser" "704-SDCL1V4030-470MR"
+		(property "Mouser" "810-MLZ2012N6R8LT000"
 			(at 45.72 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14239,7 +14327,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "MLZ2012N6R8LT000"
 			(at 45.72 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14250,7 +14338,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17609564"
+		(property "LCSC" "C82157"
 			(at 45.72 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14261,7 +14349,7 @@
 				)
 			)
 		)
-		(property "Value2" "47u"
+		(property "Value2" "6u8"
 			(at 45.72 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14595,6 +14683,84 @@
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
 					(reference "#SUPPLY043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_symbols:+5V_ISO")
+		(at 137.16 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c31ced8-112d-4a2c-a92d-1868c7beb999")
+		(property "Reference" "#+5V_ISO09"
+			(at 137.16 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_ISO"
+			(at 137.16 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2aa74906-489c-4bcd-92dd-d5495fde1204")
+		)
+		(instances
+			(project "BB3plus mainboard"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
+					(reference "#+5V_ISO09")
 					(unit 1)
 				)
 			)
@@ -17605,7 +17771,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 127 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -18666,7 +18832,7 @@
 				)
 			)
 		)
-		(property "Value" "THVD1420DR"
+		(property "Value" "SP485EN-L/TR"
 			(at 123.19 67.31 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -18698,7 +18864,7 @@
 				)
 			)
 		)
-		(property "Description" "3.3-V to 5-V RS-485 Transceiver with ±12-kV IEC ESD Protection"
+		(property "Description" ""
 			(at 124.714 51.562 0)
 			(hide yes)
 			(show_name no)
@@ -18709,7 +18875,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "296-THVD1420DRCT-ND"
+		(property "DigiKey" "4518-SP485ENCT-ND"
 			(at 124.714 67.564 0)
 			(hide yes)
 			(show_name yes)
@@ -18720,7 +18886,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3235215"
+		(property "LCSC" "C6855"
 			(at 119.888 72.39 0)
 			(hide yes)
 			(show_name yes)
@@ -18731,7 +18897,7 @@
 				)
 			)
 		)
-		(property "Mouser" "595-THVD1420DR"
+		(property "Mouser" "701-SP485EN-L/TR"
 			(at 122.428 69.342 0)
 			(hide yes)
 			(show_name yes)
@@ -18742,54 +18908,10 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "SP485EN-L/TR"
 			(at 121.412 70.866 0)
 			(hide yes)
 			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 114.3 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 114.3 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Name" ""
-			(at 114.3 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "PN" ""
-			(at 114.3 55.88 0)
-			(hide yes)
-			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -20235,7 +20357,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 68.58 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -21600,7 +21722,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SCT01F05S3V3"
+		(property "Value" "TEA1-0505"
 			(at 66.04 114.935 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -21644,7 +21766,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1470-SCT01F05S3V3-ND"
+		(property "DigiKey" "1951-TEA1-0505-ND"
 			(at 76.2 121.92 0)
 			(hide yes)
 			(show_name yes)
@@ -21655,7 +21777,7 @@
 				)
 			)
 		)
-		(property "Mouser" "209-SCT01F05S3V3"
+		(property "Mouser" "495-TEA1-0505"
 			(at 76.2 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -21666,7 +21788,7 @@
 				)
 			)
 		)
-		(property "TME" "SCT01F05S3V3"
+		(property "TME" "TEA1-0505"
 			(at 76.2 127 0)
 			(hide yes)
 			(show_name yes)
@@ -21677,7 +21799,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5369627"
+		(property "LCSC" "C7465127"
 			(at 76.2 129.54 0)
 			(hide yes)
 			(show_name yes)
@@ -21732,7 +21854,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: M1SS-0503SLPZ, AM1SS-0503SEZ, 1S4E_0503S1U, TBA 1-0510"
+		(property "Comment" "Alternative: EVISUN B0505S-1WR3"
 			(at 76.2 120.015 0)
 			(hide yes)
 			(show_name no)
@@ -22220,84 +22342,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_symbols:+5V_ISO")
-		(at 137.16 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb672f83-c6d0-4ecd-9523-1d2062fcb1d4")
-		(property "Reference" "#+5V_ISO03"
-			(at 137.16 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VCC_ISO"
-			(at 131.445 42.545 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e446b1d9-76bb-4e89-9169-d1ca5c55a4d0")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#+5V_ISO03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_EEZ_symbols:GND_ISO")
 		(at 142.24 116.84 0)
 		(mirror y)
@@ -22609,7 +22653,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 96.52 43.18 0)
 			(hide yes)
 			(show_name no)

@@ -19166,7 +19166,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 40.64 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -19600,7 +19600,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-18217-1-ND"
+		(property "DigiKey" "EMI8142MUTAGOSCT-ND"
 			(at 68.58 144.78 0)
 			(hide yes)
 			(show_name yes)
@@ -19611,7 +19611,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-ECMF4-2450A60N10"
+		(property "Mouser" "863-EMI8142MUTAG"
 			(at 68.58 147.32 0)
 			(hide yes)
 			(show_name yes)
@@ -19622,7 +19622,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "EMI8142MUTAG"
 			(at 68.58 149.86 0)
 			(hide yes)
 			(show_name yes)
@@ -19685,6 +19685,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternative: ECMF4-2450A60N10"
+			(at 68.58 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21098,7 +21109,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-18217-1-ND"
+		(property "DigiKey" "EMI8142MUTAGOSCT-ND"
 			(at 40.64 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -21109,7 +21120,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-ECMF4-2450A60N10"
+		(property "Mouser" "863-EMI8142MUTAG"
 			(at 40.64 53.34 0)
 			(hide yes)
 			(show_name yes)
@@ -21120,7 +21131,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "EMI8142MUTAG"
 			(at 40.64 55.88 0)
 			(hide yes)
 			(show_name yes)
@@ -21183,6 +21194,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternative: ECMF4-2450A60N10"
+			(at 40.64 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22215,7 +22237,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22629,7 +22651,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 86.36 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -22970,7 +22992,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-18217-1-ND"
+		(property "DigiKey" "EMI8142MUTAGOSCT-ND"
 			(at 40.64 71.12 0)
 			(hide yes)
 			(show_name yes)
@@ -22981,7 +23003,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-ECMF4-2450A60N10"
+		(property "Mouser" "863-EMI8142MUTAG"
 			(at 40.64 73.66 0)
 			(hide yes)
 			(show_name yes)
@@ -22992,7 +23014,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "EMI8142MUTAG"
 			(at 40.64 76.2 0)
 			(hide yes)
 			(show_name yes)
@@ -23055,6 +23077,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternative: ECMF4-2450A60N10"
+			(at 40.64 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23243,7 +23276,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-18217-1-ND"
+		(property "DigiKey" "EMI8142MUTAGOSCT-ND"
 			(at 68.58 165.1 0)
 			(hide yes)
 			(show_name yes)
@@ -23254,7 +23287,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-ECMF4-2450A60N10"
+		(property "Mouser" "863-EMI8142MUTAG"
 			(at 68.58 167.64 0)
 			(hide yes)
 			(show_name yes)
@@ -23265,7 +23298,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "EMI8142MUTAG"
 			(at 68.58 170.18 0)
 			(hide yes)
 			(show_name yes)
@@ -23328,6 +23361,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternative: ECMF4-2450A60N10"
+			(at 68.58 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24806,7 +24850,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 78.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -24932,7 +24976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LMK1C1106APWR"
+		(property "Value" "5PB1106PGGK"
 			(at 241.3 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24978,7 +25022,7 @@
 				(justify bottom)
 			)
 		)
-		(property "DigiKey" "296-LMK1C1106APWRCT-ND"
+		(property "DigiKey" "6690-5PB1106PGGK-ND"
 			(at 248.92 170.18 0)
 			(hide yes)
 			(show_name yes)
@@ -24989,7 +25033,7 @@
 				)
 			)
 		)
-		(property "Mouser" "595-LMK1C1106APWR "
+		(property "Mouser" "972-5PB1106PGGK"
 			(at 248.92 172.72 0)
 			(hide yes)
 			(show_name yes)
@@ -25011,7 +25055,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49307590"
+		(property "LCSC" "C1511162"
 			(at 248.92 177.8 0)
 			(hide yes)
 			(show_name yes)
@@ -25020,6 +25064,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Comment" "Alternative: LMK1C1106APWR, CDCLVC1106PWR"
+			(at 248.92 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "12"

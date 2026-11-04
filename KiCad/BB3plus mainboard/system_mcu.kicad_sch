@@ -12112,7 +12112,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 68.58 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13724,7 +13724,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 132.08 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -16617,7 +16617,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 269.24 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18752,6 +18752,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21097,7 +21108,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -22242,7 +22253,7 @@
 				)
 			)
 		)
-		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+		(property "Comment" ""
 			(at 132.08 43.18 0)
 			(hide yes)
 			(show_name no)

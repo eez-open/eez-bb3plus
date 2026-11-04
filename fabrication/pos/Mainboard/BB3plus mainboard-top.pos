@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-11-04T12:29:24 ###
+### Footprint positions - created on 2026-11-04T18:25:16 ###
 ### Printed by KiCad version 10.0.8-10.0.8~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -176,7 +176,7 @@ IC7       LM64460CPPQRYFRQ1           VQFN22_RYF_TEX                     15.6990
 IC8       EMC2301-1-ACZL-TR           MSOP-8_MS_LIT                     128.8000   176.8094   90.0000  top
 IC9       ISO6763FDWR                 DW16                              193.8000   197.9907   90.0000  top
 IC10      BD00FC0W                    TO-252-5                          130.7283   184.8294  -90.0000  top
-IC11      THVD1420DR                  SOIC127P600X173-8N                208.6061   210.6307   90.0000  top
+IC11      SP485EN-L/TR                SOIC127P600X173-8N                208.6061   210.6307   90.0000  top
 IC12      TLV77333PDBVR               SOT23-5L_STM                      200.6200   209.8500   90.0000  top
 IC13      TPD4E001DRLR                DRL6                              206.7401   221.1700  180.0000  top
 IC14      TPD4E001DRLR                DRL6                              193.2700   221.1700  180.0000  top
@@ -190,7 +190,7 @@ IC21      TPD2E001DRLR                DRL5                              102.2500
 IC22      FUSB340TMX                  QFN40P200X280X40-19N               72.9369    20.5731  -90.0000  top
 IC23      TPS22948DCKR                DCK6                              119.6600   213.5950   90.0000  top
 IC24      SN74LVC1G3157DCK            SOT65P210X110-6N                  185.8300   110.7300    0.0000  top
-IC25      LMK1C1106APWR               SOP65P640X120-14N                 181.2400   108.0375  -90.0000  top
+IC25      5PB1106PGGK                 SOP65P640X120-14N                 181.2400   108.0375  -90.0000  top
 IC26      SN74LVC1G3157DCK            SOT65P210X110-6N                  189.8698   110.7300    0.0000  top
 IC27      FXL6408UMX                  UMLP16_1P8X2P6_ONS                207.9317   110.1900  180.0000  top
 IC28      ULN2003D                    SO16                              207.8900   104.3600  -90.0000  top
@@ -208,7 +208,7 @@ L2        2200HT-221-V-RC             BOURNS_2200                        18.3300
 L3        RN222-4-02-3M3              BOURNS_7100_COMBO                  18.3300   158.3400  -90.0000  top
 L4        2u2                         INDPM7166X300N                     53.4600    20.8400  -90.0000  top
 L5        1u                          INDPM7166X300N                      9.1640    49.7229  180.0000  top
-L6        SDCL1V4030-470M-R           L_4030Metric                      211.4398   192.2793   90.0000  top
+L6        MLZ2012N6R8LT000            L_0805_2012Metric                 209.8600   192.2775   90.0000  top
 L7        DLW21SN900SQ2L              IND_DLW21S_0805_MUR-M             208.6061   217.4125   90.0000  top
 L8        1u                          INDPM7166X300N                    101.2598    32.2184    0.0000  top
 L9        ECMF4-2450A60N10            ECMF42450A60N10                    99.6100   202.2912  180.0000  top
@@ -282,7 +282,7 @@ R48       3K3                         R_0603_1608Metric                 122.0807
 R49       3K3                         R_0603_1608Metric                 125.8768   180.8651    0.0000  top
 R50       1K                          R_0603_1608Metric                 128.8339   180.8732  180.0000  top
 R51       18K                         R_0603_1608Metric                 191.8900   205.2407  -90.0000  top
-R52       18K                         R_0603_1608Metric                 205.2078   210.2645  -90.0000  top
+R52       18K                         R_0603_1608Metric                 205.2300   208.4650  -90.0000  top
 R54       100R                        R_0603_1608Metric                 210.2553   217.5841   90.0000  top
 R55       10K                         R_0603_1608Metric                  94.9800    16.1550  -90.0000  top
 R56       10K                         R_0603_1608Metric                 100.8300    16.1550  -90.0000  top
@@ -328,7 +328,7 @@ SP1       CMI-9605-1280T              CMI-9605-1280T                    113.5000
 SW1       WBL2UOAGQR05CLR             WBL2UOAGQR05CLR_2                  14.0000    17.8000   90.0000  top
 SW2       PEC16-2215F-S0024           PEC16-2215F                        98.5000     7.6000  -90.0000  top
 TR1       IRM-45-12                   IRM-45                             67.6000   142.2900  -90.0000  top
-TR2       SCT01F05S3V3                DQS1-3-S3-S                       203.7909   198.0000   90.0000  top
+TR2       TEA1-0505                   DQS1-3-S3-S                       203.7909   198.0000   90.0000  top
 VAR1      B72214S0271K101             VARISTOR_14MM_RM7.5MM              49.8226   197.9147  180.0000  top
 VAR2      B72214S0271K101             VARISTOR_14MM_RM7.5MM              13.6321   197.9147  180.0000  top
 VAR3      B72214S0271K101             VARISTOR_14MM_RM7.5MM              31.7274   197.9147    0.0000  top

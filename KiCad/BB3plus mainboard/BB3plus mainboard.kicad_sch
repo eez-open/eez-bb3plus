@@ -2610,7 +2610,7 @@
 			)
 		)
 		(column_widths 10.16 22.86)
-		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
 		(uuid "3afa86de-59a0-4a10-a1a8-703c157bc556")
 		(cells
 			(table_cell "I2C address"
@@ -2825,6 +2825,41 @@
 					(justify left)
 				)
 				(uuid "dba17a7c-dfd5-4be5-a554-b94fe0fc2d9a")
+			)
+			(table_cell "0x43"
+				(exclude_from_sim no)
+				(at 25.4 109.22 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+				)
+				(uuid "bd5af84d-3ddd-47c8-8528-f07d1444a9b4")
+			)
+			(table_cell "FXL6408 8-bit I/O Expander"
+				(exclude_from_sim no)
+				(at 35.56 109.22 0)
+				(size 22.86 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 132 0 132 1)
+					)
+					(justify left)
+				)
+				(uuid "368dd57a-aa0b-4879-a643-c44570909769")
 			)
 		)
 	)
