@@ -22,10 +22,6 @@
       "perDevice": 1
     },
     {
-      "path": "../Other/Enclosure.eezbom",
-      "perDevice": 1
-    },
-    {
       "path": "../../../../dib-dcp405plus/fabrication/bom/EEZ DIB DCP405plus (Basic).eezbom",
       "perDevice": 2
     }

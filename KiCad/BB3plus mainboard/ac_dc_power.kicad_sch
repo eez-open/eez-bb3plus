@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-03")
+		(date "2026-11-04")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -16057,6 +16057,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Comment" "Use 8A fuses for 115VAc"
+			(at 63.5 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/451f238c-56e9-49de-804a-2a19deb9fc4a"
@@ -20265,6 +20276,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 210.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "27cec030-341f-4aa5-80ae-d7ea2c03afe7")
 		)
@@ -21805,6 +21827,17 @@
 					(size 0.889 0.889)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Comment" "Use 8A fuses for 115VAc"
+			(at 73.66 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -24238,6 +24271,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 147.32 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30458,6 +30502,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 203.2 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d81810d-2ed2-46e9-a752-d7465eac3d77")
 		)
@@ -34132,6 +34187,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 152.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

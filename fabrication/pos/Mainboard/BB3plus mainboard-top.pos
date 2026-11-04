@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-11-01T08:07:00 ###
-### Printed by KiCad version 10.0.7-10.0.7~ubuntu24.04.1
+### Footprint positions - created on 2026-11-04T12:29:24 ###
+### Printed by KiCad version 10.0.8-10.0.8~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                         Package                               PosX       PosY       Rot  Side
@@ -139,14 +139,13 @@ C135      1u                          C_0603_1608Metric                 177.7500
 C136      100n                        C_0402_1005Metric                 181.5000   103.6600  180.0000  top
 C137      100n                        C_0402_1005Metric                 179.6700   103.6600    0.0000  top
 C138      100n                        C_0402_1005Metric                 180.8800   112.4100    0.0000  top
-C139      100n                        C_0603_1608Metric                 210.5480   110.3900  -90.0000  top
+C139      100n                        C_0603_1608Metric                 205.5900   110.7800  -90.0000  top
 C140      10u                         C_0805_2012Metric                 201.4882   108.4232   90.0000  top
 C141      10u                         C_0805_2012Metric                 195.9182   110.8432   90.0000  top
 C142      100n                        C_0603_1608Metric                 199.7682   108.2082   90.0000  top
 C143      100n                        C_0603_1608Metric                 197.6382   110.6182   90.0000  top
-C144      10u                         C_0805_2012Metric                 212.7700   104.2700   90.0000  top
-C145      10n/200V                    C_1206_3216Metric                 170.7100   221.6500  180.0000  top
-C146      10n/200V                    C_1206_3216Metric                 153.2100   221.6200  180.0000  top
+C144      10n/200V                    C_1206_3216Metric                 170.7100   221.6500  180.0000  top
+C145      10n/200V                    C_1206_3216Metric                 153.2100   221.6200  180.0000  top
 D1        BAS316                      SOD-323_1P8X1P35_ONS-M             54.3900    79.2700    0.0000  top
 D2        BAS316                      SOD-323_1P8X1P35_ONS-M            109.4283    71.9011   90.0000  top
 D3        BAS316                      SOD-323_1P8X1P35_ONS-M            109.4200    77.2989  -90.0000  top
@@ -193,8 +192,9 @@ IC23      TPS22948DCKR                DCK6                              119.6600
 IC24      SN74LVC1G3157DCK            SOT65P210X110-6N                  185.8300   110.7300    0.0000  top
 IC25      LMK1C1106APWR               SOP65P640X120-14N                 181.2400   108.0375  -90.0000  top
 IC26      SN74LVC1G3157DCK            SOT65P210X110-6N                  189.8698   110.7300    0.0000  top
-IC27      TLE75008ESDXUMA1            SOP65P600X115-25N                 207.6100   104.8250    0.0000  top
-IC28      ADG2188Y                    CP_32_7_ADI-M                     195.6282   105.6800    0.0000  top
+IC27      FXL6408UMX                  UMLP16_1P8X2P6_ONS                207.9317   110.1900  180.0000  top
+IC28      ULN2003D                    SO16                              207.8900   104.3600  -90.0000  top
+IC29      ADG2188Y                    CP_32_7_ADI-M                     195.6282   105.6800    0.0000  top
 JP18      10129378-902001BLF          PinHeader_1x02_P2.54mm_Vertical   181.5300   100.1100  -90.0000  top
 K1        AZ943-1CH-12DE              AZ943-1CH-12DE                     40.9000   123.4900  180.0000  top
 K2        AZ943-1CH-12DE              AZ943-1CH-12DE                     40.9000   107.7600  180.0000  top
@@ -359,5 +359,5 @@ Y1        FC-135_32.7680KA-K0         ABS07AIG                           98.9800
 Y2        VXM7-9032-25M0000000        XTAL_403C11A24M00000              114.5300    36.5800   90.0000  top
 Y3        I537-2O7-_10.000_MHz        XTAL_403C11A24M00000              185.8400   107.4600  180.0000  top
 ZD1       BZT52-B5V1                  SOD123                             73.0500   190.9700    0.0000  top
-ZD4       SMF16CA                     SODFL3718X130N                    212.5500   108.2200   90.0000  top
+ZD4       MMSZ5230BT1G                SOD123                            201.7800   103.3700   90.0000  top
 ## End

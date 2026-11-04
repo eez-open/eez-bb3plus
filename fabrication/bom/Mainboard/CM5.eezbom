@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "source": {
     "kind": "manual"
   },
@@ -28,10 +28,10 @@
   "rows": [
     {
       "id": "1bcac911-57ff-42dd-873c-54b5c920f281",
-      "reference": "Raspberry Pi CM5004000 4GB RAM LITE",
+      "reference": "CPU1",
       "value": "SC1562",
       "qty": 1,
-      "footprint": "",
+      "footprint": "Raspberry Pi CM5004000 4GB RAM LITE",
       "partNumbers": {
         "mouser": "358-SC1562",
         "digikey": "2648-SC1562-ND",
@@ -41,10 +41,10 @@
     },
     {
       "id": "c66807cb-84c0-4edd-b4aa-82dd40b64eff",
-      "reference": "Raspberry Pi CM5 Passive Cooler",
+      "reference": "KK1",
       "value": "SC1752",
       "qty": 1,
-      "footprint": "",
+      "footprint": "Raspberry Pi CM5 Passive Cooler",
       "partNumbers": {
         "mouser": "358-SC1752",
         "digikey": "2648-SC1752-ND",
@@ -54,10 +54,10 @@
     },
     {
       "id": "a75b08ea-1070-47bd-8e7a-7a530280c3f2",
-      "reference": "128GB M.2 NVMe SSD",
+      "reference": "SSD1",
       "value": "P300P128GM28",
       "qty": 1,
-      "footprint": "",
+      "footprint": "128GB M.2 NVMe SSD",
       "partNumbers": {},
       "custom": {
         "e30102cb-ed6a-438b-a5de-7afc9c3fb9da": "https://www.tonerpartner.hr/patriot-p300-128gb-ssd-m-2-nvme-5r-278936hr/"

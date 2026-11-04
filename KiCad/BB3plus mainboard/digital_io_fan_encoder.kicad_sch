@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-03")
+		(date "2026-11-04")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -13526,6 +13526,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 228.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f627aab3-3dd9-4cdd-96ed-96d93c01f5eb")
 		)
@@ -13862,6 +13873,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -14432,7 +14454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38089a98-3365-466c-9d09-cdb771388fce")
-		(property "Reference" "#GND010"
+		(property "Reference" "#GND011"
 			(at 238.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14493,7 +14515,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#GND010")
+					(reference "#GND011")
 					(unit 1)
 				)
 			)
@@ -15704,7 +15726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54f23cfc-abfe-4822-9ed0-1ad91d3e372f")
-		(property "Reference" "#SUPPLY056"
+		(property "Reference" "#SUPPLY055"
 			(at 226.06 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15765,7 +15787,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#SUPPLY056")
+					(reference "#SUPPLY055")
 					(unit 1)
 				)
 			)
@@ -17583,6 +17605,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 127 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44fc64b8-cc40-466c-aa96-120c039877b5")
 		)
@@ -18186,7 +18219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8582471e-42ea-43fd-be44-908be107a03d")
-		(property "Reference" "#SUPPLY057"
+		(property "Reference" "#SUPPLY056"
 			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18247,7 +18280,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#SUPPLY057")
+					(reference "#SUPPLY056")
 					(unit 1)
 				)
 			)
@@ -19355,7 +19388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0f9e4cf-4be0-4728-9036-2506203b71c8")
-		(property "Reference" "#GND09"
+		(property "Reference" "#GND010"
 			(at 226.06 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -19416,7 +19449,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#GND09")
+					(reference "#GND010")
 					(unit 1)
 				)
 			)
@@ -20199,6 +20232,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 68.58 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21688,6 +21732,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: M1SS-0503SLPZ, AM1SS-0503SEZ, 1S4E_0503S1U, TBA 1-0510"
+			(at 76.2 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c9a7904d-5169-44e6-b4e7-bba551bd464c")
 		)
@@ -22254,7 +22309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce1662a1-d7be-4f95-827c-cc340205609b")
-		(property "Reference" "#GND047"
+		(property "Reference" "#GND08"
 			(at 142.24 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -22315,7 +22370,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#GND047")
+					(reference "#GND08")
 					(unit 1)
 				)
 			)
@@ -22554,6 +22609,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 96.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "505e5f62-c84e-4e84-81bd-5453f23cf2e6")
 		)
@@ -22580,7 +22646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d31c4a9c-9478-4966-b317-3807f0852941")
-		(property "Reference" "#SUPPLY058"
+		(property "Reference" "#SUPPLY057"
 			(at 254 127 0)
 			(hide yes)
 			(show_name no)
@@ -22641,7 +22707,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#SUPPLY058")
+					(reference "#SUPPLY057")
 					(unit 1)
 				)
 			)
@@ -23016,7 +23082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6b8bc15-a634-4662-884a-f168756b1f12")
-		(property "Reference" "#SUPPLY059"
+		(property "Reference" "#SUPPLY058"
 			(at 254 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -23077,7 +23143,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#SUPPLY059")
+					(reference "#SUPPLY058")
 					(unit 1)
 				)
 			)
@@ -23172,7 +23238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8be192f-6615-4f50-9c63-1e79ef2fa725")
-		(property "Reference" "#GND08"
+		(property "Reference" "#GND09"
 			(at 226.06 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -23233,7 +23299,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#GND08")
+					(reference "#GND09")
 					(unit 1)
 				)
 			)
@@ -23691,7 +23757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb579179-62bf-4937-bf99-76100fed9404")
-		(property "Reference" "#SUPPLY055"
+		(property "Reference" "#SUPPLY054"
 			(at 210.82 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -23752,7 +23818,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/830c9101-e201-40d1-8c34-0dbed89b71c3"
-					(reference "#SUPPLY055")
+					(reference "#SUPPLY054")
 					(unit 1)
 				)
 			)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-03")
+		(date "2026-11-04")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7533,6 +7533,22 @@
 		(uuid "12adc0ee-b5c5-46b9-befa-27f5f5ad8ac9")
 	)
 	(no_connect
+		(at 144.78 86.36)
+		(uuid "4445a970-01a8-4041-a4bf-5d29a125050b")
+	)
+	(no_connect
+		(at 170.18 104.14)
+		(uuid "461255eb-395d-4818-beab-737aae03e427")
+	)
+	(no_connect
+		(at 170.18 132.08)
+		(uuid "8777176a-fea8-4daa-b069-f37a1af79b03")
+	)
+	(no_connect
+		(at 170.18 55.88)
+		(uuid "98cc9ad5-5a33-4cc2-90da-9aea99ccb23b")
+	)
+	(no_connect
 		(at 213.36 83.82)
 		(uuid "cfaf38b4-769f-4a01-87a2-16296979d75d")
 	)
@@ -8557,16 +8573,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 144.78 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72589d87-0db5-4c6a-81a7-15db37b63f30")
-	)
-	(wire
-		(pts
 			(xy 200.66 114.3) (xy 205.74 114.3)
 		)
 		(stroke
@@ -9030,16 +9036,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 55.88) (xy 170.18 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ab8bd7-a92a-474c-b71f-29d93655d2f5")
-	)
-	(wire
-		(pts
 			(xy 142.24 58.42) (xy 142.24 60.96)
 		)
 		(stroke
@@ -9237,16 +9233,6 @@
 			(type default)
 		)
 		(uuid "c3f8f0a9-2014-4bc4-9739-45876c162ab4")
-	)
-	(wire
-		(pts
-			(xy 170.18 132.08) (xy 175.26 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c40d86b7-58c2-4a47-8313-1ecf267974e8")
 	)
 	(wire
 		(pts
@@ -9521,16 +9507,6 @@
 			(type default)
 		)
 		(uuid "ece0fa93-4c50-4f49-9d4c-529577a2dd3d")
-	)
-	(wire
-		(pts
-			(xy 175.26 104.14) (xy 170.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee08aba3-61b0-4c8c-99c5-448011219363")
 	)
 	(wire
 		(pts
@@ -10308,30 +10284,6 @@
 			)
 		)
 	)
-	(global_label "~{RELAY_CS}"
-		(shape output)
-		(at 175.26 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "04f7873a-cd26-404f-9d9f-4b86bf7b46b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.2416 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "USBC_ID"
 		(shape input)
 		(at 139.7 124.46 180)
@@ -10498,30 +10450,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SYSMCU_SCLK"
-		(shape output)
-		(at 175.26 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "3f4986b2-dc64-4436-a82e-3d2b94533b07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.205 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -10932,30 +10860,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SYSMCU_MOSI"
-		(shape output)
-		(at 139.7 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "6fe412bc-fe2b-4841-9d92-9fd7a7642cf8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.8821 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -11504,30 +11408,6 @@
 		(uuid "e0c43731-7186-4bbe-b50a-452ba6212ee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 183.2416 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SYSMCU_MISO"
-		(shape input)
-		(at 175.26 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "ea732ae9-2cd9-4320-bd5b-f0471ef523ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.0779 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12229,6 +12109,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 68.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13830,6 +13721,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 132.08 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16712,6 +16614,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 269.24 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21184,6 +21097,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 68.58 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cc87b331-3bf6-4b8b-9fe8-06c52d537f33")
 		)
@@ -22315,6 +22239,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 132.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

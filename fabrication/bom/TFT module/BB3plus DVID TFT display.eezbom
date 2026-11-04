@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "source": {
     "kind": "kicad",
     "path": "../../../KiCad/TFT module/BB3plus DVID TFT display.kicad_pro",
@@ -341,16 +341,30 @@
     },
     {
       "id": "596f925f-94af-4e88-b4b1-586a0737c803",
-      "reference": "5\" TFT capacitive touch",
+      "reference": "LCD1",
       "value": "ER-TFT050-6-3661-3684",
       "qty": 1,
-      "footprint": "",
+      "footprint": "5\" TFT capacitive touch",
       "partNumbers": {},
       "custom": {},
       "manual": {
         "438fb2a8-4edf-4fd3-b622-c7a5c4907b90": {
           "partNumber": "ER-TFT050-6-3661-3684",
           "unitPrice": 19.29,
+          "priceBreaks": [
+            {
+              "qty": 25,
+              "unitPrice": 22
+            },
+            {
+              "qty": 100,
+              "unitPrice": 19.586
+            },
+            {
+              "qty": 300,
+              "unitPrice": 19.08
+            }
+          ],
           "stock": 1000,
           "moq": 1
         }

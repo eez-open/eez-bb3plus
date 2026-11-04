@@ -286,7 +286,7 @@
           ""
         ],
         [
-          "silk_overlap|507611428|-9975412|2b62bb41-3eb4-420c-9e7c-923b5acd7f73|6bf22a23-9678-4dcb-bc25-971236610195",
+          "silk_overlap|500079321|-8610000|2b62bb41-3eb4-420c-9e7c-923b5acd7f73|6bf22a23-9678-4dcb-bc25-971236610195",
           ""
         ],
         [
@@ -426,15 +426,15 @@
           ""
         ],
         [
-          "unconnected_items|377430000|-44130000|F.Cu|4|143f8474-ddc6-404a-89a9-9b727a608b31|b96fe76a-c962-4b5c-83e0-e94242f5053c",
+          "unconnected_items|377430000|-44130000|F.Cu|4|be498e05-0561-4eb7-a6d2-9d63cb4087c3|b96fe76a-c962-4b5c-83e0-e94242f5053c",
+          ""
+        ],
+        [
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5",
           ""
         ],
         [
           "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
-          ""
-        ],
-        [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac",
           ""
         ],
         [
@@ -524,7 +524,7 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.00254,
         "min_text_height": 0.6096,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
@@ -2646,7 +2646,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Name"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -2698,7 +2698,7 @@
         "uuid": "1df84e4f-233a-4f72-9418-c0020706bb76"
       }
     ],
-    "used_designators": "#+3V1-58,#+3V63,#+3V3_ISO1-2,#+5V1-11,#+5V_ISO1-8,#FLG1-18,#GND1-49,#P+1-10,#PE1-16,#PWR1-38,#SUPPLY1-123,C1-148,CF1-2,D1-20,F1-4,FB1-7,FH1-4,FM1-4,H1-8,IC1-28,JP1-25,K1-12,KN1-2,L1-16,LED1-8,LOGO1-7,Module1-2,NTC1,OK1-2,Q1-9,R1-104,SAR1,SP1,SW1-2,TP1-19,TR1-2,U1,U8,VAR1-3,X1-28,Y1-3,ZD1-5",
+    "used_designators": "#+3V1-58,#+3V63,#+3V3_ISO1-2,#+5V1-11,#+5V_ISO1-8,#FLG1-18,#GND1-49,#P+1-10,#PE1-16,#PWR1-38,#SUPPLY1-125,C1-148,CF1-2,D1-20,F1-4,FB1-7,FH1-4,FM1-4,H1-8,IC1-29,JP1-25,K1-12,KN1-2,L1-16,LED1-8,LOGO1-7,Module1-2,NTC1,OK1-2,Q1-9,R1-104,SAR1,SP1,SW1-2,TP1-19,TR1-2,U1,U8,VAR1-3,X1-28,Y1-3,ZD1-5",
     "variants": []
   },
   "sheets": [

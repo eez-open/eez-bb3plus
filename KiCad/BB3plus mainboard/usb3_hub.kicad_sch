@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-03")
+		(date "2026-11-04")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -15728,6 +15728,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e40ef21-f67a-430e-828f-fd74ddf516b9")
 		)
@@ -16059,7 +16070,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16070,7 +16081,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16081,7 +16092,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16501,6 +16512,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16933,6 +16955,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 261.62 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb70ca4f-6f79-4252-8382-bfed5ae32eef")
 		)
@@ -17100,6 +17133,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 266.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18221,7 +18265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36bdf20e-fde1-4ed1-911c-7864a25897e6")
-		(property "Reference" "#SUPPLY064"
+		(property "Reference" "#SUPPLY063"
 			(at 246.38 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18282,7 +18326,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY064")
+					(reference "#SUPPLY063")
 					(unit 1)
 				)
 			)
@@ -18627,7 +18671,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18638,7 +18682,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18649,7 +18693,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19236,6 +19280,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 246.38 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b735df69-a57a-4c3d-81f8-3f2d13831990")
 		)
@@ -19262,7 +19317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a7162f5-d067-49b1-8209-f09fa871a405")
-		(property "Reference" "#SUPPLY063"
+		(property "Reference" "#SUPPLY062"
 			(at 246.38 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -19323,7 +19378,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY063")
+					(reference "#SUPPLY062")
 					(unit 1)
 				)
 			)
@@ -19341,7 +19396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c814677-b1ed-4593-a367-c69d1c5e1e19")
-		(property "Reference" "#SUPPLY062"
+		(property "Reference" "#SUPPLY061"
 			(at 226.06 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19402,7 +19457,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY062")
+					(reference "#SUPPLY061")
 					(unit 1)
 				)
 			)
@@ -19475,7 +19530,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19486,7 +19541,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19497,7 +19552,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20102,7 +20157,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20113,7 +20168,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20124,7 +20179,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20359,6 +20414,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 162.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bffb8621-1f52-46e9-97c4-29ca2a4128ac")
 		)
@@ -20385,7 +20451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67b8b017-10fb-42b7-94a6-0d59482cfeb0")
-		(property "Reference" "#SUPPLY065"
+		(property "Reference" "#SUPPLY064"
 			(at 254 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -20446,7 +20512,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY065")
+					(reference "#SUPPLY064")
 					(unit 1)
 				)
 			)
@@ -20860,7 +20926,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20871,7 +20937,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20882,7 +20948,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -21030,7 +21096,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -21041,7 +21107,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -21052,7 +21118,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -21285,6 +21351,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 256.54 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21810,6 +21887,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 251.46 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f696b9c-8ba1-460f-a31b-22ad9a2e20a6")
 		)
@@ -22263,7 +22351,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -22274,7 +22362,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -22285,7 +22373,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -22521,6 +22609,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 246.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d22d74d7-6eb8-44b5-904f-bf814935fe44")
 		)
@@ -22603,7 +22702,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 43.18 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -22614,7 +22713,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 43.18 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -22625,7 +22724,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 43.18 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -22784,7 +22883,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -22795,7 +22894,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -22806,7 +22905,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -23212,7 +23311,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23223,7 +23322,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23234,7 +23333,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23899,6 +23998,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 236.22 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7ea72b0-ecd2-4522-9748-7d5023a4e793")
 		)
@@ -24069,6 +24179,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 236.22 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd0417e2-c37b-43ac-8fd6-fea6703c5c57")
 		)
@@ -24151,7 +24272,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -24162,7 +24283,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -24173,7 +24294,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -24406,6 +24527,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 213.36 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25287,6 +25419,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 241.3 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "910b798d-4bec-4e41-94de-ca0355192e93")
 		)
@@ -25498,7 +25641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "addfba73-b5c1-4f42-a76d-ffe8338180f9")
-		(property "Reference" "#SUPPLY066"
+		(property "Reference" "#SUPPLY065"
 			(at 271.78 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -25559,7 +25702,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY066")
+					(reference "#SUPPLY065")
 					(unit 1)
 				)
 			)
@@ -26112,7 +26255,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 43.18 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -26123,7 +26266,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 43.18 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -26134,7 +26277,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 43.18 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -26980,6 +27123,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 231.14 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e4e4287-3a41-426d-bbdb-045a4a655a63")
 		)
@@ -27150,6 +27304,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 236.22 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc0ca602-3ea7-4a8d-9611-3fa9966ac1ef")
 		)
@@ -27311,7 +27476,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -27322,7 +27487,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -27333,7 +27498,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -27898,7 +28063,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -27909,7 +28074,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -27920,7 +28085,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -28311,6 +28476,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 241.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d52646a1-e0fa-44ea-85ec-5e4ce03e32b7")
 		)
@@ -28415,7 +28591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3e247aa-3bfa-47c1-b128-2b17579d23e6")
-		(property "Reference" "#SUPPLY061"
+		(property "Reference" "#SUPPLY060"
 			(at 213.36 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -28476,7 +28652,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY061")
+					(reference "#SUPPLY060")
 					(unit 1)
 				)
 			)
@@ -28668,7 +28844,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 43.18 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -28679,7 +28855,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 43.18 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -28690,7 +28866,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 43.18 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -29106,6 +29282,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 251.46 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b429201-b667-4726-844e-19aa34175fa8")
 		)
@@ -29457,6 +29644,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 246.38 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec7bd1a8-cac1-4d54-afaa-88185e7f6505")
 		)
@@ -29483,7 +29681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5321545-3e17-43a0-8f61-5ad1cd61fb64")
-		(property "Reference" "#SUPPLY060"
+		(property "Reference" "#SUPPLY059"
 			(at 157.48 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -29544,7 +29742,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/99b67fa5-56ce-4798-a21a-d86c3d347c55"
-					(reference "#SUPPLY060")
+					(reference "#SUPPLY059")
 					(unit 1)
 				)
 			)
@@ -29617,7 +29815,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1002-1-ND"
+		(property "DigiKey" "490-6287-1-ND"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -29628,7 +29826,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM022R60J104KE5L"
+		(property "Mouser" "81-GRM155R60J104KA1D"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -29639,7 +29837,7 @@
 				)
 			)
 		)
-		(property "TME" "CL05B104KO5NNNC"
+		(property "TME" "GRM155R60J104KA01D"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -30044,6 +30242,17 @@
 				)
 			)
 		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 231.14 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73d72227-5e62-49b2-aa03-db3b2facb030")
 		)
@@ -30211,6 +30420,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 241.3 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30750,6 +30970,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Comment" "Alternatives: ADCH-S05R5SA105RB, KR-5R5H105-R, SCMDVLT3R6105ZVH190004E or SCMDVLT5R5105ZVH190004E"
+			(at 256.54 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "source": {
     "kind": "manual"
   },
@@ -20,10 +20,10 @@
   "rows": [
     {
       "id": "ee179b57-da98-49d9-a221-ac786197b07e",
-      "reference": "3-pin receptacle for DC fan",
+      "reference": "X1",
       "value": "0022013037",
       "qty": 1,
-      "footprint": "",
+      "footprint": "3-pin receptacle for DC fan",
       "partNumbers": {
         "tme": "MX-22-01-3037",
         "lcsc": "C185238",
@@ -34,10 +34,10 @@
     },
     {
       "id": "9e1d0990-2cb8-4e6d-befe-234f1ca8dbaa",
-      "reference": "Terminal for crimping",
+      "reference": "T1, T2, T3",
       "value": "0008500032",
-      "qty": 1,
-      "footprint": "",
+      "qty": 3,
+      "footprint": "Terminal for crimping",
       "partNumbers": {
         "tme": "MX-4809C-P914L",
         "lcsc": "C45408619",
@@ -48,10 +48,10 @@
     },
     {
       "id": "404ca8d7-6138-4005-b291-4d713cec3c38",
-      "reference": "FFC 101 mm, 0.5 mm pitch, 22 pin",
+      "reference": "CBL1",
       "value": "05-22-A-0101-A-4-06-4-T",
       "qty": 1,
-      "footprint": "",
+      "footprint": "FFC 101 mm, 0.5 mm pitch, 22 pin",
       "partNumbers": {
         "tme": "05-22-A-0101-A",
         "mouser": "640-522A0101A4064T",
