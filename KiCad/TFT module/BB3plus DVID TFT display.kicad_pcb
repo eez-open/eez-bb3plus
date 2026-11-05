@@ -101,7 +101,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(aux_axis_origin 85 141.5)
 		(grid_origin 85 141.5)
 		(pcbplotparams
@@ -2274,7 +2273,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2559,7 +2558,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2802,7 +2801,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "791-0603X475K100CT"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2844,7 +2843,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1705"
+		(property "LCSC" "C19666"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3635,7 +3634,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7626,7 +7625,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7668,7 +7667,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7925,7 +7924,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7953,7 +7952,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8496,7 +8495,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TME" "5051102291-MOL"
+		(property "TME" "FFC2B35-22-G"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9286,7 +9285,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9328,7 +9327,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10198,7 +10197,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10712,7 +10711,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DigiKey" "1276-1861-1-ND"
+		(property "DigiKey" "1276-1859-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10726,7 +10725,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A105KL8NNNC"
+		(property "Mouser" "187-CL10A105KB8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10740,7 +10739,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TME" "CL10B105KB8NQNC"
+		(property "TME" "CL10A105KB8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10768,7 +10767,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C478859"
+		(property "LCSC" "C15849"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12072,7 +12071,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12315,7 +12314,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12357,7 +12356,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12851,7 +12850,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14223,7 +14222,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14265,7 +14264,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14509,7 +14508,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14551,7 +14550,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16002,7 +16001,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17449,7 +17448,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19109,7 +19108,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10A475KP8NNNC"
+		(property "Mouser" "791-0603X475K100CT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19137,7 +19136,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1705"
+		(property "LCSC" "C19666"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19597,7 +19596,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1589"
+		(property "LCSC" "C57112"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19841,7 +19840,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19883,7 +19882,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20439,7 +20438,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21797,7 +21796,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TME" "0805S8F100JT5E"
+		(property "TME" "SMD0805-10R-1%"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23612,7 +23611,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23640,7 +23639,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23883,7 +23882,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23925,7 +23924,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24183,7 +24182,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24211,7 +24210,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C98220"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30446,7 +30445,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TME" "SMD0603-10K-1%"
+		(property "TME" "RC0603FR-0710K"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30474,7 +30473,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C98220"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31103,7 +31102,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31145,7 +31144,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31430,7 +31429,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C84416"
+		(property "LCSC" "C15850"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32059,7 +32058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "187-CL10B104KO8NNNC "
+		(property "Mouser" "80-C0603C104M4R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32101,7 +32100,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33659,7 +33658,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "136 mm"
+		(gr_text "5354,3 mils"
 			(at 153 142.85 0)
 			(layer "Dwgs.User")
 			(uuid "94a8a5a8-6178-4917-a8e4-c34622dcc1ac")
@@ -33697,7 +33696,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "92 mm"
+		(gr_text "3622 mils"
 			(at 222.45 95.5 90)
 			(layer "Dwgs.User")
 			(uuid "a769e782-7fa8-49f3-8610-061b9c824707")
@@ -33734,7 +33733,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "26,4 mm"
+		(gr_text "1041,3 mils"
 			(at 113.125 82.39 0)
 			(layer "User.1")
 			(uuid "03e40a5f-dec7-407d-b49c-4853485bdb84")
@@ -33771,7 +33770,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "42,0000 mm"
+		(gr_text "1653,5433 mils"
 			(at 122.35 112.4 90)
 			(layer "User.1")
 			(uuid "046d4ee4-292d-4bfb-95b8-c5e1918a58e8")
@@ -33808,7 +33807,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "12,6 mm"
+		(gr_text "496,1 mils"
 			(at 92.1 66.3 90)
 			(layer "User.1")
 			(uuid "1698f19c-d404-49fa-b3c0-692e5d77df5c")
@@ -33845,7 +33844,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "116,0 mm"
+		(gr_text "4566,9 mils"
 			(at 153 143.15 0)
 			(layer "User.1")
 			(uuid "1f96e1c3-706c-4a9c-b55a-c807366aeca4")
@@ -33882,7 +33881,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "84,0 mm"
+		(gr_text "3307,1 mils"
 			(at 223.95 95.5 90)
 			(layer "User.1")
 			(uuid "2d49e88e-e30a-4844-aa62-bd0647807f2f")
@@ -33919,7 +33918,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4,9 mm"
+		(gr_text "192,9 mils"
 			(at 208.55 138.05 0)
 			(layer "User.1")
 			(uuid "2dfd0a5d-2c59-4450-a316-32c42f3d9189")
@@ -33956,7 +33955,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "12,5 mm"
+		(gr_text "492,1 mils"
 			(at 93.25 83.15 0)
 			(layer "User.1")
 			(uuid "31e2aed6-503c-4d6e-b2bc-b333cb7af634")
@@ -33993,7 +33992,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4,0 mm"
+		(gr_text "157,5 mils"
 			(at 223.95 139.5 90)
 			(layer "User.1")
 			(uuid "38e34a05-fbcf-4a05-904c-856cee4c2059")
@@ -34030,7 +34029,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4,0 mm"
+		(gr_text "157,5 mils"
 			(at 223.95 51.500002 90)
 			(layer "User.1")
 			(uuid "42743d96-53eb-41a8-a98e-a381f29bd0e2")
@@ -34067,7 +34066,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "92,0 mm"
+		(gr_text "3622,0 mils"
 			(at 226.760496 95.5 90)
 			(layer "User.1")
 			(uuid "512e5872-eaf0-486d-9d12-4d5852da10fc")
@@ -34104,7 +34103,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "10,0 mm"
+		(gr_text "393,7 mils"
 			(at 90.000001 143.15 0)
 			(layer "User.1")
 			(uuid "63661e44-5aaa-4c72-a976-da6071242151")
@@ -34141,7 +34140,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "67,4 mm"
+		(gr_text "2653,5 mils"
 			(at 102.55 93.3 90)
 			(layer "User.1")
 			(uuid "897b076f-1bff-499c-93fb-c7a31bca6d4d")
@@ -34178,7 +34177,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "15,8000 mm"
+		(gr_text "622,0472 mils"
 			(at 107.8 93.65 0)
 			(layer "User.1")
 			(uuid "bbbf2847-34c7-494c-a085-10c02a84cda3")
@@ -34215,7 +34214,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "75,8 mm"
+		(gr_text "2983,9 mils"
 			(at 96.12 95.495 90)
 			(layer "User.1")
 			(uuid "dd8d968a-e2ce-4412-9546-48e894849d2c")
@@ -34252,7 +34251,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "10,0 mm"
+		(gr_text "393,7 mils"
 			(at 216 143.15 0)
 			(layer "User.1")
 			(uuid "f899fea7-29fe-4e37-8393-95801713b051")
@@ -34289,7 +34288,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "136,0 mm"
+		(gr_text "5354,3 mils"
 			(at 153 145.25 0)
 			(layer "User.1")
 			(uuid "f9f70ae4-24df-4cb9-ae02-f3377deb5d72")
