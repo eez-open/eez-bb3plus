@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-11-02T11:59:45 ###
+### Footprint positions - created on 2026-11-07T10:58:36 ###
 ### Printed by KiCad version 10.0.8-10.0.8~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -11,7 +11,7 @@ KK1       PCB-MB-01               PCB-MB-01                  69.5000   -63.0000 
 KK2       PCB-MB-01               PCB-MB-01                  69.5000  -147.0000    0.0000  top
 LED1      LTST-C170KRKT           LED_LTST-C170KGKT_LTO-L    75.2225  -112.7700  180.0000  top
 R1        4K7                     R_0603_1608Metric          75.1850  -111.2800  180.0000  top
-R2        270R                    R_0603_1608Metric          78.3235  -112.7708    0.0000  top
+R2        1K                      R_0603_1608Metric          78.3235  -112.7708    0.0000  top
 X2        73100-0105              73100-0105                 70.7000  -134.0000   90.0000  top
 X3        ~                       61202021721                61.0000   -89.0000  -90.0000  top
 X4        USB1135-15-9-L-B_REVA1  USB1135-15-9-L-B_REVA1     68.3000  -116.0000  -90.0000  top
