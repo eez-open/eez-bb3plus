@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-04")
+		(date "2026-11-07")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -17177,7 +17177,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "5328216f-7ff0-4c7a-b265-3605ad710d89")
-		(property "Reference" "JP14"
+		(property "Reference" "JP15"
 			(at 22.225 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17287,7 +17287,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "JP14")
+					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -17382,7 +17382,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "5a33cf07-3995-42e0-b76e-c4f5f23debdb")
-		(property "Reference" "JP16"
+		(property "Reference" "JP17"
 			(at 59.69 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17555,7 +17555,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "JP16")
+					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -21084,7 +21084,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "9a5f3655-0be1-4318-97be-5f15dfe48f48")
-		(property "Reference" "JP17"
+		(property "Reference" "JP18"
 			(at 59.69 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21258,7 +21258,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "JP17")
+					(reference "JP18")
 					(unit 1)
 				)
 			)
@@ -23277,7 +23277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb3b98c3-237e-4fa3-a34e-666df6a3b41b")
-		(property "Reference" "JP15"
+		(property "Reference" "JP16"
 			(at 39.37 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23451,7 +23451,7 @@
 		(instances
 			(project "BB3plus mainboard"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/c0a485a3-023d-4313-ae06-c16e1fdbf75a"
-					(reference "JP15")
+					(reference "JP16")
 					(unit 1)
 				)
 			)

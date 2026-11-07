@@ -7,7 +7,7 @@ AC Mains: 115/230Vac
 
 Consolidated [BOM](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/bom/Mainboard/BOM%20list.eezbom-list) in BOM checker format (BOM checker [installation](https://github.com/eez-open/bom_checker/releases) for Linux and Windows)
 
-EAN code:** TBA**
+EAN code: **TBA**
 
 ### Mainboard PCB
 
@@ -69,7 +69,7 @@ Silkscreens
 | Front panel: [SVG](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/silkscreens/Enclosure/BB3Plus%20Silkscreen%20(Front%20panel).svg), [PDF](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/silkscreens/Enclosure/BB3Plus%20Silkscreen%20(Front%20panel).pdf)| Print color: White
 | Rear panel: [SVG](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/silkscreens/Enclosure/BB3Plus%20Silkscreen%20(Rear%20panel).svg), [PDF](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/silkscreens/Enclosure/BB3Plus%20Silkscreen%20(Rear%20panel).pdf)| Print color: White
 Wire harness
-| [PDF](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/wire%20harness/EEZ%20BB3plus%20wire%20harness.pdf)
+| Description: [PDF](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/wire%20harness/EEZ%20BB3plus%20wire%20harness.pdf)
 | BOM Chassis: [ODS](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/wire%20harness/EEZ%20BB3plus%20wire%20harness%20BOM.ods), [PDF](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/wire%20harness/EEZ%20BB3plus%20wire%20harness%20BOM.pdf) | [BOM checker](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/wire%20harness/EEZ%20BB3plus%20wire%20harness.eezbom) format
 | BOM DCP405B+: [ODS](https://github.com/eez-open/dib-dcp405plus/blob/main/fabrication/wire%20harness/DCP405plus%20wire%20harness%20BOM.ods), [PDF](https://github.com/eez-open/dib-dcp405plus/blob/main/fabrication/wire%20harness/DCP405plus%20wire%20harness%20BOM.pdf) | [BOM checker](https://github.com/eez-open/dib-dcp405plus/blob/main/fabrication/wire%20harness/DCP405plus%20wire%20harness.eezbom) format, **Multiply by 2**
 Assembly instructions | [PDF](https://github.com/eez-open/eez-bb3plus/blob/main/fabrication/mechanical/BB3plus%20mechanical.pdf)
