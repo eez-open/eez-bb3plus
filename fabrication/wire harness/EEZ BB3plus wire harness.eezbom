@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
+  "id": "27669700-ccdc-4e39-a432-8b6b4e4cecfb",
   "source": {
     "kind": "manual"
   },
@@ -7,7 +8,9 @@
     "digikey",
     "mouser",
     "tme",
-    "lcsc"
+    "lcsc",
+    "arrow-europe",
+    "arrow-acna"
   ],
   "customColumns": [
     {
@@ -28,7 +31,9 @@
         "tme": "MX-22-01-3037",
         "lcsc": "C185238",
         "mouser": "538-22-01-3037",
-        "digikey": "900-0022013037-ND"
+        "digikey": "900-0022013037-ND",
+        "arrow-europe": "0022013037",
+        "arrow-acna": "0022013037"
       },
       "custom": {}
     },
@@ -42,7 +47,9 @@
         "tme": "MX-4809C-P914L",
         "lcsc": "C45408619",
         "mouser": "538-08-50-0114",
-        "digikey": "WM2623-ND"
+        "digikey": "WM2623-ND",
+        "arrow-europe": "0008500032",
+        "arrow-acna": "0008500032"
       },
       "custom": {}
     },

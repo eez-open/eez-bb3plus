@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 8,
+  "id": "e54b1622-c8d9-4d5b-8231-238c2161a6d8",
+  "source": {
+    "kind": "manual"
+  },
+  "suppliers": [],
+  "customColumns": [],
+  "manualSuppliers": [
+    {
+      "id": "b048b18b-5105-4340-8806-64f2b16daafa",
+      "name": "JLCPCB"
+    }
+  ],
+  "rows": [
+    {
+      "id": "2bf6d24b-d508-4415-989d-3ab18c4d682f",
+      "reference": "PCB1",
+      "value": "TFT Module PCB",
+      "qty": 1,
+      "footprint": "136 x 92 mm, 2-layer, Green",
+      "partNumbers": {},
+      "custom": {}
+    },
+    {
+      "id": "ff26c13c-efcf-4a4c-b854-6ca9b5cedaca",
+      "reference": "PCB2",
+      "value": "Mainboard PCB",
+      "qty": 1,
+      "footprint": "233 x 230.5 mm, 4-layer, Green",
+      "partNumbers": {},
+      "custom": {}
+    },
+    {
+      "id": "bbd2d07f-bc87-4aa1-b657-be4ea758cabb",
+      "reference": "PCB3, PCB4",
+      "value": "DCP405+ PCB",
+      "qty": 2,
+      "footprint": "180 x 103.5 mm, 4-layer, Green, ENIG",
+      "partNumbers": {},
+      "custom": {}
+    },
+    {
+      "id": "a76d3603-f607-4c18-827f-e7ea4d02ced3",
+      "reference": "PCB5, PCB6",
+      "value": "Half width bare front mask PCB",
+      "qty": 2,
+      "footprint": "17.65 x 111.5 mm, 2-layer, Blue",
+      "partNumbers": {},
+      "custom": {}
+    }
+  ],
+  "buildQuantity": 1
+}

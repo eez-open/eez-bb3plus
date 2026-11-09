@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "boms": [
     {
       "path": "BB3plus mainboard.eezbom",
@@ -18,14 +18,23 @@
       "perDevice": 1
     },
     {
-      "path": "CM5.eezbom",
+      "path": "../../../../dib-dcp405plus/fabrication/bom/EEZ DIB DCP405plus (Basic).eezbom",
+      "perDevice": 2
+    },
+    {
+      "path": "../Other/Enclosure.eezbom",
       "perDevice": 1
     },
     {
-      "path": "../../../../dib-dcp405plus/fabrication/bom/EEZ DIB DCP405plus (Basic).eezbom",
-      "perDevice": 2
+      "path": "../Other/PCBs.eezbom",
+      "perDevice": 1
+    },
+    {
+      "path": "CM5-2GB-LITE.eezbom",
+      "perDevice": 1
     }
   ],
   "history": "BOM list history.eezbom",
-  "buildQuantity": 25
+  "buildQuantity": 25,
+  "description": "BB3+ with CM5 2GB (no eMMC), 128GB SSD and two DCP405B+ power modules"
 }

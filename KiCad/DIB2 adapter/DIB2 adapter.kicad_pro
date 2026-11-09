@@ -652,7 +652,7 @@
       "plot": "../../fabrication/gerbers/DIB2 adapter/",
       "pos_files": "../fabrication/pos/",
       "specctra_dsn": "",
-      "step": "../../eez-bb3plus/fabrication/step/EEZ DIB DCP405plus (simple).step",
+      "step": "../../fabrication/step/DIB2 adapter.step",
       "svg": "",
       "vrml": ""
     },

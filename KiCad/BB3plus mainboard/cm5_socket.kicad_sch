@@ -16193,6 +16193,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "BAS316"
+			(at 266.7 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BAS316"
+			(at 266.7 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "a8b9dba3-2587-48dd-8501-71b3f0ced67f")
 		)
@@ -16596,6 +16618,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "RC0603FR-07330RL"
+			(at 116.84 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "RC0603FR-07330RL"
+			(at 116.84 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bccb1348-d34f-4b51-a98f-be9ffa1597ed")
 		)
@@ -16921,6 +16965,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "RC0603FR-1310KL"
+			(at 213.36 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "RC0603FR-1310KL"
+			(at 213.36 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f029aa46-4604-411b-848e-38ca24fa6a54")
 		)
@@ -17087,6 +17153,28 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Arrow (EUROPE)" "MCAST21GBB5106KTNA01"
+			(at 231.14 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "MCAST21GBB5106KTNA01"
+			(at 231.14 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -17595,6 +17683,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "CL10B104KA8NNNC"
+			(at 233.68 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "CL10B104KA8NNNC"
+			(at 233.68 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42270bd2-c923-4af3-a7fe-b8617bcac300")
 		)
@@ -18092,6 +18202,17 @@
 				)
 			)
 		)
+		(property "Arrow (ACNA)" "-"
+			(at 164.592 156.718 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "146"
 			(uuid "6720a9a8-5a3d-4a52-bf2f-8293623dbcb4")
 		)
@@ -18567,6 +18688,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "LTST-C170KGKT"
+			(at 116.205 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "LTST-C170KGKT"
+			(at 116.205 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "7a8c9489-62e1-4d48-84d7-88cd5a7ee8a9")
 		)
@@ -18733,6 +18876,28 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Arrow (EUROPE)" "RC0603FR-07330RL"
+			(at 127 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "RC0603FR-07330RL"
+			(at 127 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19138,6 +19303,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "RC0603FR-07330RL"
+			(at 269.24 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "RC0603FR-07330RL"
+			(at 269.24 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a36580f1-9bcd-4bc8-9fe3-7e1845cfac21")
 		)
@@ -19387,6 +19574,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "RC0603FR-1310KL"
+			(at 228.6 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "RC0603FR-1310KL"
+			(at 228.6 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b9140036-0e6a-4c20-b9bc-9ced169311ac")
 		)
@@ -19553,6 +19762,28 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Arrow (EUROPE)" "2N7002"
+			(at 124.46 197.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "2N7002"
+			(at 124.46 197.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20736,6 +20967,18 @@
 				)
 			)
 		)
+		(property "Arrow (ACNA)" "-"
+			(at 274.066 27.432 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "31"
 			(uuid "950d7cab-eeb3-4ccf-9af6-985014aaa198")
 		)
@@ -21471,6 +21714,18 @@
 				)
 			)
 		)
+		(property "Arrow (ACNA)" "-"
+			(at 241.046 22.352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "31"
 			(uuid "950d7cab-eeb3-4ccf-9af6-985014aaa199")
 		)
@@ -21789,7 +22044,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C500797"
+		(property "LCSC" "C155356"
 			(at 251.46 157.48 0)
 			(hide yes)
 			(show_name yes)
@@ -21797,6 +22052,30 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (EUROPE)" "PI3USB102ZLEX"
+			(at 246.38 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "PI3USB102ZLEX"
+			(at 246.38 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -22069,6 +22348,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "-"
+			(at 65.532 156.718 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22719,6 +23009,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "LTST-C170KRKT"
+			(at 126.365 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "LTST-C170KRKT"
+			(at 126.365 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "cb3b93cd-e7a4-4a25-b743-4814a122f781")
 		)
@@ -23202,6 +23514,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "RC0603FR-1310KL"
+			(at 269.24 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "RC0603FR-1310KL"
+			(at 269.24 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c95eef37-36c5-4537-a9e4-0a4963e66450")
 		)
@@ -23380,6 +23714,28 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Arrow (EUROPE)" "LTST-C170KRKT"
+			(at 268.605 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "LTST-C170KRKT"
+			(at 268.605 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

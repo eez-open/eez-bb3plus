@@ -9963,6 +9963,30 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "10018783-10101TLF"
+			(at 45.72 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Arrow (ACNA)" "10018783-10101TLF"
+			(at 45.72 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
 		(pin "A8"
 			(uuid "5cabab5a-8314-4b99-aea5-ad24503ca046")
 		)
@@ -10403,6 +10427,30 @@
 				(font
 					(size 0.889 0.889)
 				)
+			)
+		)
+		(property "Arrow (EUROPE)" "10018783-10101TLF"
+			(at 256.54 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Arrow (ACNA)" "10018783-10101TLF"
+			(at 256.54 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "A8"
@@ -12650,6 +12698,30 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "10018783-10101TLF"
+			(at 144.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Arrow (ACNA)" "10018783-10101TLF"
+			(at 144.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
 		(pin "A8"
 			(uuid "da30f9f3-a9e2-448f-a507-24bd43ebabd7")
 		)
@@ -13090,6 +13162,30 @@
 				(font
 					(size 0.889 0.889)
 				)
+			)
+		)
+		(property "Arrow (EUROPE)" "10018783-10101TLF"
+			(at 198.12 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Arrow (ACNA)" "10018783-10101TLF"
+			(at 198.12 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "A8"
@@ -13767,6 +13863,30 @@
 				(font
 					(size 0.889 0.889)
 				)
+			)
+		)
+		(property "Arrow (EUROPE)" "10018783-10101TLF"
+			(at 93.98 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Arrow (ACNA)" "10018783-10101TLF"
+			(at 93.98 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "A8"

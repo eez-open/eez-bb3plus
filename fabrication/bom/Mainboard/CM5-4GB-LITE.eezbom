@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
+  "id": "7b56a62d-f3ea-4479-869e-1d929a4fe705",
   "source": {
     "kind": "manual"
   },
@@ -46,11 +47,13 @@
       "qty": 1,
       "footprint": "Raspberry Pi CM5 Passive Cooler",
       "partNumbers": {
-        "mouser": "358-SC1752",
+        "mouser": "41-ED-CM4COOLER-B",
         "digikey": "2648-SC1752-ND",
         "tme": "SC1752"
       },
-      "custom": {}
+      "custom": {
+        "e30102cb-ed6a-438b-a5de-7afc9c3fb9da": "Check if EDATEC model comes with thermal pads"
+      }
     },
     {
       "id": "a75b08ea-1070-47bd-8e7a-7a530280c3f2",
@@ -58,22 +61,18 @@
       "value": "P300P128GM28",
       "qty": 1,
       "footprint": "128GB M.2 NVMe SSD",
-      "partNumbers": {},
+      "partNumbers": {
+        "tme": "SSD98-1283SG"
+      },
       "custom": {
         "e30102cb-ed6a-438b-a5de-7afc9c3fb9da": "https://www.tonerpartner.hr/patriot-p300-128gb-ssd-m-2-nvme-5r-278936hr/"
       },
       "manual": {
         "e4050d6c-3e58-489a-be38-c3dd455b3a67": {
-          "partNumber": "PAT-P300-2280-128",
-          "unitPrice": 51.37,
-          "stock": 25,
-          "moq": 1
+          "partNumber": "PAT-P300-2280-128"
         },
         "1144aa9c-9d52-4167-95b2-0675f105cc8c": {
-          "partNumber": "AH20505045",
-          "unitPrice": 41.87,
-          "stock": 25,
-          "moq": 1
+          "partNumber": "AH20505045"
         }
       }
     }
