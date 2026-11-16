@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-07")
+		(date "2026-11-14")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -33849,7 +33849,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "CL10B103KB8NNNC"
+		(property "Arrow (ACNA)" "GRM033R61E103KA12D"
 			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -34231,7 +34231,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "CL10B103KB8NNNC"
+		(property "Arrow (ACNA)" "GRM033R61E103KA12D"
 			(at 109.22 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -36268,7 +36268,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "CL10B103KB8NNNC"
+		(property "Arrow (ACNA)" "GRM033R61E103KA12D"
 			(at 76.2 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -37439,7 +37439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZT52-B5V1"
+		(property "Value" "MMSZ4V3T1G"
 			(at 64.135 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37483,7 +37483,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "3757-BZT52-B5V1_R1_00001CT-ND"
+		(property "DigiKey" "MMSZ4V3T1GOSCT-ND"
 			(at 66.04 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -37494,7 +37494,7 @@
 				)
 			)
 		)
-		(property "Mouser" "241-BZT52B5V1R100001"
+		(property "Mouser" "863-MMSZ4V3T1G"
 			(at 66.04 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -37505,7 +37505,7 @@
 				)
 			)
 		)
-		(property "TME" "BZT52-B5V1-R1"
+		(property "TME" "MMSZ4V3T1G"
 			(at 66.04 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -37516,7 +37516,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C461723"
+		(property "LCSC" "C46472984"
 			(at 66.04 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -37571,7 +37571,7 @@
 				)
 			)
 		)
-		(property "Arrow (EUROPE)" "BZT52B5V1"
+		(property "Arrow (EUROPE)" "MMSZ4V3T1G"
 			(at 69.215 165.735 0)
 			(hide yes)
 			(show_name no)
@@ -37582,7 +37582,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "BZT52B5V1"
+		(property "Arrow (ACNA)" "MMSZ4V3T1G"
 			(at 69.215 165.735 0)
 			(hide yes)
 			(show_name no)
@@ -38155,7 +38155,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "CL10B103KB8NNNC"
+		(property "Arrow (ACNA)" "GRM033R61E103KA12D"
 			(at 213.36 81.28 0)
 			(hide yes)
 			(show_name no)

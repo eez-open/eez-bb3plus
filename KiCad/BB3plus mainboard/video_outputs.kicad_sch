@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-07")
+		(date "2026-11-14")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -17986,6 +17986,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "10129378-902001BLF"
+			(at 198.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "10129378-902001BLF"
+			(at 198.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73392206-e1e4-4d8d-b0af-bf4968afa55a")
 		)
@@ -24697,7 +24719,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "I537-2O7- 10.000 MHz"
+		(property "Value" "ECS-TXO-3225MV-100-TR"
 			(at 177.8 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24740,7 +24762,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "2780-I537-2O7-10.000MHZCT-ND"
+		(property "DigiKey" "50-ECS-TXO-3225MV-100-CT-ND"
 			(at 177.8 134.62 0)
 			(hide yes)
 			(show_name yes)
@@ -24751,7 +24773,7 @@
 				)
 			)
 		)
-		(property "Mouser" "815-I5372O710.000MHZ"
+		(property "Mouser" "520-TXO-3225MV-100-T"
 			(at 177.8 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -24773,7 +24795,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2442721"
 			(at 177.8 142.24 0)
 			(hide yes)
 			(show_name yes)

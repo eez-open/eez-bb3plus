@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.1524,
           "min_island_area": 9.99999999996,
-          "min_thickness": 0.2032,
+          "min_thickness": 0.1524,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.2032,
+          "thermal_relief_gap": 0.1524,
           "thermal_relief_spoke_width": 0.381
         }
       },
@@ -294,11 +294,11 @@
           ""
         ],
         [
-          "silk_overlap|313114588|113091842|271c921c-fc2e-4243-9831-f64cbb2dae2e|e8955031-1776-4c5b-a65b-1ef0670bc0eb",
+          "silk_overlap|314492638|117951260|271c921c-fc2e-4243-9831-f64cbb2dae2e|e8955031-1776-4c5b-a65b-1ef0670bc0eb",
           ""
         ],
         [
-          "silk_overlap|339594588|144771759|be38bc6e-cce5-446f-ba49-3c2b1a873b72|feb9554d-1481-415d-907f-e00b54c6115f",
+          "silk_overlap|339594588|150405272|be38bc6e-cce5-446f-ba49-3c2b1a873b72|feb9554d-1481-415d-907f-e00b54c6115f",
           ""
         ],
         [
@@ -462,11 +462,11 @@
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5",
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
           ""
         ],
         [
@@ -2690,7 +2690,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

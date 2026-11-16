@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-07")
+		(date "2026-11-14")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -11970,7 +11970,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "CL10B103KB8NNNC"
+		(property "Arrow (ACNA)" "GRM033R61E103KA12D"
 			(at 193.04 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18960,7 +18960,7 @@
 				)
 			)
 		)
-		(property "Description" "Mainstream Arm Cortex-M0+ MCU with 64 Kbytes of Flash memory, 36 Kbytes RAM, 64 MHz CPU"
+		(property "Description" "Mainstream Arm Cortex-M0+ MCU with 128 Kbytes of Flash memory, 36 Kbytes RAM, 64 MHz CPU"
 			(at 144.78 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -21386,7 +21386,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "CL10B103KB8NNNC"
+		(property "Arrow (ACNA)" "GRM033R61E103KA12D"
 			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)

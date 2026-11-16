@@ -32,6 +32,10 @@
     {
       "path": "CM5-2GB-LITE.eezbom",
       "perDevice": 1
+    },
+    {
+      "path": "../BIO2210 module/BIO2210.eezbom",
+      "perDevice": 1
     }
   ],
   "history": "BOM list history.eezbom",

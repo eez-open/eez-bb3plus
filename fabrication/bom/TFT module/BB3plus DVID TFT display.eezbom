@@ -13,7 +13,9 @@
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
         "pn:mouser": "81-GRM21BR61C106KE5K",
         "pn:tme": "CL21A106KAYNNNE",
-        "pn:lcsc": "C15850"
+        "pn:lcsc": "C15850",
+        "pn:arrow-europe": "MCAST21GBB5106KTNA01",
+        "pn:arrow-acna": "MCAST21GBB5106KTNA01"
       },
       "C2": {
         "value": "10u",
@@ -21,7 +23,9 @@
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
         "pn:mouser": "81-GRM21BR61C106KE5K",
         "pn:tme": "CL21A106KAYNNNE",
-        "pn:lcsc": "C15850"
+        "pn:lcsc": "C15850",
+        "pn:arrow-europe": "MCAST21GBB5106KTNA01",
+        "pn:arrow-acna": "MCAST21GBB5106KTNA01"
       },
       "C4": {
         "value": "10u",
@@ -29,7 +33,9 @@
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
         "pn:mouser": "81-GRM21BR61C106KE5K",
         "pn:tme": "CL21A106KAYNNNE",
-        "pn:lcsc": "C15850"
+        "pn:lcsc": "C15850",
+        "pn:arrow-europe": "MCAST21GBB5106KTNA01",
+        "pn:arrow-acna": "MCAST21GBB5106KTNA01"
       },
       "C11": {
         "value": "10u",
@@ -37,7 +43,9 @@
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
         "pn:mouser": "81-GRM21BR61C106KE5K",
         "pn:tme": "CL21A106KAYNNNE",
-        "pn:lcsc": "C15850"
+        "pn:lcsc": "C15850",
+        "pn:arrow-europe": "MCAST21GBB5106KTNA01",
+        "pn:arrow-acna": "MCAST21GBB5106KTNA01"
       },
       "C15": {
         "value": "10u",
@@ -45,7 +53,9 @@
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
         "pn:mouser": "81-GRM21BR61C106KE5K",
         "pn:tme": "CL21A106KAYNNNE",
-        "pn:lcsc": "C15850"
+        "pn:lcsc": "C15850",
+        "pn:arrow-europe": "MCAST21GBB5106KTNA01",
+        "pn:arrow-acna": "MCAST21GBB5106KTNA01"
       },
       "C20": {
         "value": "10u",
@@ -53,7 +63,9 @@
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
         "pn:mouser": "81-GRM21BR61C106KE5K",
         "pn:tme": "CL21A106KAYNNNE",
-        "pn:lcsc": "C15850"
+        "pn:lcsc": "C15850",
+        "pn:arrow-europe": "MCAST21GBB5106KTNA01",
+        "pn:arrow-acna": "MCAST21GBB5106KTNA01"
       },
       "C26": {
         "value": "10u",
@@ -61,31 +73,39 @@
         "pn:digikey": "490-GRM21BR61E106MA73KCT-ND",
         "pn:mouser": "81-GRM21BR61C106KE5K",
         "pn:tme": "CL21A106KAYNNNE",
-        "pn:lcsc": "C15850"
+        "pn:lcsc": "C15850",
+        "pn:arrow-europe": "MCAST21GBB5106KTNA01",
+        "pn:arrow-acna": "MCAST21GBB5106KTNA01"
       },
       "C3": {
         "value": "1u",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
-        "pn:digikey": "1276-1859-1-ND",
+        "pn:digikey": "1276-CL10A105KA8NFNCCT-ND",
         "pn:mouser": "187-CL10A105KB8NNNC",
         "pn:tme": "CL10A105KB8NNNC",
-        "pn:lcsc": "C15849"
+        "pn:lcsc": "C15849",
+        "pn:arrow-europe": "CL10A105KB8NNNC",
+        "pn:arrow-acna": "CL10A105KB8NNNC"
       },
       "C5": {
         "value": "4u7",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
-        "pn:digikey": "1276-1044-1-ND",
+        "pn:digikey": "1276-CL10A475KP8NNNCCT-ND",
         "pn:mouser": "791-0603X475K100CT",
         "pn:tme": "CL10A475KP8NNNC",
-        "pn:lcsc": "C19666"
+        "pn:lcsc": "C19666",
+        "pn:arrow-europe": "MSASL16KJB5475MTNB33",
+        "pn:arrow-acna": "MSASL16KJB5475MTNB33"
       },
       "C8": {
         "value": "4u7",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
-        "pn:digikey": "1276-1044-1-ND",
+        "pn:digikey": "1276-CL10A475KP8NNNCCT-ND",
         "pn:mouser": "791-0603X475K100CT",
         "pn:tme": "CL10A475KP8NNNC",
-        "pn:lcsc": "C19666"
+        "pn:lcsc": "C19666",
+        "pn:arrow-europe": "MSASL16KJB5475MTNB33",
+        "pn:arrow-acna": "MSASL16KJB5475MTNB33"
       },
       "C6": {
         "value": "10n",
@@ -93,7 +113,9 @@
         "pn:digikey": "1276-1009-1-ND",
         "pn:mouser": "187-CL10B103KB8NNNC",
         "pn:tme": "CL10B103KB8NNNC",
-        "pn:lcsc": "C57112"
+        "pn:lcsc": "C57112",
+        "pn:arrow-europe": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D"
       },
       "C7": {
         "value": "10n",
@@ -101,7 +123,9 @@
         "pn:digikey": "1276-1009-1-ND",
         "pn:mouser": "187-CL10B103KB8NNNC",
         "pn:tme": "CL10B103KB8NNNC",
-        "pn:lcsc": "C57112"
+        "pn:lcsc": "C57112",
+        "pn:arrow-europe": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D"
       },
       "C10": {
         "value": "10n",
@@ -109,7 +133,9 @@
         "pn:digikey": "1276-1009-1-ND",
         "pn:mouser": "187-CL10B103KB8NNNC",
         "pn:tme": "CL10B103KB8NNNC",
-        "pn:lcsc": "C57112"
+        "pn:lcsc": "C57112",
+        "pn:arrow-europe": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D"
       },
       "C14": {
         "value": "10n",
@@ -117,7 +143,9 @@
         "pn:digikey": "1276-1009-1-ND",
         "pn:mouser": "187-CL10B103KB8NNNC",
         "pn:tme": "CL10B103KB8NNNC",
-        "pn:lcsc": "C57112"
+        "pn:lcsc": "C57112",
+        "pn:arrow-europe": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D"
       },
       "C9": {
         "value": "100n",
@@ -125,7 +153,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C12": {
         "value": "100n",
@@ -133,7 +163,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C13": {
         "value": "100n",
@@ -141,7 +173,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C16": {
         "value": "100n",
@@ -149,7 +183,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C17": {
         "value": "100n",
@@ -157,7 +193,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C18": {
         "value": "100n",
@@ -165,7 +203,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C19": {
         "value": "100n",
@@ -173,7 +213,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C21": {
         "value": "100n",
@@ -181,7 +223,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C22": {
         "value": "100n",
@@ -189,7 +233,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C23": {
         "value": "100n",
@@ -197,7 +243,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "C27": {
         "value": "100n",
@@ -205,7 +253,9 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "pn:arrow-acna": "CL10B104KA8NNNC"
       },
       "CAP1": {
         "value": "B32-1360",
@@ -213,7 +263,9 @@
         "pn:digikey": "SW259-ND",
         "pn:mouser": "653-B32-1360",
         "pn:tme": "B32-1360",
-        "pn:lcsc": "C2733574"
+        "pn:lcsc": "C2733574",
+        "pn:arrow-europe": "B32-1360",
+        "pn:arrow-acna": "B32-1360"
       },
       "CAP2": {
         "value": "B32-1360",
@@ -221,7 +273,9 @@
         "pn:digikey": "SW259-ND",
         "pn:mouser": "653-B32-1360",
         "pn:tme": "B32-1360",
-        "pn:lcsc": "C2733574"
+        "pn:lcsc": "C2733574",
+        "pn:arrow-europe": "B32-1360",
+        "pn:arrow-acna": "B32-1360"
       },
       "CAP3": {
         "value": "B32-1360",
@@ -229,7 +283,9 @@
         "pn:digikey": "SW259-ND",
         "pn:mouser": "653-B32-1360",
         "pn:tme": "B32-1360",
-        "pn:lcsc": "C2733574"
+        "pn:lcsc": "C2733574",
+        "pn:arrow-europe": "B32-1360",
+        "pn:arrow-acna": "B32-1360"
       },
       "CAP4": {
         "value": "B32-1360",
@@ -237,7 +293,9 @@
         "pn:digikey": "SW259-ND",
         "pn:mouser": "653-B32-1360",
         "pn:tme": "B32-1360",
-        "pn:lcsc": "C2733574"
+        "pn:lcsc": "C2733574",
+        "pn:arrow-europe": "B32-1360",
+        "pn:arrow-acna": "B32-1360"
       },
       "D1": {
         "value": "RB751V40,115",
@@ -245,7 +303,9 @@
         "pn:digikey": "1727-6301-1-ND",
         "pn:mouser": "241-RB751V40XR100001",
         "pn:tme": "RB751V40.115",
-        "pn:lcsc": "C553814"
+        "pn:lcsc": "C553814",
+        "pn:arrow-europe": "RB751V40,115",
+        "pn:arrow-acna": "RB751V40,115"
       },
       "FB1": {
         "value": "60R@100MHz",
@@ -253,7 +313,9 @@
         "pn:digikey": "490-7809-1-ND",
         "pn:mouser": "81-BLM18AG102SH1D",
         "pn:tme": "BLM18AG102SH1D",
-        "pn:lcsc": "C337877"
+        "pn:lcsc": "C337877",
+        "pn:arrow-europe": "BLM18AG102SH1D",
+        "pn:arrow-acna": "BLM18AG102SH1D"
       },
       "FB2": {
         "value": "60R@100MHz",
@@ -261,7 +323,9 @@
         "pn:digikey": "490-7809-1-ND",
         "pn:mouser": "81-BLM18AG102SH1D",
         "pn:tme": "BLM18AG102SH1D",
-        "pn:lcsc": "C337877"
+        "pn:lcsc": "C337877",
+        "pn:arrow-europe": "BLM18AG102SH1D",
+        "pn:arrow-acna": "BLM18AG102SH1D"
       },
       "FB3": {
         "value": "60R@100MHz",
@@ -269,7 +333,9 @@
         "pn:digikey": "490-7809-1-ND",
         "pn:mouser": "81-BLM18AG102SH1D",
         "pn:tme": "BLM18AG102SH1D",
-        "pn:lcsc": "C337877"
+        "pn:lcsc": "C337877",
+        "pn:arrow-europe": "BLM18AG102SH1D",
+        "pn:arrow-acna": "BLM18AG102SH1D"
       },
       "FB4": {
         "value": "60R@100MHz",
@@ -277,7 +343,9 @@
         "pn:digikey": "490-7809-1-ND",
         "pn:mouser": "81-BLM18AG102SH1D",
         "pn:tme": "BLM18AG102SH1D",
-        "pn:lcsc": "C337877"
+        "pn:lcsc": "C337877",
+        "pn:arrow-europe": "BLM18AG102SH1D",
+        "pn:arrow-acna": "BLM18AG102SH1D"
       },
       "FB5": {
         "value": "60R@100MHz",
@@ -285,7 +353,9 @@
         "pn:digikey": "490-7809-1-ND",
         "pn:mouser": "81-BLM18AG102SH1D",
         "pn:tme": "BLM18AG102SH1D",
-        "pn:lcsc": "C337877"
+        "pn:lcsc": "C337877",
+        "pn:arrow-europe": "BLM18AG102SH1D",
+        "pn:arrow-acna": "BLM18AG102SH1D"
       },
       "FB6": {
         "value": "60R@100MHz",
@@ -293,7 +363,9 @@
         "pn:digikey": "490-7809-1-ND",
         "pn:mouser": "81-BLM18AG102SH1D",
         "pn:tme": "BLM18AG102SH1D",
-        "pn:lcsc": "C337877"
+        "pn:lcsc": "C337877",
+        "pn:arrow-europe": "BLM18AG102SH1D",
+        "pn:arrow-acna": "BLM18AG102SH1D"
       },
       "IC1": {
         "value": "TFP401APZP",
@@ -301,7 +373,9 @@
         "pn:digikey": "296-9991-ND",
         "pn:mouser": "595-TFP401APZPR",
         "pn:tme": "TFP401APZP",
-        "pn:lcsc": "C962083"
+        "pn:lcsc": "C962083",
+        "pn:arrow-europe": "TFP401APZP",
+        "pn:arrow-acna": "TFP401APZP"
       },
       "IC2": {
         "value": "AZ1117CH2-3.3TRG1",
@@ -309,7 +383,9 @@
         "pn:digikey": "AZ1117CH-3.3TRG1DICT-ND",
         "pn:mouser": "621-AZ1117CH-3.3TRG1",
         "pn:tme": "AZ1117CH-3.3TRG1",
-        "pn:lcsc": "C108492"
+        "pn:lcsc": "C108492",
+        "pn:arrow-europe": "AZ1117CH2-3.3TRG1",
+        "pn:arrow-acna": "AZ1117CH2-3.3TRG1"
       },
       "IC3": {
         "value": "TPS61169DCKR",
@@ -317,7 +393,9 @@
         "pn:digikey": "296-40821-1-ND",
         "pn:mouser": "595-TPS61169DCKR",
         "pn:tme": "TPS61169DCKR",
-        "pn:lcsc": "C71045"
+        "pn:lcsc": "C71045",
+        "pn:arrow-europe": "TPS61169DCKR",
+        "pn:arrow-acna": "TPS61169DCKR"
       },
       "IC4": {
         "value": "TCA9554APWR",
@@ -325,7 +403,9 @@
         "pn:digikey": "296-28120-1-ND",
         "pn:mouser": "595-TCA9554APWR",
         "pn:tme": "TCA9554APWR",
-        "pn:lcsc": "C2863976"
+        "pn:lcsc": "C2863976",
+        "pn:arrow-europe": "TCA9554APWR",
+        "pn:arrow-acna": "TCA9554APWR"
       },
       "L1": {
         "value": "DLG-0403-4R7",
@@ -333,7 +413,9 @@
         "pn:digikey": "SDR0403-4R7MLCT-ND",
         "pn:mouser": "815-ASPI-4030S-4R7MT",
         "pn:tme": "DLG-0403-4R7",
-        "pn:lcsc": "C2041983"
+        "pn:lcsc": "C2041983",
+        "pn:arrow-europe": "ASPI-4030S-4R7M-T",
+        "pn:arrow-acna": "ASPI-4030S-4R7M-T"
       },
       "R1": {
         "value": "10R",
@@ -341,7 +423,9 @@
         "pn:digikey": "311-10.0CRCT-ND",
         "pn:mouser": "603-RC0805FR-1010RP",
         "pn:tme": "SMD0805-10R-1%",
-        "pn:lcsc": "C17415"
+        "pn:lcsc": "C17415",
+        "pn:arrow-europe": "RC0805FR-0710RL",
+        "pn:arrow-acna": "RC0805FR-0710RL"
       },
       "R2": {
         "value": "9R1",
@@ -349,7 +433,9 @@
         "pn:digikey": "13-RC0805FR-079R1LCT-ND",
         "pn:mouser": "603-RC0805FR-079R1L",
         "pn:tme": "-",
-        "pn:lcsc": "C483254"
+        "pn:lcsc": "C483254",
+        "pn:arrow-europe": "RC0805FR-079R1L",
+        "pn:arrow-acna": "RC0805FR-079R1L"
       },
       "R3": {
         "value": "9R1",
@@ -357,7 +443,9 @@
         "pn:digikey": "13-RC0805FR-079R1LCT-ND",
         "pn:mouser": "603-RC0805FR-079R1L",
         "pn:tme": "-",
-        "pn:lcsc": "C483254"
+        "pn:lcsc": "C483254",
+        "pn:arrow-europe": "RC0805FR-079R1L",
+        "pn:arrow-acna": "RC0805FR-079R1L"
       },
       "R4": {
         "value": "10K",
@@ -365,7 +453,9 @@
         "pn:digikey": "13-RC0603FR-1310KLCT-ND",
         "pn:mouser": "603-RC0603FR-1310KL",
         "pn:tme": "RC0603FR-0710K",
-        "pn:lcsc": "C25804"
+        "pn:lcsc": "C25804",
+        "pn:arrow-europe": "RC0603FR-1310KL",
+        "pn:arrow-acna": "RC0603FR-1310KL"
       },
       "R5": {
         "value": "10K",
@@ -373,7 +463,9 @@
         "pn:digikey": "13-RC0603FR-1310KLCT-ND",
         "pn:mouser": "603-RC0603FR-1310KL",
         "pn:tme": "RC0603FR-0710K",
-        "pn:lcsc": "C25804"
+        "pn:lcsc": "C25804",
+        "pn:arrow-europe": "RC0603FR-1310KL",
+        "pn:arrow-acna": "RC0603FR-1310KL"
       },
       "SW1": {
         "value": "B3FS-4052P",
@@ -381,7 +473,9 @@
         "pn:digikey": "39-B3FS-4055PCT-ND",
         "pn:mouser": "653-B3FS-4055P",
         "pn:tme": "B3FS-4055P",
-        "pn:lcsc": "C2733614"
+        "pn:lcsc": "C2733614",
+        "pn:arrow-europe": "B3FS-4052P",
+        "pn:arrow-acna": "B3FS-4052P"
       },
       "SW2": {
         "value": "B3FS-4052P",
@@ -389,7 +483,9 @@
         "pn:digikey": "39-B3FS-4055PCT-ND",
         "pn:mouser": "653-B3FS-4055P",
         "pn:tme": "B3FS-4055P",
-        "pn:lcsc": "C2733614"
+        "pn:lcsc": "C2733614",
+        "pn:arrow-europe": "B3FS-4052P",
+        "pn:arrow-acna": "B3FS-4052P"
       },
       "SW3": {
         "value": "B3FS-4052P",
@@ -397,7 +493,9 @@
         "pn:digikey": "39-B3FS-4055PCT-ND",
         "pn:mouser": "653-B3FS-4055P",
         "pn:tme": "B3FS-4055P",
-        "pn:lcsc": "C2733614"
+        "pn:lcsc": "C2733614",
+        "pn:arrow-europe": "B3FS-4052P",
+        "pn:arrow-acna": "B3FS-4052P"
       },
       "SW4": {
         "value": "B3FS-4052P",
@@ -405,7 +503,9 @@
         "pn:digikey": "39-B3FS-4055PCT-ND",
         "pn:mouser": "653-B3FS-4055P",
         "pn:tme": "B3FS-4055P",
-        "pn:lcsc": "C2733614"
+        "pn:lcsc": "C2733614",
+        "pn:arrow-europe": "B3FS-4052P",
+        "pn:arrow-acna": "B3FS-4052P"
       },
       "X1": {
         "value": "505110-2291",
@@ -413,7 +513,9 @@
         "pn:digikey": "WM11288CT-ND",
         "pn:mouser": "538-505110-2291",
         "pn:tme": "FFC2B35-22-G",
-        "pn:lcsc": "C3168367"
+        "pn:lcsc": "C3168367",
+        "pn:arrow-europe": "5051102291",
+        "pn:arrow-acna": "5051102291"
       },
       "X2": {
         "value": "F3311A7H121006E200",
@@ -421,7 +523,8 @@
         "pn:digikey": "609-F3311A7H121006E200CT-ND",
         "pn:mouser": "649-311A7H121006E200",
         "pn:tme": "-",
-        "pn:lcsc": "C3169743"
+        "pn:lcsc": "C3169743",
+        "pn:arrow-acna": "-"
       },
       "X3": {
         "value": "F32D-1A7Y1-21040",
@@ -429,7 +532,9 @@
         "pn:digikey": "609-F32D-1A7Y1-21040CT-ND",
         "pn:mouser": "649-F32D-1A7Y1-21040",
         "pn:tme": "-",
-        "pn:lcsc": "C3168737"
+        "pn:lcsc": "C3168737",
+        "pn:arrow-europe": "F32D-1A7Y1-21040",
+        "pn:arrow-acna": "F32D-1A7Y1-21040"
       },
       "ZD1": {
         "value": "BZX384-B24,115",
@@ -437,7 +542,9 @@
         "pn:digikey": "MM3Z24VT1GOSCT-ND",
         "pn:mouser": "78-BZX384B24-HE3-08",
         "pn:tme": "BZX384-B24.115",
-        "pn:lcsc": "C550550"
+        "pn:lcsc": "C550550",
+        "pn:arrow-europe": "BZX384-B24,115",
+        "pn:arrow-acna": "BZX384-B24,115"
       }
     }
   },
@@ -484,7 +591,8 @@
         "mouser": "187-CL10A105KB8NNNC",
         "tme": "CL10A105KB8NNNC",
         "lcsc": "C15849",
-        "arrow-acna": "CL10A105KB8NNNC"
+        "arrow-acna": "CL10A105KB8NNNC",
+        "arrow-europe": "CL10A105KB8NNNC"
       },
       "custom": {}
     },
@@ -547,7 +655,8 @@
         "mouser": "653-B32-1360",
         "tme": "B32-1360",
         "lcsc": "C2733574",
-        "arrow-acna": "B32-1360"
+        "arrow-acna": "B32-1360",
+        "arrow-europe": "B32-1360"
       },
       "custom": {}
     },
@@ -594,7 +703,8 @@
         "mouser": "595-TFP401APZPR",
         "tme": "TFP401APZP",
         "lcsc": "C962083",
-        "arrow-acna": "TFP401APZP"
+        "arrow-acna": "TFP401APZP",
+        "arrow-europe": "TFP401APZP"
       },
       "custom": {}
     },
@@ -609,7 +719,8 @@
         "mouser": "621-AZ1117CH-3.3TRG1",
         "tme": "AZ1117CH-3.3TRG1",
         "lcsc": "C108492",
-        "arrow-acna": "AZ1117CH2-3.3TRG1"
+        "arrow-acna": "AZ1117CH2-3.3TRG1",
+        "arrow-europe": "AZ1117CH2-3.3TRG1"
       },
       "custom": {}
     },
@@ -624,7 +735,8 @@
         "mouser": "595-TPS61169DCKR",
         "tme": "TPS61169DCKR",
         "lcsc": "C71045",
-        "arrow-acna": "TPS61169DCKR"
+        "arrow-acna": "TPS61169DCKR",
+        "arrow-europe": "TPS61169DCKR"
       },
       "custom": {}
     },
@@ -639,7 +751,8 @@
         "mouser": "595-TCA9554APWR",
         "tme": "TCA9554APWR",
         "lcsc": "C2863976",
-        "arrow-acna": "TCA9554APWR"
+        "arrow-acna": "TCA9554APWR",
+        "arrow-europe": "TCA9554APWR"
       },
       "custom": {}
     },
@@ -654,7 +767,8 @@
         "mouser": "815-ASPI-4030S-4R7MT",
         "tme": "DLG-0403-4R7",
         "lcsc": "C2041983",
-        "arrow-acna": "ASPI-4030S-4R7M-T"
+        "arrow-acna": "ASPI-4030S-4R7M-T",
+        "arrow-europe": "ASPI-4030S-4R7M-T"
       },
       "custom": {}
     },
@@ -685,7 +799,8 @@
         "mouser": "603-RC0805FR-079R1L",
         "tme": "-",
         "lcsc": "C483254",
-        "arrow-acna": "RC0805FR-079R1L"
+        "arrow-acna": "RC0805FR-079R1L",
+        "arrow-europe": "RC0805FR-079R1L"
       },
       "custom": {}
     },
@@ -716,7 +831,8 @@
         "mouser": "653-B3FS-4055P",
         "tme": "B3FS-4055P",
         "lcsc": "C2733614",
-        "arrow-acna": "B3FS-4052P"
+        "arrow-acna": "B3FS-4052P",
+        "arrow-europe": "B3FS-4052P"
       },
       "custom": {}
     },
@@ -778,7 +894,8 @@
         "mouser": "78-BZX384B24-HE3-08",
         "tme": "BZX384-B24.115",
         "lcsc": "C550550",
-        "arrow-acna": "BZX384-B24,115"
+        "arrow-acna": "BZX384-B24,115",
+        "arrow-europe": "BZX384-B24,115"
       },
       "custom": {}
     },

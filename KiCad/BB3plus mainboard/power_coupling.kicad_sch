@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-07")
+		(date "2026-11-14")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -13230,7 +13230,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MMSZ5230BT1G"
+		(property "Value" "MMSZ4V3T1G"
 			(at 76.2 107.8864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13274,7 +13274,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "MMSZ4V7T1GOSCT-ND"
+		(property "DigiKey" "MMSZ4V3T1GOSCT-ND"
 			(at 78.74 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13285,7 +13285,7 @@
 				)
 			)
 		)
-		(property "Mouser" "863-MMSZ5230BT1G"
+		(property "Mouser" "863-MMSZ4V3T1G"
 			(at 78.74 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13296,7 +13296,7 @@
 				)
 			)
 		)
-		(property "TME" "MMSZ5230BT1G"
+		(property "TME" "MMSZ4V3T1G"
 			(at 78.74 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13307,7 +13307,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C236191"
+		(property "LCSC" "C46472984"
 			(at 78.74 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13318,7 +13318,7 @@
 				)
 			)
 		)
-		(property "Arrow (EUROPE)" "MMSZ5230BT1G"
+		(property "Arrow (EUROPE)" "MMSZ4V3T1G"
 			(at 75.565 107.315 0)
 			(hide yes)
 			(show_name no)
@@ -13329,7 +13329,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "MMSZ5230BT1G"
+		(property "Arrow (ACNA)" "MMSZ4V3T1G"
 			(at 75.565 107.315 0)
 			(hide yes)
 			(show_name no)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-07")
+		(date "2026-11-14")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -15294,7 +15294,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "CL10B103KB8NNNC"
+		(property "Arrow (ACNA)" "GRM033R61E103KA12D"
 			(at 210.82 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -17861,7 +17861,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "CL10B103KB8NNNC"
+		(property "Arrow (ACNA)" "GRM033R61E103KA12D"
 			(at 254 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -25068,7 +25068,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" "CL10B103KB8NNNC"
+		(property "Arrow (ACNA)" "GRM033R61E103KA12D"
 			(at 254 129.54 0)
 			(hide yes)
 			(show_name no)

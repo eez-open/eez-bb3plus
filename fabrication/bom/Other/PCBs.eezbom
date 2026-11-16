@@ -42,9 +42,36 @@
     },
     {
       "id": "a76d3603-f607-4c18-827f-e7ea4d02ced3",
-      "reference": "PCB5, PCB6",
+      "reference": "PCB5",
       "value": "Half width bare front mask PCB",
-      "qty": 2,
+      "qty": 1,
+      "footprint": "17.65 x 111.5 mm, 2-layer, Blue",
+      "partNumbers": {},
+      "custom": {}
+    },
+    {
+      "id": "5896199d-3a7d-45d3-a494-5e18d674f025",
+      "reference": "PCB6",
+      "value": "BIO2210 module PCB",
+      "qty": 1,
+      "footprint": "91.3 x 92.5 mm, 4-layer, Green, ENIG",
+      "partNumbers": {},
+      "custom": {}
+    },
+    {
+      "id": "6efcce58-b4ba-4c40-82fa-6ab2ce2e9359",
+      "reference": "PCB7",
+      "value": "DCP405+ front mask PCB",
+      "qty": 1,
+      "footprint": "30.4 x 111.5 mm, 1-layer, Aluminum",
+      "partNumbers": {},
+      "custom": {}
+    },
+    {
+      "id": "34e1a05e-f98c-4c39-9576-5e2a5e24991e",
+      "reference": "PCB8",
+      "value": "BIO2210 front mask PCB",
+      "qty": 1,
       "footprint": "17.65 x 111.5 mm, 2-layer, Blue",
       "partNumbers": {},
       "custom": {}

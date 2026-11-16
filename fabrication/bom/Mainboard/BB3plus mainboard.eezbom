@@ -708,7 +708,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D",
         "pn:arrow-europe": "CL10B103KB8NNNC"
       },
       "C13": {
@@ -719,7 +719,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D",
         "pn:arrow-europe": "CL10B103KB8NNNC"
       },
       "C18": {
@@ -730,7 +730,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D",
         "pn:arrow-europe": "CL10B103KB8NNNC"
       },
       "C21": {
@@ -741,7 +741,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D",
         "pn:arrow-europe": "CL10B103KB8NNNC"
       },
       "C31": {
@@ -752,7 +752,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D",
         "pn:arrow-europe": "CL10B103KB8NNNC"
       },
       "C33": {
@@ -763,7 +763,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D",
         "pn:arrow-europe": "CL10B103KB8NNNC"
       },
       "C64": {
@@ -774,7 +774,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D",
         "pn:arrow-europe": "CL10B103KB8NNNC"
       },
       "C66": {
@@ -785,7 +785,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D",
         "pn:arrow-europe": "CL10B103KB8NNNC"
       },
       "C67": {
@@ -796,7 +796,7 @@
         "pn:tme": "CL10B103KB8NNNC",
         "pn:lcsc": "C57112",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "CL10B103KB8NNNC",
+        "pn:arrow-acna": "GRM033R61E103KA12D",
         "pn:arrow-europe": "CL10B103KB8NNNC"
       },
       "C9": {
@@ -2149,8 +2149,8 @@
         "pn:tme": "ZL201-02G",
         "pn:lcsc": "C3324910",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "",
-        "pn:arrow-europe": ""
+        "pn:arrow-acna": "10129378-902001BLF",
+        "pn:arrow-europe": "10129378-902001BLF"
       },
       "K1": {
         "value": "AZ943-1CH-12DE",
@@ -3924,37 +3924,37 @@
         "pn:arrow-europe": "VXM7-9032-25M0000000"
       },
       "Y3": {
-        "value": "I537-2O7- 10.000 MHz",
+        "value": "ECS-TXO-3225MV-100-TR",
         "footprint": "PCM_EEZ_passives:XTAL_403C11A24M00000",
-        "pn:digikey": "2780-I537-2O7-10.000MHZCT-ND",
-        "pn:mouser": "815-I5372O710.000MHZ",
+        "pn:digikey": "50-ECS-TXO-3225MV-100-CT-ND",
+        "pn:mouser": "520-TXO-3225MV-100-T",
         "pn:tme": "-",
-        "pn:lcsc": "-",
+        "pn:lcsc": "C2442721",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
         "pn:arrow-acna": "-",
         "pn:arrow-europe": ""
       },
       "ZD1": {
-        "value": "BZT52-B5V1",
+        "value": "MMSZ4V3T1G",
         "footprint": "PCM_EEZ_SMD:SOD123",
-        "pn:digikey": "3757-BZT52-B5V1_R1_00001CT-ND",
-        "pn:mouser": "241-BZT52B5V1R100001",
-        "pn:tme": "BZT52-B5V1-R1",
-        "pn:lcsc": "C461723",
+        "pn:digikey": "MMSZ4V3T1GOSCT-ND",
+        "pn:mouser": "863-MMSZ4V3T1G",
+        "pn:tme": "MMSZ4V3T1G",
+        "pn:lcsc": "C46472984",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "BZT52B5V1",
-        "pn:arrow-europe": "BZT52B5V1"
+        "pn:arrow-acna": "MMSZ4V3T1G",
+        "pn:arrow-europe": "MMSZ4V3T1G"
       },
       "ZD4": {
-        "value": "MMSZ5230BT1G",
+        "value": "MMSZ4V3T1G",
         "footprint": "PCM_EEZ_SMD:SOD123",
-        "pn:digikey": "MMSZ4V7T1GOSCT-ND",
-        "pn:mouser": "863-MMSZ5230BT1G",
-        "pn:tme": "MMSZ5230BT1G",
-        "pn:lcsc": "C236191",
+        "pn:digikey": "MMSZ4V3T1GOSCT-ND",
+        "pn:mouser": "863-MMSZ4V3T1G",
+        "pn:tme": "MMSZ4V3T1G",
+        "pn:lcsc": "C46472984",
         "custom:14697ba9-a090-4404-99d4-80580c020b44": "",
-        "pn:arrow-acna": "MMSZ5230BT1G",
-        "pn:arrow-europe": "MMSZ5230BT1G"
+        "pn:arrow-acna": "MMSZ4V3T1G",
+        "pn:arrow-europe": "MMSZ4V3T1G"
       }
     }
   },
@@ -4823,7 +4823,9 @@
         "digikey": "10129378-902001BLF-ND",
         "mouser": "649-1012937890201BLF",
         "tme": "ZL201-02G",
-        "lcsc": "C3324910"
+        "lcsc": "C3324910",
+        "arrow-europe": "10129378-902001BLF",
+        "arrow-acna": "10129378-902001BLF"
       },
       "custom": {}
     },
@@ -5780,47 +5782,31 @@
     {
       "id": "b7386c4d-b607-4c7d-9f3d-8b77ed04b0cb",
       "reference": "Y3",
-      "value": "I537-2O7- 10.000 MHz",
+      "value": "ECS-TXO-3225MV-100-TR",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:XTAL_403C11A24M00000",
       "partNumbers": {
-        "digikey": "2780-I537-2O7-10.000MHZCT-ND",
-        "mouser": "815-I5372O710.000MHZ",
+        "digikey": "50-ECS-TXO-3225MV-100-CT-ND",
+        "mouser": "520-TXO-3225MV-100-T",
         "tme": "-",
-        "lcsc": "-",
+        "lcsc": "C2442721",
         "arrow-acna": "-"
       },
       "custom": {}
     },
     {
       "id": "2abbca00-28c8-43ac-96b6-a29468c45a6c",
-      "reference": "ZD1",
-      "value": "BZT52-B5V1",
-      "qty": 1,
+      "reference": "ZD1,ZD4",
+      "value": "MMSZ4V3T1G",
+      "qty": 2,
       "footprint": "PCM_EEZ_SMD:SOD123",
       "partNumbers": {
-        "digikey": "3757-BZT52-B5V1_R1_00001CT-ND",
-        "mouser": "241-BZT52B5V1R100001",
-        "tme": "BZT52-B5V1-R1",
-        "lcsc": "C461723",
-        "arrow-europe": "BZT52B5V1",
-        "arrow-acna": "BZT52B5V1"
-      },
-      "custom": {}
-    },
-    {
-      "id": "55eca1b7-ddd4-4b40-88fe-01f1f2b4bbfc",
-      "reference": "ZD4",
-      "value": "MMSZ5230BT1G",
-      "qty": 1,
-      "footprint": "PCM_EEZ_SMD:SOD123",
-      "partNumbers": {
-        "digikey": "MMSZ4V7T1GOSCT-ND",
-        "mouser": "863-MMSZ5230BT1G",
-        "tme": "MMSZ5230BT1G",
-        "lcsc": "C236191",
-        "arrow-acna": "MMSZ5230BT1G",
-        "arrow-europe": "MMSZ5230BT1G"
+        "digikey": "MMSZ4V3T1GOSCT-ND",
+        "mouser": "863-MMSZ4V3T1G",
+        "tme": "MMSZ4V3T1G",
+        "lcsc": "C46472984",
+        "arrow-europe": "MMSZ4V3T1G",
+        "arrow-acna": "MMSZ4V3T1G"
       },
       "custom": {}
     }
