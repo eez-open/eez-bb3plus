@@ -3,8 +3,8 @@
 Basic **non-isolated** I/O module
 
 * 32-bit MCU, 250 MHz
-* 8-ch protected analog inputs (multiplexed): 2 x 0-100 V, 6 x 10 V
-* 2-ch protected analog outputs 0-10 V
+* 8-ch protected analog inputs (multiplexed): 2 x 0-100 V, 6 x 0-10 V
+* 2-ch protected analog outputs near zero to 10 V
 * 1.8 / 3.3 / 5 V logic level protected 8 digital input (alternative function: SPI and UART)
 * 1.8 / 3.3 V logic level protected 7 digital outputs (alternative function: SPI, PWM, programmable clock output) + AC Freq output
 * 7 low-side switches
