@@ -45,6 +45,7 @@ Planned new features of BB3+:
 ### Modules
 
 * [5" DVID TFT display](https://github.com/eez-open/eez-bb3plus/tree/main/KiCad/TFT%20module) module (HDMI® compatible input, optional EDID EEPROM, capacitive or optional resistive touchscreen)
+* [BIO2210](https://github.com/eez-open/eez-bb3plus/tree/main/KiCad/BIO2210) Basic **non-isolated** I/O module: protected 8 analog inputs, 2 analog outputs, 8 multi-level (1.8 / 3.3 / 5 V) digital inputs, I2C/SMBus, 7 multi-level (1.8 / 3.3 V) digital outputs, 7 low-side switches, programmable clock, 3.3, 5 and 12V power outputs with reverse current blocking
 * [DIB2 Adapter](https://github.com/eez-open/eez-bb3plus/tree/main/KiCad/DIB2%20adapter) module (USB3 Type A, DIB2 I/O, Reference clock)
 
 
