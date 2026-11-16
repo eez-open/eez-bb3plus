@@ -6241,7 +6241,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-1347KLCT-ND"
 			(at 248.92 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6252,7 +6252,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0747KL"
 			(at 248.92 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6263,7 +6263,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-47K-1%"
 			(at 248.92 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6274,7 +6274,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 248.92 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6296,7 +6296,7 @@
 				)
 			)
 		)
-		(property "Arrow (EUROPE)" ""
+		(property "Arrow (EUROPE)" "RC0603FR-0747KL"
 			(at 248.92 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6307,7 +6307,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" ""
+		(property "Arrow (ACNA)" "RC0603FR-0747KL"
 			(at 248.92 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7563,6 +7563,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "BC857BS,135"
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BC857BS,135"
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f97455a1-d992-4a65-b26e-e5472dbe2719")
 		)
@@ -8275,7 +8297,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-1347KLCT-ND"
 			(at 220.98 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8286,7 +8308,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0747KL"
 			(at 220.98 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8297,7 +8319,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-47K-1%"
 			(at 220.98 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8308,7 +8330,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 220.98 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8330,7 +8352,7 @@
 				)
 			)
 		)
-		(property "Arrow (EUROPE)" ""
+		(property "Arrow (EUROPE)" "RC0603FR-0747KL"
 			(at 220.98 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8341,7 +8363,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" ""
+		(property "Arrow (ACNA)" "RC0603FR-0747KL"
 			(at 220.98 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8812,6 +8834,28 @@
 			(at 101.6 167.64 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (EUROPE)" "BC857BS,135"
+			(at 101.6 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BC857BS,135"
+			(at 101.6 157.48 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -9955,7 +9999,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-1347KLCT-ND"
 			(at 147.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9966,7 +10010,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0747KL"
 			(at 147.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9977,7 +10021,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-47K-1%"
 			(at 147.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9988,7 +10032,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 147.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10010,7 +10054,7 @@
 				)
 			)
 		)
-		(property "Arrow (EUROPE)" ""
+		(property "Arrow (EUROPE)" "RC0603FR-0747KL"
 			(at 147.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10021,7 +10065,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" ""
+		(property "Arrow (ACNA)" "RC0603FR-0747KL"
 			(at 147.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10662,6 +10706,28 @@
 			(at 223.52 162.56 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (EUROPE)" "BC857BS,135"
+			(at 223.52 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BC857BS,135"
+			(at 223.52 152.4 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12071,6 +12137,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "BC857BS,135"
+			(at 149.86 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BC857BS,135"
+			(at 149.86 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f97455a1-d992-4a65-b26e-e5472dbe2716")
 		)
@@ -13335,6 +13423,28 @@
 			(at 246.38 162.56 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (EUROPE)" "BC857BS,135"
+			(at 246.38 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BC857BS,135"
+			(at 246.38 152.4 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -14964,7 +15074,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-1347KLCT-ND"
 			(at 175.26 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14975,7 +15085,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0747KL"
 			(at 175.26 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14986,7 +15096,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-47K-1%"
 			(at 175.26 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14997,7 +15107,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 175.26 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -15019,7 +15129,7 @@
 				)
 			)
 		)
-		(property "Arrow (EUROPE)" ""
+		(property "Arrow (EUROPE)" "RC0603FR-0747KL"
 			(at 175.26 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -15030,7 +15140,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" ""
+		(property "Arrow (ACNA)" "RC0603FR-0747KL"
 			(at 175.26 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -15803,7 +15913,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-1347KLCT-ND"
 			(at 86.36 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15814,7 +15924,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0747KL"
 			(at 86.36 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15825,7 +15935,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-47K-1%"
 			(at 86.36 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15836,7 +15946,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 86.36 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15858,7 +15968,7 @@
 				)
 			)
 		)
-		(property "Arrow (EUROPE)" ""
+		(property "Arrow (EUROPE)" "RC0603FR-0747KL"
 			(at 86.36 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15869,7 +15979,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" ""
+		(property "Arrow (ACNA)" "RC0603FR-0747KL"
 			(at 86.36 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17214,6 +17324,28 @@
 				)
 			)
 		)
+		(property "Arrow (EUROPE)" "BC857BS,135"
+			(at 88.9 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BC857BS,135"
+			(at 88.9 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83cdc56a-6505-456a-8dae-2564ea2ef5e0")
 		)
@@ -17307,7 +17439,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0603FR-1347KLCT-ND"
 			(at 104.14 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17318,7 +17450,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0603FR-0747KL"
 			(at 104.14 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17329,7 +17461,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0603-47K-1%"
 			(at 104.14 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17340,7 +17472,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 104.14 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17362,7 +17494,7 @@
 				)
 			)
 		)
-		(property "Arrow (EUROPE)" ""
+		(property "Arrow (EUROPE)" "RC0603FR-0747KL"
 			(at 104.14 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17373,7 +17505,7 @@
 				)
 			)
 		)
-		(property "Arrow (ACNA)" ""
+		(property "Arrow (ACNA)" "RC0603FR-0747KL"
 			(at 104.14 160.02 0)
 			(hide yes)
 			(show_name no)
