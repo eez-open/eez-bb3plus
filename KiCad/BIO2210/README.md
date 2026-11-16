@@ -17,5 +17,6 @@ Basic **non-isolated** I/O module
 
 ### Resources
 
+* [Theory of operation](../../docs/BIO2210)
 * [PDF Schematics](../../schematic-diagram/BIO2210.pdf)
 * [Interactive BOM](../../fabrication/bom/BIO2210/ibom.html)
