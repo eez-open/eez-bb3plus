@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.508,
+          "corner_radius": 0.254,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.508,
-          "min_island_area": 10.0,
-          "min_thickness": 0.254,
+          "min_clearance": 0.2032,
+          "min_island_area": 9.99999999996,
+          "min_thickness": 0.2032,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.254,
-          "thermal_relief_spoke_width": 1.016
+          "thermal_relief_gap": 0.2032,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
