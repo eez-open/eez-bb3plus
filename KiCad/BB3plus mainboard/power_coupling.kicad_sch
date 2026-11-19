@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-14")
+		(date "2026-11-19")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5112,16 +5112,16 @@
 		(uuid "396cc25d-18f3-4ca0-b151-6722e6eee1e3")
 	)
 	(junction
-		(at 243.84 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e31826a-5ea6-4bf3-b391-1d33dce7c081")
-	)
-	(junction
 		(at 154.94 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40331856-7235-4380-9203-737ce8a7c860")
+	)
+	(junction
+		(at 243.84 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43ea4ba4-bb29-4580-acde-4763c0178805")
 	)
 	(junction
 		(at 83.82 121.92)
@@ -5633,16 +5633,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 58.42) (xy 231.14 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08ea9adb-8199-4527-bfff-1732d385f10b")
-	)
-	(wire
-		(pts
 			(xy 109.22 172.72) (xy 88.9 172.72)
 		)
 		(stroke
@@ -5690,16 +5680,6 @@
 			(type default)
 		)
 		(uuid "0db4be61-ee88-418c-9ce4-d544b296f8c9")
-	)
-	(wire
-		(pts
-			(xy 228.6 53.34) (xy 228.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f56fd6f-0a0e-4ef6-aecb-a784f617e93f")
 	)
 	(wire
 		(pts
@@ -5953,16 +5933,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 60.96) (xy 228.6 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25603311-0a49-4e51-97f1-244c03d41f8b")
-	)
-	(wire
-		(pts
 			(xy 76.2 99.06) (xy 78.74 99.06)
 		)
 		(stroke
@@ -6163,16 +6133,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 55.88) (xy 246.38 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "343887bd-d2ec-4024-95ef-430e8fd4c10c")
-	)
-	(wire
-		(pts
 			(xy 109.22 53.34) (xy 111.76 53.34)
 		)
 		(stroke
@@ -6180,6 +6140,16 @@
 			(type default)
 		)
 		(uuid "34bf7364-cb2b-4955-810e-92ffcbd65c6e")
+	)
+	(wire
+		(pts
+			(xy 226.06 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ce9911-698d-434c-b8d0-c33cf3c278c6")
 	)
 	(wire
 		(pts
@@ -6353,16 +6323,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 43.18) (xy 152.4 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "409cf4b0-51f4-443a-b733-6d83e7292888")
-	)
-	(wire
-		(pts
 			(xy 20.32 88.9) (xy 27.94 88.9)
 		)
 		(stroke
@@ -6513,6 +6473,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 43.18) (xy 226.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0812eb-301c-4e79-b4f6-3972a559c489")
+	)
+	(wire
+		(pts
 			(xy 165.1 50.8) (xy 152.4 50.8)
 		)
 		(stroke
@@ -6593,16 +6563,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 60.96) (xy 228.6 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520baab3-cd66-45b5-8b4f-46278e19605c")
-	)
-	(wire
-		(pts
 			(xy 271.78 60.96) (xy 274.32 60.96)
 		)
 		(stroke
@@ -6630,6 +6590,16 @@
 			(type default)
 		)
 		(uuid "538c5a6e-6c8f-43c6-9efa-f6f401cfcaed")
+	)
+	(wire
+		(pts
+			(xy 231.14 58.42) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53916497-a1b9-4f45-bd00-272c99b71365")
 	)
 	(wire
 		(pts
@@ -8426,6 +8396,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 60.96) (xy 243.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57d8215-d63c-43d3-9140-0ea0151618ed")
+	)
+	(wire
+		(pts
 			(xy 78.74 99.06) (xy 78.74 104.14)
 		)
 		(stroke
@@ -8766,6 +8746,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 58.42) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea58de55-b40a-4f6c-915d-4b34db893b0c")
+	)
+	(wire
+		(pts
 			(xy 200.66 147.32) (xy 205.74 147.32)
 		)
 		(stroke
@@ -8846,6 +8836,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 63.5) (xy 226.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15356c0-573b-4516-9ad1-9580cf0ea8cf")
+	)
+	(wire
+		(pts
 			(xy 160.02 27.94) (xy 165.1 27.94)
 		)
 		(stroke
@@ -8856,13 +8856,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 53.34) (xy 228.6 53.34)
+			(xy 228.6 55.88) (xy 246.38 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2bd3432-0ce5-4fcd-9b72-baec441e9cc8")
+		(uuid "f29e5d2c-0eef-410d-9594-3298e42231ee")
 	)
 	(wire
 		(pts
@@ -11010,8 +11010,8 @@
 				)
 			)
 		)
-		(property "Label" "PAR"
-			(at 179.705 60.325 0)
+		(property "Label" "PAR1-2"
+			(at 183.515 55.245 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11449,7 +11449,7 @@
 				)
 			)
 		)
-		(property "Label" "PAR"
+		(property "Label" "PAR1-2"
 			(at 97.155 118.745 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +11671,7 @@
 				)
 			)
 		)
-		(property "Label" "PAR3"
+		(property "Label" "PAR1-3"
 			(at 239.395 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13808,8 +13808,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:Relay RT4240xx")
-		(at 238.76 55.88 90)
-		(mirror x)
+		(at 238.76 60.96 90)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13819,18 +13818,18 @@
 		(dnp no)
 		(uuid "8ea9b616-0c2d-4562-b071-3d12179d2ad6")
 		(property "Reference" "K3"
-			(at 238.76 53.975 90)
+			(at 234.95 56.515 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "RT424012"
-			(at 236.474 56.515 0)
+			(at 236.474 60.325 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13842,7 +13841,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_THT:RT424005"
-			(at 246.38 55.88 0)
+			(at 246.38 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13853,7 +13852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 55.88 0)
+			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13864,7 +13863,7 @@
 			)
 		)
 		(property "Description" "Power PCB Relay RT2"
-			(at 238.76 55.88 0)
+			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13875,7 +13874,7 @@
 			)
 		)
 		(property "DigiKey" "PB967-ND"
-			(at 248.92 55.88 0)
+			(at 248.92 60.96 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13886,7 +13885,7 @@
 			)
 		)
 		(property "Mouser" "655-RT424012"
-			(at 251.46 55.88 0)
+			(at 251.46 60.96 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13897,7 +13896,7 @@
 			)
 		)
 		(property "TME" "RT424012"
-			(at 254 55.88 0)
+			(at 254 60.96 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13908,7 +13907,7 @@
 			)
 		)
 		(property "LCSC" "C1524591"
-			(at 238.76 55.88 0)
+			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13918,8 +13917,8 @@
 				)
 			)
 		)
-		(property "Label" "PAR3"
-			(at 239.395 57.15 90)
+		(property "Label" "PAR1-3"
+			(at 239.395 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13929,7 +13928,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 238.76 55.88 90)
+			(at 238.76 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13940,7 +13939,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 238.76 55.88 90)
+			(at 238.76 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13951,7 +13950,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 238.76 55.88 90)
+			(at 238.76 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13962,7 +13961,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 238.76 55.88 90)
+			(at 238.76 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13973,7 +13972,7 @@
 			)
 		)
 		(property "Arrow (EUROPE)" "RT424012"
-			(at 246.38 55.88 0)
+			(at 246.38 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13984,7 +13983,7 @@
 			)
 		)
 		(property "Arrow (ACNA)" "RT424012"
-			(at 246.38 55.88 0)
+			(at 246.38 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14137,7 +14136,7 @@
 				)
 			)
 		)
-		(property "Label" "PAR3"
+		(property "Label" "PAR1-3"
 			(at 84.455 118.745 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14842,8 +14841,8 @@
 				)
 			)
 		)
-		(property "Label" "PAR"
-			(at 172.085 60.325 0)
+		(property "Label" "PAR1-2"
+			(at 173.355 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

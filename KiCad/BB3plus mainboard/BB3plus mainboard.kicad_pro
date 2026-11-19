@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.254,
+          "corner_radius": 0.508,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1524,
-          "min_island_area": 9.99999999996,
-          "min_thickness": 0.1524,
+          "min_clearance": 0.508,
+          "min_island_area": 10.0,
+          "min_thickness": 0.254,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.1524,
-          "thermal_relief_spoke_width": 0.381
+          "thermal_relief_gap": 0.254,
+          "thermal_relief_spoke_width": 1.016
         }
       },
       "diff_pair_dimensions": [
@@ -462,11 +462,11 @@
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|8b5b9bbe-68f0-4b08-9e27-aae45afa0af5",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
           ""
         ],
         [
-          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|c86620a4-8fdb-4042-a17d-38da9e985af8",
+          "unconnected_items|390570000|-38450000|F.Cu|4|67dbadbf-1a5a-4aeb-87a6-46c50e0f9194|cfec4709-ce1c-4678-b7e2-4752f0f7a5ac",
           ""
         ],
         [
@@ -2496,6 +2496,50 @@
       {
         "netclass": "DIO",
         "pattern": "/Isolated digital IO, Fan controller, Encoder/ISO_DIN3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH3_OUT_POS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH3_IN_POS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH1_OUT_POS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH3_IN_NEG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH3_OUT_NEG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH2_OUT_NEG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH2_IN_POS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH1_OUT_NEG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH2_IN_NEG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH2_OUT_POS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Trigger switch matrix, Power modules coupling/CH1_IN_POS"
       }
     ]
   },
