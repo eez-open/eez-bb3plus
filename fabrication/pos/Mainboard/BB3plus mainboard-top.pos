@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-11-10T14:38:03 ###
+### Footprint positions - created on 2026-11-19T20:32:22 ###
 ### Printed by KiCad version 10.0.8-10.0.8~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -326,7 +326,7 @@ R96       47K                         R_0603_1608Metric                 193.0100
 SAR1      2051-47-SM-RPLF             SAR_4.5MM                          42.3300   192.0400  180.0000  top
 SP1       CMI-9605-1280T              CMI-9605-1280T                    113.5000     6.4300    0.0000  top
 SW1       WBL2UOAGQR05CLR             WBL2UOAGQR05CLR_2                  14.0000    17.8000   90.0000  top
-SW2       PEC16-2215F-S0024           PEC16-2215F                        98.5000     7.6000  -90.0000  top
+SW2       PEC16-2215F-S0024           PEC16-2215F                        98.5000     6.0000  -90.0000  top
 TR1       IRM-45-12                   IRM-45                             67.6000   142.2900  -90.0000  top
 TR2       TEA1-0505                   DQS1-3-S3-S                       203.8159   200.5405   90.0000  top
 VAR1      B72214S0271K101             VARISTOR_14MM_RM7.5MM              49.8226   197.9147  180.0000  top
@@ -357,7 +357,7 @@ X27       TBP03R1-350-10BE            TBP03R1-350-10BE                  156.7500
 X28       PH2-20-UA                   77313-802-20LF                    211.0000    42.5500  -90.0000  top
 Y1        FC-135_32.7680KA-K0         ABS07AIG                           98.9800    89.9400  -90.0000  top
 Y2        VXM7-9032-25M0000000        XTAL_403C11A24M00000              114.5300    36.5800   90.0000  top
-Y3        I537-2O7-_10.000_MHz        XTAL_403C11A24M00000              185.8400   107.4600  180.0000  top
-ZD1       BZT52-B5V1                  SOD123                             73.0500   190.9700    0.0000  top
-ZD4       MMSZ5230BT1G                SOD123                            201.7800   103.3700   90.0000  top
+Y3        ECS-TXO-3225MV-100-TR       XTAL_403C11A24M00000              185.8400   107.4600  180.0000  top
+ZD1       MMSZ4V3T1G                  SOD123                             73.0500   190.9700    0.0000  top
+ZD4       MMSZ4V3T1G                  SOD123                            201.7800   103.3700   90.0000  top
 ## End
