@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "id": "57a8614a-58d9-4e74-bfcb-2bd838ac5a1d",
   "source": {
     "kind": "kicad",
@@ -1415,7 +1415,7 @@
       "custom": {}
     },
     {
-      "id": "ccad473e-2350-4700-85b0-47be78a7616c",
+      "id": "31785b05-4583-4e2b-ac69-3edcb0762d58",
       "reference": "C2,C10",
       "value": "10n",
       "qty": 2,
@@ -1428,7 +1428,8 @@
         "arrow-acna": "GRM033R61E103KA12D",
         "arrow-europe": "CL10B103KB8NNNC"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "e970292b-150b-459a-b002-9f22e25fd0cd",
@@ -1444,7 +1445,8 @@
         "arrow-acna": "CL10B104KA8NNNC",
         "arrow-europe": "CL10B104KA8NNNC"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "0818df14-5a4a-40ba-a713-5e661ff226ee",
@@ -1460,7 +1462,8 @@
         "arrow-acna": "CL10A105KB8NNNC",
         "arrow-europe": "CL10A105KB8NNNC"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "40e7d8e0-cbe3-4aac-bdbe-141d7e75f4b6",
@@ -1474,7 +1477,8 @@
         "tme": "CL21A475KAQNNNE",
         "lcsc": "C1779"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "afb1e120-7340-4792-8c8d-baf45befafc9",
@@ -1490,7 +1494,8 @@
         "arrow-acna": "CL10C101JC8NNNC",
         "arrow-europe": "CL10C101JC8NNNC"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "e321ceb6-255d-44ac-9b68-c124c754285d",
@@ -1728,7 +1733,8 @@
         "arrow-acna": "MMBT5551",
         "arrow-europe": "MMBT5551"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "2b96c9c4-d3b3-41be-8d12-1a15412da508",
@@ -1760,7 +1766,8 @@
         "arrow-acna": "BC857BS,135",
         "arrow-europe": "BC857BS,135"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "4fd8d182-d11b-49a1-8275-1541f9255a92",
@@ -1840,7 +1847,8 @@
         "arrow-acna": "RC0603FR-072K2L",
         "arrow-europe": "RC0603FR-072K2L"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "6dbaa2fd-694f-4092-ae5e-432481248ae4",
@@ -1856,7 +1864,8 @@
         "arrow-acna": "RC0603FR-100RL",
         "arrow-europe": "RC0603FR-100RL"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "59b47021-3013-4094-9c2c-8d478a2f443d",
@@ -1872,10 +1881,11 @@
         "arrow-acna": "RMCF1206FT1K80",
         "arrow-europe": "RMCF1206FT1K80"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "b1ddc5c8-0faf-4b8d-a676-246bca93f4bf",
+      "id": "46f8da42-3da2-41f9-9ab6-dcdb9d9cd3d0",
       "reference": "R23",
       "value": "12K4",
       "qty": 1,
@@ -2014,7 +2024,8 @@
         "arrow-europe": "RC0603FR-0747KL",
         "arrow-acna": "RC0603FR-0747KL"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "5bad3296-ebe1-4b16-b6fe-4a4b015ab574",

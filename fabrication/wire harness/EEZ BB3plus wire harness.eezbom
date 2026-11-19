@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "id": "27669700-ccdc-4e39-a432-8b6b4e4cecfb",
   "source": {
     "kind": "manual"
@@ -51,7 +51,8 @@
         "arrow-europe": "0008500032",
         "arrow-acna": "0008500032"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "404ca8d7-6138-4005-b291-4d713cec3c38",
