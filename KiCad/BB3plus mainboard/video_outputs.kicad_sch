@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-19")
+		(date "2026-11-20")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -4299,7 +4299,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_passives:ECS-TXO-32CSMV-100-AN-TR"
+		(symbol "PCM_EEZ_passives:ECS-TXO-3225MV-100-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4316,7 +4316,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ECS-TXO-32CSMV-100-AN-TR"
+			(property "Value" "ECS-TXO-3225MV-100-TR"
 				(at -7.62 -6.985 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4349,7 +4349,7 @@
 					)
 				)
 			)
-			(property "Description" "Clipped Sine Wave TCXO"
+			(property "Description" "MultiVolt™ HCMOS TCXO"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4360,7 +4360,7 @@
 					)
 				)
 			)
-			(property "DigiKey" "50-ECS-TXO-32CSMV-100-AN-TRCT-ND"
+			(property "DigiKey" "50-ECS-TXO-3225MV-100-CT-ND"
 				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4371,7 +4371,7 @@
 					)
 				)
 			)
-			(property "Mouser" "520-TXO32CSMV100ANTR"
+			(property "Mouser" "520-TXO-3225MV-100-T"
 				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4393,7 +4393,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C5633358"
+			(property "LCSC" "C2442721"
 				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4404,7 +4404,7 @@
 					)
 				)
 			)
-			(symbol "ECS-TXO-32CSMV-100-AN-TR_1_0"
+			(symbol "ECS-TXO-3225MV-100-TR_1_0"
 				(polyline
 					(pts
 						(xy -3.81 0) (xy -1.905 0)
@@ -4501,10 +4501,10 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "EN"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -4574,7 +4574,7 @@
 					)
 				)
 			)
-			(symbol "ECS-TXO-32CSMV-100-AN-TR_1_1"
+			(symbol "ECS-TXO-3225MV-100-TR_1_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -6530,6 +6530,12 @@
 		(uuid "6ec93fc3-f1b2-4ed6-96af-b3d3bbd54635")
 	)
 	(junction
+		(at 165.1 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77b2a437-23fd-4634-8289-254c2f443246")
+	)
+	(junction
 		(at 144.78 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7299,6 +7305,16 @@
 			(type default)
 		)
 		(uuid "10f567a0-97a9-4ad8-831e-ccc234168195")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11083dcc-26d1-4274-9b50-ec9ebdb0b177")
 	)
 	(wire
 		(pts
@@ -8183,7 +8199,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 119.38) (xy 167.64 119.38)
+			(xy 160.02 119.38) (xy 165.1 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9448,16 +9464,6 @@
 			(color 0 0 194 1)
 		)
 		(uuid "58d85833-5de3-4358-b4d4-c435bd8a7511")
-	)
-	(wire
-		(pts
-			(xy 165.1 127) (xy 165.1 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5987853e-749c-46a4-9ec9-0870ef7aa9e5")
 	)
 	(polyline
 		(pts
@@ -11321,16 +11327,6 @@
 		)
 		(uuid "8e2ca2fe-3475-4bba-a57b-93a52cdf43af")
 	)
-	(wire
-		(pts
-			(xy 165.1 124.46) (xy 167.64 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ecc1d7e-f54a-4f19-8057-9756fcce299b")
-	)
 	(polyline
 		(pts
 			(xy 101.6 146.38) (xy 102.235 146.38)
@@ -12720,6 +12716,16 @@
 		)
 		(uuid "c3456f32-c13c-4418-bab5-2c71ae69c31d")
 	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3525eef-4eeb-46f6-aa1e-02087f55ad66")
+	)
 	(polyline
 		(pts
 			(xy 81.915 28.575) (xy 81.28 29.21)
@@ -13328,6 +13334,16 @@
 			(type default)
 		)
 		(uuid "d350028e-35c8-41ef-a2ae-d52c89246c90")
+	)
+	(wire
+		(pts
+			(xy 167.64 124.46) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d400be57-35dd-4e5f-a9a9-a5842cb20009")
 	)
 	(polyline
 		(pts
@@ -22379,84 +22395,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_symbols:GND")
-		(at 165.1 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f03734c-5c1f-4309-b6bc-3daafba01ba8")
-		(property "Reference" "#SUPPLY082"
-			(at 165.1 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.005 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97e2a177-408d-4d6b-8e6c-91c07db8e5a0")
-		)
-		(instances
-			(project "BB3plus mainboard"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/9978f247-8f50-4e1a-a431-ff0e786a0608"
-					(reference "#SUPPLY082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
 		(at 104.14 91.44 0)
 		(mirror y)
@@ -24698,7 +24636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_passives:ECS-TXO-32CSMV-100-AN-TR")
+		(lib_id "PCM_EEZ_passives:ECS-TXO-3225MV-100-TR")
 		(at 177.8 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -24720,13 +24658,14 @@
 			)
 		)
 		(property "Value" "ECS-TXO-3225MV-100-TR"
-			(at 177.8 128.27 0)
+			(at 170.18 128.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:XTAL_403C11A24M00000"
@@ -24751,7 +24690,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MultiVolt™ HCMOS TCXO"
 			(at 177.8 132.08 0)
 			(hide yes)
 			(show_name no)

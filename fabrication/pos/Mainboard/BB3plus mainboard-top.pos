@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-11-19T20:32:22 ###
+### Footprint positions - created on 2026-11-20T09:52:27 ###
 ### Printed by KiCad version 10.0.8-10.0.8~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -135,7 +135,7 @@ C131      10u                         C_0805_2012Metric                 120.4772
 C132      100n                        C_0603_1608Metric                 120.7021   217.9630    0.0000  top
 C133      10n/200V                    C_1206_3216Metric                 103.5355   226.0855   90.0000  top
 C134      10u                         C_0805_2012Metric                 175.5800   105.5875   90.0000  top
-C135      1u                          C_0603_1608Metric                 177.7500   108.9675   90.0000  top
+C135      1u                          C_0603_1608Metric                 184.7200   106.8700   90.0000  top
 C136      100n                        C_0402_1005Metric                 181.5000   103.6600  180.0000  top
 C137      100n                        C_0402_1005Metric                 179.6700   103.6600    0.0000  top
 C138      100n                        C_0402_1005Metric                 180.8800   112.4100    0.0000  top
@@ -357,7 +357,7 @@ X27       TBP03R1-350-10BE            TBP03R1-350-10BE                  156.7500
 X28       PH2-20-UA                   77313-802-20LF                    211.0000    42.5500  -90.0000  top
 Y1        FC-135_32.7680KA-K0         ABS07AIG                           98.9800    89.9400  -90.0000  top
 Y2        VXM7-9032-25M0000000        XTAL_403C11A24M00000              114.5300    36.5800   90.0000  top
-Y3        ECS-TXO-3225MV-100-TR       XTAL_403C11A24M00000              185.8400   107.4600  180.0000  top
+Y3        ECS-TXO-3225MV-100-TR       XTAL_403C11A24M00000              187.1100   107.4300  180.0000  top
 ZD1       MMSZ4V3T1G                  SOD123                             73.0500   190.9700    0.0000  top
 ZD4       MMSZ4V3T1G                  SOD123                            201.7800   103.3700   90.0000  top
 ## End
