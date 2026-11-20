@@ -1,6 +1,10 @@
+Licenses | OSHWA UID
+--|--
+![osl](../../Images/osl.png) | [![OSHW-HR000126](../../Images/OSHW_UID_HR126.svg)](https://certification.oshwa.org/hr000126.html)
+
 ### BB3+ BIO2210 module
 
-Basic **non-isolated** I/O module
+**Non-isolated**  Basic I/O module
 
 * 32-bit MCU, 250 MHz
 * 8-ch protected analog inputs (multiplexed): 2 x 0-100 V, 6 x 0-10 V

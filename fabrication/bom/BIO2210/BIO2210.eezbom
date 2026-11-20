@@ -181,8 +181,8 @@
         "value": "1u",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-CL10A105KA8NFNCCT-ND",
-        "pn:mouser": "187-CL10A105KB8NNNC",
-        "pn:tme": "CL10A105KB8NNNC",
+        "pn:mouser": "187-CL10A105KL8NNNC",
+        "pn:tme": "CL10B105KB8NQNC",
         "pn:lcsc": "C15849",
         "pn:arrow-acna": "CL10A105KB8NNNC",
         "pn:arrow-europe": "CL10A105KB8NNNC"
@@ -191,8 +191,8 @@
         "value": "1u",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-CL10A105KA8NFNCCT-ND",
-        "pn:mouser": "187-CL10A105KB8NNNC",
-        "pn:tme": "CL10A105KB8NNNC",
+        "pn:mouser": "187-CL10A105KL8NNNC",
+        "pn:tme": "CL10B105KB8NQNC",
         "pn:lcsc": "C15849",
         "pn:arrow-acna": "CL10A105KB8NNNC",
         "pn:arrow-europe": "CL10A105KB8NNNC"
@@ -201,8 +201,8 @@
         "value": "1u",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-CL10A105KA8NFNCCT-ND",
-        "pn:mouser": "187-CL10A105KB8NNNC",
-        "pn:tme": "CL10A105KB8NNNC",
+        "pn:mouser": "187-CL10A105KL8NNNC",
+        "pn:tme": "CL10B105KB8NQNC",
         "pn:lcsc": "C15849",
         "pn:arrow-acna": "CL10A105KB8NNNC",
         "pn:arrow-europe": "CL10A105KB8NNNC"
@@ -211,8 +211,8 @@
         "value": "1u",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-CL10A105KA8NFNCCT-ND",
-        "pn:mouser": "187-CL10A105KB8NNNC",
-        "pn:tme": "CL10A105KB8NNNC",
+        "pn:mouser": "187-CL10A105KL8NNNC",
+        "pn:tme": "CL10B105KB8NQNC",
         "pn:lcsc": "C15849",
         "pn:arrow-acna": "CL10A105KB8NNNC",
         "pn:arrow-europe": "CL10A105KB8NNNC"
@@ -232,7 +232,7 @@
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1295-1-ND",
         "pn:mouser": "187-CL10C101JC8NNWC",
-        "pn:tme": "CL10C101JC8NNNC",
+        "pn:tme": "GCM1885C1H101JA16J",
         "pn:lcsc": "C296717",
         "pn:arrow-acna": "CL10C101JC8NNNC",
         "pn:arrow-europe": "CL10C101JC8NNNC"
@@ -242,7 +242,7 @@
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1295-1-ND",
         "pn:mouser": "187-CL10C101JC8NNWC",
-        "pn:tme": "CL10C101JC8NNNC",
+        "pn:tme": "GCM1885C1H101JA16J",
         "pn:lcsc": "C296717",
         "pn:arrow-acna": "CL10C101JC8NNNC",
         "pn:arrow-europe": "CL10C101JC8NNNC"
@@ -1456,8 +1456,8 @@
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
       "partNumbers": {
         "digikey": "1276-CL10A105KA8NFNCCT-ND",
-        "mouser": "187-CL10A105KB8NNNC",
-        "tme": "CL10A105KB8NNNC",
+        "mouser": "187-CL10A105KL8NNNC",
+        "tme": "CL10B105KB8NQNC",
         "lcsc": "C15849",
         "arrow-acna": "CL10A105KB8NNNC",
         "arrow-europe": "CL10A105KB8NNNC"
@@ -1489,7 +1489,7 @@
       "partNumbers": {
         "digikey": "1276-1295-1-ND",
         "mouser": "187-CL10C101JC8NNWC",
-        "tme": "CL10C101JC8NNNC",
+        "tme": "GCM1885C1H101JA16J",
         "lcsc": "C296717",
         "arrow-acna": "CL10C101JC8NNNC",
         "arrow-europe": "CL10C101JC8NNNC"

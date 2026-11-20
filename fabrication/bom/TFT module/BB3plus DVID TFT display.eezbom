@@ -590,8 +590,8 @@
       "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
       "partNumbers": {
         "digikey": "1276-CL10A105KA8NFNCCT-ND",
-        "mouser": "187-CL10A105KB8NNNC",
-        "tme": "CL10A105KB8NNNC",
+        "mouser": "187-CL10A105KL8NNNC",
+        "tme": "CL10B105KB8NQNC",
         "lcsc": "C15849",
         "arrow-acna": "CL10A105KB8NNNC",
         "arrow-europe": "CL10A105KB8NNNC"
@@ -684,7 +684,7 @@
     {
       "id": "6ddcc193-6e7c-4172-a80f-16c6b46aff45",
       "reference": "FB1,FB2,FB3,FB4,FB5,FB6",
-      "value": "60R@100MHz",
+      "value": "BLM18AG102SH1D",
       "qty": 6,
       "footprint": "PCM_EEZ_passives:BEAD0603",
       "partNumbers": {

@@ -36,6 +36,10 @@
     {
       "path": "../BIO2210/BIO2210.eezbom",
       "perDevice": 1
+    },
+    {
+      "path": "../../../../dib-mio168plus/fabrication/bom/EEZ DIB MIO168plus.eezbom",
+      "perDevice": 1
     }
   ],
   "history": "BOM list history.eezbom",
